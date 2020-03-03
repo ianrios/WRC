@@ -2,6 +2,7 @@ import React from 'react'
 import {
 	Switch,
 	Route,
+
 } from "react-router-dom";
 import Artists from './pages/Artists';
 import Releases from './pages/Releases';
@@ -34,7 +35,7 @@ export default function Routes() {
 			<Route path="/store">
 				<Store />
 			</Route>
-			<Route path="/contact">
+			<Route exact path="/contact">
 				<Contact />
 			</Route>
 			<Route path="/atlas">
