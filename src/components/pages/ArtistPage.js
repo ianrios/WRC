@@ -7,7 +7,8 @@ import "./ArtistPage.scss";
 
 export default function ArtistPage() {
 	const locationObj = useLocation();
-	const location = locationObj.pathname.split("/")[2];
+	const locationPath = locationObj.pathname
+	const location = locationPath.split("/")[2];
 	const currArtist = artistData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
 	const foundArtist = currArtist === undefined ? false : true;
 
@@ -64,14 +65,12 @@ export default function ArtistPage() {
 		)
 	}
 
-
-
 	return (
 		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-sub-page">{foundArtist ? currArtist.name : "could not locate artist page"}</h1>
-					<p>see <Link to={"/contact"}>contact page</Link> for more information</p>
+					<p>see contact page for more information</p>
 				</div>
 			</div>
 			{

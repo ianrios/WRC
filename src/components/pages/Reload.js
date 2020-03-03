@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function Reload() {
-	const [btn, setBtn] = useState(0);
 
 	return (
 		<div>
-			<h1 className="header-sub-page">Reload the page</h1>
-			<button type="button" class="btn btn-secondary" onClick={() => {
+			<h1 className="header-sub-page">Click The Button</h1>
+			<button type="button" class="btn btn-secondary mb-3" onClick={() => {
 				window.location.reload(true);
-			}}> click the button to fix any caching errors</button>
-
+			}}>Hard Reload Button</button>
+			<h2>
+				<Link to={"/"}>Back Home</Link>
+			</h2>
 		</div>
 	)
 }
