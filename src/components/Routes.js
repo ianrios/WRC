@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import Series from './pages/Series';
 import ReleasePage from "./pages/ReleasePage";
 import ArtistPage from "./pages/ArtistPage";
+import ReloadPage from "./pages/Reload";
 
 export default function Routes() {
 
@@ -47,6 +48,9 @@ export default function Routes() {
 			</Route>
 			<Route path="/release/*">
 				<ReleasePage />
+			</Route>
+			<Route path="/hard-reload">
+				<ReloadPage />
 			</Route>
 			<Route path="*">
 				<Home />
