@@ -71,6 +71,7 @@ export default function ArtistPage() {
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-sub-page">{foundArtist ? currArtist.name : "could not locate artist page"}</h1>
+					<p>see <Link to="contact">contact page</Link> for more information</p>
 				</div>
 			</div>
 			{
