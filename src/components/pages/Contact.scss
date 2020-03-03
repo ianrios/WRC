@@ -1,0 +1,21 @@
+.remove-ul-styling {
+  list-style-type: none;
+  padding: 0px;
+}
+.no-style-link {
+  color: #5db7de;
+  text-decoration: none;
+}
+
+.no-style-link:hover {
+  color: #fcfc62;
+  text-decoration: none;
+  cursor: pointer;
+}
+// https://coolors.co/000000-ffffff-5db7de-70d6ff-FCFC62
+
+.center-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

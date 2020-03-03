@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px !important;
+  z-index: 10;
+  top: 0;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 100vw;
+}
+.desktop-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 100vw;
+}
+.mobile-links {
+  background-color: white;
+  color: black;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+.mobile-links > div {
+  display: inline-block;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  text-align: left;
+}
+.filter-wrap {
+  width: 100vw;
+  display: none;
+}
+.filter {
+  width: calc(100vw / 3.75);
+  margin-top: 25px;
+}
+@media only screen and (max-width: 991px) {
+  .filter-wrap {
+    display: block;
+  }
+}

@@ -1,13 +1,27 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz%43');
+@font-face {
+	font-family: 'Lovelyn';
+	src: local('Lovelyn'), url(./fonts/Lovelyn.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+0041-005A, U+0061-007A;
+}
+
+.questrial {
+	font-family: 'Questrial', sans-serif;
+}
+
+.didact-gothic {
+	font-family: 'Didact Gothic', sans-serif;
 }

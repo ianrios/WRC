@@ -1,0 +1,39 @@
+.link-icon-navbar {
+  padding-top: 20px;
+  text-decoration: none;
+  width: calc(100vw / 7);
+}
+.text-navbar-link-color {
+  color: #000000;
+}
+.nav-link {
+  color: white;
+  display: block;
+}
+.nav-link,
+.nav-icon {
+  color: white;
+  fill: white;
+}
+.hover-nav-link:hover {
+  display: block;
+}
+.text-nav-icon {
+  font-size: 1.5em;
+  margin-top: -10px;
+}
+.nav-link-active,
+.nav-icon-active {
+  color: #68a7ff !important;
+  fill: #68a7ff !important;
+}
+.nav-link:hover,
+.nav-icon:hover {
+  color: #de3c4b !important;
+  fill: #de3c4b !important;
+}
+.nav-link:active,
+.nav-icon:active {
+  color: #ffbf00 !important;
+  fill: #ffbf00 !important;
+}

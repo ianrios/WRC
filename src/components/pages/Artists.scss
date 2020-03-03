@@ -1,0 +1,21 @@
+.text-on-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.centered-text:hover {
+  color: #de3c4b !important;
+}
+.centered-text:active {
+  color: #ffbf00 !important;
+}
+.artist-image-row {
+  margin-bottom: 75px;
+}

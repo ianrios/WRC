@@ -1,0 +1,89 @@
+html,
+body {
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  background-color: #000000;
+}
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+.App {
+  font-family: "Lovelyn", Lovelyn, "Cormorant SC", "Times New Roman", Times, serif;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: #000000;
+  height: auto !important;
+  min-height: 100%;
+  width: auto !important;
+  min-width: 100%;
+  cursor: default;
+}
+
+.body-grid {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+.main-image {
+  position: relative;
+  grid-column: 2;
+  grid-row: 2;
+  will-change: transform;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+.enter-text {
+  margin-top: calc(100vh / 15);
+  grid-row: 3;
+  grid-column: 2;
+}
+a,
+.enter-text:hover {
+  cursor: help;
+}
+.main-image:hover {
+  .rotate {
+    color: blue;
+  }
+}
+.image-overlay-text {
+  font-size: 2em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 3px;
+}
+.body-main {
+  height: 100vh;
+}
+.header-sub-page {
+  margin-top: 100px;
+}
+.header-second-row {
+  margin-top: 30px;
+}
+.colored-link {
+  color: #68a7ff !important;
+  text-decoration: none !important;
+}
+.white-text {
+  color: #ffffff !important;
+}
+.colored-link:hover {
+  color: #de3c4b !important;
+}
+.colored-link:active {
+  color: #ffbf00 !important;
+}

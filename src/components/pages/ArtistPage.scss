@@ -1,0 +1,53 @@
+.artist-bio-paragraphs {
+  font-size: 0.65em;
+}
+.text-border {
+  border: 1px solid white;
+  padding: 15px 25px 15px 25px;
+  margin-bottom: 15px;
+}
+.text-border p:last-child {
+  margin: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .artist-bio-paragraphs,
+  .text-border {
+    display: none;
+  }
+}
+.email-link {
+  font-size: 0.7em;
+}
+.h5-location-artist-page {
+  margin-top: 0.5em;
+}
+.artist-page-releases {
+  margin-top: 20px;
+}
+.artist-page-album-art-container {
+  margin-bottom: 30px;
+}
+.artist-page-album-art-link {
+  display: inline-block;
+  position: relative;
+}
+.artist-page-album-art-link img {
+  display: block;
+}
+.artist-page-album-art-link span {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 100%;
+}
+.artist-page-album-art-link:hover {
+  span {
+    visibility: visible;
+    color: white;
+  }
+  img {
+    filter: blur(4px);
+  }
+}
