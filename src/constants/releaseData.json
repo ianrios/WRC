@@ -1,5 +1,51 @@
 [
 	{
+		"name": "Cure",
+		"local_path": "cure",
+		"id": 52,
+		"label_number": "WHY036",
+		"album_art": "/images/releases/cure.png",
+		"release_date": "2020-04-03T18:25:43.511Z",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			"The 36th release from WHY Record Company (WRC) - WHY036",
+			"\"Cure\" by dyl_pykl (Robert Dylan Smock) is the second single from his debut album, Vacation Home",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered By Ian Rios (whythough?)"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": ""
+		}
+	},
+	{
+		"name": "Beans",
+		"local_path": "beans",
+		"id": 51,
+		"label_number": "WHY035",
+		"album_art": "/images/releases/beans.png",
+		"release_date": "2020-04-03T18:25:43.511Z",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			"The 35th release from WHY Record Company (WRC) - WHY035",
+			"\"Beans\" by dyl_pykl (Robert Dylan Smock) is the first single from his debut album, Vacation Home",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered By Ian Rios (whythough?)"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": ""
+		}
+	},
+	{
 		"name": "He Called Me Beautiful",
 		"local_path": "HCMB",
 		"id": 50,
@@ -22,7 +68,12 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": "http://open.spotify.com/album/2GrfzUIU52bnMgnhKUSXHt"
+			"sp": "http://open.spotify.com/album/2GrfzUIU52bnMgnhKUSXHt",
+			"ap": "https://music.apple.com/au/album/he-called-me-beautiful/1498502345?i=1498502649",
+			"sc": "",
+			"bc": "",
+			"qb": "https://www.qobuz.com/gb-en/album/he-called-me-beautiful-katie-hoffstatter-dyl-pykl-matyb/xpwzh5mhc330a",
+			"dz": ""
 		}
 	},
 	{

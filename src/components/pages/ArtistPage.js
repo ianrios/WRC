@@ -69,8 +69,7 @@ export default function ArtistPage() {
 		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
-					<h1 className="header-sub-page">{foundArtist ? currArtist.name : "could not locate artist page"}</h1>
-					<p>see contact page for more information</p>
+					<h1 className="header-sub-page">{foundArtist ? currArtist.name : <>could not locate artist page<p>see <Link to="contact">contact page</Link> for more information</p></>}</h1>
 				</div>
 			</div>
 			{
