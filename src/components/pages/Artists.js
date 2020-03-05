@@ -13,7 +13,7 @@ export default function Artists() {
 						<Link
 							to={`/artist/${item.local_path}`}
 						>
-							<img className="img-fluid" src={item.profile_pic} alt={item.name} />
+							<img className="img-fluid" src={item.photos[0]} alt={item.name} />
 							<span className="centered-text">{item.name}</span>
 						</Link>
 					</div>
