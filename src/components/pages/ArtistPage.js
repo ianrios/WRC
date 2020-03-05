@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import releaseData from "../../constants/releaseData.json";
@@ -34,7 +34,9 @@ export default function ArtistPage() {
 					<Link to={`/release/${a.local_path}`} className="artist-page-album-art-link">
 						<img alt={a.name} src={a.album_art} className="img-fluid artist-page-album-art" />
 						{/* <div className="artist-page-album-art-text-container"> */}
-						<span className="artist-page-album-art-text colored-link white-text">{a.label_number}</span>
+						<span className="artist-page-album-art-text colored-link white-text">
+							{a.label_number}
+						</span>
 						{/* </div> */}
 					</Link>
 				</div>
@@ -64,12 +66,19 @@ export default function ArtistPage() {
 			})
 		)
 	}
-
+	const [photoI, setPhotoI] = useState(0)
 	return (
 		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
-					<h1 className="header-sub-page">{foundArtist ? currArtist.name : <>could not locate artist page<p>see <Link to="contact">contact page</Link> for more information</p></>}</h1>
+					<h1 className="header-sub-page">
+						{foundArtist
+							? currArtist.name
+							: <>
+								could not locate artist page
+								<p>see <Link to="contact">contact page</Link> for more information</p>
+							</>
+						}</h1>
 				</div>
 			</div>
 			{
@@ -78,14 +87,22 @@ export default function ArtistPage() {
 						<Helmet>
 							<title>{currArtist.name + " - WRC"}</title>
 							<meta property="og:title" content={`${currArtist.name} Artist Page - WRC`} />
-							<meta property="og:image" content={currArtist.profile_pic} />
-							<meta name="keywords" property="og:keywords"
-								content={"why, record, company, music, edm, techno, idm, experimental, label, artist, " + currArtist.name} />
+							<meta property="og:image" content={currArtist.photos[0]} />
+							<meta
+								name="keywords"
+								property="og:keywords"
+								content={"why, record, company, music, edm, techno, idm, experimental, label, artist, " + currArtist.name}
+							/>
 							<meta name="description" content={currArtist.quote} />
 						</Helmet>
 						<div className="row main-body">
 							<div className="col-6">
-								<img className="artist-page-image img-fluid" alt={currArtist.name} src={currArtist.profile_pic} />
+								<img
+									onClick={() => setPhotoI(photoI + 1)}
+									className="artist-page-image img-fluid help-cursor"
+									alt={currArtist.name}
+									src={currArtist.photos[photoI % currArtist.photos.length]}
+								/>
 							</div>
 							<div className="col-6">
 								<p>
@@ -116,12 +133,22 @@ export default function ArtistPage() {
 								</div>
 								<div className="row">
 									<div className="col">
-										<h5 className="h5-location-artist-page">{currArtist.location.city}, {currArtist.location.country}</h5>
+										<h5 className="h5-location-artist-page">
+											{currArtist.location.city}, {currArtist.location.country}
+										</h5>
 									</div>
 								</div>
 								<div className="row">
 									<div className="col">
-										{currArtist.email ? <a className="email-link" href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}>{currArtist.email}</a> : null}
+										{currArtist.email
+											? <a
+												className="email-link"
+												href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}
+											>
+												{currArtist.email}
+											</a>
+											: null
+										}
 									</div>
 								</div>
 							</div>
