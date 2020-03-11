@@ -4,7 +4,6 @@
 		"name": "whythough?",
 		"local_path": "whythough",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/whythough_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/whythough_4x6.jpg",
 			"/images/artists/whythough_ray.jpg",
@@ -54,7 +53,6 @@
 		"name": "dyl_pykl",
 		"local_path": "dyl_pykl",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/dyl_pykl_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/dyl_pykl_4x6.jpg",
 			"/images/artists/dyl_looking.jpg",
@@ -101,7 +99,6 @@
 		"name": "StratosFear",
 		"local_path": "StratosFear",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/stratosfear_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/stratosfear_4x6.jpg"
 		],
@@ -130,7 +127,6 @@
 		"name": "Fohrenbach",
 		"local_path": "Fohrenbach",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/fohrenbach_4x6.png",
 		"photos": [
 			"/images/artists/profiles/fohrenbach_4x6.png"
 		],
@@ -172,7 +168,6 @@
 		"name": "Katie Hoffstatter",
 		"local_path": "Katie-Hoffstatter",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/katie_4x6.png",
 		"photos": [
 			"/images/artists/profiles/katie_4x6.png",
 			"/images/artists/katie_in_concert.jpg",
@@ -211,7 +206,6 @@
 		"name": "Matyb",
 		"local_path": "Matyb",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/matyb_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/matyb_4x6.jpg"
 		],
@@ -244,7 +238,6 @@
 		"name": "svnteen",
 		"local_path": "svnteen",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/svnteen_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/svnteen_4x6.jpg",
 			"/images/artists/svnteen_in_staircase.jpg",
@@ -290,7 +283,6 @@
 		"name": "Ezra Parker",
 		"local_path": "Ezra-Parker",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/ezra_parker_4x6.png",
 		"photos": [
 			"/images/artists/profiles/ezra_parker_4x6.png",
 			"/images/artists/ezra_parker_room.jpg",
@@ -324,7 +316,6 @@
 		"name": "LoM",
 		"local_path": "LoM",
 		"show_on_artist_page": true,
-		"profile_pic": "/images/artists/profiles/lom_4x6.png",
 		"photos": [
 			"/images/artists/profiles/lom_4x6.png"
 		],
@@ -357,7 +348,6 @@
 		"name": "oFoot",
 		"local_path": "oFoot",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/ofoot_rabbit.jpg",
 		"photos": [
 			"/images/artists/ofoot_rabbit.jpg"
 		],
@@ -386,7 +376,6 @@
 		"name": "Weeping Sun",
 		"local_path": "Weeping-Sun",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -419,7 +408,6 @@
 		"name": "DJ Yunomi",
 		"local_path": "DJ-Yunomi",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -452,7 +440,6 @@
 		"name": "KILL 9",
 		"local_path": "KILL-9",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -485,7 +472,6 @@
 		"name": "RetiredOrphan",
 		"local_path": "RetiredOrphan",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -517,7 +503,6 @@
 		"name": "Mova",
 		"local_path": "Mova",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -550,7 +535,6 @@
 		"name": "eraserMice",
 		"local_path": "eraserMice",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -574,7 +558,6 @@
 		"name": "Eugene Umlor",
 		"local_path": "Eugene-Umlor",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -598,7 +581,6 @@
 		"name": "Quantopix",
 		"local_path": "Quantopix",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -622,7 +604,6 @@
 		"name": "tofukkers",
 		"local_path": "tofukkers",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -652,7 +633,6 @@
 		"name": "Area Control",
 		"local_path": "Area-Control",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -678,7 +658,6 @@
 		"name": "stft",
 		"local_path": "stft",
 		"show_on_artist_page": false,
-		"profile_pic": "/images/artists/profiles/profile_4x6.jpg",
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
@@ -697,6 +676,31 @@
 		"social_platforms": {},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/stft-productions"
+		}
+	},
+	{
+		"id": 22,
+		"name": "WHY? Record Company",
+		"local_path": "wrc",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": ""
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			""
+		],
+		"social_platforms": {},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/why-record-company"
 		}
 	}
 ]

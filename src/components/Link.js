@@ -4,7 +4,6 @@ import {
 	Link,
 	useLocation
 } from "react-router-dom";
-
 import Dot from './icons/Dot';
 import Cube from './icons/Cube';
 import Honeycomb from './icons/Honeycomb';
@@ -33,7 +32,7 @@ function chooseIcon(props, location) {
 					height={"35px"}
 					width={"35px"}
 				/>
-			case "Services":
+			case "Collections":
 				return <Honeycomb
 					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
 					height={"35px"}
@@ -76,10 +75,13 @@ export default function LinkWrapper(props) {
 			to={props.to.toLowerCase()}
 		>
 			<span
+
+
 				className={
 					`nav-link 
-				${props.lastItem ? "text-nav-icon" : null} 
+				${props.isText ? "text-nav-icon" : null} 
 				${location.pathname === props.to.toLowerCase() ? "nav-link-active" : null}
+				${props.qMark ? "em2" : ""}
 				`
 				}
 			>

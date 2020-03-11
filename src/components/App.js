@@ -44,7 +44,7 @@ function Wrapper() {
 			{viewMain ?
 				<div className="body-grid">
 					<div className="main-image" style={{
-						backgroundImage: `url("/images/textures/${Math.floor(Math.random() * 8) + 1}.jpg")`
+						backgroundImage: `url("/images/textures/${Math.floor(Math.random() * 7) + 1}.jpg")`
 					}} onClick={() => setViewMain(!viewMain)}>
 						<div className='image-overlay-text app-title'>
 							{appTitle}

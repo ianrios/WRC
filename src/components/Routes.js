@@ -11,7 +11,7 @@ import Store from './pages/Merchandise';
 import Atlas from './pages/Atlas';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Series from './pages/Series';
+import Collections from './pages/Collections';
 import ReleasePage from "./pages/ReleasePage";
 import ArtistPage from "./pages/ArtistPage";
 import ReloadPage from "./pages/Reload";
@@ -41,8 +41,8 @@ export default function Routes() {
 			<Route path="/atlas">
 				<Atlas />
 			</Route>
-			<Route path="/series">
-				<Series />
+			<Route path="/collections">
+				<Collections />
 			</Route>
 			<Route path="/artist/*">
 				<ArtistPage />
