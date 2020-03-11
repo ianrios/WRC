@@ -53,7 +53,7 @@
 		"id": 52,
 		"label_number": "WHYREC001",
 		"release_type": "RECORDINGS",
-		"album_art": "/images/releases/rec001.png",
+		"album_art": "/images/releases/rec001.jpg",
 		"release_date": "2020-03-20T18:25:43.511Z",
 		"genre": "Samples",
 		"release_bio": [
@@ -76,7 +76,7 @@
 		"id": 51,
 		"label_number": "WHYMIX003",
 		"release_type": "MIX",
-		"album_art": "/images/releases/MIX003.png",
+		"album_art": "/images/releases/MIX003.jpg",
 		"release_date": "2020-03-13T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [

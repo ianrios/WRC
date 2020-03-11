@@ -93,91 +93,105 @@ export default function ArtistPage() {
 							/>
 							<meta name="description" content={currArtist.quote} />
 						</Helmet>
-						<div className="row main-body">
-							<div className="col-6">
-								<img
-									onClick={() => setPhotoI(photoI + 1)}
-									className="artist-page-image img-fluid help-cursor"
-									alt={currArtist.name}
-									src={currArtist.photos[photoI % currArtist.photos.length]}
-								/>
-							</div>
-							<div className="col-6">
-								<p>
-									{currArtist.quote}
-								</p>
-								{currArtist.body_paragraphs.length > 0 ?
-									<div className="text-border">
-										{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+						<div className="row">
+							<div className="col-10 offset-1">
+								<div className="row main-body">
+									<div className="col-6">
+										<img
+											onClick={() => setPhotoI(photoI + 1)}
+											className="artist-page-image img-fluid help-cursor"
+											alt={currArtist.name}
+											src={currArtist.photos[photoI % currArtist.photos.length]}
+										/>
 									</div>
-									: null
-								}
-								<div className="row">
-									<div className="col-md-6">
-										Social Platforms
+									<div className="col-6">
+										<p>
+											{currArtist.quote}
+										</p>
+										{currArtist.body_paragraphs.length > 0 ?
+											<div className="text-border d-none d-lg-block">
+												{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+											</div>
+											: null
+										}
+										<div className="row">
+											<div className="col-md-6">
+												Social Platforms
 										<div>
-											{mappedATag(currArtist.social_platforms)}
+													{mappedATag(currArtist.social_platforms)}
+												</div>
+											</div>
+											{Object.keys(currArtist.music_platforms).length > 0 ?
+												<div className="col-md-6">
+													Music Platforms
+										<div>
+														{mappedATag(currArtist.music_platforms)}
+													</div>
+												</div>
+												: null
+											}
 										</div>
-									</div>
-									{Object.keys(currArtist.music_platforms).length > 0 ?
-										<div className="col-md-6">
-											Music Platforms
-										<div>
-												{mappedATag(currArtist.music_platforms)}
+										<div className="row">
+											<div className="col">
+												<h5 className="h5-location-artist-page">
+													{currArtist.location.city}, {currArtist.location.country}
+												</h5>
 											</div>
 										</div>
-										: null
-									}
-								</div>
-								<div className="row">
-									<div className="col">
-										<h5 className="h5-location-artist-page">
-											{currArtist.location.city}, {currArtist.location.country}
-										</h5>
+										<div className="row">
+											<div className="col">
+												{currArtist.email
+													? <a
+														className="email-link"
+														href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}
+													>
+														{currArtist.email}
+													</a>
+													: null
+												}
+											</div>
+										</div>
 									</div>
 								</div>
-								<div className="row">
+								<div className="row d-block d-lg-none mt-5">
 									<div className="col">
-										{currArtist.email
-											? <a
-												className="email-link"
-												href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}
-											>
-												{currArtist.email}
-											</a>
+										{currArtist.body_paragraphs.length > 0 ?
+											<div className="text-border">
+												{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+											</div>
 											: null
 										}
 									</div>
 								</div>
-							</div>
-						</div>
-						<div className="row">
-							<div className="col">
-								<h1 className="header-second-row">
-									Release Appearances
+								<div className="row">
+									<div className="col">
+										<h1 className="header-second-row">
+											Release Appearances
 								</h1>
-							</div>
-						</div>
-						<div className="row artist-page-releases">
-							{mappedImgCol(releaseData.filter(i => {
-								for (let j of i.primary_artist_ids) {
-									if (j === currArtist.id) {
-										return i
-									}
-								}
-								for (let j of i.secondary_artist_ids) {
-									if (j === currArtist.id) {
-										return i
-									}
-								}
-								for (let j of i.remix_artist_ids) {
-									if (j === currArtist.id) {
-										return i
-									}
-								}
-								return null
-							}))}
+									</div>
+								</div>
+								<div className="row artist-page-releases">
+									{mappedImgCol(releaseData.filter(i => {
+										for (let j of i.primary_artist_ids) {
+											if (j === currArtist.id) {
+												return i
+											}
+										}
+										for (let j of i.secondary_artist_ids) {
+											if (j === currArtist.id) {
+												return i
+											}
+										}
+										for (let j of i.remix_artist_ids) {
+											if (j === currArtist.id) {
+												return i
+											}
+										}
+										return null
+									}))}
 
+								</div>
+							</div>
 						</div>
 					</React.Fragment>
 					:
