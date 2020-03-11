@@ -74,7 +74,7 @@ export default function ArtistPage() {
 							? currArtist.name
 							: <>
 								could not locate artist page
-								<p>see <Link to="contact">contact page</Link> for more information</p>
+								<p>see <Link to="/contact">contact page</Link> for more information</p>
 							</>
 						}</h1>
 				</div>
