@@ -54,7 +54,7 @@ export default function ReleasePage() {
 		<React.Fragment>
 			<div className="row main-header">
 				<div className="col">
-					<h1 className="header-sub-page">{foundRelease ? currRelease.name : <>could not locate release page<p>see <Link to="contact">contact page</Link> for more information</p></>}</h1>
+					<h1 className="header-sub-page">{foundRelease ? currRelease.name : <>could not locate release page<p>see <Link to="/contact">contact page</Link> for more information</p></>}</h1>
 
 				</div>
 			</div>

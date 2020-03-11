@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 import Q from './Q';
 import Navbar from './Navbar';
 import Route from './Routes';
-import Logo from "./Logo";
+import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import './App.scss';
 
@@ -61,7 +61,7 @@ function Wrapper() {
 					<Navbar />
 					<div className="container">
 						<Route />
-						<Logo viewMain={viewMain} setViewMain={setViewMain} />
+						<Footer viewMain={viewMain} setViewMain={setViewMain} />
 					</div>
 				</div>
 			}

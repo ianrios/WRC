@@ -15,6 +15,8 @@ import Collections from './pages/Collections';
 import ReleasePage from "./pages/ReleasePage";
 import ArtistPage from "./pages/ArtistPage";
 import ReloadPage from "./pages/Reload";
+import CookiePolicy from "./pages/CookiePolicy";
+import ComingSoon from "./pages/ComingSoon";
 
 export default function Routes() {
 
@@ -52,6 +54,12 @@ export default function Routes() {
 			</Route>
 			<Route path="/hard-reload">
 				<ReloadPage />
+			</Route>
+			<Route path="/cookie-policy">
+				<CookiePolicy />
+			</Route>
+			<Route path="/coming-soon">
+				<ComingSoon />
 			</Route>
 			<Route path="*">
 				<Home />

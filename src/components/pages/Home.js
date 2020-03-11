@@ -33,7 +33,7 @@ export default function Home() {
 				<BgStyledDiv className="col-lg-6 questrial text-left home-margin" source={source}>
 					<p className="main-page-p">
 						WHY? Record Company (further stylized as WRC) is a home for audio, visual, and technological creatives.
-						Housing over 200 songs and over 50 <Link to="releases">releases</Link> bound to no genre, WRC is proud to foster musicians and help grow a fanbase over many years.
+						Housing over 200 songs and over 50 <Link to="/releases">releases</Link> bound to no genre, WRC is proud to foster musicians and help grow a fanbase over many years.
 					</p>
 					<p className="main-page-p">
 						Although founded in 2019, the idea for WHY Record Company is not a new one; label owners whythough? and dyl_pykl had speculated on hosting their own music independently for quite some time (since around 2016), and since then, have recruited many other like minded individuals.
@@ -44,7 +44,7 @@ export default function Home() {
 						We do everything in house, from writing, recording, producing, mixing, mastering, designing artwork, planning promotion, distributing, and more. See <Link to="/artists">artists</Link> for detailed information on what a particular individual enjoys most.
 					</p>
 					<p className="main-page-p">
-						For more information about the label, website issues, or to get involved, <Link to="contact">contact us</Link> by sending us an email or message on social media.
+						For more information about the label, website issues, or to get involved, <Link to="/contact">contact us</Link> by sending us an email or message on social media.
 					</p>
 				</BgStyledDiv>
 			</div>
