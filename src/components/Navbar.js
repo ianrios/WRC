@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from './Link';
 import './Navbar.scss';
 
 export default function Navbar(props) {
 	const Links = {
-		"Home": ["WRC", false],
+		"Home": ["?", false],
 		"Artists": ["Fingerprint", true],
 		"Releases": ["Dot", true],
-		// "Services": ["Honeycomb", true],
+		"Collections": ["Honeycomb", true],
 		// "Store": ["Cube", true],
 		// "Atlas": ["Blockchain", true],
 		"Contact": ["@", false],
@@ -24,7 +24,7 @@ export default function Navbar(props) {
 				to={`/${item}`}
 				id={idx}
 				text={item}
-
+				qMark={idx === 0 ? true : false}
 				isText={!Links[item][1]}
 				lastItem={idx === (Object.keys(Links).length - 1)}
 			/>

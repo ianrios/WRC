@@ -33,11 +33,9 @@ export default function ArtistPage() {
 				<div className="col-4 col-md-3 text-center artist-page-album-art-container" key={i} >
 					<Link to={`/release/${a.local_path}`} className="artist-page-album-art-link">
 						<img alt={a.name} src={a.album_art} className="img-fluid artist-page-album-art" />
-						{/* <div className="artist-page-album-art-text-container"> */}
 						<span className="artist-page-album-art-text colored-link white-text">
 							{a.label_number}
 						</span>
-						{/* </div> */}
 					</Link>
 				</div>
 			)

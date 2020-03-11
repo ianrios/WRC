@@ -22,6 +22,7 @@ export default function Contact() {
 				<a className="no-style-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/WHYRecordCompany">facebook</a>
 			</p>
 			{/* </ul> */}
+			<p>If you would like to release on WRC, please fill out <a href="https://forms.gle/pDcYS2Kmd5rvDJVw8" target="_blank" rel="noopener noreferrer">this form</a> to submit a demo. We will get back to you within a week.</p>
 		</div>
 	)
 }

@@ -2,8 +2,9 @@
 	{
 		"name": "Cure",
 		"local_path": "cure",
-		"id": 52,
+		"id": 54,
 		"label_number": "WHY036",
+		"release_type": "WRC",
 		"album_art": "/images/releases/cure.png",
 		"release_date": "2020-04-03T18:25:43.511Z",
 		"genre": "Drum and Bass",
@@ -25,8 +26,9 @@
 	{
 		"name": "Beans",
 		"local_path": "beans",
-		"id": 51,
+		"id": 53,
 		"label_number": "WHY035",
+		"release_type": "WRC",
 		"album_art": "/images/releases/beans.png",
 		"release_date": "2020-04-03T18:25:43.511Z",
 		"genre": "Drum and Bass",
@@ -46,10 +48,55 @@
 		}
 	},
 	{
+		"name": "RECORDINGS001",
+		"local_path": "rec001",
+		"id": 52,
+		"label_number": "WHYREC001",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/rec001.png",
+		"release_date": "2020-03-20T18:25:43.511Z",
+		"genre": "Samples",
+		"release_bio": [
+			"The first release from the RECORDINGS WRC imprint.",
+			"Sample pack of basses, drums, leads, textures, and of course, field recordings.",
+			"Recorded, Produced, Mixed, and Mastered By Ian Rios (whythough?)"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://whythough.bandcamp.com/album/recordings001"
+		}
+	},
+	{
+		"name": "WRC MIX 003",
+		"local_path": "MIX003",
+		"id": 51,
+		"label_number": "WHYMIX003",
+		"release_type": "MIX",
+		"album_art": "/images/releases/MIX003.png",
+		"release_date": "2020-03-13T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"Mixed By Ian Rios (whythough?)"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"mc": ""
+		}
+	},
+	{
 		"name": "He Called Me Beautiful",
 		"local_path": "HCMB",
 		"id": 50,
 		"label_number": "WHY034",
+		"release_type": "WRC",
 		"album_art": "/images/releases/hcmb.jpg",
 		"release_date": "2020-03-06T18:25:43.511Z",
 		"genre": "House",
@@ -81,9 +128,9 @@
 		"local_path": "MIX002",
 		"id": 49,
 		"label_number": "WHYMIX002",
+		"release_type": "MIX",
 		"album_art": "/images/releases/MIX002.png",
 		"release_date": "2020-02-28T18:25:43.511Z",
-		"mix_label_number": 2,
 		"genre": "Techno",
 		"release_bio": [
 			"WRC welcomes Matyb to the label with a debut mix featuring lots of techno and tech house. Click on Matyb's artist profile to see all previous and future releases!"
@@ -102,9 +149,9 @@
 		"local_path": "BL-A12A2",
 		"id": 48,
 		"label_number": "WHY033",
+		"release_type": "Blue Label",
 		"album_art": "/images/releases/A12A2.png",
 		"release_date": "2020-02-21T18:25:43.511Z",
-		"blue_label_number": 1,
 		"genre": "Schranz",
 		"release_bio": [
 			"The 33rd release from WHY? Record Company (WRC) - WHY033",
@@ -130,12 +177,12 @@
 		"local_path": "MIX001",
 		"id": 47,
 		"label_number": "WHYMIX001",
+		"release_type": "MIX",
 		"album_art": "/images/releases/MIX001.png",
 		"release_date": "2020-02-07T18:25:43.511Z",
-		"mix_label_number": 1,
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"The first dj mix in the WRC MIX Series, presented by dyl_pykl."
 		],
 		"primary_artist_ids": [
 			2
@@ -151,6 +198,7 @@
 		"local_path": "TTHC",
 		"id": 46,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/the_time_has_come.jpg",
 		"release_date": "2020-02-01T18:25:43.511Z",
 		"genre": "Hip-Hop Beats",
@@ -171,6 +219,7 @@
 		"local_path": "WTTP",
 		"id": 45,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/wttp.png",
 		"release_date": "2020-01-26T18:25:43.511Z",
 		"genre": "Dubstep",
@@ -191,13 +240,13 @@
 		"local_path": "CYCLE003TS",
 		"id": 44,
 		"label_number": "WHY032",
+		"release_type": "CYCLE",
 		"album_art": "/images/releases/CYCLE003_Stems.png",
 		"release_date": "2019-12-29T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
 			""
 		],
-		"cycle_label_number": 3.5,
 		"primary_artist_ids": [
 			8
 		],
@@ -212,13 +261,13 @@
 		"local_path": "CYCLE003",
 		"id": 43,
 		"label_number": "WHY031",
+		"release_type": "CYCLE",
 		"album_art": "/images/releases/CYCLE003.jpg",
 		"release_date": "2019-12-29T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
 			""
 		],
-		"cycle_label_number": 3,
 		"primary_artist_ids": [
 			8
 		],
@@ -233,13 +282,13 @@
 		"local_path": "BL-TLJ",
 		"id": 42,
 		"label_number": "WHY030",
+		"release_type": "Blue Label",
 		"album_art": "/images/releases/Fohrenbach_WHY030.png",
 		"release_date": "2019-11-15T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
 			""
 		],
-		"blue_label_number": 1,
 		"primary_artist_ids": [
 			4
 		],
@@ -254,6 +303,7 @@
 		"local_path": "NITRO",
 		"id": 41,
 		"label_number": "WHY029",
+		"release_type": "WRC",
 		"album_art": "/images/releases/nitro.jpg",
 		"release_date": "2019-10-29T18:25:43.511Z",
 		"genre": "IDM",
@@ -274,6 +324,7 @@
 		"local_path": "FFTR",
 		"id": 40,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/retiredorphanremix.jpeg",
 		"release_date": "2019-10-28T18:25:43.511Z",
 		"genre": "Garage",
@@ -296,6 +347,7 @@
 		"local_path": "About-Them",
 		"id": 39,
 		"label_number": "WHY028",
+		"release_type": "WRC",
 		"album_art": "/images/releases/about_them.jpg",
 		"release_date": "2019-09-23T18:25:43.511Z",
 		"genre": "Wave",
@@ -316,6 +368,7 @@
 		"local_path": "Catapult",
 		"id": 38,
 		"label_number": "WHY027",
+		"release_type": "WRC",
 		"album_art": "/images/releases/catapult.jpg",
 		"release_date": "2019-07-12T18:25:43.511Z",
 		"genre": "Drum and Bass",
@@ -344,13 +397,13 @@
 		"local_path": "CYCLE002",
 		"id": 37,
 		"label_number": "WHY026",
+		"release_type": "CYCLE",
 		"album_art": "/images/releases/cycle002.jpg",
 		"release_date": "2019-06-28T18:25:43.511Z",
 		"genre": "lo-fi hip-hop beats to study/chill to 24/7",
 		"release_bio": [
 			""
 		],
-		"cycle_label_number": 2,
 		"primary_artist_ids": [
 			5
 		],
@@ -365,6 +418,7 @@
 		"local_path": "HADES",
 		"id": 36,
 		"label_number": "WHY025",
+		"release_type": "WRC",
 		"album_art": "/images/releases/hades.jpg",
 		"release_date": "2019-06-14T18:25:43.511Z",
 		"genre": "Wave",
@@ -385,13 +439,13 @@
 		"local_path": "CYCLE001",
 		"id": 35,
 		"label_number": "WHY024",
+		"release_type": "CYCLE",
 		"album_art": "/images/releases/cycle001.jpg",
 		"release_date": "2019-05-17T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
 			""
 		],
-		"cycle_label_number": 1,
 		"primary_artist_ids": [
 			1
 		],
@@ -406,6 +460,7 @@
 		"local_path": "Daegu-Acid",
 		"id": 34,
 		"label_number": "WHY023",
+		"release_type": "WRC",
 		"album_art": "/images/releases/daegu_acid.jpg",
 		"release_date": "2019-04-26T18:25:43.511Z",
 		"genre": "Techno",
@@ -428,6 +483,7 @@
 		"local_path": "EXCO-Remixes",
 		"id": 33,
 		"label_number": "WHY022",
+		"release_type": "WRC",
 		"album_art": "/images/releases/exco_remixes.jpg",
 		"release_date": "2019-03-08T18:25:43.511Z",
 		"genre": "Techno",
@@ -453,6 +509,7 @@
 		"local_path": "Vega-Remixes",
 		"id": 32,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/vega_remix.jpg",
 		"release_date": "2019-02-22T18:25:43.511Z",
 		"genre": "Mid Tempo",
@@ -479,6 +536,7 @@
 		"local_path": "Blurs-DE",
 		"id": 31,
 		"label_number": "WHY021",
+		"release_type": "WRC",
 		"album_art": "/images/releases/blurs_deluxe.jpg",
 		"release_date": "2018-12-27T18:25:43.511Z",
 		"genre": "Techno",
@@ -513,6 +571,7 @@
 		"local_path": "TB4TP",
 		"id": 30,
 		"label_number": "WHY020",
+		"release_type": "WRC",
 		"album_art": "/images/releases/tb4tp.jpg",
 		"release_date": "2018-11-23T18:25:43.511Z",
 		"genre": "Hip-Hop",
@@ -534,6 +593,7 @@
 		"local_path": "trial-error",
 		"id": 29,
 		"label_number": "WHY019",
+		"release_type": "WRC",
 		"album_art": "/images/releases/trial_error.jpg",
 		"release_date": "2018-11-09T18:25:43.511Z",
 		"genre": "Techno",
@@ -554,6 +614,7 @@
 		"local_path": "Jamie-XX-Sleep-Sound-Remix",
 		"id": 28,
 		"label_number": "WHY018",
+		"release_type": "WRC",
 		"album_art": "/images/releases/jamie_xx_2018.jpg",
 		"release_date": "2018-11-04T18:25:43.511Z",
 		"genre": "Melodic Techno",
@@ -575,6 +636,7 @@
 		"local_path": "Gashadokuro-Remixes",
 		"id": 27,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/gdkwtr.jpg",
 		"release_date": "2018-10-31T18:25:43.511Z",
 		"genre": "Hard Style",
@@ -600,6 +662,7 @@
 		"local_path": "Ganymede",
 		"id": 26,
 		"label_number": "WHY017",
+		"release_type": "WRC",
 		"album_art": "/images/releases/ganymede.png",
 		"release_date": "2018-10-26T18:25:43.511Z",
 		"genre": "Techno",
@@ -622,6 +685,7 @@
 		"local_path": "Uhhhhhhh",
 		"id": 25,
 		"label_number": "WHY016",
+		"release_type": "WRC",
 		"album_art": "/images/releases/uhhhhhhh.jpg",
 		"release_date": "2018-10-19T18:25:43.511Z",
 		"genre": "Trap",
@@ -642,6 +706,7 @@
 		"local_path": "HIOP-Remixes",
 		"id": 24,
 		"label_number": "WHY015",
+		"release_type": "WRC",
 		"album_art": "/images/releases/hiop_remixes.jpg",
 		"release_date": "2018-10-19T18:25:43.511Z",
 		"genre": "Techno",
@@ -665,6 +730,7 @@
 		"local_path": "Gashadokuro",
 		"id": 23,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/gdkwt.jpg",
 		"release_date": "2018-10-13T18:25:43.511Z",
 		"genre": "Dubstep",
@@ -686,6 +752,7 @@
 		"local_path": "EXCO",
 		"id": 22,
 		"label_number": "WHY014",
+		"release_type": "WRC",
 		"album_art": "/images/releases/exco.jpg",
 		"release_date": "2018-10-05T18:25:43.511Z",
 		"genre": "Techno",
@@ -706,6 +773,7 @@
 		"local_path": "Vega",
 		"id": 21,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/vega.jpg",
 		"release_date": "2018-09-12T18:25:43.511Z",
 		"genre": "Mid Tempo",
@@ -729,6 +797,7 @@
 		"local_path": "HEAVEN",
 		"id": 20,
 		"label_number": "WHY013",
+		"release_type": "WRC",
 		"album_art": "/images/releases/heaven.jpg",
 		"release_date": "2018-08-03T18:25:43.511Z",
 		"genre": "Hip-Hop",
@@ -749,6 +818,7 @@
 		"local_path": "Hardur-Tekno",
 		"id": 19,
 		"label_number": "WHY012",
+		"release_type": "WRC",
 		"album_art": "/images/releases/htwt.jpg",
 		"release_date": "2018-07-31T18:25:43.511Z",
 		"genre": "Techno",
@@ -772,6 +842,7 @@
 		"local_path": "Cigarette-Smoke",
 		"id": 18,
 		"label_number": "WHY011",
+		"release_type": "WRC",
 		"album_art": "/images/releases/csdp.jpg",
 		"release_date": "2018-06-21T18:25:43.511Z",
 		"genre": "Chill",
@@ -799,6 +870,7 @@
 		"local_path": "The-Lobster",
 		"id": 17,
 		"label_number": "WHY010",
+		"release_type": "WRC",
 		"album_art": "/images/releases/dptl.jpg",
 		"release_date": "2018-05-30T18:25:43.511Z",
 		"genre": "Downtempo",
@@ -821,6 +893,7 @@
 		"local_path": "Blurs-Remixes",
 		"id": 16,
 		"label_number": "WHY009",
+		"release_type": "WRC",
 		"album_art": "/images/releases/blurs_remix.jpg",
 		"release_date": "2018-02-22T18:25:43.511Z",
 		"genre": "Techno",
@@ -854,6 +927,7 @@
 		"local_path": "Blurs",
 		"id": 15,
 		"label_number": "WHY008",
+		"release_type": "WRC",
 		"album_art": "/images/releases/blurs.jpg",
 		"release_date": "2018-01-03T18:25:43.511Z",
 		"genre": "Techno",
@@ -879,6 +953,7 @@
 		"local_path": "Glancing-Memories",
 		"id": 14,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/gmmb.jpg",
 		"release_date": "2019-11-18T18:25:43.511Z",
 		"genre": "Hip-Hop Beats",
@@ -899,6 +974,7 @@
 		"local_path": "HIOP",
 		"id": 12,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/hiopf.jpeg",
 		"release_date": "2018-07-05T18:25:43.511Z",
 		"genre": "Hip-Hop Beats",
@@ -919,6 +995,7 @@
 		"local_path": "Sapphire-Sky",
 		"id": 11,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/ssf.jpg",
 		"release_date": "2019-08-29T18:25:43.511Z",
 		"genre": "Lo-Fi Hip-Hop Beats",
@@ -939,6 +1016,7 @@
 		"local_path": "Saturday-Morning",
 		"id": 10,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/smf.png",
 		"release_date": "2019-08-21T18:25:43.511Z",
 		"genre": "Lo-Fi Hip-Hop Beats",
@@ -959,6 +1037,7 @@
 		"local_path": "FLAF",
 		"id": 9,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/flaff.jpg",
 		"release_date": "2019-02-22T18:25:43.511Z",
 		"genre": "Beats",
@@ -979,6 +1058,7 @@
 		"local_path": "paranoimia",
 		"id": 8,
 		"label_number": "WHY003",
+		"release_type": "WRC",
 		"album_art": "/images/releases/paranoimia.jpg",
 		"release_date": "2018-03-15T18:25:43.511Z",
 		"genre": "House",
@@ -999,6 +1079,7 @@
 		"local_path": "JUST-CALL",
 		"id": 7,
 		"label_number": "WHY007",
+		"release_type": "WRC",
 		"album_art": "/images/releases/just_call.jpg",
 		"release_date": "2018-02-23T18:25:43.511Z",
 		"genre": "Tech House",
@@ -1020,6 +1101,7 @@
 		"local_path": "The-Beginning",
 		"id": 6,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/the_beginning.jpg",
 		"release_date": "2017-04-21T18:25:43.511Z",
 		"genre": "Trap",
@@ -1040,6 +1122,7 @@
 		"local_path": "grains",
 		"id": 5,
 		"label_number": "WHY005",
+		"release_type": "WRC",
 		"album_art": "/images/releases/grains.jpg",
 		"release_date": "2017-11-03T18:25:43.511Z",
 		"genre": "IDM",
@@ -1060,6 +1143,7 @@
 		"local_path": "RAAPT",
 		"id": 4,
 		"label_number": "WHY004",
+		"release_type": "WRC",
 		"album_art": "/images/releases/raapt.jpg",
 		"release_date": "2017-11-23T18:25:43.511Z",
 		"genre": "IDM",
@@ -1080,6 +1164,7 @@
 		"local_path": "MURDA",
 		"id": 3,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/murda.jpg",
 		"release_date": "2017-03-06T18:25:43.511Z",
 		"genre": "House",
@@ -1102,6 +1187,7 @@
 		"local_path": "Above-Below",
 		"id": 2,
 		"label_number": "Independent",
+		"release_type": "Independent",
 		"album_art": "/images/releases/abbl.jpg",
 		"release_date": "2017-02-15T18:25:43.511Z",
 		"genre": "Drum and Bass",
@@ -1122,6 +1208,7 @@
 		"local_path": "paabwaitjh",
 		"id": 1,
 		"label_number": "WHY006",
+		"release_type": "WRC",
 		"album_art": "/images/releases/paabwaitjh.jpg",
 		"release_date": "2017-03-15T18:25:43.511Z",
 		"genre": "IDM",
@@ -1142,6 +1229,7 @@
 		"local_path": "acid-house",
 		"id": 0,
 		"label_number": "WHY002",
+		"release_type": "WRC",
 		"album_art": "/images/releases/acid.jpg",
 		"release_date": "2017-11-23T18:25:43.511Z",
 		"genre": "Acid House",
@@ -1162,6 +1250,7 @@
 		"local_path": "serving-suggestions",
 		"id": -1,
 		"label_number": "WHY001",
+		"release_type": "WRC",
 		"album_art": "/images/releases/servsug.jpg",
 		"release_date": "2016-12-28T18:25:43.511Z",
 		"genre": "Techno",
@@ -1175,6 +1264,48 @@
 		"remix_artist_ids": [],
 		"links": {
 			"bc": "https://whythough.bandcamp.com/album/serving-suggestions"
+		}
+	},
+	{
+		"name": "WRC Blue Label",
+		"local_path": "play002",
+		"id": -2,
+		"label_number": "WHYPLAY002",
+		"release_type": "PLAYLIST",
+		"album_art": "/images/releases/BlueLabel.jpg",
+		"release_date": "2020-01-02T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			""
+		],
+		"primary_artist_ids": [
+			22
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "https://open.spotify.com/playlist/6hE3AWnz4hIJ3x0eS3nGa8?si=9bBhrcaPTEGVJha6rrOeZQ"
+		}
+	},
+	{
+		"name": "WHY? Record Company",
+		"local_path": "play001",
+		"id": -3,
+		"label_number": "WHYPLAY001",
+		"release_type": "PLAYLIST",
+		"album_art": "/images/releases/WRC.jpg",
+		"release_date": "2016-01-01T18:25:43.511Z",
+		"genre": "Electronic Music",
+		"release_bio": [
+			""
+		],
+		"primary_artist_ids": [
+			22
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
 		}
 	}
 ]
