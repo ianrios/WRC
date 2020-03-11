@@ -69,39 +69,18 @@ export default function ReleasePage() {
 								content={"why, record, company, music, edm, techno, idm, experimental, label, release, " + currRelease.name} />
 							<meta name="description" content={`${currRelease.name} Release Page - WRC`} />
 						</Helmet>
-						<div className="row main-body">
-							<div className="col-6">
-								<img className="img-fluid" src={currRelease.album_art} alt={`${currRelease.name} Album Art`} />
-							</div>
-							<div className="col-6">
-								<h4 className="release-page-h4">Primary Artist{currRelease.primary_artist_ids.length > 1 ? "s" : ""}</h4>
-								<div className="release-page-text-container primary-artist-release">
-									{
-										currRelease.primary_artist_ids.map(
-											(i, j) => {
-												const currArtist = artistData.find(a => a.id === i);
-												return (
-													<React.Fragment key={j}>
-														<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
-															{currArtist.name}
-														</Link>
-														<span className="white-text">
-															{`${j < currRelease.primary_artist_ids.length - 1 ? ", " : ""}`}
-														</span>
-													</React.Fragment>
-												)
-											}
-										)
-									}
-								</div>
-								{currRelease.secondary_artist_ids.length > 0 ?
-									<React.Fragment>
-										<h4 className="release-page-h4">
-											{`Additional Artist${currRelease.secondary_artist_ids.length > 1 ? "s" : ""}`}
-										</h4>
-										<div className="release-page-text-container">
+						<div className="row">
+							<div className="col-10 offset-1">
+
+								<div className="row main-body">
+									<div className="col-6">
+										<img className="img-fluid" src={currRelease.album_art} alt={`${currRelease.name} Album Art`} />
+									</div>
+									<div className="col-6">
+										<h4 className="release-page-h4">Primary Artist{currRelease.primary_artist_ids.length > 1 ? "s" : ""}</h4>
+										<div className="release-page-text-container primary-artist-release">
 											{
-												currRelease.secondary_artist_ids.map(
+												currRelease.primary_artist_ids.map(
 													(i, j) => {
 														const currArtist = artistData.find(a => a.id === i);
 														return (
@@ -110,7 +89,7 @@ export default function ReleasePage() {
 																	{currArtist.name}
 																</Link>
 																<span className="white-text">
-																	{`${j < currRelease.secondary_artist_ids.length - 1 ? ", " : ""}`}
+																	{`${j < currRelease.primary_artist_ids.length - 1 ? ", " : ""}`}
 																</span>
 															</React.Fragment>
 														)
@@ -118,57 +97,90 @@ export default function ReleasePage() {
 												)
 											}
 										</div>
-									</React.Fragment>
-									: null
-								}
-
-
-								{currRelease.remix_artist_ids.length > 0 ?
-									<React.Fragment>
-										<h4 className="release-page-h4">
-											{`Remixer${currRelease.remix_artist_ids.length > 1 ? "s" : ""}`}
-										</h4>
-										<div className="release-page-text-container">
-											{
-												currRelease.remix_artist_ids.map(
-													(i, j) => {
-														const currArtist = artistData.find(a => a.id === i);
-														return (
-															<React.Fragment key={j}>
-																<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
-																	{currArtist.name}
-																</Link>
-																<span className="white-text">
-																	{`${j < currRelease.remix_artist_ids.length - 1 ? ", " : ""}`}
-																</span>
-															</React.Fragment>
+										{currRelease.secondary_artist_ids.length > 0 ?
+											<React.Fragment>
+												<h4 className="release-page-h4">
+													{`Additional Artist${currRelease.secondary_artist_ids.length > 1 ? "s" : ""}`}
+												</h4>
+												<div className="release-page-text-container">
+													{
+														currRelease.secondary_artist_ids.map(
+															(i, j) => {
+																const currArtist = artistData.find(a => a.id === i);
+																return (
+																	<React.Fragment key={j}>
+																		<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
+																			{currArtist.name}
+																		</Link>
+																		<span className="white-text">
+																			{`${j < currRelease.secondary_artist_ids.length - 1 ? ", " : ""}`}
+																		</span>
+																	</React.Fragment>
+																)
+															}
 														)
 													}
-												)
-											}
-										</div>
-									</React.Fragment>
-									: null
-								}
+												</div>
+											</React.Fragment>
+											: null
+										}
 
-								<p>
-									{currRelease.short_description}
-								</p>
-								<div className="text-border">
-									{mappedPTag(currRelease.release_bio, "release-bio-paragraphs")}
+
+										{currRelease.remix_artist_ids.length > 0 ?
+											<React.Fragment>
+												<h4 className="release-page-h4">
+													{`Remixer${currRelease.remix_artist_ids.length > 1 ? "s" : ""}`}
+												</h4>
+												<div className="release-page-text-container">
+													{
+														currRelease.remix_artist_ids.map(
+															(i, j) => {
+																const currArtist = artistData.find(a => a.id === i);
+																return (
+																	<React.Fragment key={j}>
+																		<Link to={`/artist/${currArtist.local_path}`} className="smaller-font-temp">
+																			{currArtist.name}
+																		</Link>
+																		<span className="white-text">
+																			{`${j < currRelease.remix_artist_ids.length - 1 ? ", " : ""}`}
+																		</span>
+																	</React.Fragment>
+																)
+															}
+														)
+													}
+												</div>
+											</React.Fragment>
+											: null
+										}
+
+										<p>
+											{currRelease.short_description}
+										</p>
+										<div className="text-border d-none d-lg-block">
+											{mappedPTag(currRelease.release_bio, "release-bio-paragraphs")}
+										</div>
+										<p>
+											Primary Genre:  {currRelease.genre}
+										</p>
+										<p>
+											Release Date: {currRelease.release_date.split("T")[0]}
+
+										</p>
+										<div className="row">
+											<div className="col">
+												Music Platforms
+												<div>
+													{mappedATag(currRelease.links)}
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<p>
-									Primary Genre:  {currRelease.genre}
-								</p>
-								<p>
-									Release Date: {currRelease.release_date.split("T")[0]}
-
-								</p>
-								<div className="row">
+								<div className="row d-block d-lg-none mt-3">
 									<div className="col">
-										Music Platforms
-									<div>
-											{mappedATag(currRelease.links)}
+										<div className="text-border">
+											{mappedPTag(currRelease.release_bio, "release-bio-paragraphs")}
 										</div>
 									</div>
 								</div>

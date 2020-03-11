@@ -5,11 +5,14 @@ export default function Collections() {
 	let releaseTypes = {}
 	releaseData.map(i => !(i.release_type in releaseTypes) ? releaseTypes[i.release_type] = i : null)
 	const mappedReleaseTypes = Object.keys(releaseTypes)
-		.sort()
+		.sort((a, b) => {
+			if (a === "Independent") return 1
+			if (b === "Independent") return -1
+			return a < b
+		})
 		.map(i => {
 			return (
 				<div className="col-4 col-md-3 text-center artist-page-album-art-container" key={i} >
-
 					<div
 						className="help-cursor artist-page-album-art-link"
 					>
@@ -26,7 +29,12 @@ export default function Collections() {
 		<div>
 			<h1 className="header-sub-page">Collections</h1>
 			<div className="row">
-				{mappedReleaseTypes}
+				<div className="col-10 offset-1">
+					<div className="row">
+
+						{mappedReleaseTypes}
+					</div>
+				</div>
 			</div>
 		</div>
 	)
