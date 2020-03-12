@@ -6,7 +6,7 @@ export default function Logo(props) {
 			<div className="col">
 				<img
 					src="/WRCLabel.png"
-					className="logo float-right"
+					className="text-white img-fluid"
 					alt="logo"
 					onClick={() => props.setViewMain(!props.viewMain)}
 				/>
