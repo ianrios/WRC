@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import CookieConsent from "react-cookie-consent";
-import Logo from "./Logo";
 
 export default function Footer(props) {
 	return (
@@ -15,7 +14,7 @@ export default function Footer(props) {
 			<div className="row">
 				<div className="col-12 col-md">
 					<small className="d-block mb-3 text-muted">
-						<img src="/whitelogo2024.png" width="24" height="24" className=" mb-1" />
+						<img src="/whitelogo2024.png" alt="mini logo" width="24" height="24" className=" mb-1" />
 					</small>
 					<small className="d-block mb-3 text-muted">
 						© 2020 WHY? Record Company (WRC)
@@ -58,7 +57,12 @@ export default function Footer(props) {
 					</ul>
 				</div>
 				<div className="col-6 col-md">
-					<Logo viewMain={props.viewMain} setViewMain={props.setViewMain} />
+					<img
+						src="/WRCWhiteLabel.png"
+						className="img-fluid"
+						alt="logo"
+						onClick={() => props.setViewMain(!props.viewMain)}
+					/>
 				</div>
 			</div>
 		</footer>
