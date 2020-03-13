@@ -27,7 +27,7 @@ export default function Footer(props) {
 						<li><Link className="text-muted" to="/artists">Artists</Link></li>
 						<li><Link className="text-muted" to="/releases">Releases</Link></li>
 						<li><Link className="text-muted" to="/collections">Collections</Link></li>
-						<li><Link className="text-muted" to="/contact">Contact</Link></li>
+						<li><Link className="text-muted" to="/coming-soon">Store</Link></li>
 					</ul>
 				</div>
 				<div className="col-6 col-md">
@@ -46,14 +46,17 @@ export default function Footer(props) {
 							</a>
 						</li>
 						<li><Link className="text-muted" to="/cookie-policy">Cookie Policy</Link></li>
+						<li><Link className="text-muted" to="/hard-reload">Cache Clear</Link></li>
 					</ul>
 				</div>
 				<div className="col-6 col-md">
 					<h5>About</h5>
 					<ul className="list-unstyled text-small">
 						<li><Link className="text-muted" to="/coming-soon">Team</Link></li>
+						<li><Link className="text-muted" to="/coming-soon">Atlas</Link></li>
 						<li><Link className="text-muted" to="/coming-soon">Locations</Link></li>
-						<li><Link className="text-muted" to="/coming-soon">Site Map</Link></li>
+						<li><Link className="text-muted" to="/coming-soon">Services</Link></li>
+						<li><Link className="text-muted" to="/contact">Contact</Link></li>
 					</ul>
 				</div>
 				<div className="col-6 col-md">
