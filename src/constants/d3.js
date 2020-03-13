@@ -3,7 +3,7 @@ import releaseData from "./releaseData.json"
 
 const nodes = artistData.map(i => { return { id: i.name } })
 
-const links = []
+// dont add the why record company artist
 const linkObj = {}
 for (let r of releaseData) {
 	if (r.primary_artist_ids.length > 1) {
@@ -13,7 +13,6 @@ for (let r of releaseData) {
 				const a2 = artistData.find(k => k.id === j)
 				if (a1.name != a2.name) {
 					const link = { source: a1.name, target: a2.name }
-					links.push()
 					const str = JSON.stringify(link)
 					if (str in linkObj) {
 						if ("sourceCollabedWith" in linkObj[str]) {
@@ -35,7 +34,6 @@ for (let r of releaseData) {
 			const a2 = artistData.find(k => k.id === j)
 			if (a1.name != a2.name) {
 				const link = { source: a1.name, target: a2.name }
-				links.push()
 				const str = JSON.stringify(link)
 				if (str in linkObj) {
 					if ("sourceFeaturedOn" in linkObj[str]) {
@@ -56,7 +54,6 @@ for (let r of releaseData) {
 			const a2 = artistData.find(k => k.id === j)
 			if (a1.name != a2.name) {
 				const link = { source: a1.name, target: a2.name }
-				links.push()
 				const str = JSON.stringify(link)
 				if (str in linkObj) {
 					if ("sourceRemixed" in linkObj[str]) {
@@ -72,12 +69,13 @@ for (let r of releaseData) {
 		}
 	}
 }
+const links = Object.keys(linkObj).map(i => JSON.parse(i))
 
 console.log({ nodes, links, linkObj })
 
 const data = {
 	nodes,
-	links: { source: "whythough?", target: "dyl_pykl" }
+	links
 };
 
 export default data;

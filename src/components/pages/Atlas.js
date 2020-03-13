@@ -1,7 +1,7 @@
 import React from 'react'
 import { Graph } from "react-d3-graph";
 import data from "../../constants/d3.js"
-
+import "./Atlas.scss"
 
 export default function Atlas() {
 
@@ -10,12 +10,12 @@ export default function Atlas() {
 		nodeHighlightBehavior: true,
 		node: {
 			color: "#68a7ff",
-			fontColor: "white",
+			fontColor: "black",
 			size: 120,
 			highlightStrokeColor: "blue",
 		},
 		link: {
-			color: "white",
+			color: "grey",
 			highlightColor: "lightblue",
 		},
 	};
@@ -68,10 +68,6 @@ export default function Atlas() {
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-sub-page">Atlas</h1>
-				</div>
-			</div>
-			<div className="row">
-				<div className="col">
 					<Graph
 						id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
 						data={data}

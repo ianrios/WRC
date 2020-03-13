@@ -13,9 +13,7 @@ export default function Collections() {
 		.map(i => {
 			return (
 				<div className="col-4 col-md-3 text-center artist-page-album-art-container" key={i} >
-					<div
-						className="help-cursor artist-page-album-art-link"
-					>
+					<div className="help-cursor artist-page-album-art-link">
 						<img alt={releaseTypes[i].name} src={releaseTypes[i].album_art} className="img-fluid artist-page-album-art" />
 						<span className="artist-page-album-art-text colored-link white-text">
 							{i}
