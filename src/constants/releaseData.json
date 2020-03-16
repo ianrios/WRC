@@ -35,7 +35,8 @@
 		"mix_label_number": 2,
 		"genre": "Techno",
 		"release_bio": [
-			"WRC welcomes Matyb to the label with a debut mix featuring lots of techno and tech house. Click on Matyb's artist profile to see all previous and future releases!"
+			"WRC welcomes Matyb to the label with a debut mix featuring lots of techno and tech house. Click on Matyb's artist profile to see all previous and future releases!",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			11
@@ -58,6 +59,7 @@
 		"release_bio": [
 			"The 33rd release from WHY? Record Company (WRC) - WHY033",
 			"\"A12A2\" by Mova, with remix by whythough?",
+			"Artwork by Ian Rios",
 			"A WRC Blue Label Release"
 		],
 		"primary_artist_ids": [
@@ -84,7 +86,8 @@
 		"mix_label_number": 1,
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"The first Mix for WRC",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			2
@@ -124,7 +127,8 @@
 		"release_date": "2020-01-26T18:25:43.511Z",
 		"genre": "Dubstep",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			5
@@ -144,7 +148,8 @@
 		"release_date": "2019-12-29T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by oFoot and Ian Rios"
 		],
 		"cycle_label_number": 3.5,
 		"primary_artist_ids": [
@@ -165,7 +170,8 @@
 		"release_date": "2019-12-29T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by oFoot and Ian Rios"
 		],
 		"cycle_label_number": 3,
 		"primary_artist_ids": [
@@ -186,7 +192,11 @@
 		"release_date": "2019-11-15T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"The 30th release from WHY Record Company (WRC) - WHY030",
+			"Fohrenbach presents, The Last Judgement EP, the first installment in the Blue Label Techno Series.",
+			"Recorded, Produced, Mixed, and Mastered by Robert Fohrenbach",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
 		],
 		"blue_label_number": 1,
 		"primary_artist_ids": [
@@ -195,7 +205,8 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": "https://open.spotify.com/album/3pMfarRU94v167yZiYusma?si=Worln44BTySF64MvN8CKEQ"
+			"sp": "https://open.spotify.com/album/3pMfarRU94v167yZiYusma?si=Worln44BTySF64MvN8CKEQ",
+			"dz": "https://www.deezer.com/en/album/119736482"
 		}
 	},
 	{
@@ -207,7 +218,8 @@
 		"release_date": "2019-10-29T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -249,7 +261,8 @@
 		"release_date": "2019-09-23T18:25:43.511Z",
 		"genre": "Wave",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			5
@@ -274,7 +287,8 @@
 			"Recorded and Produced by Robert Dylan Smock & Ian Rios",
 			"Song Written and Performed by Katie Hoffstatter",
 			"Mixed By Robert Dylan Smock & Ian Rios",
-			"Mastered By Dan Gresham (Nu:Tone)"
+			"Mastered By Dan Gresham (Nu:Tone)",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			2,
@@ -297,7 +311,8 @@
 		"release_date": "2019-06-28T18:25:43.511Z",
 		"genre": "lo-fi hip-hop beats to study/chill to 24/7",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"cycle_label_number": 2,
 		"primary_artist_ids": [
@@ -318,7 +333,8 @@
 		"release_date": "2019-06-14T18:25:43.511Z",
 		"genre": "Wave",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			5
@@ -338,7 +354,8 @@
 		"release_date": "2019-05-17T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"cycle_label_number": 1,
 		"primary_artist_ids": [
@@ -359,7 +376,8 @@
 		"release_date": "2019-04-26T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -381,7 +399,8 @@
 		"release_date": "2019-03-08T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -432,7 +451,8 @@
 		"release_date": "2018-12-27T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -466,7 +486,8 @@
 		"release_date": "2018-11-23T18:25:43.511Z",
 		"genre": "Hip-Hop",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			2,
@@ -487,7 +508,8 @@
 		"release_date": "2018-11-09T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Molly Kerwick and Ian Rios"
 		],
 		"primary_artist_ids": [
 			6
@@ -575,7 +597,8 @@
 		"release_date": "2018-10-19T18:25:43.511Z",
 		"genre": "Trap",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			5
@@ -595,7 +618,8 @@
 		"release_date": "2018-10-19T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Robert Fohrenbach"
 		],
 		"primary_artist_ids": [
 			4
@@ -639,7 +663,8 @@
 		"release_date": "2018-10-05T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -702,7 +727,8 @@
 		"release_date": "2018-07-31T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -774,7 +800,8 @@
 		"release_date": "2018-02-22T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -807,7 +834,8 @@
 		"release_date": "2018-01-03T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -932,7 +960,8 @@
 		"release_date": "2018-03-15T18:25:43.511Z",
 		"genre": "House",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -952,7 +981,8 @@
 		"release_date": "2018-02-23T18:25:43.511Z",
 		"genre": "Tech House",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Robert Dylan Smock"
 		],
 		"primary_artist_ids": [
 			2,
@@ -993,7 +1023,8 @@
 		"release_date": "2017-11-03T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -1013,7 +1044,8 @@
 		"release_date": "2017-11-23T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -1075,7 +1107,8 @@
 		"release_date": "2017-03-15T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -1095,7 +1128,8 @@
 		"release_date": "2017-11-23T18:25:43.511Z",
 		"genre": "Acid House",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -1115,7 +1149,8 @@
 		"release_date": "2016-12-28T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
