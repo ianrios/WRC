@@ -36,7 +36,7 @@ export default function Home() {
 						Housing over 200 songs and over 50 <Link to="/releases">releases</Link> bound to no genre, WRC is proud to foster musicians and help grow a fanbase over many years.
 					</p>
 					<p className="main-page-p">
-						Although founded in 2019, the idea for WHY Record Company is not a new one; label owners whythough? and dyl_pykl had speculated on hosting their own music independently for quite some time (since around 2016), and since then, have recruited many other like minded individuals.
+						Although founded in 2019, the idea for WHY? Record Company is not a new one; label owners whythough? and dyl_pykl had speculated on hosting their own music independently for quite some time (since around 2016), and since then, have recruited many other like minded individuals.
 						The first beginnings of the label were formed in college; originally named "PULSE Artist Collective". However, being in college meant a specific branding, fanbase, and sub par level of professionalism, hence the switch to a clean and modern WRC, with no bound or connection to their old designs or practices.
 					</p>
 					<p className="main-page-p">
