@@ -1,0 +1,20 @@
+.description-large {
+  filter: grayscale(100%) blur(4px) opacity(0.3);
+}
+
+.collection-info {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 100%;
+  display: block;
+}
+.info-hide {
+  display: none;
+}
+
+.collection-info p {
+  font-size: 0.5em;
+}

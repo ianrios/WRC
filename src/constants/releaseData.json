@@ -284,7 +284,7 @@
 		}
 	},
 	{
-		"name": "The Last Judgement",
+		"name": "The Last Judgement EP",
 		"local_path": "BL-TLJ",
 		"id": 42,
 		"label_number": "WHY030",
@@ -460,7 +460,8 @@
 		"release_date": "2019-05-17T18:25:43.511Z",
 		"genre": "IDM",
 		"release_bio": [
-			"",
+			"The first release in the CYCLE series is presented by whythough?",
+			"With raw synths, intense samples, and highly syncopated drums, cycle001: 'grief' is a 16 song, hour long sonic soundscape journey.",
 			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [

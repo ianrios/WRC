@@ -53,7 +53,7 @@ export default function Footer(props) {
 					<h5>About</h5>
 					<ul className="list-unstyled text-small">
 						<li><Link className="text-muted" to="/coming-soon">Team</Link></li>
-						<li><Link className="text-muted" to="/coming-soon">Atlas</Link></li>
+						<li><Link className="text-muted" to="/atlas">Atlas</Link></li>
 						<li><Link className="text-muted" to="/coming-soon">Locations</Link></li>
 						<li><Link className="text-muted" to="/coming-soon">Services</Link></li>
 						<li><Link className="text-muted" to="/contact">Contact</Link></li>
