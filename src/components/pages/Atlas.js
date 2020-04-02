@@ -1,11 +1,13 @@
 import React from 'react'
 import { Graph } from "react-d3-graph";
-import data from "../../constants/d3.js"
+import { ResponsiveNetwork } from '@nivo/network'
+import d3data from "../../constants/d3.js"
+import data from "../../constants/nivoData.js"
 import "./Atlas.scss"
 
 export default function Atlas() {
 
-
+	// d3
 	const myConfig = {
 		nodeHighlightBehavior: true,
 		node: {
@@ -63,14 +65,20 @@ export default function Atlas() {
 	const onNodePositionChange = function (nodeId, x, y) {
 		console.log(`Node ${nodeId} is moved to new position. New position is x= ${x} y= ${y}`);
 	};
+
+	//////////////////////////////////
+
+
+	// nivo
+	console.log(data)
 	return (
 		<React.Fragment>
 			<div className="row main-header">
-				<div className="col">
+				<div className="col nivo-wrapper">
 					<h1 className="header-sub-page">Atlas</h1>
-					<Graph
+					{/* <Graph
 						id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
-						data={data}
+						data={d3data}
 						config={myConfig}
 						onClickNode={onClickNode}
 						onDoubleClickNode={onDoubleClickNode}
@@ -83,7 +91,22 @@ export default function Atlas() {
 						onMouseOverLink={onMouseOverLink}
 						onMouseOutLink={onMouseOutLink}
 						onNodePositionChange={onNodePositionChange}
-					/>
+					/> */}
+
+					{/* <ResponsiveNetwork
+						data={data}
+						margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
+						repulsivity={6}
+						iterations={60}
+						nodeColor={function (t) { return t.color }}
+						nodeBorderWidth={1}
+						nodeBorderColor={{ from: 'color', modifiers: [['darker', 0.8]] }}
+						linkThickness={function (t) { return 2 * (2 - t.source.depth) }}
+						motionStiffness={160}
+						motionDamping={12}
+						height={"100px"}
+						width={"100px"}
+					/> */}
 				</div>
 			</div>
 		</React.Fragment>

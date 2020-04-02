@@ -1,12 +1,35 @@
 [
 	{
+		"name": "Andamp",
+		"local_path": "Andamp",
+		"id": 54,
+		"label_number": "GEAR004",
+		"release_type": "Independent",
+		"album_art": "/images/releases/GEAR004.png",
+		"release_date": "2020-04-18T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 4th release from GEAR Techno Collective.",
+			"\"Andamp\" by whythough? (Ian Rios) is his debut single on GEAR and his first original release of the year.",
+			"Recorded, Produced, Mixed, and Mastered By whythough?."
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": ""
+		}
+	},
+	{
 		"name": "Cure",
 		"local_path": "cure",
 		"id": 54,
 		"label_number": "WHY036",
 		"release_type": "WRC",
 		"album_art": "/images/releases/cure.png",
-		"release_date": "2020-04-03T18:25:43.511Z",
+		"release_date": "2020-04-17T18:25:43.511Z",
 		"genre": "Drum and Bass",
 		"release_bio": [
 			"The 36th release from WHY? Record Company (WRC) - WHY036",
@@ -24,37 +47,13 @@
 		}
 	},
 	{
-		"name": "Beans",
-		"local_path": "beans",
-		"id": 53,
-		"label_number": "WHY035",
-		"release_type": "WRC",
-		"album_art": "/images/releases/beans.png",
-		"release_date": "2020-04-03T18:25:43.511Z",
-		"genre": "Drum and Bass",
-		"release_bio": [
-			"The 35th release from WHY? Record Company (WRC) - WHY035",
-			"\"Beans\" by dyl_pykl (Robert Dylan Smock) is the first single from his debut album, Vacation Home",
-			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered By Ian Rios (whythough?)"
-		],
-		"primary_artist_ids": [
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "http://open.spotify.com/album/4LwDob6ayTJsJqrLkGhMZ7"
-		}
-	},
-	{
 		"name": "RECORDINGS001",
 		"local_path": "rec001",
-		"id": 52,
+		"id": 53,
 		"label_number": "WHYREC001",
 		"release_type": "RECORDINGS",
 		"album_art": "/images/releases/rec001.jpg",
-		"release_date": "2020-03-20T18:25:43.511Z",
+		"release_date": "2020-04-16T18:25:43.511Z",
 		"genre": "Samples",
 		"release_bio": [
 			"The first release from the RECORDINGS WRC imprint.",
@@ -73,11 +72,11 @@
 	{
 		"name": "WRC MIX 003",
 		"local_path": "MIX003",
-		"id": 51,
+		"id": 52,
 		"label_number": "WHYMIX003",
 		"release_type": "MIX",
 		"album_art": "/images/releases/MIX003.jpg",
-		"release_date": "2020-03-13T18:25:43.511Z",
+		"release_date": "2020-04-13T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
 			"Mixed By Ian Rios (whythough?)"
@@ -89,6 +88,30 @@
 		"remix_artist_ids": [],
 		"links": {
 			"mc": ""
+		}
+	},
+	{
+		"name": "Beans",
+		"local_path": "beans",
+		"id": 51,
+		"label_number": "WHY035",
+		"release_type": "WRC",
+		"album_art": "/images/releases/beans.png",
+		"release_date": "2020-04-03T18:25:43.511Z",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			"The 35th release from WHY? Record Company (WRC) - WHY035",
+			"\"Beans\" by dyl_pykl (Robert Dylan Smock) is the first single from his debut album, Vacation Home",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered By Ian Rios (whythough?)"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "http://open.spotify.com/album/4LwDob6ayTJsJqrLkGhMZ7"
 		}
 	},
 	{
