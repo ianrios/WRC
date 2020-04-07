@@ -1,17 +1,65 @@
 [
 	{
+		"name": "Stopped Raining",
+		"local_path": "stopped-raining",
+		"id": 55,
+		"label_number": "WHY039",
+		"release_type": "WRC",
+		"album_art": "/images/releases/stoppedraining.png",
+		"release_date": "2020-05-01T18:25:43.511Z",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			"The 39th release from WHY? Record Company (WRC) - WHY039",
+			"\"Stopped Raining\" by dyl_pykl (Robert Dylan Smock) is the third and final single from his debut album, Vacation Home",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios (whythough?)"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": ""
+		}
+	},
+	{
+		"name": "Eternal Gloop",
+		"local_path": "BL-EG",
+		"id": 57,
+		"label_number": "WHY038",
+		"release_type": "WRC",
+		"album_art": "/images/releases/bleg.png",
+		"release_date": "2020-05-08T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 38th release from WHY? Record Company (WRC) - WHY038",
+			"The 1st WRC release of the year from whythough?",
+			"The \"Eternal Gloop EP\" by whythough? (Ian Rios) is a four track driving trance techno journey consisting of bangers to play at 3AM. You'' hear these songs played right after the scheduled time for the venue to close, while all the people who listen to generic techno leave, the gurners get a chance to make their way to the front to stay for \"One More Song!\" or 20 minutes while the DJ mixes these four tracks into one long final encore.",
+			"Recorded, Produced, Mixed, and Mastered by whythough?. A WRC Blue Label Release."
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": ""
+		}
+	},
+	{
 		"name": "Andamp",
 		"local_path": "Andamp",
-		"id": 54,
+		"id": 56,
 		"label_number": "GEAR004",
 		"release_type": "Independent",
-		"album_art": "/images/releases/GEAR004.png",
+		"album_art": "/images/releases/Andamp_lo_res.png",
 		"release_date": "2020-04-18T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
 			"The 4th release from GEAR Techno Collective.",
 			"\"Andamp\" by whythough? (Ian Rios) is his debut single on GEAR and his first original release of the year.",
-			"Recorded, Produced, Mixed, and Mastered By whythough?."
+			"Recorded, Produced, Mixed, and Mastered by whythough?."
 		],
 		"primary_artist_ids": [
 			1
@@ -25,7 +73,7 @@
 	{
 		"name": "Cure",
 		"local_path": "cure",
-		"id": 54,
+		"id": 55,
 		"label_number": "WHY036",
 		"release_type": "WRC",
 		"album_art": "/images/releases/cure.png",
@@ -35,7 +83,7 @@
 			"The 36th release from WHY? Record Company (WRC) - WHY036",
 			"\"Cure\" by dyl_pykl (Robert Dylan Smock) is the second single from his debut album, Vacation Home",
 			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered By Ian Rios (whythough?)"
+			"Mastered by Ian Rios (whythough?)"
 		],
 		"primary_artist_ids": [
 			2
@@ -49,16 +97,16 @@
 	{
 		"name": "RECORDINGS001",
 		"local_path": "rec001",
-		"id": 53,
+		"id": 54,
 		"label_number": "WHYREC001",
 		"release_type": "RECORDINGS",
 		"album_art": "/images/releases/rec001.jpg",
-		"release_date": "2020-04-16T18:25:43.511Z",
+		"release_date": "2020-05-29T18:25:43.511Z",
 		"genre": "Samples",
 		"release_bio": [
 			"The first release from the RECORDINGS WRC imprint.",
 			"Sample pack of basses, drums, leads, textures, and of course, field recordings.",
-			"Recorded, Produced, Mixed, and Mastered By Ian Rios (whythough?)"
+			"Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)"
 		],
 		"primary_artist_ids": [
 			1
@@ -72,14 +120,17 @@
 	{
 		"name": "WRC MIX 003",
 		"local_path": "MIX003",
-		"id": 52,
+		"id": 53,
 		"label_number": "WHYMIX003",
 		"release_type": "MIX",
 		"album_art": "/images/releases/MIX003.jpg",
-		"release_date": "2020-04-13T18:25:43.511Z",
+		"release_date": "2020-04-06T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			"Mixed By Ian Rios (whythough?)"
+			"Mixed by Ian Rios (whythough?)",
+			"WHY? Record Company brings yet another front to their recent onslaught of releases with WRC MIX 003 brought to you by whythough? and planned to be premiered on the WRPI radio station on March 13th, 2020. This mix features the best techno of the moment including WRC and WRC Blue Label favorites such as dyl_pykl, Katie Hoffstatter, MatyB, and over one hour of unreleased exclusives from label boss whythough?.",
+			"Tracklist:",
+			"whythough? - ID __BREAK__ Enigma - Principles of Lust __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Katie Hoffstatter, dyl_pykl, Matyb - He Called Me Beautiful (dyl_pykl 6 AM Half Dead Remix) __BREAK__ whythough? - ID __BREAK__ DJ Tennis - I can Tell __BREAK__ Âme - Helliconia (Marcel Dettmann Remix) __BREAK__ DVS1 - Black Russian __BREAK__ ⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ - ʅ͡͡͡͡͡͡͡͡͡͡͡(ƟӨ)ʃ͡͡͡͡͡͡͡͡͡͡ ꐑ(ཀ ඊູ ఠీੂ೧ູ࿃ूੂ✧✧✧✧✧✧ළඕั࿃ूੂ࿃ूੂ __BREAK__ Nina Kraviz - Da __BREAK__ Vladimir Dubyshkin - Lady of the Night __BREAK__ Lxury - Sins.00 __BREAK__ Blindsmyth - Traffic Lights __BREAK__ Indian Wells - Wimbledon 1980 __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Reeko - Nervous Idiots in the Bar __BREAK__ whythough? - ID __BREAK__ TRG - Surreal (5 AM) __BREAK__ whythough? - ID __BREAK__ PTU - Black Smokers __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Panthera Krause - Birthday Club (Real Club Version) __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Margo Guryan - Why Do I Cry"
 		],
 		"primary_artist_ids": [
 			1
@@ -87,8 +138,28 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"mc": ""
+			"mc": "https://www.mixcloud.com/whythough000/wrc-mix-003-whythough-wrpi-unused-mix-3-21-2020/"
 		}
+	},
+	{
+		"name": "True Colors",
+		"local_path": "True-Colors",
+		"id": 52,
+		"label_number": "WHY037",
+		"release_type": "WRC",
+		"album_art": "/images/releases/truecolors.jpg",
+		"release_date": "2020-04-07T18:25:43.511Z",
+		"genre": "",
+		"release_bio": [
+			"The 37th release from WHY? Record Company (WRC) - WHY037",
+			"Debut WRC album \"True Colors\" by Fohrenbach. A 9 track journey across emotions and sound."
+		],
+		"primary_artist_ids": [
+			4
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
 	},
 	{
 		"name": "Beans",
@@ -103,7 +174,7 @@
 			"The 35th release from WHY? Record Company (WRC) - WHY035",
 			"\"Beans\" by dyl_pykl (Robert Dylan Smock) is the first single from his debut album, Vacation Home",
 			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered By Ian Rios (whythough?)"
+			"Mastered by Ian Rios (whythough?)"
 		],
 		"primary_artist_ids": [
 			2
@@ -111,7 +182,11 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": "http://open.spotify.com/album/4LwDob6ayTJsJqrLkGhMZ7"
+			"sc": "https://soundcloud.com/dyl_pykl/beans",
+			"sp": "http://open.spotify.com/album/4LwDob6ayTJsJqrLkGhMZ7",
+			"ap": "https://music.apple.com/us/album/beans-single/1499714697",
+			"dz": "https://www.deezer.com/track/882616262?utm_source=deezer&utm_content=track-882616262&utm_term=3472722624_1585922472&utm_medium=web",
+			"az": "https://www.amazon.es/Beans-dyl_pykl/dp/B085171QWL"
 		}
 	},
 	{
@@ -127,8 +202,8 @@
 			"The 34th release from WHY? Record Company (WRC) - WHY034",
 			"\"He Called Me Beautiful\" by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
 			"Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
-			"Mixed By Robert Dylan Smock & Ian Rios",
-			"Mastered By Ian Rios (whythough?)"
+			"Mixed by Robert Dylan Smock & Ian Rios",
+			"Mastered by Ian Rios (whythough?)"
 		],
 		"primary_artist_ids": [
 			14,
@@ -413,8 +488,8 @@
 			"\"Catapult\" by dyl_pykl (Robert Dylan Smock), & whythough? (Ian Rios)",
 			"Recorded and Produced by Robert Dylan Smock & Ian Rios",
 			"Song Written and Performed by Katie Hoffstatter",
-			"Mixed By Robert Dylan Smock & Ian Rios",
-			"Mastered By Dan Gresham (Nu:Tone)",
+			"Mixed by Robert Dylan Smock & Ian Rios",
+			"Mastered by Dan Gresham (Nu:Tone)",
 			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
@@ -899,8 +974,8 @@
 			"\"Cigarette Smoke\" by Katie Hoffstatter",
 			"Recorded and Produced by Robert Dylan Smock (dyl_pykl)",
 			"Song Written and Performed by Katie Hoffstatter",
-			"Mixed By Robert Dylan Smock",
-			"Mastered By Ian Rios (whythough?)"
+			"Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios (whythough?)"
 		],
 		"primary_artist_ids": [
 			14
@@ -1242,11 +1317,11 @@
 		"id": 2,
 		"label_number": "Independent",
 		"release_type": "Independent",
-		"album_art": "/images/releases/abbl.jpg",
+		"album_art": "/images/releases/abovebelow.jpg",
 		"release_date": "2017-02-15T18:25:43.511Z",
 		"genre": "Drum and Bass",
 		"release_bio": [
-			""
+			"Drum and Bass EP from dyl_pykl"
 		],
 		"primary_artist_ids": [
 			2

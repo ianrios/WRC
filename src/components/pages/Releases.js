@@ -28,7 +28,7 @@ export default function Releases() {
 									className={`img-fluid release-image-color-${color}`}
 									src={item.album_art}
 									alt={item.name} />
-								<span className="centered-text">{item.name}</span>
+								{/* <span className="centered-text">{item.name}</span> */}
 							</Link>
 						</div>
 					</div>

@@ -14,12 +14,15 @@ export default function ReleasePage() {
 	const mappedPTag = (props, className) => {
 		return (
 			props.map((item, idx) => {
+				let string = item.search("__BREAK__")
+					? item.split("__BREAK__").map((i, j) => <>{i} <br /></>)
+					: item
 				return (
 					<p
 						key={idx}
 						className={`questrial text-left ${className}`}
 					>
-						{item}
+						{string}
 					</p>
 				)
 			})
@@ -70,7 +73,6 @@ export default function ReleasePage() {
 						</Helmet>
 						<div className="row">
 							<div className="col-10 offset-1">
-
 								<div className="row main-body">
 									<div className="col-6">
 										<img className="img-fluid" src={currRelease.album_art} alt={`${currRelease.name} Album Art`} />
