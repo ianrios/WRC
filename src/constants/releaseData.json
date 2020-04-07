@@ -157,7 +157,9 @@
 		"primary_artist_ids": [
 			4
 		],
-		"secondary_artist_ids": [],
+		"secondary_artist_ids": [
+			2
+		],
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "https://open.spotify.com/album/28kg42qxUMcQNJEumBssoH?si=IlQG_F7bT_Cf8CWFKkNnvw",
