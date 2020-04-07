@@ -114,7 +114,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "https://whythough.bandcamp.com/album/recordings001"
+			"gr": "https://gumroad.com/l/kxqcF"
 		}
 	},
 	{
@@ -159,7 +159,12 @@
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"sp": "https://open.spotify.com/album/28kg42qxUMcQNJEumBssoH?si=IlQG_F7bT_Cf8CWFKkNnvw",
+			"td": "https://tidal.com/browse/album/136540403",
+			"ap": "https://music.apple.com/us/album/true-colors/1506537176",
+			"dz": "https://www.deezer.com/us/album/140262842?deferredFl=1",
+		}
 	},
 	{
 		"name": "Beans",
