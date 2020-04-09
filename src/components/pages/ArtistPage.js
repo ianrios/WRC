@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useLocation, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ArtistPage.scss";
@@ -65,6 +65,15 @@ export default function ArtistPage() {
 		)
 	}
 	const [photoI, setPhotoI] = useState(0)
+	const headData = {
+		title: currArtist.name + " - WRC",
+		shortSiteTitle: `${currArtist.name} Artist Page - WRC`,
+		siteTitle: "WHY? Record Company",
+		url: location.pathname,
+		imgSrc: currArtist.photos[0],
+		description: currArtist.quote,
+		keywords: "why, record, company, music, edm, techno, idm, experimental, label, artist, " + currArtist.name
+	}
 	return (
 		<React.Fragment>
 			<div className="row main-header">
@@ -83,17 +92,7 @@ export default function ArtistPage() {
 			{
 				foundArtist ?
 					<React.Fragment>
-						<Helmet>
-							<title>{currArtist.name + " - WRC"}</title>
-							<meta property="og:title" content={`${currArtist.name} Artist Page - WRC`} />
-							<meta property="og:image" content={currArtist.photos[0]} />
-							<meta
-								name="keywords"
-								property="og:keywords"
-								content={"why, record, company, music, edm, techno, idm, experimental, label, artist, " + currArtist.name}
-							/>
-							<meta name="description" content={currArtist.quote} />
-						</Helmet>
+						<Seo data={headData} />
 						<div className="row">
 							<div className="col-10 offset-1">
 								<div className="row main-body">

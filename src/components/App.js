@@ -3,8 +3,8 @@ import {
 	BrowserRouter,
 	useLocation
 } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import Q from './Q';
+import Seo from './Seo';
 import Navbar from './Navbar';
 import Route from './Routes';
 import Footer from "./Footer";
@@ -28,19 +28,18 @@ function Wrapper() {
 		}
 	}, [pathArr]);
 	const appTitle = "WHY? Record Company".split("").map((i, k) => i === "?" ? <Q size={2} key={k} /> : <span key={k} >{i}</span>)
-
+	const headData = {
+		title: "Home",
+		shortSiteTitle: "WRC",
+		siteTitle: "WHY? Record Company",
+		url: location.pathname,
+		imgSrc: "meta.jpg",
+		description: "WHY? Record Company Homepage",
+		keywords: "why, record, company, music, edm, techno, idm, experimental, label"
+	}
 	return (
 		<div className="App">
-			<Helmet
-				encodeSpecialCharacters={true}
-			>
-				<title>WHY? Record Company</title>
-				<meta property="og:image" content="meta.jpg" />
-				<meta property="og:title" content="WHY? Record Company" />
-				<meta name="keywords" property="og:keywords"
-					content="why, record, company, music, edm, techno, idm, experimental, label" />
-				<meta name="description" content="WHY? Record Company Homepage" />
-			</Helmet>
+			<Seo data={headData} />
 			{viewMain ?
 				<div className="body-grid">
 					<div className="main-image" style={{

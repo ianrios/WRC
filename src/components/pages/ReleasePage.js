@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLocation, Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
@@ -52,7 +52,15 @@ export default function ReleasePage() {
 			})
 		)
 	}
-
+	const headData = {
+		title: currRelease.name + " - WRC",
+		shortSiteTitle: `${currRelease.name} Release Page - WRC`,
+		siteTitle: "WHY? Record Company",
+		url: location.pathname,
+		imgSrc: currRelease.album_art,
+		description: currRelease.release_bio.length > 0 ? currRelease.release_bio[0] : "",
+		keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, " + currRelease.name
+	}
 	return (
 		<React.Fragment>
 			<div className="row main-header">
@@ -63,14 +71,7 @@ export default function ReleasePage() {
 			{
 				foundRelease ?
 					<React.Fragment>
-						<Helmet>
-							<title>{currRelease.name + " - WRC"}</title>
-							<meta property="og:title" content={`${currRelease.name} Release Page - WRC`} />
-							<meta property="og:image" content={currRelease.album_art} />
-							<meta name="keywords" property="og:keywords"
-								content={"why, record, company, music, edm, techno, idm, experimental, label, release, " + currRelease.name} />
-							<meta name="description" content={`${currRelease.name} Release Page - WRC`} />
-						</Helmet>
+						<Seo data={headData} />
 						<div className="row">
 							<div className="col-10 offset-1">
 								<div className="row main-body">
