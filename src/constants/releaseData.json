@@ -1,13 +1,43 @@
 [
 	{
+		"name": "Vacation Home",
+		"local_path": "Vacation-Home",
+		"id": 59,
+		"label_number": "WHY040",
+		"release_type": "WRC",
+		"album_art": "/images/releases/vacationhome.png",
+		"release_date": "2020-05-22T18:25:43.511Z",
+		"genre": "Downtempo",
+		"release_bio": [
+			"The 40th release from WHY? Record Company (WRC) - WHY040",
+			"Debut album \"Vacation Home\" by dyl_pykl (Robert Dylan Smock)",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Featuring Artists: Matyb, whythough?",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": "",
+			"az": "https://www.amazon.com/gp/product/B0885973ZF/ref=dm_ws_sp_ps_dp"
+		}
+	},
+	{
 		"name": "Stopped Raining",
 		"local_path": "stopped-raining",
-		"id": 55,
+		"id": 58,
 		"label_number": "WHY039",
 		"release_type": "WRC",
 		"album_art": "/images/releases/stoppedraining.png",
 		"release_date": "2020-05-01T18:25:43.511Z",
-		"genre": "Drum and Bass",
+		"genre": "Elevator Music",
 		"release_bio": [
 			"The 39th release from WHY? Record Company (WRC) - WHY039",
 			"\"Stopped Raining\" by dyl_pykl (Robert Dylan Smock) is the third and final single from his debut album, Vacation Home",
@@ -20,7 +50,9 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": ""
+			"sc": "https://soundcloud.com/dyl_pykl/stopped-raining-1",
+			"sp": "https://open.spotify.com/track/1rHnSUYWCd0DbflWJQCUiA",
+			"ap": "https://music.apple.com/ca/album/stopped-raining-single/1507311377"
 		}
 	},
 	{
@@ -35,7 +67,7 @@
 		"release_bio": [
 			"The 38th release from WHY? Record Company (WRC) - WHY038",
 			"The 1st WRC release of the year from whythough?",
-			"The \"Eternal Gloop EP\" by whythough? (Ian Rios) is a four track driving trance techno journey consisting of bangers to play at 3AM. You'' hear these songs played right after the scheduled time for the venue to close, while all the people who listen to generic techno leave, the gurners get a chance to make their way to the front to stay for \"One More Song!\" or 20 minutes while the DJ mixes these four tracks into one long final encore.",
+			"The \"Eternal Gloop EP\" by whythough? (Ian Rios) is a four track driving trance techno journey consisting of bangers to play at 3AM. You'll hear these songs played right after the scheduled time for the venue to close, while all the people who listen to generic techno leave, the gurners get a chance to make their way to the front to stay for \"One More Song!\" or 20 minutes while the DJ mixes these four tracks into one long final encore.",
 			"Recorded, Produced, Mixed, and Mastered by whythough?. A WRC Blue Label Release."
 		],
 		"primary_artist_ids": [
@@ -44,7 +76,12 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": ""
+			"bc": "https://whythough.bandcamp.com/album/eternal-gloop",
+			"sp": "https://open.spotify.com/album/1w24MVxPjefZ5X5dNEIM3i?si=hQZjn0u9TP21Ci1Rra-ktQ",
+			"ap": "https://music.apple.com/us/album/eternal-gloop-ep/1507802186",
+			"gp": "https://play.google.com/store/music/album/whythough_Eternal_Gloop?id=Btbb3toursqxwj5gnx2kw3sbhfu&hl=en_US",
+			"az": "https://www.amazon.com/Eternal-Gloop-whythough/dp/B0872J28DL/ref=sr_1_1?dchild=1&keywords=eternal+gloop&qid=1588944006&sr=8-1"
+
 		}
 	},
 	{
@@ -53,7 +90,7 @@
 		"id": 56,
 		"label_number": "GEAR004",
 		"release_type": "Independent",
-		"album_art": "/images/releases/Andamp_lo_res.png",
+		"album_art": "/images/releases/Andamp.png",
 		"release_date": "2020-04-18T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
@@ -67,6 +104,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
+			"sp": "https://open.spotify.com/album/1hhBWnpvWRJemsULPNO9n5",
+			"ap": "https://music.apple.com/us/album/andamp-single/1506523982",
+			"az": "https://www.amazon.com/gp/product/B086SKL82P",
+			"yt": "",
 			"dk": "https://distrokid.com/hyperfollow/whythough/andamp"
 		}
 	},
@@ -91,7 +132,11 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": ""
+			"sc": "https://soundcloud.com/dyl_pykl/cure-1",
+			"sp": "https://open.spotify.com/track/7gfhB74nR1Ke5eFBc99NYV",
+			"ap": "https://music.apple.com/ca/album/cure-single/1502118061",
+			"gp": "https://play.google.com/store/music/album?id=Bowvjwhks6du6u2mgs6z2thcfde&tid=song-Tv7g6xwq5tqus7kzdi7qlzkynea&hl=en_IE",
+			"yt": "https://www.youtube.com/watch?v=jsjkppagz98"
 		}
 	},
 	{
@@ -143,16 +188,17 @@
 	},
 	{
 		"name": "True Colors",
-		"local_path": "True-Colors",
+		"local_path": "true-colors",
 		"id": 52,
 		"label_number": "WHY037",
 		"release_type": "WRC",
 		"album_art": "/images/releases/truecolors.jpg",
 		"release_date": "2020-04-07T18:25:43.511Z",
-		"genre": "",
+		"genre": "Instrumental Hip-Hop",
 		"release_bio": [
 			"The 37th release from WHY? Record Company (WRC) - WHY037",
-			"Debut WRC album \"True Colors\" by Fohrenbach. A 9 track journey across emotions and sound."
+			"Debut WRC album \"True Colors\" by Fohrenbach as well as his first album of 2020.",
+			"Features light, uplifting instrumentals that take the listener across a nine track journey of emotions and sound. Guest artist dyl_pykl playing keyboard on Track 7 \"Ceiling Fan\"."
 		],
 		"primary_artist_ids": [
 			4
@@ -165,7 +211,8 @@
 			"sp": "https://open.spotify.com/album/28kg42qxUMcQNJEumBssoH?si=IlQG_F7bT_Cf8CWFKkNnvw",
 			"td": "https://tidal.com/browse/album/136540403",
 			"ap": "https://music.apple.com/us/album/true-colors/1506537176",
-			"dz": "https://www.deezer.com/us/album/140262842?deferredFl=1"
+			"dz": "https://www.deezer.com/us/album/140262842?deferredFl=1",
+			"yt": "https://www.youtube.com/watch?v=4AMgx68x4v8"
 		}
 	},
 	{

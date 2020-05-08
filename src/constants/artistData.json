@@ -375,30 +375,33 @@
 		"id": 9,
 		"name": "Weeping Sun",
 		"local_path": "Weeping-Sun",
-		"show_on_artist_page": false,
+		"show_on_artist_page": true,
 		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
+			"/images/artists/profiles/weeping-sun.png"
 		],
-		"email": "",
+		"email": "tearsoftheweepingsun@gmail.com",
 		"location": {
-			"city": "",
+			"city": "New Haven",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"Sadness is beautiful\"",
 		"body_paragraphs": [
-			""
+			"I make music sometimes"
 		],
 		"roles": [
-			""
+			"Producer",
+			"Rapper",
+			"Sound Designer",
+			"DJ"
 		],
 		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
+			"tw": "https://twitter.com/TheWeepingSun",
+			"ig": "https://www.instagram.com/theweepingsun/",
+			"fb": "https://www.facebook.com/TheWeepingSun"
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/weeping-sun",
-			"bc": "",
+			"bc": "https://bandcamp.com/weepingsun",
 			"sp": "https://open.spotify.com/artist/56mF4NaRrP5QQo82Ynxupv",
 			"ap": ""
 		}
@@ -701,6 +704,31 @@
 		"social_platforms": {},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/why-record-company"
+		}
+	},
+	{
+		"id": 23,
+		"name": "produceronline",
+		"local_path": "produceronline",
+		"show_on_artist_page": true,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "produceronline@gmail.com",
+		"location": {
+			"city": "producer",
+			"country": "online"
+		},
+		"quote": "\"online now\"",
+		"body_paragraphs": [
+			"producer, online"
+		],
+		"roles": [
+			"producer"
+		],
+		"social_platforms": {},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/produceronline"
 		}
 	}
 ]
