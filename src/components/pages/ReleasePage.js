@@ -34,19 +34,21 @@ export default function ReleasePage() {
 		return (
 			keys.map((item, idx) => {
 				return (
-					<React.Fragment
-						key={idx}
-					>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href={props[item]}>
-							{item}
-						</a>
-						{
-							idx < keys.length - 1 ? " - " : null
-						}
-					</React.Fragment>
+					props[item] ?
+						<React.Fragment
+							key={idx}
+						>
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href={props[item]}>
+								{item}
+							</a>
+							{
+								idx < keys.length - 1 ? " - " : null
+							}
+						</React.Fragment>
+						: null
 
 				)
 			})

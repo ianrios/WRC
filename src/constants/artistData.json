@@ -730,5 +730,30 @@
 		"music_platforms": {
 			"sc": "https://soundcloud.com/produceronline"
 		}
+	},
+	{
+		"id": 24,
+		"name": "robbie gay",
+		"local_path": "robbiegay",
+		"show_on_artist_page": true,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "robbiegay@gmail.com",
+		"location": {
+			"city": "Versailles",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"producer"
+		],
+		"social_platforms": {},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/robbiegay"
+		}
 	}
 ]

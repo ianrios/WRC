@@ -1,8 +1,156 @@
 [
 	{
+		"name": "NITRO (Remixes)",
+		"local_path": "cycle001-club",
+		"id": 64,
+		"label_number": "WHY045",
+		"release_type": "WRC",
+		"album_art": "/images/releases/nitroremix.png",
+		"release_date": "2020-06-26T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 46th release from WHY Record Company (WRC) - WHY046",
+			"\"NITRO (Remixes)\" by whythough? (Ian Rios)",
+			"Remixes by dyl_pykl, RetiredOrphan, & robbiegay",
+			"Mastered by Ian Rios",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			2,
+			13,
+			24
+		],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "CYCLE001: GRIEF (Club Mixes)",
+		"local_path": "cycle001-club",
+		"id": 64,
+		"label_number": "WHY045",
+		"release_type": "WRC",
+		"album_art": "/images/releases/cycle001club.png",
+		"release_date": "2020-06-26T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 45th release from WHY Record Company (WRC) - WHY045",
+			"\"CYCLE001: GRIEF (Club Mixes)\" by whythough? (Ian Rios)",
+			"Recorded, Produced, Mixed & Mastered by Ian Rios",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "Corrupted Data",
+		"local_path": "corrupted-data",
+		"id": 63,
+		"label_number": "WHY044",
+		"release_type": "WRC",
+		"album_art": "/images/releases/blcd.png",
+		"release_date": "2020-06-19T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 44th release from WHY Record Company (WRC) - WHY044",
+			"\"Corrupted Data\" by dyl_pykl (Robert Dylan Smock) & whythough? (Ian Rios)",
+			"Recorded and Produced by Robert Dylan Smock and Ian Rios",
+			"Mixed & Mastered by Ian Rios",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1,
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "June Evening",
+		"local_path": "blje",
+		"id": 62,
+		"label_number": "WHY043",
+		"release_type": "WRC",
+		"album_art": "/images/releases/blje.png",
+		"release_date": "2020-06-12T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 43rd release from WHY Record Company (WRC) - WHY043",
+			"\"June Evening\" by whythough? (Ian Rios)",
+			"Recorded, Produced, Mixed & Mastered by Ian Rios",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "Look In Your Eyes",
+		"local_path": "liye",
+		"id": 61,
+		"label_number": "WHY042",
+		"release_type": "WRC",
+		"album_art": "/images/releases/liye.png",
+		"release_date": "2020-06-05T18:25:43.511Z",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			"The 42nd release from WHY Record Company (WRC) - WHY042",
+			"\"Look In Your Eyes\" by whythough? (Ian Rios)",
+			"Songwriting and Recording by Dear Evergreen",
+			"Produced, Mixed, & Mastered by Ian Rios",
+			"Remixes by dyl_pykl, DJ Yunomi, & ofoot",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			2,
+			10,
+			8
+		],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "Vacation Home",
 		"local_path": "Vacation-Home",
-		"id": 59,
+		"id": 60,
 		"label_number": "WHY040",
 		"release_type": "WRC",
 		"album_art": "/images/releases/vacationhome.png",
@@ -24,9 +172,36 @@
 		"links": {
 			"sc": "",
 			"bc": "",
-			"sp": "",
-			"ap": "",
+			"sp": "https://open.spotify.com/album/5bad7aEVb5TSWnrCKIjfvf?si=4ElHJMp5R-26-7fo5bI1wg",
+			"ap": "https://music.apple.com/ca/album/vacation-home/1511804903",
 			"az": "https://www.amazon.com/gp/product/B0885973ZF/ref=dm_ws_sp_ps_dp"
+		}
+	},
+	{
+		"name": "Venice Bitch (whythough? x dyl_pykl Remix)",
+		"local_path": "Venice-Bitch",
+		"id": 59,
+		"label_number": "WHY041",
+		"release_type": "WRC",
+		"album_art": "/images/releases/venice-bitch.png",
+		"release_date": "2020-05-15T18:25:43.511Z",
+		"genre": "trap",
+		"release_bio": [
+			"The 41st release from WHY? Record Company (WRC) - WHY041",
+			"Remix of Lana Del Rey - \"Venice Bitch\" by dyl_pykl (Robert Dylan Smock) & whythough? (Ian Rios)",
+			"Vocals and Original Production by Lana Del Rey",
+			"Remix Produced and Mixed by Robert Dylan Smock & Ian Rios",
+			"Mastered by Ian Rios",
+			"Artwork originally by Lana Del Rey, modified by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1,
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/produceronline/venice-bitch"
 		}
 	},
 	{
@@ -42,7 +217,8 @@
 			"The 39th release from WHY? Record Company (WRC) - WHY039",
 			"\"Stopped Raining\" by dyl_pykl (Robert Dylan Smock) is the third and final single from his debut album, Vacation Home",
 			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered by Ian Rios (whythough?)"
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
 		],
 		"primary_artist_ids": [
 			2
@@ -68,7 +244,8 @@
 			"The 38th release from WHY? Record Company (WRC) - WHY038",
 			"The 1st WRC release of the year from whythough?",
 			"The \"Eternal Gloop EP\" by whythough? (Ian Rios) is a four track driving trance techno journey consisting of bangers to play at 3AM. You'll hear these songs played right after the scheduled time for the venue to close, while all the people who listen to generic techno leave, the gurners get a chance to make their way to the front to stay for \"One More Song!\" or 20 minutes while the DJ mixes these four tracks into one long final encore.",
-			"Recorded, Produced, Mixed, and Mastered by whythough?. A WRC Blue Label Release."
+			"Recorded, Produced, Mixed, and Mastered by whythough?. A WRC Blue Label Release.",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -81,7 +258,6 @@
 			"ap": "https://music.apple.com/us/album/eternal-gloop-ep/1507802186",
 			"gp": "https://play.google.com/store/music/album/whythough_Eternal_Gloop?id=Btbb3toursqxwj5gnx2kw3sbhfu&hl=en_US",
 			"az": "https://www.amazon.com/Eternal-Gloop-whythough/dp/B0872J28DL/ref=sr_1_1?dchild=1&keywords=eternal+gloop&qid=1588944006&sr=8-1"
-
 		}
 	},
 	{
@@ -96,7 +272,8 @@
 		"release_bio": [
 			"The 4th release from GEAR Techno Collective.",
 			"\"Andamp\" by whythough? (Ian Rios) is his debut single on GEAR and his first original release of the year.",
-			"Recorded, Produced, Mixed, and Mastered by whythough?."
+			"Recorded, Produced, Mixed, and Mastered by whythough?.",
+			"Artwork by Rafael Khan"
 		],
 		"primary_artist_ids": [
 			1
@@ -124,7 +301,8 @@
 			"The 36th release from WHY? Record Company (WRC) - WHY036",
 			"\"Cure\" by dyl_pykl (Robert Dylan Smock) is the second single from his debut album, Vacation Home",
 			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered by Ian Rios (whythough?)"
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
 		],
 		"primary_artist_ids": [
 			2
@@ -151,7 +329,8 @@
 		"release_bio": [
 			"The first release from the RECORDINGS WRC imprint.",
 			"Sample pack of basses, drums, leads, textures, and of course, field recordings.",
-			"Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)"
+			"Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -175,7 +354,8 @@
 			"Mixed by Ian Rios (whythough?)",
 			"WHY? Record Company brings yet another front to their recent onslaught of releases with WRC MIX 003 brought to you by whythough? and planned to be premiered on the WRPI radio station on March 13th, 2020. This mix features the best techno of the moment including WRC and WRC Blue Label favorites such as dyl_pykl, Katie Hoffstatter, MatyB, and over one hour of unreleased exclusives from label boss whythough?.",
 			"Tracklist:",
-			"whythough? - ID __BREAK__ Enigma - Principles of Lust __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Katie Hoffstatter, dyl_pykl, Matyb - He Called Me Beautiful (dyl_pykl 6 AM Half Dead Remix) __BREAK__ whythough? - ID __BREAK__ DJ Tennis - I can Tell __BREAK__ Âme - Helliconia (Marcel Dettmann Remix) __BREAK__ DVS1 - Black Russian __BREAK__ ⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ - ʅ͡͡͡͡͡͡͡͡͡͡͡(ƟӨ)ʃ͡͡͡͡͡͡͡͡͡͡ ꐑ(ཀ ඊູ ఠీੂ೧ູ࿃ूੂ✧✧✧✧✧✧ළඕั࿃ूੂ࿃ूੂ __BREAK__ Nina Kraviz - Da __BREAK__ Vladimir Dubyshkin - Lady of the Night __BREAK__ Lxury - Sins.00 __BREAK__ Blindsmyth - Traffic Lights __BREAK__ Indian Wells - Wimbledon 1980 __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Reeko - Nervous Idiots in the Bar __BREAK__ whythough? - ID __BREAK__ TRG - Surreal (5 AM) __BREAK__ whythough? - ID __BREAK__ PTU - Black Smokers __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Panthera Krause - Birthday Club (Real Club Version) __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Margo Guryan - Why Do I Cry"
+			"whythough? - ID __BREAK__ Enigma - Principles of Lust __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Katie Hoffstatter, dyl_pykl, Matyb - He Called Me Beautiful (dyl_pykl 6 AM Half Dead Remix) __BREAK__ whythough? - ID __BREAK__ DJ Tennis - I can Tell __BREAK__ Âme - Helliconia (Marcel Dettmann Remix) __BREAK__ DVS1 - Black Russian __BREAK__ ⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ - ʅ͡͡͡͡͡͡͡͡͡͡͡(ƟӨ)ʃ͡͡͡͡͡͡͡͡͡͡ ꐑ(ཀ ඊູ ఠీੂ೧ູ࿃ूੂ✧✧✧✧✧✧ළඕั࿃ूੂ࿃ूੂ __BREAK__ Nina Kraviz - Da __BREAK__ Vladimir Dubyshkin - Lady of the Night __BREAK__ Lxury - Sins.00 __BREAK__ Blindsmyth - Traffic Lights __BREAK__ Indian Wells - Wimbledon 1980 __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Reeko - Nervous Idiots in the Bar __BREAK__ whythough? - ID __BREAK__ TRG - Surreal (5 AM) __BREAK__ whythough? - ID __BREAK__ PTU - Black Smokers __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Panthera Krause - Birthday Club (Real Club Version) __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Margo Guryan - Why Do I Cry",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
 			1
@@ -198,7 +378,8 @@
 		"release_bio": [
 			"The 37th release from WHY? Record Company (WRC) - WHY037",
 			"Debut WRC album \"True Colors\" by Fohrenbach as well as his first album of 2020.",
-			"Features light, uplifting instrumentals that take the listener across a nine track journey of emotions and sound. Guest artist dyl_pykl playing keyboard on Track 7 \"Ceiling Fan\"."
+			"Features light, uplifting instrumentals that take the listener across a nine track journey of emotions and sound. Guest artist dyl_pykl playing keyboard on Track 7 \"Ceiling Fan\".",
+			"Artwork by Robert Fohrenbach"
 		],
 		"primary_artist_ids": [
 			4
@@ -228,7 +409,8 @@
 			"The 35th release from WHY? Record Company (WRC) - WHY035",
 			"\"Beans\" by dyl_pykl (Robert Dylan Smock) is the first single from his debut album, Vacation Home",
 			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered by Ian Rios (whythough?)"
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
 		],
 		"primary_artist_ids": [
 			2
@@ -257,7 +439,8 @@
 			"\"He Called Me Beautiful\" by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
 			"Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
 			"Mixed by Robert Dylan Smock & Ian Rios",
-			"Mastered by Ian Rios (whythough?)"
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Katie Hoffstatter"
 		],
 		"primary_artist_ids": [
 			14,
