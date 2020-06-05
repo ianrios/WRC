@@ -65,7 +65,7 @@ export default function ArtistPage() {
 		)
 	}
 	const [photoI, setPhotoI] = useState(0)
-	const headData = {
+	const headData = foundArtist ? {
 		title: currArtist.name + " - WRC",
 		shortSiteTitle: `${currArtist.name} Artist Page - WRC`,
 		siteTitle: "WHY? Record Company",
@@ -73,7 +73,15 @@ export default function ArtistPage() {
 		imgSrc: currArtist.photos[0],
 		description: currArtist.quote,
 		keywords: "why, record, company, music, edm, techno, idm, experimental, label, artist, " + currArtist.name
-	}
+	} : {
+			title: "Error Page not found - WRC",
+			shortSiteTitle: `Collection page not found - WRC`,
+			siteTitle: "WHY? Record Company",
+			url: location.pathname,
+			imgSrc: "error.jpg",
+			description: "",
+			keywords: "why, record, company, page not found"
+		}
 	return (
 		<React.Fragment>
 			<div className="row main-header">

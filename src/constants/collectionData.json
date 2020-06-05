@@ -1,59 +1,73 @@
-{
-	"Independent": {
+[
+	{
+		"short_title": "Independent",
 		"title": "Independent Releases",
 		"paragraphs": [
 			"Our artists release music on many labels, not just WRC. We also encourage them to release on their own even if a label does not pick up their music.",
 			"We are happy to showcase the hard work of each artist, even before they join WRC, and also after they leave if they decide to keep releasing, we will continue to promote their work.",
 			"Take a listen to some tracks released artists independently from WHY? Record Company."
 		],
-		"links": []
+		"links": [],
+		"local_path": "independent"
 	},
-	"WRC": {
+	{
+		"short_title": "WRC",
 		"title": "WRC Official",
 		"paragraphs": [
 			"All Official WHY? Record Company Releases go here. This page is the same as the main releases page, but has some more information about the label."
 		],
-		"links": []
+		"links": [],
+		"local_path": "WRC"
 	},
-	"Blue Label": {
+	{
+		"short_title": "Blue Label",
 		"title": "Blue Label Releases",
 		"paragraphs": [
 			"The WRC Blue Label imprint is a dedicated place where techno, house, and 4 on the floor belongs. Ranging from singles to albums, the one unifying feature this series has is a simple requirement; a hard-hitting kick drum that keeps the listener locked in.",
 			"Best listened to in the club at 3am, WRC takes pride in releasing techno into the underground. Our listeners can always expect a good time when the DJ puts one of these songs on."
 		],
-		"links": []
+		"links": [],
+		"local_path": "blue-label"
 	},
-	"PLAYLIST": {
+	{
+		"short_title": "PLAYLIST",
 		"title": "Playlists",
 		"paragraphs": [
 			"Our preferred platform is Spotify, as we optimize our mixdowns and masters for streaming on that platform. Because of our investment in the Spotify App, we like to showcase our releases there as well, utilizing the playlist format.",
 			"We have many playlists, mainly featuring our own music, but others include songs that inspire our artists as well."
 		],
-		"links": []
+		"links": [],
+		"local_path": "playlists"
 	},
-	"CYCLE": {
+	{
+		"short_title": "CYCLE",
 		"title": "CYCLE Artist Showcases",
 		"paragraphs": [
 			"By fusing the power of online streaming with the immersiveness of live DJ mix albums, WHY? Record Company presents the CYCLE series: a loopable mix album that allows the listener to play on repeat, starting at any point in time, ending whenever.",
 			"Each CYCLE album takes a look into an artists mind, letting them express themselves freely and in whichever way they would prefer. These albums can be quite experimental due to the very nature of the forced medium. In the past we have had 20 minute ambient live spoken word recordings, mixed with modular synthesis, and topped off with prepared piano.",
 			"Only one rule exists: the music must never stop."
 		],
-		"links": []
+		"links": [],
+		"local_path": "CYCLE"
 	},
-	"RECORDINGS": {
+	{
+		"short_title": "RECORDINGS",
 		"title": "Sample Packs",
 		"paragraphs": [
 			"Most of our artists are also sound designers at heart. It's perfectly ok to use a preset or someone elses samples, but we have found the music making process to be even more fun when we create our own sounds.",
 			"To give back to the community, we offer our samples royalty free and in neat installments based on a specific artist. These sounds can range anywhere from live cuts of instrument and synth recordings, soft synth patches and presets, and ambient foley recorded whilst taking a walk through a park. We try to stay current and create new and interesting sounds that everyone can use, as well as cutting, mastering, and running our samples through mixed in key, for a quick and speedy workflow.",
 			"Most of our artists may have a 'WRC' sound because of this, and we embrace it. 'Brand Unity', as they say"
 		],
-		"links": []
+		"links": [],
+		"local_path": "RECORDINGS"
 	},
-	"MIX": {
+	{
+		"short_title": "MIX",
 		"title": "DJ Mixes",
 		"paragraphs": [
 			"Most of our artists are DJs as well as producers, so we occasionally record their performances and post them here. If a certain mix features WRC artists, we note that fact on the front cover of the artwork for the mix. Usually, these mixes contain unreleased exclusives, possibly never to be released..."
 		],
-		"links": []
+		"links": [],
+		"local_path": "MIX"
 	}
-}
+]

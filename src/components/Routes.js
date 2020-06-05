@@ -5,15 +5,16 @@ import {
 
 } from "react-router-dom";
 import Artists from './pages/Artists';
+import ArtistPage from "./pages/ArtistPage";
+import Collections from './pages/Collections';
+import CollectionPage from "./pages/CollectionPage";
 import Releases from './pages/Releases';
+import ReleasePage from "./pages/ReleasePage";
 import Services from './pages/Services';
 import Store from './pages/Merchandise';
 import Atlas from './pages/Atlas';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Collections from './pages/Collections';
-import ReleasePage from "./pages/ReleasePage";
-import ArtistPage from "./pages/ArtistPage";
 import ReloadPage from "./pages/Reload";
 import CookiePolicy from "./pages/CookiePolicy";
 import ComingSoon from "./pages/ComingSoon";
@@ -28,8 +29,20 @@ export default function Routes() {
 			<Route path="/artists">
 				<Artists />
 			</Route>
+			<Route path="/artist/*">
+				<ArtistPage />
+			</Route>
+			<Route path="/collections">
+				<Collections />
+			</Route>
+			<Route path="/collection/*">
+				<CollectionPage />
+			</Route>
 			<Route path="/releases">
 				<Releases />
+			</Route>
+			<Route path="/release/*">
+				<ReleasePage />
 			</Route>
 			<Route path="/services">
 				<Services />
@@ -42,15 +55,6 @@ export default function Routes() {
 			</Route>
 			<Route path="/atlas">
 				<Atlas />
-			</Route>
-			<Route path="/collections">
-				<Collections />
-			</Route>
-			<Route path="/artist/*">
-				<ArtistPage />
-			</Route>
-			<Route path="/release/*">
-				<ReleasePage />
 			</Route>
 			<Route path="/hard-reload">
 				<ReloadPage />

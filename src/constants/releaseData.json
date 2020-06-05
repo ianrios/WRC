@@ -1,7 +1,7 @@
 [
 	{
 		"name": "NITRO (Remixes)",
-		"local_path": "cycle001-club",
+		"local_path": "NITRO-Remixes",
 		"id": 64,
 		"label_number": "WHY045",
 		"release_type": "WRC",
@@ -108,8 +108,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "",
+			"bc": "https://whythough.bandcamp.com/album/june-evening",
 			"sp": "",
 			"ap": ""
 		}
@@ -121,7 +120,7 @@
 		"label_number": "WHY042",
 		"release_type": "WRC",
 		"album_art": "/images/releases/liye.png",
-		"release_date": "2020-06-05T18:25:43.511Z",
+		"release_date": "2020-06-25T18:25:43.511Z",
 		"genre": "Drum and Bass",
 		"release_bio": [
 			"The 42nd release from WHY Record Company (WRC) - WHY042",
@@ -141,10 +140,10 @@
 			8
 		],
 		"links": {
-			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"sc": "https://soundcloud.com/whythough/sets/look-in-your-eyes",
+			"bc": "https://whythough.bandcamp.com/album/look-in-your-eyes",
+			"sp": "https://open.spotify.com/album/1oAMCZlWB01X3fDpFUTlpv",
+			"ap": "https://music.apple.com/us/album/look-in-your-eyes-ep/1514462673"
 		}
 	},
 	{
