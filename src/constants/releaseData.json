@@ -26,7 +26,7 @@
 		],
 		"links": {
 			"sc": "",
-			"bc": "",
+			"bc": "https://whythough.bandcamp.com/album/nitro-remixes",
 			"sp": "",
 			"ap": ""
 		}
@@ -52,8 +52,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "",
+			"bc": "https://whythough.bandcamp.com/album/cycle001-grief-club-mixes",
 			"sp": "",
 			"ap": ""
 		}
@@ -81,10 +80,9 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://whythough.bandcamp.com/album/corrupted-data",
+			"sp": "https://open.spotify.com/album/36HK7HPmHPyhsXsovWdr5S?si=ba1TgZyGSCetpJ7lDWuOEw",
+			"ap": "https://music.apple.com/us/album/corrupted-data-ep/1515600814"
 		}
 	},
 	{
