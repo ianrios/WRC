@@ -733,7 +733,7 @@
 	},
 	{
 		"id": 24,
-		"name": "robbie gay",
+		"name": "robbiegay",
 		"local_path": "robbiegay",
 		"show_on_artist_page": true,
 		"photos": [
@@ -754,6 +754,31 @@
 		"social_platforms": {},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/robbiegay"
+		}
+	},
+	{
+		"id": 25,
+		"name": "Shell Artist",
+		"local_path": "shell-artist",
+		"show_on_artist_page": true,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "Lexington",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"producer"
+		],
+		"social_platforms": {},
+		"music_platforms": {
+			"sc": ""
 		}
 	}
 ]
