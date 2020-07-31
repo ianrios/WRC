@@ -27,8 +27,11 @@
 		"links": {
 			"sc": "https://soundcloud.com/whythough/sets/nitro-remixes",
 			"bc": "https://whythough.bandcamp.com/album/nitro-remixes",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/album/2QoBb8U2PQsFc1bFpDCjwf",
+			"ap": "https://music.apple.com/us/album/nitro-ep-remixes/1525775151",
+			"gp": "https://play.google.com/store/music/album/whythough_NITRO_Remixes?id=Btmxura6sfhlfte7crv23ismaae&hl=en_US",
+			"az": "https://www.amazon.com/dp/B08F179CYF/ref=sr_1_1?dchild=1&keywords=nitro+whythough&qid=1596200189&sr=8-1",
+			"yt": "https://www.youtube.com/watch?v=VDxjnB3OfCg&list=OLAK5uy_nSH3mDVnFgkP1dm1I-kS1nmtqvMmaEhcI"
 		}
 	},
 	{
