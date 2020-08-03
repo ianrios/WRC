@@ -737,23 +737,30 @@
 		"local_path": "robbiegay",
 		"show_on_artist_page": true,
 		"photos": [
-			"/images/releases/WRC.jpg"
+			"/images/artists/profiles/robbiegay_4x6.jpg"
 		],
-		"email": "robbiegay@gmail.com",
+		"email": "robbiegaymedia@gmail.com",
 		"location": {
 			"city": "Versailles",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"One impulse from a vernal wood / May teach you more of man, / Of moral evil and of good, / Than all the sages can.\"",
 		"body_paragraphs": [
-			""
+			"Software developer and laptop musician. Occasional host of the \"Bedroom Productions\" talk show."
 		],
 		"roles": [
 			"producer"
 		],
-		"social_platforms": {},
+		"social_platforms": {
+			"ra":"https://www.robbiegay.art/music",
+			"ig":"https://www.instagram.com/robbiegay/"
+
+		},
 		"music_platforms": {
-			"sc": "https://soundcloud.com/robbiegay"
+			"sc": "https://soundcloud.com/robbiegay",
+			"bc":"https://robbiegay.bandcamp.com/",
+			"sp":"https://open.spotify.com/artist/3qNg01UJiLcqaPPWVlsdwc",
+			"yt":"https://www.youtube.com/robbiegay"
 		}
 	},
 	{
