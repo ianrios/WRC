@@ -372,6 +372,37 @@
 		}
 	},
 	{
+		"id": 24,
+		"name": "robbiegay",
+		"local_path": "robbiegay",
+		"show_on_artist_page": true,
+		"photos": [
+			"/images/artists/profiles/robbiegay_4x6.jpg"
+		],
+		"email": "robbiegaymedia@gmail.com",
+		"location": {
+			"city": "Versailles",
+			"country": "USA"
+		},
+		"quote": "\"One impulse from a vernal wood / May teach you more of man, / Of moral evil and of good, / Than all the sages can.\"",
+		"body_paragraphs": [
+			"Software developer and laptop musician. Occasional host of the \"Bedroom Productions\" talk show."
+		],
+		"roles": [
+			"producer"
+		],
+		"social_platforms": {
+			"ra": "https://www.robbiegay.art/music",
+			"ig": "https://www.instagram.com/robbiegay/"
+		},
+		"music_platforms": {
+			"sc": "https://soundcloud.com/robbiegay",
+			"bc": "https://robbiegay.bandcamp.com/",
+			"sp": "https://open.spotify.com/artist/3qNg01UJiLcqaPPWVlsdwc",
+			"yt": "https://www.youtube.com/robbiegay"
+		}
+	},
+	{
 		"id": 9,
 		"name": "Weeping Sun",
 		"local_path": "Weeping-Sun",
@@ -732,38 +763,6 @@
 		}
 	},
 	{
-		"id": 24,
-		"name": "robbiegay",
-		"local_path": "robbiegay",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/robbiegay_4x6.jpg"
-		],
-		"email": "robbiegaymedia@gmail.com",
-		"location": {
-			"city": "Versailles",
-			"country": "USA"
-		},
-		"quote": "\"One impulse from a vernal wood / May teach you more of man, / Of moral evil and of good, / Than all the sages can.\"",
-		"body_paragraphs": [
-			"Software developer and laptop musician. Occasional host of the \"Bedroom Productions\" talk show."
-		],
-		"roles": [
-			"producer"
-		],
-		"social_platforms": {
-			"ra":"https://www.robbiegay.art/music",
-			"ig":"https://www.instagram.com/robbiegay/"
-
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/robbiegay",
-			"bc":"https://robbiegay.bandcamp.com/",
-			"sp":"https://open.spotify.com/artist/3qNg01UJiLcqaPPWVlsdwc",
-			"yt":"https://www.youtube.com/robbiegay"
-		}
-	},
-	{
 		"id": 25,
 		"name": "Shell Artist",
 		"local_path": "shell-artist",
@@ -817,7 +816,7 @@
 		"id": 27,
 		"name": "new4",
 		"local_path": "new4",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -842,7 +841,7 @@
 		"id": 28,
 		"name": "new1",
 		"local_path": "new1",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -867,7 +866,7 @@
 		"id": 29,
 		"name": "new2",
 		"local_path": "new2",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -892,7 +891,7 @@
 		"id": 30,
 		"name": "new3",
 		"local_path": "new3",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
