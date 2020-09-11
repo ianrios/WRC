@@ -32,7 +32,7 @@
 		"release_type": "WRC",
 		"album_art": "/images/releases/Devotion-min.png",
 		"release_date": "2020-10-02T18:25:43.511Z",
-		"genre": "Techno",
+		"genre": "Wave",
 		"release_bio": [
 			"The 49th release from WHY Record Company (WRC) - WHY049",
 			"\"Devotion\" by svnteen",
@@ -55,7 +55,7 @@
 		"release_type": "WRC",
 		"album_art": "/images/releases/Desperation-min.png",
 		"release_date": "2020-09-04T18:25:43.511Z",
-		"genre": "Techno",
+		"genre": "Wave",
 		"release_bio": [
 			"The 48th release from WHY Record Company (WRC) - WHY048",
 			"\"Desperation\" by svnteen",
@@ -69,10 +69,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc":"https://soundcloud.com/svnteen/desperation",
-			"sp":"https://open.spotify.com/track/4gokRB60YZ3JVNFnjoldpY",
-			"ap":"https://music.apple.com/us/album/desperation/1528984712?i=1528984713",
-			"yt":"https://www.youtube.com/watch?v=l4fxxMH6A_M"
+			"sc": "https://soundcloud.com/svnteen/desperation",
+			"sp": "https://open.spotify.com/track/4gokRB60YZ3JVNFnjoldpY",
+			"ap": "https://music.apple.com/us/album/desperation/1528984712?i=1528984713",
+			"yt": "https://www.youtube.com/watch?v=l4fxxMH6A_M"
 		}
 	},
 	{
@@ -83,7 +83,7 @@
 		"release_type": "WRC",
 		"album_art": "/images/releases/nitroremix.png",
 		"release_date": "2020-07-17T18:25:43.511Z",
-		"genre": "Techno",
+		"genre": "Dubstep",
 		"release_bio": [
 			"The 46th release from WHY Record Company (WRC) - WHY046",
 			"\"NITRO (Remixes)\" by whythough? (Ian Rios)",
