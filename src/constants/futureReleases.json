@@ -1,0 +1,34 @@
+[{
+    "name": "????",
+    "local_path": "????",
+    "id": 1,
+    "label_number": "WHY047",
+    "release_type": "WRC",
+    "album_art": "/images/releases/????.png",
+    "release_date": "2020-0?-??T18:25:43.511Z",
+    "genre": "????",
+    "release_bio": [
+        "The 47th release from WHY Record Company (WRC) - WHY047"
+    ],
+    "primary_artist_ids": [],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {}
+},
+{
+    "name": "He Called Me Beautiful (Remixes)",
+    "local_path": "hcmb-remixes",
+    "id": 1,
+    "label_number": "WHY052",
+    "release_type": "WRC",
+    "album_art": "/images/releases/hcmb-remixes.png",
+    "release_date": "2020-0?-??T18:25:43.511Z",
+    "genre": "????",
+    "release_bio": [
+        "The 52nd release from WHY Record Company (WRC) - WHY052"
+    ],
+    "primary_artist_ids": [],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {}  
+}]

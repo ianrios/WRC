@@ -1,9 +1,78 @@
 [
 	{
+		"name": "Pulse Artist Collective",
+		"local_path": "WHYPLAY003",
+		"id": 71,
+		"label_number": "WHYPLAY003",
+		"release_type": "PLAYLIST",
+		"album_art": "/images/releases/pulse-playlist-min.png",
+		"release_date": "2017-09-24T18:25:44.511Z",
+		"genre": "Electronic Music",
+		"release_bio": [
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": ""
+		}
+	},
+	{
+		"name": "WRC MIX 004",
+		"local_path": "MIX004",
+		"id": 70,
+		"label_number": "WHYMIX004",
+		"release_type": "MIX",
+		"album_art": "/images/releases/MIX004.png",
+		"release_date": "2020-09-24T18:25:44.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"Matyb brings another headed mix featuring his newest 'Tech Demo' EP on the blue label. Click on Matyb's artist profile to see all previous and future releases!",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			11
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"mc": "",
+			"sc": ""
+		}
+	},
+	{
+		"name": "Tech Demo EP",
+		"local_path": "bl-td",
+		"id": 69,
+		"label_number": "WHY051",
+		"release_type": "WRC",
+		"album_art": "/images/releases/tech-demo.png",
+		"release_date": "2020-09-25T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 51th release from WHY Record Company (WRC) - WHY050",
+			"\"Tech Demo EP\" by Matyb",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Matyb (Matt Benjamin)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			11
+		],
+		"secondary_artist_ids": [
+			2
+		],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "https://open.spotify.com/album/5FJLhMKYTpn5HSJUO7pUyn",
+			"ap": "https://music.apple.com/us/album/tech-demo-ep/1533305014"
+		}
+	},
+	{
 		"name": "DUO EP",
 		"local_path": "DUO",
 		"id": 68,
-		"label_number": "WHY049",
+		"label_number": "WHY050",
 		"release_type": "WRC",
 		"album_art": "/images/releases/DUO-art-min-min.png",
 		"release_date": "2020-10-16T18:25:43.511Z",
@@ -28,7 +97,7 @@
 		"name": "Devotion",
 		"local_path": "Devotion",
 		"id": 67,
-		"label_number": "WHY048",
+		"label_number": "WHY049",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Devotion-min.png",
 		"release_date": "2020-10-02T18:25:43.511Z",
@@ -45,13 +114,18 @@
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"sp":"https://open.spotify.com/track/3CCJJqHThA34HRp4hoXzex?si=-xjWPZYkTlizYDMTUvc78g",
+			"ap":"https://music.apple.com/us/album/devotion-single/1528984947",
+			"yt":"https://www.youtube.com/watch?v=_kunYcMPY0E",
+			"sc":"https://soundcloud.com/svnteen/devotion"
+		}
 	},
 	{
 		"name": "Desperation",
 		"local_path": "Desperation",
 		"id": 66,
-		"label_number": "WHY047",
+		"label_number": "WHY048",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Desperation-min.png",
 		"release_date": "2020-09-04T18:25:43.511Z",
