@@ -72,7 +72,7 @@ export default function Atlas() {
 	// nivo
 	console.log(data)
 	return (
-		<React.Fragment>
+		<>
 			<div className="row main-header">
 				<div className="col nivo-wrapper">
 					<h1 className="header-sub-page">Atlas</h1>
@@ -109,6 +109,6 @@ export default function Atlas() {
 					/> */}
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	)
 }

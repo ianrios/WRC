@@ -35,9 +35,8 @@ export default function ReleasePage() {
 			keys.map((item, idx) => {
 				return (
 					props[item] ?
-						<React.Fragment
-							key={idx}
-						>
+						<React.Fragment key={idx}>
+
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
@@ -72,7 +71,7 @@ export default function ReleasePage() {
 			keywords: "why, record, company, page not found"
 		}
 	return (
-		<React.Fragment>
+		<>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-sub-page">{foundRelease ? currRelease.name : <>could not locate release page<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/releases"}> Main Releases Page</Link></p></>}</h1>
@@ -80,7 +79,7 @@ export default function ReleasePage() {
 			</div>
 			{
 				foundRelease ?
-					<React.Fragment>
+					<>
 						<Seo data={headData} />
 						<div className="row">
 							<div className="col-10 offset-1">
@@ -110,7 +109,7 @@ export default function ReleasePage() {
 											}
 										</div>
 										{currRelease.secondary_artist_ids.length > 0 ?
-											<React.Fragment>
+											<>
 												<h4 className="release-page-h4">
 													{`Additional Artist${currRelease.secondary_artist_ids.length > 1 ? "s" : ""}`}
 												</h4>
@@ -133,13 +132,13 @@ export default function ReleasePage() {
 														)
 													}
 												</div>
-											</React.Fragment>
+											</>
 											: null
 										}
 
 
 										{currRelease.remix_artist_ids.length > 0 ?
-											<React.Fragment>
+											<>
 												<h4 className="release-page-h4">
 													{`Remixer${currRelease.remix_artist_ids.length > 1 ? "s" : ""}`}
 												</h4>
@@ -162,7 +161,7 @@ export default function ReleasePage() {
 														)
 													}
 												</div>
-											</React.Fragment>
+											</>
 											: null
 										}
 
@@ -197,11 +196,11 @@ export default function ReleasePage() {
 									</div>
 								</div>
 							</div>
-						</div>
-					</React.Fragment>
+						</div >
+					</>
 					:
 					null
 			}
-		</React.Fragment>
+		</>
 	)
 }

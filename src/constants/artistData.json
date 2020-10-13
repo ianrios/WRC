@@ -745,14 +745,15 @@
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
-		"email": "produceronline@gmail.com",
+		"email": "produceronline@gmail.com || produceronline@whyrecord.com",
 		"location": {
 			"city": "producer",
 			"country": "online"
 		},
 		"quote": "\"online now\"",
 		"body_paragraphs": [
-			"producer, online"
+			"producer, online",
+			"an ian rios and dylan smock project"
 		],
 		"roles": [
 			"producer"
@@ -770,21 +771,23 @@
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
-		"email": "",
+		"email": "shellartist@whyrecord.com",
 		"location": {
 			"city": "Lexington",
 			"country": "USA"
 		},
 		"quote": "\"\"",
 		"body_paragraphs": [
-			""
+			"A shell musician is an artist that's created to generate funds and farm listeners through different streaming services. Unlike traditional artists, shell musicians don't have shows and aren't interested in publicity. Shell artists do not provide listeners with music of any substantial length of time to enjoy in order to milk streaming algorithms for profits.",
+			"an ian rios project"
 		],
 		"roles": [
 			"producer"
 		],
 		"social_platforms": {},
 		"music_platforms": {
-			"sc": ""
+			"sc": "https://soundcloud.com/shellartist",
+			"bc": "https://shellartist.bandcamp.com/"
 		}
 	},
 	{
@@ -795,7 +798,7 @@
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
-		"email": "",
+		"email": "washandfoldlaundryservice@whyrecord.com",
 		"location": {
 			"city": "Lexington",
 			"country": "USA"
@@ -809,18 +812,18 @@
 		],
 		"social_platforms": {},
 		"music_platforms": {
-			"sc": ""
+			"sc": "https://soundcloud.com/washandfoldlaundryservice"
 		}
 	},
 	{
 		"id": 27,
-		"name": "new4",
-		"local_path": "new4",
+		"name": "Sub Pump",
+		"local_path": "subpump",
 		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
-		"email": "",
+		"email": "subpump@whyrecord.com",
 		"location": {
 			"city": "Lexington",
 			"country": "USA"
@@ -834,7 +837,7 @@
 		],
 		"social_platforms": {},
 		"music_platforms": {
-			"sc": ""
+			"sc": "https://soundcloud.com/subpump"
 		}
 	},
 	{
@@ -889,18 +892,18 @@
 	},
 	{
 		"id": 30,
-		"name": "new3",
-		"local_path": "new3",
+		"name": "No",
+		"local_path": "No",
 		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
 		"email": "",
 		"location": {
-			"city": "Lexington",
+			"city": "Phoenix",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"No\"",
 		"body_paragraphs": [
 			""
 		],

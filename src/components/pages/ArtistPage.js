@@ -46,9 +46,7 @@ export default function ArtistPage() {
 		return (
 			keys.map((item, idx) => {
 				return (
-					<React.Fragment
-						key={idx}
-					>
+					<React.Fragment key={idx}>
 						<a
 							target="_blank"
 							rel="noopener noreferrer"
@@ -83,7 +81,7 @@ export default function ArtistPage() {
 			keywords: "why, record, company, page not found"
 		}
 	return (
-		<React.Fragment>
+		<>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-sub-page">
@@ -99,7 +97,7 @@ export default function ArtistPage() {
 			</div>
 			{
 				foundArtist ?
-					<React.Fragment>
+					<>
 						<Seo data={headData} />
 						<div className="row">
 							<div className="col-10 offset-1">
@@ -201,11 +199,11 @@ export default function ArtistPage() {
 								</div>
 							</div>
 						</div>
-					</React.Fragment>
+					</>
 					:
 					null
 			}
-		</React.Fragment>
+		</>
 
 	)
 }

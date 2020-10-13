@@ -20,7 +20,7 @@ export default function Home() {
 	const ran = Math.floor(Math.random() * 20) + 1;
 	const source = "/images/landscapes/" + ran + ".jpg";
 	return (
-		<React.Fragment>
+		<>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-sub-page">WHY? Record Company</h1>
@@ -48,6 +48,6 @@ export default function Home() {
 					</p>
 				</BgStyledDiv>
 			</div>
-		</React.Fragment>
+		</>
 	)
 }

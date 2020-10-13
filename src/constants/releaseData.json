@@ -1,50 +1,33 @@
 [
 	{
-		"name": "Pulse Artist Collective",
-		"local_path": "WHYPLAY003",
-		"id": 71,
-		"label_number": "WHYPLAY003",
-		"release_type": "PLAYLIST",
-		"album_art": "/images/releases/pulse-playlist-min.png",
-		"release_date": "2017-09-24T18:25:44.511Z",
-		"genre": "Electronic Music",
+		"name": "DUO EP",
+		"local_path": "DUO",
+		"id": 67,
+		"label_number": "WHY050",
+		"release_type": "WRC",
+		"album_art": "/images/releases/DUO-art-min-min.png",
+		"release_date": "2020-10-16T18:25:43.511Z",
+		"genre": "Acoustic",
 		"release_bio": [
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": ""
-		}
-	},
-	{
-		"name": "WRC MIX 004",
-		"local_path": "MIX004",
-		"id": 70,
-		"label_number": "WHYMIX004",
-		"release_type": "MIX",
-		"album_art": "/images/releases/MIX004.png",
-		"release_date": "2020-09-24T18:25:44.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			"Matyb brings another headed mix featuring his newest 'Tech Demo' EP on the blue label. Click on Matyb's artist profile to see all previous and future releases!",
+			"The 50th release from WHY Record Company (WRC) - WHY050",
+			"\"DUO EP\" by whythough?",
+			"Original single Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
+			"Lyrics Written and Sung by Ian Rios",
 			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
-			11
+			1
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"mc": "",
-			"sc": ""
+			"bc": "https://whythough.bandcamp.com/album/duo-ep"
 		}
 	},
 	{
 		"name": "Tech Demo EP",
 		"local_path": "bl-td",
-		"id": 69,
+		"id": 66,
 		"label_number": "WHY051",
 		"release_type": "WRC",
 		"album_art": "/images/releases/tech-demo.png",
@@ -69,34 +52,9 @@
 		}
 	},
 	{
-		"name": "DUO EP",
-		"local_path": "DUO",
-		"id": 68,
-		"label_number": "WHY050",
-		"release_type": "WRC",
-		"album_art": "/images/releases/DUO-art-min-min.png",
-		"release_date": "2020-10-16T18:25:43.511Z",
-		"genre": "Acoustic",
-		"release_bio": [
-			"The 50th release from WHY Record Company (WRC) - WHY050",
-			"\"DUO EP\" by whythough?",
-			"Original single Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
-			"Lyrics Written and Sung by Ian Rios",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"bc": "https://whythough.bandcamp.com/album/duo-ep"
-		}
-	},
-	{
 		"name": "Devotion",
 		"local_path": "Devotion",
-		"id": 67,
+		"id": 65,
 		"label_number": "WHY049",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Devotion-min.png",
@@ -115,16 +73,16 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp":"https://open.spotify.com/track/3CCJJqHThA34HRp4hoXzex?si=-xjWPZYkTlizYDMTUvc78g",
-			"ap":"https://music.apple.com/us/album/devotion-single/1528984947",
-			"yt":"https://www.youtube.com/watch?v=_kunYcMPY0E",
-			"sc":"https://soundcloud.com/svnteen/devotion"
+			"sp": "https://open.spotify.com/track/3CCJJqHThA34HRp4hoXzex?si=-xjWPZYkTlizYDMTUvc78g",
+			"ap": "https://music.apple.com/us/album/devotion-single/1528984947",
+			"yt": "https://www.youtube.com/watch?v=_kunYcMPY0E",
+			"sc": "https://soundcloud.com/svnteen/devotion"
 		}
 	},
 	{
 		"name": "Desperation",
 		"local_path": "Desperation",
-		"id": 66,
+		"id": 64,
 		"label_number": "WHY048",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Desperation-min.png",
@@ -152,7 +110,7 @@
 	{
 		"name": "NITRO (Remixes)",
 		"local_path": "NITRO-Remixes",
-		"id": 65,
+		"id": 63,
 		"label_number": "WHY046",
 		"release_type": "WRC",
 		"album_art": "/images/releases/nitroremix.png",
@@ -189,7 +147,7 @@
 	{
 		"name": "CYCLE001: GRIEF (Club Mixes)",
 		"local_path": "cycle001-club",
-		"id": 64,
+		"id": 62,
 		"label_number": "WHY045",
 		"release_type": "WRC",
 		"album_art": "/images/releases/cycle001club.png",
@@ -215,7 +173,7 @@
 	{
 		"name": "Corrupted Data",
 		"local_path": "corrupted-data",
-		"id": 63,
+		"id": 61,
 		"label_number": "WHY044",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blcd.png",
@@ -243,7 +201,7 @@
 	{
 		"name": "June Evening",
 		"local_path": "blje",
-		"id": 62,
+		"id": 60,
 		"label_number": "WHY043",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blje.png",
@@ -269,7 +227,7 @@
 	{
 		"name": "Look In Your Eyes",
 		"local_path": "liye",
-		"id": 61,
+		"id": 59,
 		"label_number": "WHY042",
 		"release_type": "WRC",
 		"album_art": "/images/releases/liye.png",
@@ -302,7 +260,7 @@
 	{
 		"name": "Vacation Home",
 		"local_path": "Vacation-Home",
-		"id": 60,
+		"id": 58,
 		"label_number": "WHY040",
 		"release_type": "WRC",
 		"album_art": "/images/releases/vacationhome.png",
@@ -332,7 +290,7 @@
 	{
 		"name": "Venice Bitch (whythough? x dyl_pykl Remix)",
 		"local_path": "Venice-Bitch",
-		"id": 59,
+		"id": 57,
 		"label_number": "WHY041",
 		"release_type": "WRC",
 		"album_art": "/images/releases/venice-bitch.png",
@@ -359,7 +317,7 @@
 	{
 		"name": "Stopped Raining",
 		"local_path": "stopped-raining",
-		"id": 58,
+		"id": 56,
 		"label_number": "WHY039",
 		"release_type": "WRC",
 		"album_art": "/images/releases/stoppedraining.png",
@@ -386,7 +344,7 @@
 	{
 		"name": "Eternal Gloop",
 		"local_path": "BL-EG",
-		"id": 57,
+		"id": 55,
 		"label_number": "WHY038",
 		"release_type": "WRC",
 		"album_art": "/images/releases/bleg.png",
@@ -415,7 +373,7 @@
 	{
 		"name": "Andamp",
 		"local_path": "Andamp",
-		"id": 56,
+		"id": 54,
 		"label_number": "GEAR004",
 		"release_type": "Independent",
 		"album_art": "/images/releases/Andamp.png",
@@ -443,7 +401,7 @@
 	{
 		"name": "Cure",
 		"local_path": "cure",
-		"id": 55,
+		"id": 53,
 		"label_number": "WHY036",
 		"release_type": "WRC",
 		"album_art": "/images/releases/cure.png",
@@ -472,7 +430,7 @@
 	{
 		"name": "RECORDINGS001",
 		"local_path": "rec001",
-		"id": 54,
+		"id": 52,
 		"label_number": "WHYREC001",
 		"release_type": "RECORDINGS",
 		"album_art": "/images/releases/rec001.jpg",
@@ -490,38 +448,14 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"gr": "https://gumroad.com/l/kxqcF"
-		}
-	},
-	{
-		"name": "WRC MIX 003",
-		"local_path": "MIX003",
-		"id": 53,
-		"label_number": "WHYMIX003",
-		"release_type": "MIX",
-		"album_art": "/images/releases/MIX003.jpg",
-		"release_date": "2020-04-06T18:25:43.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			"Mixed by Ian Rios (whythough?)",
-			"WHY? Record Company brings yet another front to their recent onslaught of releases with WRC MIX 003 brought to you by whythough? and planned to be premiered on the WRPI radio station on March 13th, 2020. This mix features the best techno of the moment including WRC and WRC Blue Label favorites such as dyl_pykl, Katie Hoffstatter, MatyB, and over one hour of unreleased exclusives from label boss whythough?.",
-			"Tracklist:",
-			"whythough? - ID __BREAK__ Enigma - Principles of Lust __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Katie Hoffstatter, dyl_pykl, Matyb - He Called Me Beautiful (dyl_pykl 6 AM Half Dead Remix) __BREAK__ whythough? - ID __BREAK__ DJ Tennis - I can Tell __BREAK__ Âme - Helliconia (Marcel Dettmann Remix) __BREAK__ DVS1 - Black Russian __BREAK__ ⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ - ʅ͡͡͡͡͡͡͡͡͡͡͡(ƟӨ)ʃ͡͡͡͡͡͡͡͡͡͡ ꐑ(ཀ ඊູ ఠీੂ೧ູ࿃ूੂ✧✧✧✧✧✧ළඕั࿃ूੂ࿃ूੂ __BREAK__ Nina Kraviz - Da __BREAK__ Vladimir Dubyshkin - Lady of the Night __BREAK__ Lxury - Sins.00 __BREAK__ Blindsmyth - Traffic Lights __BREAK__ Indian Wells - Wimbledon 1980 __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Reeko - Nervous Idiots in the Bar __BREAK__ whythough? - ID __BREAK__ TRG - Surreal (5 AM) __BREAK__ whythough? - ID __BREAK__ PTU - Black Smokers __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Panthera Krause - Birthday Club (Real Club Version) __BREAK__ whythough? - ID __BREAK__ whythough? - ID __BREAK__ Margo Guryan - Why Do I Cry",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"mc": "https://www.mixcloud.com/whythough000/wrc-mix-003-whythough-wrpi-unused-mix-3-21-2020/"
+			"gr": "https://gumroad.com/l/kxqcF",
+			"zip": "https://www.dropbox.com/s/bsrhbwtwjpjgsmu/RECORDINGS001.zip?dl=0"
 		}
 	},
 	{
 		"name": "True Colors",
 		"local_path": "true-colors",
-		"id": 52,
+		"id": 51,
 		"label_number": "WHY037",
 		"release_type": "WRC",
 		"album_art": "/images/releases/truecolors.jpg",
@@ -551,7 +485,7 @@
 	{
 		"name": "Beans",
 		"local_path": "beans",
-		"id": 51,
+		"id": 50,
 		"label_number": "WHY035",
 		"release_type": "WRC",
 		"album_art": "/images/releases/beans.png",
@@ -580,7 +514,7 @@
 	{
 		"name": "He Called Me Beautiful",
 		"local_path": "HCMB",
-		"id": 50,
+		"id": 49,
 		"label_number": "WHY034",
 		"release_type": "WRC",
 		"album_art": "/images/releases/hcmb.jpg",
@@ -611,28 +545,6 @@
 		}
 	},
 	{
-		"name": "WRC MIX 002",
-		"local_path": "MIX002",
-		"id": 49,
-		"label_number": "WHYMIX002",
-		"release_type": "MIX",
-		"album_art": "/images/releases/MIX002.png",
-		"release_date": "2020-02-28T18:25:43.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			"WRC welcomes Matyb to the label with a debut mix featuring lots of techno and tech house. Click on Matyb's artist profile to see all previous and future releases!",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			11
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"mc": "https://www.mixcloud.com/matt-benjamin/matyb-live-mix-feb-16/"
-		}
-	},
-	{
 		"name": "A12A2",
 		"local_path": "BL-A12A2",
 		"id": 48,
@@ -659,28 +571,6 @@
 			"ap": "https://music.apple.com/us/album/a12a2-single/1499149248",
 			"sc": "http://soundcloud.com/whythough/a12a2",
 			"bc": "https://whythough.bandcamp.com/album/a12a2"
-		}
-	},
-	{
-		"name": "WRC MIX 001",
-		"local_path": "MIX001",
-		"id": 47,
-		"label_number": "WHYMIX001",
-		"release_type": "MIX",
-		"album_art": "/images/releases/MIX001.png",
-		"release_date": "2020-02-07T18:25:43.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			"The first DJ mix in the WRC MIX Series, presented by dyl_pykl.",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"mc": "https://www.mixcloud.com/PulseArtistCollective/wrc-mix-001-dyl_pykl-wrpi-guest-mix-2-7-2020/"
 		}
 	},
 	{
@@ -1486,7 +1376,7 @@
 	{
 		"name": "Harmonious Interactions of Patterns",
 		"local_path": "HIOP",
-		"id": 12,
+		"id": 13,
 		"label_number": "Independent",
 		"release_type": "Independent",
 		"album_art": "/images/releases/hiopf.jpeg",
@@ -1507,7 +1397,7 @@
 	{
 		"name": "Sapphire Sky",
 		"local_path": "Sapphire-Sky",
-		"id": 11,
+		"id": 12,
 		"label_number": "Independent",
 		"release_type": "Independent",
 		"album_art": "/images/releases/ssf.jpg",
@@ -1528,7 +1418,7 @@
 	{
 		"name": "Saturday Morning",
 		"local_path": "Saturday-Morning",
-		"id": 10,
+		"id": 11,
 		"label_number": "Independent",
 		"release_type": "Independent",
 		"album_art": "/images/releases/smf.png",
@@ -1549,7 +1439,7 @@
 	{
 		"name": "Floating Like a Feather",
 		"local_path": "FLAF",
-		"id": 9,
+		"id": 10,
 		"label_number": "Independent",
 		"release_type": "Independent",
 		"album_art": "/images/releases/flaff.jpg",
@@ -1570,7 +1460,7 @@
 	{
 		"name": "paranoimia",
 		"local_path": "paranoimia",
-		"id": 8,
+		"id": 9,
 		"label_number": "WHY003",
 		"release_type": "WRC",
 		"album_art": "/images/releases/paranoimia.jpg",
@@ -1592,7 +1482,7 @@
 	{
 		"name": "JUST CALL EP",
 		"local_path": "JUST-CALL",
-		"id": 7,
+		"id": 8,
 		"label_number": "WHY007",
 		"release_type": "WRC",
 		"album_art": "/images/releases/just_call.jpg",
@@ -1615,7 +1505,7 @@
 	{
 		"name": "The Beginning",
 		"local_path": "The-Beginning",
-		"id": 6,
+		"id": 7,
 		"label_number": "Independent",
 		"release_type": "Independent",
 		"album_art": "/images/releases/the_beginning.jpg",
@@ -1636,7 +1526,7 @@
 	{
 		"name": "grains of Blurs",
 		"local_path": "grains",
-		"id": 5,
+		"id": 6,
 		"label_number": "WHY005",
 		"release_type": "WRC",
 		"album_art": "/images/releases/grains.jpg",
@@ -1658,7 +1548,7 @@
 	{
 		"name": "RAAPT",
 		"local_path": "RAAPT",
-		"id": 4,
+		"id": 5,
 		"label_number": "WHY004",
 		"release_type": "WRC",
 		"album_art": "/images/releases/raapt.jpg",
@@ -1680,7 +1570,7 @@
 	{
 		"name": "MURDA EP",
 		"local_path": "MURDA",
-		"id": 3,
+		"id": 4,
 		"label_number": "Independent",
 		"release_type": "Independent",
 		"album_art": "/images/releases/murda.jpg",
@@ -1703,7 +1593,7 @@
 	{
 		"name": "The Above/Below EP",
 		"local_path": "Above-Below",
-		"id": 2,
+		"id": 3,
 		"label_number": "Independent",
 		"release_type": "Independent",
 		"album_art": "/images/releases/abovebelow.jpg",
@@ -1724,7 +1614,7 @@
 	{
 		"name": "probably an album but who am i to judge honestly",
 		"local_path": "paabwaitjh",
-		"id": 1,
+		"id": 2,
 		"label_number": "WHY006",
 		"release_type": "WRC",
 		"album_art": "/images/releases/paabwaitjh.jpg",
@@ -1746,7 +1636,7 @@
 	{
 		"name": "C 2 0 H 2 5 N 3 O",
 		"local_path": "acid-house",
-		"id": 0,
+		"id": 1,
 		"label_number": "WHY002",
 		"release_type": "WRC",
 		"album_art": "/images/releases/acid.jpg",
@@ -1768,7 +1658,7 @@
 	{
 		"name": "serving suggestions",
 		"local_path": "serving-suggestions",
-		"id": -1,
+		"id": 0,
 		"label_number": "WHY001",
 		"release_type": "WRC",
 		"album_art": "/images/releases/servsug.jpg",
@@ -1785,48 +1675,6 @@
 		"remix_artist_ids": [],
 		"links": {
 			"bc": "https://whythough.bandcamp.com/album/serving-suggestions"
-		}
-	},
-	{
-		"name": "WRC Blue Label",
-		"local_path": "play002",
-		"id": -2,
-		"label_number": "WHYPLAY002",
-		"release_type": "PLAYLIST",
-		"album_art": "/images/releases/BlueLabel.jpg",
-		"release_date": "2020-01-02T18:25:43.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			22
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/playlist/6hE3AWnz4hIJ3x0eS3nGa8?si=9bBhrcaPTEGVJha6rrOeZQ"
-		}
-	},
-	{
-		"name": "WHY? Record Company",
-		"local_path": "play001",
-		"id": -3,
-		"label_number": "WHYPLAY001",
-		"release_type": "PLAYLIST",
-		"album_art": "/images/releases/WRC.jpg",
-		"release_date": "2016-01-01T18:25:43.511Z",
-		"genre": "Electronic Music",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			22
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
 		}
 	}
 ]

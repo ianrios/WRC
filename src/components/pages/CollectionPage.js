@@ -38,9 +38,7 @@ export default function CollectionPage() {
 			keys.map((item, idx) => {
 				return (
 					props[item] ?
-						<React.Fragment
-							key={idx}
-						>
+						<React.Fragment key={idx}>
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
@@ -77,7 +75,7 @@ export default function CollectionPage() {
 		}
 
 	return (
-		<React.Fragment>
+		<>
 			<div className="row main-header">
 				<div className="col">
 					<h1 className="header-sub-page">{foundCollection ? foundCollection.title : <>could not locate collection page<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/releases"}> Main Collections Page</Link></p></>}</h1>
@@ -85,7 +83,7 @@ export default function CollectionPage() {
 			</div>
 			{
 				foundCollection ?
-					<React.Fragment>
+					<>
 						<Seo data={headData} />
 						<div className="row">
 							<div className="col-10 offset-1">
@@ -115,7 +113,7 @@ export default function CollectionPage() {
 											}
 										</div>
 										{newestRelease.secondary_artist_ids.length > 0 ?
-											<React.Fragment>
+											<>
 												<h4 className="release-page-h4">
 													{`Additional Artist${newestRelease.secondary_artist_ids.length > 1 ? "s" : ""}`}
 												</h4>
@@ -138,13 +136,13 @@ export default function CollectionPage() {
 														)
 													}
 												</div>
-											</React.Fragment>
+											</>
 											: null
 										}
 
 
 										{newestRelease.remix_artist_ids.length > 0 ?
-											<React.Fragment>
+											<>
 												<h4 className="release-page-h4">
 													{`Remixer${newestRelease.remix_artist_ids.length > 1 ? "s" : ""}`}
 												</h4>
@@ -167,7 +165,7 @@ export default function CollectionPage() {
 														)
 													}
 												</div>
-											</React.Fragment>
+											</>
 											: null
 										}
 
@@ -202,11 +200,11 @@ export default function CollectionPage() {
 									</div>
 								</div>
 							</div>
-						</div>
-					</React.Fragment>
+						</div >
+					</>
 					:
 					null
 			}
-		</React.Fragment >
+		</ >
 	)
 }
