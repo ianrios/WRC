@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import releaseData from "../../constants/releaseData.json";
+import mixData from "../../constants/mixData.json";
+import playlistData from "../../constants/playlistData.json";
 import collectionData from "../../constants/collectionData.json"
 import "./Collections.scss"
 
 export default function Collections() {
+	let allData = [...releaseData, ...mixData, ...playlistData]
 	let releaseTypes = {}
-	releaseData.map(i => !(i.release_type in releaseTypes) ? releaseTypes[i.release_type] = i : null)
+	allData.map(i => !(i.release_type in releaseTypes) ? releaseTypes[i.release_type] = i : null)
 	Object.keys(releaseTypes).map(i => releaseTypes[i]["collection"] = collectionData.find(j => j.short_title === i))
 	const mappedReleaseTypes = Object.keys(releaseTypes)
 		.sort((a, b) => {
@@ -17,7 +20,7 @@ export default function Collections() {
 		.map(i => {
 			return (
 				<Link
-					className={`col-${-1 === i ? "8" : "4"} col-md-${-1 === i ? "6" : "3"} text-center artist-page-album-art-container`}
+					className={`col-md-6 col-lg-4 col-xl-3 col-sm-12 text-center artist-page-album-art-container`}
 					key={i}
 					to={`/collection/${releaseTypes[i].collection.local_path}`}
 				>

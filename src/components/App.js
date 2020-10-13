@@ -42,9 +42,12 @@ function Wrapper() {
 			<Seo data={headData} />
 			{viewMain ?
 				<div className="body-grid">
-					<div className="main-image" style={{
-						backgroundImage: `url("/images/textures/${Math.floor(Math.random() * 7) + 1}.jpg")`
-					}} onClick={() => setViewMain(!viewMain)}>
+					<div
+						className="main-image" style={{
+							backgroundImage: `url("/images/textures/${Math.floor(Math.random() * 7) + 1}.jpg")`
+						}}
+						onClick={() => setViewMain(!viewMain)}
+					>
 						<div className='image-overlay-text app-title'>
 							{appTitle}
 						</div>
