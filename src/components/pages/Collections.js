@@ -40,6 +40,17 @@ export default function Collections() {
 				<div className="col-10 offset-1">
 					<div className="row">
 						{mappedReleaseTypes}
+						<Link
+							className={`col-md-6 col-lg-4 col-xl-3 col-sm-12 text-center artist-page-album-art-container`}
+							to={`/competitions`}
+						>
+							<div className={`help-cursor artist-page-album-art-link`}>
+								<img alt={"competitions"} src={"/images/releases/WRC.jpg"} className="img-fluid artist-page-album-art" />
+								<span className="artist-page-album-art-text colored-link white-text">
+									Competitions
+								</span>
+							</div>
+						</Link>
 					</div>
 				</div>
 			</div>
