@@ -15,7 +15,9 @@ export default function CollectionPage() {
 
 	let allData = [...releaseData, ...mixData, ...playlistData]
 
-	const newestRelease = {}
+	const filteredData = allData.filter(a => a.release_type === currCollection.short_title);
+
+	const newestRelease = filteredData[0]
 
 	const headData = foundCollection && newestRelease ? {
 		title: currCollection.title + " - WRC",
@@ -69,7 +71,7 @@ export default function CollectionPage() {
 		<>
 			<div className="row main-header">
 				<div className="col">
-					<h1 className="header-sub-page">{foundCollection ? currCollection.title : <>could not locate collection page<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/releases"}> Main Collections Page</Link></p></>}</h1>
+					<h1 className="header-sub-page">{foundCollection ? currCollection.title : <>could not locate collection page<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/collections"}> Main Collections Page</Link></p></>}</h1>
 				</div>
 			</div>
 			{
@@ -84,7 +86,7 @@ export default function CollectionPage() {
 									</div>
 								</div>
 								<div className="row artist-page-releases">
-									{mappedImgCol(allData.filter((a, b) => a.release_type === currCollection.short_title))}
+									{mappedImgCol(filteredData)}
 								</div>
 							</div>
 						</div>

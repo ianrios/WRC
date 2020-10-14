@@ -1,8 +1,8 @@
 import React from 'react'
-import { Graph } from "react-d3-graph";
-import { ResponsiveNetwork } from '@nivo/network'
-import d3data from "../../constants/d3.js"
-import data from "../../constants/nivoData.js"
+// import { Graph } from "react-d3-graph";
+// import { ResponsiveNetwork } from '@nivo/network'
+// import d3data from "../../constants/d3.js"
+// import data from "../../constants/nivoData.js"
 import "./Atlas.scss"
 
 export default function Atlas() {
@@ -70,7 +70,7 @@ export default function Atlas() {
 
 
 	// nivo
-	console.log(data)
+	// console.log(data)
 	return (
 		<>
 			<div className="row main-header">

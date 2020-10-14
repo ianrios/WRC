@@ -10,9 +10,10 @@ import Collections from './pages/Collections';
 import CollectionPage from "./pages/CollectionPage";
 import Releases from './pages/Releases';
 import ReleasePage from "./pages/ReleasePage";
+import CompetitionPage from "./pages/CompetitionPage";
 import Services from './pages/Services';
 import Store from './pages/Merchandise';
-import Atlas from './pages/Atlas';
+// import Atlas from './pages/Atlas';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import ReloadPage from "./pages/Reload";
@@ -54,7 +55,7 @@ export default function Routes() {
 				<Contact />
 			</Route>
 			<Route path="/atlas">
-				<Atlas />
+				<ComingSoon />
 			</Route>
 			<Route path="/hard-reload">
 				<ReloadPage />
@@ -64,6 +65,9 @@ export default function Routes() {
 			</Route>
 			<Route path="/coming-soon">
 				<ComingSoon />
+			</Route>
+			<Route path="/competitions">
+				<CompetitionPage />
 			</Route>
 			<Route path="*">
 				<Home />

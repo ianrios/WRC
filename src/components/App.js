@@ -18,9 +18,12 @@ function Wrapper() {
 	const pathArr = location.pathname.split("/");
 	useEffect(() => {
 		if (
-			(pathArr[1] === "hard-reload") ||
-			(pathArr[1] === "series") ||
+			pathArr[1] === "competitions" ||
+			pathArr[1] === "collections" ||
+			pathArr[1] === "hard-reload" ||
+			pathArr[1] === "series" ||
 			(pathArr.length > 2 && (
+				pathArr[1] === "collection" ||
 				pathArr[1] === "artist" ||
 				pathArr[1] === "release"))
 		) {
