@@ -345,8 +345,8 @@
 	},
 	{
 		"id": 8,
-		"name": "oFoot",
-		"local_path": "oFoot",
+		"name": "ofoot",
+		"local_path": "ofoot",
 		"show_on_artist_page": true,
 		"photos": [
 			"/images/artists/profiles/ofoot_4x6.png",
