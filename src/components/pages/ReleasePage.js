@@ -2,13 +2,14 @@ import React from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
+import mixData from "../../constants/mixData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
 
 export default function ReleasePage() {
 	const locationObj = useLocation();
 	const location = locationObj.pathname.split("/")[2];
-	const currRelease = releaseData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
+	const currRelease = [...releaseData,...mixData].find(i => i.local_path.toLowerCase() === location.toLowerCase());
 	const foundRelease = currRelease === undefined ? false : true;
 
 	const mappedPTag = (props, className) => {

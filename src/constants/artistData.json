@@ -347,8 +347,9 @@
 		"id": 8,
 		"name": "oFoot",
 		"local_path": "oFoot",
-		"show_on_artist_page": false,
+		"show_on_artist_page": true,
 		"photos": [
+			"/images/artists/profiles/ofoot_4x6.png",
 			"/images/artists/ofoot_rabbit.jpg"
 		],
 		"email": "ofoot@hotmail.com",
