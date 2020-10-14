@@ -377,7 +377,7 @@
 		"local_path": "robbiegay",
 		"show_on_artist_page": true,
 		"photos": [
-			"/images/artists/profiles/robbiegay_4x6.jpg"
+			"/images/artists/profiles/robbiegay_4x6.png"
 		],
 		"email": "robbiegaymedia@gmail.com",
 		"location": {
@@ -819,7 +819,7 @@
 		"id": 27,
 		"name": "Sub Pump",
 		"local_path": "subpump",
-		"show_on_artist_page": false,
+		"show_on_artist_page": true,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -894,7 +894,7 @@
 		"id": 30,
 		"name": "No",
 		"local_path": "No",
-		"show_on_artist_page": false,
+		"show_on_artist_page": true,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
