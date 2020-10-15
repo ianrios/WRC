@@ -18,14 +18,17 @@ function Wrapper() {
 	const pathArr = location.pathname.split("/");
 	useEffect(() => {
 		if (
-			pathArr[1] === "competitions" ||
+			pathArr[1] === "artists" ||
+			pathArr[1] === "releases" ||
 			pathArr[1] === "collections" ||
+			pathArr[1] === "contests" ||
 			pathArr[1] === "hard-reload" ||
-			pathArr[1] === "series" ||
 			(pathArr.length > 2 && (
-				pathArr[1] === "collection" ||
 				pathArr[1] === "artist" ||
-				pathArr[1] === "release"))
+				pathArr[1] === "release" ||
+				pathArr[1] === "collection" ||
+				pathArr[1] === "contest"
+			))
 		) {
 			setViewMain(false)
 		}
