@@ -10,7 +10,8 @@ import Collections from './pages/Collections';
 import CollectionPage from "./pages/CollectionPage";
 import Releases from './pages/Releases';
 import ReleasePage from "./pages/ReleasePage";
-import CompetitionPage from "./pages/CompetitionPage";
+import Contests from "./pages/Contests";
+import ContestPage from "./pages/ContestPage";
 import Services from './pages/Services';
 import Store from './pages/Merchandise';
 // import Atlas from './pages/Atlas';
@@ -66,8 +67,15 @@ export default function Routes() {
 			<Route path="/coming-soon">
 				<ComingSoon />
 			</Route>
+			<Route path="/contests">
+				<Contests />
+			</Route>
+			<Route path="/contest/*">
+				<ContestPage />
+			</Route>
 			<Route path="/competitions">
-				<CompetitionPage />
+			{/* TODO: remove /competitions */}
+				<Contests />
 			</Route>
 			<Route path="*">
 				<Home />

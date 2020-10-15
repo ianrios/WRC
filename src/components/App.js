@@ -30,7 +30,7 @@ function Wrapper() {
 			setViewMain(false)
 		}
 	}, [pathArr]);
-	const appTitle = "WHY? Record Company".split("").map((i, k) => i === "?" ? <Q size={2} key={k} /> : <span key={k} >{i}</span>)
+	const appTitle = "WHY? Record Company".split("").map((i, k) => i === "?" ? <Q s={2} key={k} /> : <span key={k} >{i}</span>)
 	const headData = {
 		title: "Home",
 		shortSiteTitle: "WRC",

@@ -5,7 +5,6 @@ import releaseData from "../../constants/releaseData.json";
 import mixData from "../../constants/mixData.json";
 import playlistData from "../../constants/playlistData.json";
 import collectionData from "../../constants/collectionData.json";
-import "./CollectionPage.scss"
 
 export default function CollectionPage() {
 	const locationObj = useLocation();

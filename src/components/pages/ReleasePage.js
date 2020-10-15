@@ -9,7 +9,7 @@ import "./ReleasePage.scss"
 export default function ReleasePage() {
 	const locationObj = useLocation();
 	const location = locationObj.pathname.split("/")[2];
-	const currRelease = [...releaseData,...mixData].find(i => i.local_path.toLowerCase() === location.toLowerCase());
+	const currRelease = [...releaseData, ...mixData].find(i => i.local_path.toLowerCase() === location.toLowerCase());
 	const foundRelease = currRelease === undefined ? false : true;
 
 	const mappedPTag = (props, className) => {

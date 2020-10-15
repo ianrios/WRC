@@ -200,10 +200,8 @@ export default function ArtistPage() {
 							</div>
 						</div>
 					</>
-					:
-					null
+					: null
 			}
 		</>
-
 	)
 }
