@@ -5,30 +5,15 @@ import releaseData from "../../constants/releaseData.json";
 import mixData from "../../constants/mixData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
+import {mappedPTag} from '../../utilities/maps'
 
 export default function ReleasePage() {
-	const locationObj = useLocation();
-	const location = locationObj.pathname.split("/")[2];
-	const currRelease = [...releaseData, ...mixData].find(i => i.local_path.toLowerCase() === location.toLowerCase());
+	const location = useLocation();
+	const path = location.pathname.split("/")[2];
+	const currRelease = [...releaseData, ...mixData].find(i => i.local_path.toLowerCase() === path.toLowerCase());
 	const foundRelease = currRelease === undefined ? false : true;
 
-	const mappedPTag = (props, className) => {
-		return (
-			props.map((item, idx) => {
-				let string = item.search("__BREAK__")
-					? item.split("__BREAK__").map((i, j) => <>{i} <br /></>)
-					: item
-				return (
-					<p
-						key={idx}
-						className={`questrial text-left ${className}`}
-					>
-						{string}
-					</p>
-				)
-			})
-		)
-	}
+
 
 	const mappedATag = (props) => {
 		const keys = Object.keys(props);
@@ -75,7 +60,15 @@ export default function ReleasePage() {
 		<>
 			<div className="row main-header">
 				<div className="col">
-					<h1 className="header-sub-page">{foundRelease ? currRelease.name : <>could not locate release page<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/releases"}> Main Releases Page</Link></p></>}</h1>
+					<h1 className="header-sub-page">
+						{
+							foundRelease ? currRelease.name :
+								<>
+									<p>could not locate release page</p>
+									<p>visit our <Link to="/errors">error page</Link> for more information, or go back to the<Link to={"/releases"}> Main Releases Page</Link></p>
+								</>
+						}
+					</h1>
 				</div>
 			</div>
 			{
@@ -170,7 +163,7 @@ export default function ReleasePage() {
 											{currRelease.short_description}
 										</p>
 										<div className="text-border d-none d-lg-block">
-											{mappedPTag(currRelease.release_bio, "release-bio-paragraphs")}
+											{mappedPTag(currRelease.release_bio, "release-bio-paragraphs text-left")}
 										</div>
 										<p>
 											Primary Genre:  {currRelease.genre}
@@ -192,7 +185,7 @@ export default function ReleasePage() {
 								<div className="row d-block d-lg-none mt-3">
 									<div className="col">
 										<div className="text-border">
-											{mappedPTag(currRelease.release_bio, "release-bio-paragraphs")}
+											{mappedPTag(currRelease.release_bio, "release-bio-paragraphs text-left")}
 										</div>
 									</div>
 								</div>

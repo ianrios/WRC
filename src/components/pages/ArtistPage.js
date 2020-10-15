@@ -4,28 +4,15 @@ import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ArtistPage.scss";
+import { mappedPTag } from '../../utilities/maps'
 
 export default function ArtistPage() {
-	const locationObj = useLocation();
-	const locationPath = locationObj.pathname
-	const location = locationPath.split("/")[2];
-	const currArtist = artistData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
+	const location = useLocation();
+	const path = location.pathname.split("/")[2];
+	const currArtist = artistData.find(i => i.local_path.toLowerCase() === path.toLowerCase());
 	const foundArtist = currArtist === undefined ? false : true;
 
-	const mappedPTag = (props, className) => {
-		return (
-			props.map((item, idx) => {
-				return (
-					<p
-						key={idx}
-						className={`questrial text-left ${className}`}
-					>
-						{item}
-					</p>
-				)
-			})
-		)
-	}
+
 
 	const mappedImgCol = (props) => {
 		return props.map((a, i) => {
@@ -86,10 +73,10 @@ export default function ArtistPage() {
 				<div className="col">
 					<h1 className="header-sub-page">
 						{foundArtist
-							? currArtist.name
-							: <>
-								could not locate artist page
-								<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/artists"}> Main Artists Page</Link></p>
+							? currArtist.name :
+							<>
+								<p>could not locate artist page</p>
+								<p>visit our <Link to="/errors">error page</Link> for more information, or go back to the<Link to={"/artists"}> Main Artists Page</Link></p>
 							</>
 						}
 					</h1>
@@ -116,21 +103,19 @@ export default function ArtistPage() {
 										</p>
 										{currArtist.body_paragraphs.length > 0 ?
 											<div className="text-border d-none d-lg-block">
-												{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
+												{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs mappedPTag")}
 											</div>
 											: null
 										}
 										<div className="row">
-											<div className="col-md-6">
-												Social Platforms
-										<div>
+											<div className="col-md-6">Social Platforms
+												<div>
 													{mappedATag(currArtist.social_platforms)}
 												</div>
 											</div>
 											{Object.keys(currArtist.music_platforms).length > 0 ?
-												<div className="col-md-6">
-													Music Platforms
-										<div>
+												<div className="col-md-6">Music Platforms
+													<div>
 														{mappedATag(currArtist.music_platforms)}
 													</div>
 												</div>
@@ -139,7 +124,7 @@ export default function ArtistPage() {
 										</div>
 										<div className="row">
 											<div className="col">
-												<h5 className="h5-location-artist-page">
+												<h5 className="h5-path-artist-page">
 													{currArtist.location.city}, {currArtist.location.country}
 												</h5>
 											</div>

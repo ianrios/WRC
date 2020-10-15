@@ -5,11 +5,12 @@ import releaseData from "../../constants/releaseData.json";
 import mixData from "../../constants/mixData.json";
 import playlistData from "../../constants/playlistData.json";
 import collectionData from "../../constants/collectionData.json";
+import { mappedPTag } from '../../utilities/maps';
 
 export default function CollectionPage() {
-	const locationObj = useLocation();
-	const location = locationObj.pathname.split("/")[2];
-	const currCollection = collectionData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
+	const location = useLocation();
+	const path = location.pathname.split("/")[2];
+	const currCollection = collectionData.find(i => i.local_path.toLowerCase() === path.toLowerCase());
 	const foundCollection = currCollection === undefined ? false : true;
 
 	let allData = [...releaseData, ...mixData, ...playlistData]
@@ -51,26 +52,19 @@ export default function CollectionPage() {
 		})
 	}
 
-	const mappedPTag = (props, className) => {
-		return (
-			props.map((item, idx) => {
-				return (
-					<p
-						key={idx}
-						className={`questrial ${className}`}
-					>
-						{item}
-					</p>
-				)
-			})
-		)
-	}
-
 	return (
 		<>
 			<div className="row main-header">
 				<div className="col">
-					<h1 className="header-sub-page">{foundCollection ? currCollection.title : <>could not locate collection page<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/collections"}> Main Collections Page</Link></p></>}</h1>
+					<h1 className="header-sub-page">
+						{foundCollection
+							? currCollection.title :
+							<>
+								<p>could not locate collection page</p>
+								<p>visit our<Link to="/errors">errors page</Link> for more information, or go back to the<Link to={"/collections"}> Main Collections Page</Link></p>
+							</>
+						}
+					</h1>
 				</div>
 			</div>
 			{

@@ -2,51 +2,22 @@ import React from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import Seo from '../Seo'
 import contestData from '../../constants/contestData.json'
+import { mappedPTag } from '../../utilities/maps'
 
 export default function ContestPage() {
 
-    const locationObj = useLocation();
-    const location = locationObj.pathname.split("/")[2];
-    const currContest = contestData.find(i => i.local_path.toLowerCase() === location.toLowerCase());
+    const location = useLocation();
+    const path = location.pathname.split("/")[2];
+    const currContest = contestData.find(i => i.local_path.toLowerCase() === path.toLowerCase());
     const foundContest = currContest === undefined ? false : true;
 
     const headData = {
         title: "Contests - WRC",
         shortSiteTitle: `Competition Page - WRC`,
         siteTitle: "WHY? Record Company",
-        url: "contests",
+        url: location.pathname,
         description: "WHY? Record Company Contests",
         keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, competition"
-    }
-
-    const mappedPTag = (props, className) => {
-        return (
-            props.map((item, idx) => {
-
-
-                let use = item;
-                if (item.search("__b__") !== -1) {
-                    let arr = item.split("__b__")
-                    use = [arr[0], <b>{arr[1]}</b>, arr[2]]
-                }
-                if (item.search("__i__") !== -1) {
-                    let arr = item.split("__i__")
-                    use = [arr[0], <i>{arr[1]}</i>, arr[2]]
-                }
-                if (item.search("__email__") !== -1) {
-                    let arr = item.split("__email__")
-                    use = [arr[0], <a href="mailto: info@whyrecord.com?subject=Nov%20WRC%20Competition">info@whyrecord.com</a>, arr[1]]
-                }
-                return (
-                    <p
-                        key={idx}
-                        className={`questrial text-left ${className}`}
-                    >
-                        {use}
-                    </p>
-                )
-            })
-        )
     }
 
     return (
@@ -55,10 +26,10 @@ export default function ContestPage() {
                 <div className="col">
                     <h1 className="header-sub-page">
                         {foundContest
-                            ? currContest.name
-                            : <>
-                                could not locate contest page
-								<p>see <Link to="/contact">contact page</Link> for more information, or go back to the<Link to={"/contests"}> Main Contests Page</Link></p>
+                            ? currContest.name :
+                            <>
+                                <p>could not locate contest page</p>
+                                <p>visit our <Link to="/errors">error page</Link> for more information, or go back to the<Link to={"/contests"}> Main Contests Page</Link></p>
                             </>
                         }
                     </h1>
@@ -78,12 +49,12 @@ export default function ContestPage() {
                                         <hr />
                                         <div className="text-left text-border">
                                             <h3>Rules:</h3>
-                                            {mappedPTag(currContest.rules)}
+                                            {mappedPTag(currContest.rules, "text-left")}
                                         </div>
                                         <hr />
                                         <div className="text-left text-border">
                                             <h3>Recommendations:</h3>
-                                            {mappedPTag(currContest.recommendations)}
+                                            {mappedPTag(currContest.recommendations, "text-left")}
                                         </div>
                                         <h5>{currContest.disclosure}</h5>
                                     </div>

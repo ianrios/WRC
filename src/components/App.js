@@ -22,6 +22,8 @@ function Wrapper() {
 			pathArr[1] === "releases" ||
 			pathArr[1] === "collections" ||
 			pathArr[1] === "contests" ||
+			pathArr[1] === "contact" ||
+			pathArr[1] === "errors" ||
 			pathArr[1] === "hard-reload" ||
 			(pathArr.length > 2 && (
 				pathArr[1] === "artist" ||

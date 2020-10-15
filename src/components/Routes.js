@@ -15,6 +15,7 @@ import ContestPage from "./pages/ContestPage";
 import Services from './pages/Services';
 import Store from './pages/Merchandise';
 // import Atlas from './pages/Atlas';
+import Errors from './pages/Errors';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import ReloadPage from "./pages/Reload";
@@ -66,6 +67,9 @@ export default function Routes() {
 			</Route>
 			<Route path="/coming-soon">
 				<ComingSoon />
+			</Route>
+			<Route path="/errors">
+				<Errors />
 			</Route>
 			<Route path="/contests">
 				<Contests />
