@@ -21,7 +21,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "https://whythough.bandcamp.com/album/duo-ep"
+			"bc": "https://whythough.bandcamp.com/album/duo-ep",
+			"sp": "https://open.spotify.com/album/4hjH6V1UF1Phix2jXoutUQ?si=uQXIbqcaRyO85ujkp_oMxA",
+			"ap": "https://music.apple.com/us/album/duo-ep/1534045674",
+			"yt": "https://www.youtube.com/watch?v=YEHypovoOt4&list=OLAK5uy_lSxD9Qi6u9Ii02EZ1ozk6bBSlyWIaCFDw"
 		}
 	},
 	{
