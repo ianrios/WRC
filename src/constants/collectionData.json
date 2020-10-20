@@ -1,15 +1,5 @@
 [
 	{
-		"short_title": "Independent",
-		"title": "Independent Releases",
-		"paragraphs": [
-			"Our artists release music on many labels, not just WRC. We also encourage them to release on their own even if a label does not pick up their music.",
-			"We are happy to showcase the hard work of each artist, even before they join WRC, and also after they leave if they decide to keep releasing, we will continue to promote their work.",
-			"Take a listen to some tracks released artists independently from WHY? Record Company."
-		],
-		"local_path": "independent"
-	},
-	{
 		"short_title": "WRC",
 		"title": "WRC Official",
 		"paragraphs": [
@@ -27,13 +17,13 @@
 		"local_path": "blue-label"
 	},
 	{
-		"short_title": "PLAYLIST",
-		"title": "Playlists",
+		"short_title": "Pink Label",
+		"title": "Pink Label Releases",
 		"paragraphs": [
-			"Our preferred platform is Spotify, as we optimize our mixdowns and masters for streaming on that platform. Because of our investment in the Spotify App, we like to showcase our releases there as well, utilizing the playlist format.",
-			"We have many playlists, mainly featuring our own music, but others include songs that inspire our artists as well."
+			"The WRC Pink Label imprint is a dedicated place where experimental music and noise music can exist without boundaries",
+			"Ranging from traditional albums to experimental packages of music, every feature of this imprint is designed to be unique. Interesting artist personalities, complex sounds, and forward thinking approaches to music and sound that push the boundaries of WHY? Record Company to places we have never gone before."
 		],
-		"local_path": "playlists"
+		"local_path": "pink-label"
 	},
 	{
 		"short_title": "CYCLE",
@@ -62,5 +52,24 @@
 			"Most of our artists are DJs as well as producers, so we occasionally record their performances and post them here. If a certain mix features WRC artists, we note that fact on the front cover of the artwork for the mix. Usually, these mixes contain unreleased exclusives, possibly never to be released..."
 		],
 		"local_path": "MIX"
+	},
+	{
+		"short_title": "PLAYLIST",
+		"title": "Playlists",
+		"paragraphs": [
+			"Our preferred platform is Spotify, as we optimize our mixdowns and masters for streaming on that platform. Because of our investment in the Spotify App, we like to showcase our releases there as well, utilizing the playlist format.",
+			"We have many playlists, mainly featuring our own music, but others include songs that inspire our artists as well."
+		],
+		"local_path": "playlists"
+	},
+	{
+		"short_title": "Independent",
+		"title": "Independent Releases",
+		"paragraphs": [
+			"Our artists release music on many labels, not just WRC. We also encourage them to release on their own even if a label does not pick up their music.",
+			"We are happy to showcase the hard work of each artist, even before they join WRC, and also after they leave if they decide to keep releasing, we will continue to promote their work.",
+			"Take a listen to some tracks released artists independently from WHY? Record Company."
+		],
+		"local_path": "independent"
 	}
 ]

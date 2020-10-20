@@ -3,14 +3,21 @@ import { Link } from "react-router-dom"
 import releaseData from "../../constants/releaseData.json";
 import mixData from "../../constants/mixData.json";
 import playlistData from "../../constants/playlistData.json";
+import futureReleases from "../../constants/futureReleases.json";
 import collectionData from "../../constants/collectionData.json"
 import "./Collections.scss"
 
 export default function Collections() {
-	let allData = [...releaseData, ...mixData, ...playlistData]
+	let allData = [...releaseData, ...mixData, ...playlistData, futureReleases[0]]
 	let releaseTypes = {}
+
 	allData.map(i => !(i.release_type in releaseTypes) ? releaseTypes[i.release_type] = i : null)
 	Object.keys(releaseTypes).map(i => releaseTypes[i]["collection"] = collectionData.find(j => j.short_title === i))
+	releaseTypes["Contests"] = {
+		name: "Contests",
+		album_art: "/images/releases/WRC.jpg",
+		collection: { local_path: '/contests' }
+	}
 	const mappedReleaseTypes = Object.keys(releaseTypes)
 		.sort((a, b) => {
 			if (a === "Independent") return 1
@@ -40,17 +47,6 @@ export default function Collections() {
 				<div className="col-10 offset-1">
 					<div className="row">
 						{mappedReleaseTypes}
-						<Link
-							className={`col-md-6 col-lg-4 col-xl-3 col-sm-12 text-center artist-page-album-art-container`}
-							to={`/contests`}
-						>
-							<div className={`help-cursor artist-page-album-art-link`}>
-								<img alt={"competitions"} src={"/images/releases/WRC.jpg"} className="img-fluid artist-page-album-art" />
-								<span className="artist-page-album-art-text colored-link white-text">
-									Contests
-								</span>
-							</div>
-						</Link>
 					</div>
 				</div>
 			</div>
