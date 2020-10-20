@@ -28,7 +28,7 @@ export default function CollectionPage() {
 		description: currCollection.paragraphs.length > 0 ? currCollection.paragraphs[0] : "",
 		keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, " + currCollection.title
 	} : {
-			title: "Error Page not found - WRC",
+			title: "Collection Page - WRC",
 			shortSiteTitle: `Collection page not found - WRC`,
 			siteTitle: "WHY? Record Company",
 			url: location.pathname,
