@@ -1,5 +1,58 @@
 [
 	{
+		"name": "Beats You Don't Deserve",
+		"local_path": "bydd",
+		"id": 69,
+		"label_number": "WHY052",
+		"release_type": "WRC",
+		"album_art": "/images/releases/bydd-min.png",
+		"release_date": "2020-11-06T18:25:43.511Z",
+		"genre": "beats",
+		"release_bio": [
+			"The 52nd release from WHY Record Company (WRC) - WHY052",
+			"\"Beats You Don't Deserve\" by dyl_pykl (Robert Dylan Smock)",
+			"Original songs Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios (whythough?)",
+			"Featuring field recordings from rural Indiana and keyboards from metropolitan Phoenix.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/dyl_pykl/sets/beats-you-dont-deserve-ep"
+		}
+	},
+	{
+		"name": "Tech Demo EP",
+		"local_path": "bl-td",
+		"id": 68,
+		"label_number": "WHY051",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/tech-demo.png",
+		"release_date": "2020-09-25T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 51th release from WHY Record Company (WRC) - WHY050",
+			"\"Tech Demo EP\" by Matyb",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Matyb (Matt Benjamin)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			11
+		],
+		"secondary_artist_ids": [
+			2
+		],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "https://open.spotify.com/album/5FJLhMKYTpn5HSJUO7pUyn",
+			"ap": "https://music.apple.com/us/album/tech-demo-ep/1533305014"
+		}
+	},
+	{
 		"name": "DUO EP",
 		"local_path": "DUO",
 		"id": 67,
@@ -28,36 +81,9 @@
 		}
 	},
 	{
-		"name": "Tech Demo EP",
-		"local_path": "bl-td",
-		"id": 66,
-		"label_number": "WHY051",
-		"release_type": "Blue Label",
-		"album_art": "/images/releases/tech-demo.png",
-		"release_date": "2020-09-25T18:25:43.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			"The 51th release from WHY Record Company (WRC) - WHY050",
-			"\"Tech Demo EP\" by Matyb",
-			"Original songs Recorded, Produced, Mixed, and Mastered by Matyb (Matt Benjamin)",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			11
-		],
-		"secondary_artist_ids": [
-			2
-		],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/5FJLhMKYTpn5HSJUO7pUyn",
-			"ap": "https://music.apple.com/us/album/tech-demo-ep/1533305014"
-		}
-	},
-	{
 		"name": "Devotion",
 		"local_path": "Devotion",
-		"id": 65,
+		"id": 66,
 		"label_number": "WHY049",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Devotion-min.png",
@@ -85,7 +111,7 @@
 	{
 		"name": "Desperation",
 		"local_path": "Desperation",
-		"id": 64,
+		"id": 65,
 		"label_number": "WHY048",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Desperation-min.png",
@@ -108,6 +134,31 @@
 			"sp": "https://open.spotify.com/track/4gokRB60YZ3JVNFnjoldpY",
 			"ap": "https://music.apple.com/us/album/desperation/1528984712?i=1528984713",
 			"yt": "https://www.youtube.com/watch?v=l4fxxMH6A_M"
+		}
+	},
+	{
+		"name": "IDM Boy in an EDM World Volume 1",
+		"local_path": "IDMBOYVOL1",
+		"id": 64,
+		"label_number": "WHY047",
+		"release_type": "WRC",
+		"album_art": "/images/releases/idmboyvol1.jpg",
+		"release_date": "2020-09-09T18:25:43.511Z",
+		"genre": "IDM",
+		"release_bio": [
+			"The 47th release from WHY Record Company (WRC) - WHY047",
+			"IDM Boy in an EDM World Volume 1 by ofoot",
+			"Artwork by ofoot",
+			"\"A collection of remixes I have done to my serious capacity\"",
+			"Vega By LoM __BREAK__ SMCP by SPLM __BREAK__ Namibas by dyl_pykl __BREAK__ Look Into Your Eyes by whythough? and dear evergreen __BREAK__ He Called Me Beautiful by Katie Hoffstatter, dyl_pykl, and MatyB"
+		],
+		"primary_artist_ids": [
+			8
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://ofoot.bandcamp.com/album/idm-boy-in-an-edm-world-volume-1"
 		}
 	},
 	{

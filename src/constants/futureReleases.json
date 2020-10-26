@@ -1,40 +1,59 @@
 [
-
     {
         "name": "pl-01",
         "local_path": "pl-01",
         "id": -1,
-        "label_number": "WHY053",
+        "label_number": "WHY056",
         "release_type": "Pink Label",
         "album_art": "/images/releases/WRC.jpg",
         "release_date": "2020-12-12T18:25:43.511Z",
-        "genre": "____",
+        "genre": "noise",
         "release_bio": [
-            "The 53rd release from WHY Record Company (WRC) - WHY053",
+            "The 56th release from WHY Record Company (WRC) - WHY056",
             "Introducing the pink label."
         ],
         "primary_artist_ids": [
-1
+            1
         ],
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {}
     },
-    
     {
-        "name": "shell-artist-album",
-        "local_path": "shell-artist-album",
+        "name": "Trash Beats For Trash People 2",
+        "local_path": "tb4tp3",
         "id": -1,
-        "label_number": "WHY047",
+        "label_number": "WHY055",
         "release_type": "WRC",
         "album_art": "/images/releases/____.png",
         "release_date": "2020-0?-??T18:25:43.511Z",
-        "genre": "____",
+        "genre": "beats",
         "release_bio": [
-            "The 47th release from WHY Record Company (WRC) - WHY047"
+            "The 55th release from WHY Record Company (WRC) - WHY055"
         ],
         "primary_artist_ids": [
-            25
+            1,
+            2
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {}
+    },
+    {
+        "name": "Trash Beats For Trash People 2",
+        "local_path": "tb4tp2",
+        "id": -1,
+        "label_number": "WHY054",
+        "release_type": "WRC",
+        "album_art": "/images/releases/____.png",
+        "release_date": "2020-0?-??T18:25:43.511Z",
+        "genre": "beats",
+        "release_bio": [
+            "The 54th release from WHY Record Company (WRC) - WHY054"
+        ],
+        "primary_artist_ids": [
+            1,
+            2
         ],
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
@@ -44,13 +63,13 @@
         "name": "He Called Me Beautiful (Remixes)",
         "local_path": "hcmb-remixes",
         "id": -1,
-        "label_number": "WHY052",
+        "label_number": "WHY053",
         "release_type": "WRC",
         "album_art": "/images/releases/hcmb-remixes.png",
         "release_date": "2020-0?-??T18:25:43.511Z",
         "genre": "house",
         "release_bio": [
-            "The 52nd release from WHY Record Company (WRC) - WHY052",
+            "The 53rd release from WHY Record Company (WRC) - WHY053",
             "\"He Called Me Beautiful\" (Remixes) by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
             "Original song Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
             "Songwriting and Vocals by Katie Hoffstatter",
@@ -65,9 +84,14 @@
             11
         ],
         "secondary_artist_ids": [],
-        "remix_artist_ids": [1,2,3,8],
+        "remix_artist_ids": [
+            1,
+            2,
+            3,
+            8
+        ],
         "links": {
-            "____":"____"
+            "____": "____"
         }
     }
 ]
