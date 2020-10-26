@@ -12,7 +12,9 @@ export default function Navbar(props) {
 		// "Atlas": ["Blockchain", true],
 		"Contact": ["@", false],
 	}
-	const mappedLinks = Object.keys(Links).map((item, idx) => {
+	const linkKeys = Object.keys(Links)
+
+	const mappedLinks = linkKeys.map((item, idx) => {
 		return (
 			<Link
 				key={idx}
@@ -26,7 +28,7 @@ export default function Navbar(props) {
 				text={item}
 				qMark={idx === 0 ? true : false}
 				isText={!Links[item][1]}
-				lastItem={idx === (Object.keys(Links).length - 1)}
+				lastItem={idx === (linkKeys.length - 1)}
 			/>
 		)
 	})
