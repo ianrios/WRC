@@ -16,7 +16,8 @@ export default function Contact() {
 					<p>
 						<a className="no-style-link" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/whyrecord">twitter</a>{" - "}
 						<a className="no-style-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/whyrecordcompany">instagram</a>{" - "}
-						<a className="no-style-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/WHYRecordCompany">facebook</a>
+						<a className="no-style-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/WHYRecordCompany">facebook</a>{" - "}
+						<a className="no-style-link" target="_blank" rel="noopener noreferrer" href="https://discord.gg/ZHe4A5k">discord</a>
 					</p>
 					<p>If you would like to release on WRC, please fill out <a href="https://forms.gle/pDcYS2Kmd5rvDJVw8" target="_blank" rel="noopener noreferrer">this form</a> to submit a demo.</p>
 					<p>If you are having website issues visit our <Link to="/errors">error page</Link></p>

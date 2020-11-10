@@ -2,7 +2,7 @@ import React from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import Seo from '../Seo'
 import contestData from '../../constants/contestData.json'
-import { mappedPTag } from '../../utilities/maps'
+import { mappedPTag, mappedObjArr } from '../../utilities/maps'
 
 export default function ContestPage() {
 
@@ -46,16 +46,28 @@ export default function ContestPage() {
                                     <div className="col text-center questrial">
                                         <h2>{currContest.description}</h2>
                                         <h4>{currContest.h4}</h4>
+                                        {currContest.releasePage && <Link to={`/release/${currContest.local_path}`}>Visit Release Page</Link>}
                                         <hr />
                                         <div className="text-left text-border">
                                             <h3>Rules:</h3>
                                             {mappedPTag(currContest.rules, "text-left")}
                                         </div>
+                                        {currContest.resources.length &&
+                                            <>
+                                                <hr />
+                                                <div className="text-left text-border">
+                                                    <h3>Resources:</h3>
+                                                    {mappedObjArr(currContest.resources, "text-left")}
+                                                </div>
+                                            </>
+                                        }
                                         <hr />
                                         <div className="text-left text-border">
                                             <h3>Recommendations:</h3>
                                             {mappedPTag(currContest.recommendations, "text-left")}
                                         </div>
+                                        <hr />
+                                        <h5>Full Disclosure:</h5>
                                         <h5>{currContest.disclosure}</h5>
                                     </div>
                                 </div>

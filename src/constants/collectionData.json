@@ -63,6 +63,14 @@
 		"local_path": "playlists"
 	},
 	{
+		"short_title": "WHYCOMP",
+		"title": "WHYCOMP",
+		"paragraphs": [
+			"Contests, Competitions, and Compilations"
+		],	
+		"local_path": "contests"
+	},
+	{
 		"short_title": "Independent",
 		"title": "Independent Releases",
 		"paragraphs": [

@@ -5,7 +5,7 @@ import releaseData from "../../constants/releaseData.json";
 import mixData from "../../constants/mixData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
-import {mappedPTag} from '../../utilities/maps'
+import { mappedPTag } from '../../utilities/maps'
 
 export default function ReleasePage() {
 	const location = useLocation();
@@ -164,6 +164,8 @@ export default function ReleasePage() {
 										</p>
 										<div className="text-border d-none d-lg-block">
 											{mappedPTag(currRelease.release_bio, "release-bio-paragraphs text-left")}
+
+											{currRelease.local_path.includes("WHYCOMP") && <Link to={`/contest/${currRelease.local_path}`}>Competition Details</Link>}
 										</div>
 										<p>
 											Primary Genre:  {currRelease.genre}

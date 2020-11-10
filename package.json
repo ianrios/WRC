@@ -13,13 +13,14 @@
     "node-sass": "4.14.1",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-cookie-consent": "5.1.0",
+    "react-cookie-consent": "^6.1.0",
     "react-d3-graph": "2.4.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.1.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.4.1",
-    "styled-components": "5.1.1"
+    "react-scripts": "^4.0.0",
+    "styled-components": "5.1.1",
+    "node-fetch": "3.0.0-beta.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,13 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "guppy": {
-    "id": "e2a3b9f0-b0c8-11ea-9355-b5c87107f10f",
-    "name": "wrc",
-    "type": "create-react-app",
-    "color": "#cc004a",
-    "icon": "./static/media/icon_gradient1.d2acee34.png",
-    "createdAt": 1592418743056
   }
 }

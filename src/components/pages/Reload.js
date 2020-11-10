@@ -9,7 +9,7 @@ export default function Reload() {
 				<h1 className="header-sub-page">Click The Button</h1>
 				<p className="questrial">If this button does not fix the cache clearing bug with the service worker, try clearing your application data, doing a hard reload.</p>
 				<p className="questrial">(<code>cmd+shift+r</code> on mac or <code>ctrl+shift+r</code> on windows)</p>
-				<button type="button" class="btn btn-secondary mb-3" onClick={() => {
+				<button type="button" className="btn btn-secondary mb-3" onClick={() => {
 					window.location.reload(true);
 				}}>Hard Reload Button</button>
 				<h2>

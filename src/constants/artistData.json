@@ -766,7 +766,7 @@
 	},
 	{
 		"id": 25,
-		"name": "Shell Artist",
+		"name": "shell artist",
 		"local_path": "shell-artist",
 		"show_on_artist_page": true,
 		"photos": [
@@ -777,8 +777,9 @@
 			"city": "Lexington",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"Music? What's that?\"",
 		"body_paragraphs": [
+			"shell artist is a persona that takes on many meanings. From the countless shells on beaches that amount to more stars than in the galaxy, to the miniscule size of a shell each being unique when you look closely, shell artist's music exists as a thought practice to push the boundaries of ambient music by packaging it differently. Each song is as long as it needs to be, each different enough to entice the listener to continue to the next.",
 			"A shell musician is an artist that's created to generate funds and farm listeners through different streaming services. Unlike traditional artists, shell musicians don't have shows and aren't interested in publicity. Shell artists do not provide listeners with music of any substantial length of time to enjoy in order to milk streaming algorithms for profits.",
 			"an ian rios project"
 		],

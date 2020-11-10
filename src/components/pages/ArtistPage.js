@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
+import independentReleaseData from "../../constants/independentReleaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ArtistPage.scss";
 import { mappedPTag } from '../../utilities/maps'
@@ -12,7 +13,11 @@ export default function ArtistPage() {
 	const currArtist = artistData.find(i => i.local_path.toLowerCase() === path.toLowerCase());
 	const foundArtist = currArtist === undefined ? false : true;
 
-
+	const sortedData = [
+		...releaseData,
+		...independentReleaseData
+	]
+		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 
 	const mappedImgCol = (props) => {
 		return props.map((a, i) => {
@@ -162,7 +167,7 @@ export default function ArtistPage() {
 									</div>
 								</div>
 								<div className="row artist-page-releases">
-									{mappedImgCol(releaseData.filter(i => {
+									{mappedImgCol(sortedData.filter(i => {
 										for (let j of i.primary_artist_ids) {
 											if (j === currArtist.id) {
 												return i

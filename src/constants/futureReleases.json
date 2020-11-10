@@ -20,40 +20,25 @@
         "links": {}
     },
     {
-        "name": "Trash Beats For Trash People 2",
+        "name": "Trash Beats For Trash People 3",
         "local_path": "tb4tp3",
-        "id": -1,
-        "label_number": "WHY055",
-        "release_type": "WRC",
-        "album_art": "/images/releases/____.png",
-        "release_date": "2020-0?-??T18:25:43.511Z",
-        "genre": "beats",
-        "release_bio": [
-            "The 55th release from WHY Record Company (WRC) - WHY055"
-        ],
-        "primary_artist_ids": [
-            1,
-            2
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {}
-    },
-    {
-        "name": "Trash Beats For Trash People 2",
-        "local_path": "tb4tp2",
         "id": -1,
         "label_number": "WHY054",
         "release_type": "WRC",
-        "album_art": "/images/releases/____.png",
-        "release_date": "2020-0?-??T18:25:43.511Z",
+        "album_art": "/images/releases/tb4tp3.png",
+        "release_date": "2020-12-04T18:25:43.511Z",
         "genre": "beats",
         "release_bio": [
-            "The 54th release from WHY Record Company (WRC) - WHY054"
+            "The 55th release from WHY Record Company (WRC) - WHY055",
+            "\"Trash Beats For Trash People 3\" by dyl_pykl & whythough?",
+            "The third and final installment of the trash beats catalogue.",
+            "Original songs Recorded, Produced, and Mixed by Dylan Smock & Ian Rios",
+            "Mastering by Ian Rios",
+            "Photograph for Artwork by Olivia Rios, Logo by \"tiimonn\" on Fiverr, Release Artwork by Ian Rios"
         ],
         "primary_artist_ids": [
-            1,
-            2
+            2,
+            1
         ],
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
@@ -63,13 +48,13 @@
         "name": "He Called Me Beautiful (Remixes)",
         "local_path": "hcmb-remixes",
         "id": -1,
-        "label_number": "WHY053",
+        "label_number": "WHY057",
         "release_type": "WRC",
         "album_art": "/images/releases/hcmb-remixes.png",
         "release_date": "2020-0?-??T18:25:43.511Z",
         "genre": "house",
         "release_bio": [
-            "The 53rd release from WHY Record Company (WRC) - WHY053",
+            "The 57rd release from WHY Record Company (WRC) - WHY057",
             "\"He Called Me Beautiful\" (Remixes) by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
             "Original song Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
             "Songwriting and Vocals by Katie Hoffstatter",

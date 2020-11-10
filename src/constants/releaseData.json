@@ -1,8 +1,67 @@
 [
 	{
+		"name": "Trash Beats For Trash People 2",
+		"local_path": "tb4tp2",
+		"id": -1,
+		"label_number": "WHY054",
+		"release_type": "WRC",
+		"album_art": "/images/releases/tb4tp2.png",
+		"release_date": "2020-11-27T18:25:43.511Z",
+		"genre": "beats",
+		"release_bio": [
+			"The 54th release from WHY Record Company (WRC) - WHY054",
+			"\"Trash Beats For Trash People 2\" by dyl_pykl (Robert \"Dylan\" Smock) & whythough? (Ian Rios)",
+			"Original songs Recorded, Produced, and Mixed by Dylan Smock & Ian Rios",
+			"Mastering by Ian Rios",
+			"Photograph for Artwork by Lindsey Jones Photography, Release artwork by Ian Rios",
+			"Featuring Matyb on \"Song for Tom\"",
+			"The second installment of the trash beats catalogue."
+		],
+		"primary_artist_ids": [
+			2,
+			1
+		],
+		"secondary_artist_ids": [
+			11
+		],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
+		"name": "rain",
+		"local_path": "WHYCOMP001",
+		"id": 53,
+		"label_number": "WHY053",
+		"release_type": "WRC",
+		"album_art": "/images/releases/rain.png",
+		"release_date": "2020-11-13T18:25:43.511Z",
+		"genre": "beats",
+		"release_bio": [
+			"The 53rd release from WHY Record Company (WRC) - WHY053",
+			"\"WHYCOMP001: rain\"",
+			"Original songs Recorded, Produced, Mixed, and mastered by StratosFear, Quantopix, robbiegay, shell artist, dyl_pykl, and Weeping Sun.",
+			"Featuring field recordings, ambient music, and peaceful noises all inspired or recorded from rain",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			3,
+			18,
+			24,
+			2,
+			25,
+			9
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/rain",
+			"bc": ""
+		}
+	},
+	{
 		"name": "Beats You Don't Deserve",
 		"local_path": "bydd",
-		"id": 69,
+		"id": 52,
 		"label_number": "WHY052",
 		"release_type": "WRC",
 		"album_art": "/images/releases/bydd-min.png",
@@ -28,7 +87,7 @@
 	{
 		"name": "Tech Demo EP",
 		"local_path": "bl-td",
-		"id": 68,
+		"id": 51,
 		"label_number": "WHY051",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/tech-demo.png",
@@ -55,7 +114,7 @@
 	{
 		"name": "DUO EP",
 		"local_path": "DUO",
-		"id": 67,
+		"id": 50,
 		"label_number": "WHY050",
 		"release_type": "WRC",
 		"album_art": "/images/releases/DUO-art-min-min.png",
@@ -83,7 +142,7 @@
 	{
 		"name": "Devotion",
 		"local_path": "Devotion",
-		"id": 66,
+		"id": 49,
 		"label_number": "WHY049",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Devotion-min.png",
@@ -111,7 +170,7 @@
 	{
 		"name": "Desperation",
 		"local_path": "Desperation",
-		"id": 65,
+		"id": 48,
 		"label_number": "WHY048",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Desperation-min.png",
@@ -139,7 +198,7 @@
 	{
 		"name": "IDM Boy in an EDM World Volume 1",
 		"local_path": "IDMBOYVOL1",
-		"id": 64,
+		"id": 47,
 		"label_number": "WHY047",
 		"release_type": "WRC",
 		"album_art": "/images/releases/idmboyvol1.jpg",
@@ -164,7 +223,7 @@
 	{
 		"name": "NITRO (Remixes)",
 		"local_path": "NITRO-Remixes",
-		"id": 63,
+		"id": 46,
 		"label_number": "WHY046",
 		"release_type": "WRC",
 		"album_art": "/images/releases/nitroremix.png",
@@ -201,7 +260,7 @@
 	{
 		"name": "CYCLE001: GRIEF (Club Mixes)",
 		"local_path": "cycle001-club",
-		"id": 62,
+		"id": 45,
 		"label_number": "WHY045",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/cycle001club.png",
@@ -227,7 +286,7 @@
 	{
 		"name": "Corrupted Data",
 		"local_path": "corrupted-data",
-		"id": 61,
+		"id": 44,
 		"label_number": "WHY044",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/blcd.png",
@@ -255,7 +314,7 @@
 	{
 		"name": "June Evening",
 		"local_path": "blje",
-		"id": 60,
+		"id": 43,
 		"label_number": "WHY043",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/blje.png",
@@ -281,7 +340,7 @@
 	{
 		"name": "Look In Your Eyes",
 		"local_path": "liye",
-		"id": 59,
+		"id": 42,
 		"label_number": "WHY042",
 		"release_type": "WRC",
 		"album_art": "/images/releases/liye.png",
@@ -314,7 +373,7 @@
 	{
 		"name": "Vacation Home",
 		"local_path": "Vacation-Home",
-		"id": 58,
+		"id": 41,
 		"label_number": "WHY040",
 		"release_type": "WRC",
 		"album_art": "/images/releases/vacationhome.png",
@@ -344,7 +403,7 @@
 	{
 		"name": "Venice Bitch (whythough? x dyl_pykl Remix)",
 		"local_path": "Venice-Bitch",
-		"id": 57,
+		"id": 40,
 		"label_number": "WHY041",
 		"release_type": "WRC",
 		"album_art": "/images/releases/venice-bitch.png",
@@ -371,7 +430,7 @@
 	{
 		"name": "Stopped Raining",
 		"local_path": "stopped-raining",
-		"id": 56,
+		"id": 39,
 		"label_number": "WHY039",
 		"release_type": "WRC",
 		"album_art": "/images/releases/stoppedraining.png",
@@ -398,7 +457,7 @@
 	{
 		"name": "Eternal Gloop",
 		"local_path": "BL-EG",
-		"id": 55,
+		"id": 38,
 		"label_number": "WHY038",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/bleg.png",
@@ -425,37 +484,9 @@
 		}
 	},
 	{
-		"name": "Andamp",
-		"local_path": "Andamp",
-		"id": 54,
-		"label_number": "GEAR004",
-		"release_type": "Independent",
-		"album_art": "/images/releases/Andamp.png",
-		"release_date": "2020-04-18T18:25:43.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			"The 4th release from GEAR Techno Collective.",
-			"\"Andamp\" by whythough? (Ian Rios) is his debut single on GEAR and his first original release of the year.",
-			"Recorded, Produced, Mixed, and Mastered by whythough?.",
-			"Artwork by Rafael Khan"
-		],
-		"primary_artist_ids": [
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/1hhBWnpvWRJemsULPNO9n5",
-			"ap": "https://music.apple.com/us/album/andamp-single/1506523982",
-			"az": "https://www.amazon.com/gp/product/B086SKL82P",
-			"yt": "",
-			"dk": "https://distrokid.com/hyperfollow/whythough/andamp"
-		}
-	},
-	{
 		"name": "Cure",
 		"local_path": "cure",
-		"id": 53,
+		"id": 37,
 		"label_number": "WHY036",
 		"release_type": "WRC",
 		"album_art": "/images/releases/cure.png",
@@ -484,7 +515,7 @@
 	{
 		"name": "RECORDINGS001",
 		"local_path": "rec001",
-		"id": 52,
+		"id": 36,
 		"label_number": "WHYREC001",
 		"release_type": "RECORDINGS",
 		"album_art": "/images/releases/rec001.jpg",
@@ -509,7 +540,7 @@
 	{
 		"name": "True Colors",
 		"local_path": "true-colors",
-		"id": 51,
+		"id": 35,
 		"label_number": "WHY037",
 		"release_type": "WRC",
 		"album_art": "/images/releases/truecolors.jpg",
@@ -539,7 +570,7 @@
 	{
 		"name": "Beans",
 		"local_path": "beans",
-		"id": 50,
+		"id": 34,
 		"label_number": "WHY035",
 		"release_type": "WRC",
 		"album_art": "/images/releases/beans.png",
@@ -568,7 +599,7 @@
 	{
 		"name": "He Called Me Beautiful",
 		"local_path": "HCMB",
-		"id": 49,
+		"id": 33,
 		"label_number": "WHY034",
 		"release_type": "WRC",
 		"album_art": "/images/releases/hcmb.jpg",
@@ -602,7 +633,7 @@
 	{
 		"name": "A12A2",
 		"local_path": "BL-A12A2",
-		"id": 48,
+		"id": 32,
 		"label_number": "WHY033",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/A12A2.png",
@@ -629,52 +660,9 @@
 		}
 	},
 	{
-		"name": "The Time Has Come",
-		"local_path": "TTHC",
-		"id": 46,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/the_time_has_come.jpg",
-		"release_date": "2020-02-01T18:25:43.511Z",
-		"genre": "Hip-Hop Beats",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			4
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
-		}
-	},
-	{
-		"name": "wttp (svnteen deep fried bootleg)",
-		"local_path": "WTTP",
-		"id": 45,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/wttp.png",
-		"release_date": "2020-01-26T18:25:43.511Z",
-		"genre": "Dubstep",
-		"release_bio": [
-			"",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			5
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
-		}
-	},
-	{
 		"name": "CYCLE003: The Stems",
 		"local_path": "CYCLE003TS",
-		"id": 44,
+		"id": 31,
 		"label_number": "WHY032",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/CYCLE003_Stems.png",
@@ -696,7 +684,7 @@
 	{
 		"name": "CYCLE003: Because I said so",
 		"local_path": "CYCLE003",
-		"id": 43,
+		"id": 30,
 		"label_number": "WHY031",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/CYCLE003.jpg",
@@ -718,7 +706,7 @@
 	{
 		"name": "The Last Judgement EP",
 		"local_path": "BL-TLJ",
-		"id": 42,
+		"id": 29,
 		"label_number": "WHY030",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/Fohrenbach_WHY030.png",
@@ -744,7 +732,7 @@
 	{
 		"name": "NITRO EP",
 		"local_path": "NITRO",
-		"id": 41,
+		"id": 28,
 		"label_number": "WHY029",
 		"release_type": "WRC",
 		"album_art": "/images/releases/nitro.jpg",
@@ -764,32 +752,9 @@
 		}
 	},
 	{
-		"name": "Free Fall (The Remixes)",
-		"local_path": "FFTR",
-		"id": 40,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/retiredorphanremix.jpeg",
-		"release_date": "2019-10-28T18:25:43.511Z",
-		"genre": "Garage",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			13
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [
-			1
-		],
-		"links": {
-			"sp": "https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
-		}
-	},
-	{
 		"name": "About Them",
 		"local_path": "About-Them",
-		"id": 39,
+		"id": 27,
 		"label_number": "WHY028",
 		"release_type": "WRC",
 		"album_art": "/images/releases/about_them.jpg",
@@ -811,7 +776,7 @@
 	{
 		"name": "Catapult",
 		"local_path": "Catapult",
-		"id": 38,
+		"id": 26,
 		"label_number": "WHY027",
 		"release_type": "WRC",
 		"album_art": "/images/releases/catapult.jpg",
@@ -841,7 +806,7 @@
 	{
 		"name": "CYCLE002: sleep",
 		"local_path": "CYCLE002",
-		"id": 37,
+		"id": 25,
 		"label_number": "WHY026",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/cycle002.jpg",
@@ -863,7 +828,7 @@
 	{
 		"name": "H A D E S",
 		"local_path": "HADES",
-		"id": 36,
+		"id": 24,
 		"label_number": "WHY025",
 		"release_type": "WRC",
 		"album_art": "/images/releases/hades.jpg",
@@ -885,7 +850,7 @@
 	{
 		"name": "CYCLE001: GRIEF",
 		"local_path": "CYCLE001",
-		"id": 35,
+		"id": 23,
 		"label_number": "WHY024",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/cycle001.jpg",
@@ -908,7 +873,7 @@
 	{
 		"name": "Daegu Acid",
 		"local_path": "Daegu-Acid",
-		"id": 34,
+		"id": 22,
 		"label_number": "WHY023",
 		"release_type": "WRC",
 		"album_art": "/images/releases/daegu_acid.jpg",
@@ -932,7 +897,7 @@
 	{
 		"name": "EXCO (Remixes)",
 		"local_path": "EXCO-Remixes",
-		"id": 33,
+		"id": 21,
 		"label_number": "WHY022",
 		"release_type": "WRC",
 		"album_art": "/images/releases/exco_remixes.jpg",
@@ -957,36 +922,9 @@
 		}
 	},
 	{
-		"name": "Vega (Remixes)",
-		"local_path": "Vega-Remixes",
-		"id": 32,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/vega_remix.jpg",
-		"release_date": "2019-02-22T18:25:43.511Z",
-		"genre": "Mid Tempo",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			7
-		],
-		"secondary_artist_ids": [
-			2,
-			10
-		],
-		"remix_artist_ids": [
-			1,
-			2
-		],
-		"links": {
-			"sp": "https://open.spotify.com/album/5AncwNuZvP15SgTrT7cmM0?si=wwFhqsYlSA2gui85nYfYpw"
-		}
-	},
-	{
 		"name": "Blurs - Deluxe Edition",
 		"local_path": "Blurs-DE",
-		"id": 31,
+		"id": 20,
 		"label_number": "WHY021",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blurs_deluxe.jpg",
@@ -1022,7 +960,7 @@
 	{
 		"name": "Trash Beats For Trash People",
 		"local_path": "TB4TP",
-		"id": 30,
+		"id": 19,
 		"label_number": "WHY020",
 		"release_type": "WRC",
 		"album_art": "/images/releases/tb4tp.jpg",
@@ -1045,7 +983,7 @@
 	{
 		"name": "trial + error",
 		"local_path": "trial-error",
-		"id": 29,
+		"id": 18,
 		"label_number": "WHY019",
 		"release_type": "WRC",
 		"album_art": "/images/releases/trial_error.jpg",
@@ -1067,7 +1005,7 @@
 	{
 		"name": "Jamie XX Sleep Sound (dyl_pykl x whythough? 2018 \"Up All Night\" Remix)",
 		"local_path": "Jamie-XX-Sleep-Sound-Remix",
-		"id": 28,
+		"id": 17,
 		"label_number": "WHY018",
 		"release_type": "WRC",
 		"album_art": "/images/releases/jamie_xx_2018.jpg",
@@ -1087,33 +1025,9 @@
 		}
 	},
 	{
-		"name": "Gashadokuro (Remixes)",
-		"local_path": "Gashadokuro-Remixes",
-		"id": 27,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/gdkwtr.jpg",
-		"release_date": "2018-10-31T18:25:43.511Z",
-		"genre": "Hard Style",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			10,
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [
-			7
-		],
-		"links": {
-			"sc": "https://soundcloud.com/whythough/sets/gashadokuro-remixes"
-		}
-	},
-	{
 		"name": "Ganymede & The Late Heavy Bombardment",
 		"local_path": "Ganymede",
-		"id": 26,
+		"id": 16,
 		"label_number": "WHY017",
 		"release_type": "WRC",
 		"album_art": "/images/releases/ganymede.png",
@@ -1136,7 +1050,7 @@
 	{
 		"name": "Uhhhhhhh",
 		"local_path": "Uhhhhhhh",
-		"id": 25,
+		"id": 15,
 		"label_number": "WHY016",
 		"release_type": "WRC",
 		"album_art": "/images/releases/uhhhhhhh.jpg",
@@ -1158,7 +1072,7 @@
 	{
 		"name": "Harmonious Interaction of Patterns (Remixes)",
 		"local_path": "HIOP-Remixes",
-		"id": 24,
+		"id": 14,
 		"label_number": "WHY015",
 		"release_type": "WRC",
 		"album_art": "/images/releases/hiop_remixes.jpg",
@@ -1181,31 +1095,9 @@
 		}
 	},
 	{
-		"name": "Gashadokuro",
-		"local_path": "Gashadokuro",
-		"id": 23,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/gdkwt.jpg",
-		"release_date": "2018-10-13T18:25:43.511Z",
-		"genre": "Dubstep",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			10,
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/5sRQj33m7MwGOJ6YmgNLo0?si=o3SXR-X9SkiDw1mxlF3PTg"
-		}
-	},
-	{
 		"name": "EXCO EP",
 		"local_path": "EXCO",
-		"id": 22,
+		"id": 13,
 		"label_number": "WHY014",
 		"release_type": "WRC",
 		"album_art": "/images/releases/exco.jpg",
@@ -1225,33 +1117,9 @@
 		}
 	},
 	{
-		"name": "Vega",
-		"local_path": "Vega",
-		"id": 21,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/vega.jpg",
-		"release_date": "2018-09-12T18:25:43.511Z",
-		"genre": "Mid Tempo",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			7
-		],
-		"secondary_artist_ids": [
-			2,
-			10
-		],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/4TgkJydsArX79d5jWhafUq?si=kuKuyW8cSaq6oLHU0FBhBA"
-		}
-	},
-	{
 		"name": "HEAVEN",
 		"local_path": "HEAVEN",
-		"id": 20,
+		"id": 12,
 		"label_number": "WHY013",
 		"release_type": "WRC",
 		"album_art": "/images/releases/heaven.jpg",
@@ -1272,7 +1140,7 @@
 	{
 		"name": "Harður ˈTeknō",
 		"local_path": "Hardur-Tekno",
-		"id": 19,
+		"id": 11,
 		"label_number": "WHY012",
 		"release_type": "WRC",
 		"album_art": "/images/releases/htwt.jpg",
@@ -1297,7 +1165,7 @@
 	{
 		"name": "Cigarette Smoke",
 		"local_path": "Cigarette-Smoke",
-		"id": 18,
+		"id": 10,
 		"label_number": "WHY011",
 		"release_type": "WRC",
 		"album_art": "/images/releases/csdp.jpg",
@@ -1325,7 +1193,7 @@
 	{
 		"name": "The Lobster EP",
 		"local_path": "The-Lobster",
-		"id": 17,
+		"id": 9,
 		"label_number": "WHY010",
 		"release_type": "WRC",
 		"album_art": "/images/releases/dptl.jpg",
@@ -1348,7 +1216,7 @@
 	{
 		"name": "Blurs (Remixes)",
 		"local_path": "Blurs-Remixes",
-		"id": 16,
+		"id": 8,
 		"label_number": "WHY009",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blurs_remix.jpg",
@@ -1383,7 +1251,7 @@
 	{
 		"name": "Blurs",
 		"local_path": "Blurs",
-		"id": 15,
+		"id": 7,
 		"label_number": "WHY008",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blurs.jpg",
@@ -1408,136 +1276,9 @@
 		}
 	},
 	{
-		"name": "Glancing Memories",
-		"local_path": "Glancing-Memories",
-		"id": 14,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/gmmb.jpg",
-		"release_date": "2019-11-18T18:25:43.511Z",
-		"genre": "Hip-Hop Beats",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			11
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/5Jau59HBTBSfcjrQoIz90r?si=yD90GqxgQCKZza3kqVGmBg"
-		}
-	},
-	{
-		"name": "Harmonious Interactions of Patterns",
-		"local_path": "HIOP",
-		"id": 13,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/hiopf.jpeg",
-		"release_date": "2018-07-05T18:25:43.511Z",
-		"genre": "Hip-Hop Beats",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			4
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/4wvjxE2JcyqUhCb0kiigLY?si=-R5snQrYTnq0Gpa0HbSN3w"
-		}
-	},
-	{
-		"name": "Sapphire Sky",
-		"local_path": "Sapphire-Sky",
-		"id": 12,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/ssf.jpg",
-		"release_date": "2019-08-29T18:25:43.511Z",
-		"genre": "Lo-Fi Hip-Hop Beats",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			4
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/20NdJB5onAVhwB9USvUlSu?si=wSnSPg0CSXevf3VC1M6DSQ"
-		}
-	},
-	{
-		"name": "Saturday Morning",
-		"local_path": "Saturday-Morning",
-		"id": 11,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/smf.png",
-		"release_date": "2019-08-21T18:25:43.511Z",
-		"genre": "Lo-Fi Hip-Hop Beats",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			4
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/4xtliDZcrhgAQaB9hBNWXt?si=M_ezLtUrSdKXAfX5AI8RLg"
-		}
-	},
-	{
-		"name": "Floating Like a Feather",
-		"local_path": "FLAF",
-		"id": 10,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/flaff.jpg",
-		"release_date": "2019-02-22T18:25:43.511Z",
-		"genre": "Beats",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			4
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sp": "https://open.spotify.com/album/6qFNQFqg98DaTyAB7PLjz3?si=rzN6oSGMRFCa81tktFgnJQ"
-		}
-	},
-	{
-		"name": "paranoimia",
-		"local_path": "paranoimia",
-		"id": 9,
-		"label_number": "WHY003",
-		"release_type": "WRC",
-		"album_art": "/images/releases/paranoimia.jpg",
-		"release_date": "2018-03-15T18:25:43.511Z",
-		"genre": "House",
-		"release_bio": [
-			"",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "https://soundcloud.com/whythough/paranoimia"
-		}
-	},
-	{
 		"name": "JUST CALL EP",
 		"local_path": "JUST-CALL",
-		"id": 8,
+		"id": 6,
 		"label_number": "WHY007",
 		"release_type": "WRC",
 		"album_art": "/images/releases/just_call.jpg",
@@ -1558,30 +1299,31 @@
 		}
 	},
 	{
-		"name": "The Beginning",
-		"local_path": "The-Beginning",
-		"id": 7,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/the_beginning.jpg",
-		"release_date": "2017-04-21T18:25:43.511Z",
-		"genre": "Trap",
+		"name": "probably an album but who am i to judge honestly",
+		"local_path": "paabwaitjh",
+		"id": 5,
+		"label_number": "WHY006",
+		"release_type": "WRC",
+		"album_art": "/images/releases/paabwaitjh.jpg",
+		"release_date": "2017-03-15T18:25:43.511Z",
+		"genre": "IDM",
 		"release_bio": [
-			""
+			"",
+			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
-			5
+			1
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": "https://open.spotify.com/album/6AORqUaCbnGUPUlyHDbabE?si=KALsu1q-SAStMzyQGzzFdQ"
+			"bc": "https://whythough.bandcamp.com/album/probably-an-album-but-who-am-i-to-judge-honestly"
 		}
 	},
 	{
 		"name": "grains of Blurs",
 		"local_path": "grains",
-		"id": 6,
+		"id": 4,
 		"label_number": "WHY005",
 		"release_type": "WRC",
 		"album_art": "/images/releases/grains.jpg",
@@ -1603,7 +1345,7 @@
 	{
 		"name": "RAAPT",
 		"local_path": "RAAPT",
-		"id": 5,
+		"id": 3,
 		"label_number": "WHY004",
 		"release_type": "WRC",
 		"album_art": "/images/releases/raapt.jpg",
@@ -1623,58 +1365,14 @@
 		}
 	},
 	{
-		"name": "MURDA EP",
-		"local_path": "MURDA",
-		"id": 4,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/murda.jpg",
-		"release_date": "2017-03-06T18:25:43.511Z",
-		"genre": "House",
-		"release_bio": [
-			""
-		],
-		"primary_artist_ids": [
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [
-			1
-		],
-		"links": {
-			"sc": "https://soundcloud.com/dyl_pykl/sets/murda-ep"
-		}
-	},
-	{
-		"name": "The Above/Below EP",
-		"local_path": "Above-Below",
-		"id": 3,
-		"label_number": "Independent",
-		"release_type": "Independent",
-		"album_art": "/images/releases/abovebelow.jpg",
-		"release_date": "2017-02-15T18:25:43.511Z",
-		"genre": "Drum and Bass",
-		"release_bio": [
-			"Drum and Bass EP from dyl_pykl"
-		],
-		"primary_artist_ids": [
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "https://soundcloud.com/dyl_pykl/sets/the-above-below-ep"
-		}
-	},
-	{
-		"name": "probably an album but who am i to judge honestly",
-		"local_path": "paabwaitjh",
+		"name": "paranoimia",
+		"local_path": "paranoimia",
 		"id": 2,
-		"label_number": "WHY006",
+		"label_number": "WHY003",
 		"release_type": "WRC",
-		"album_art": "/images/releases/paabwaitjh.jpg",
-		"release_date": "2017-03-15T18:25:43.511Z",
-		"genre": "IDM",
+		"album_art": "/images/releases/paranoimia.jpg",
+		"release_date": "2018-03-15T18:25:43.511Z",
+		"genre": "House",
 		"release_bio": [
 			"",
 			"Artwork by Ian Rios"
@@ -1685,7 +1383,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "https://whythough.bandcamp.com/album/probably-an-album-but-who-am-i-to-judge-honestly"
+			"sc": "https://soundcloud.com/whythough/paranoimia"
 		}
 	},
 	{

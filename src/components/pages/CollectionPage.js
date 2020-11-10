@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation, Link } from 'react-router-dom';
 import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
+import independentReleaseData from "../../constants/independentReleaseData.json";
 import mixData from "../../constants/mixData.json";
 import playlistData from "../../constants/playlistData.json";
 import collectionData from "../../constants/collectionData.json";
@@ -13,7 +14,12 @@ export default function CollectionPage() {
 	const currCollection = collectionData.find(i => i.local_path.toLowerCase() === path.toLowerCase());
 	const foundCollection = currCollection === undefined ? false : true;
 
-	let allData = [...releaseData, ...mixData, ...playlistData]
+	let allData = [
+		...releaseData,
+		...independentReleaseData,
+		...mixData,
+		...playlistData
+	]
 
 	const filteredData = allData.filter(a => a.release_type === currCollection.short_title);
 
@@ -38,6 +44,7 @@ export default function CollectionPage() {
 		}
 
 	const mappedImgCol = (props) => {
+
 		return props.map((c, i) => {
 			return (
 				<div className="col-4 col-md-3 text-center artist-page-album-art-container" key={i} >

@@ -1,0 +1,339 @@
+[
+    {
+        "name": "The Time Has Come",
+        "local_path": "TTHC",
+        "id": 14,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/the_time_has_come.jpg",
+        "release_date": "2020-02-01T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
+        }
+    },
+    {
+        "name": "Andamp",
+        "local_path": "Andamp",
+        "id": 13,
+        "label_number": "GEAR004",
+        "release_type": "Independent",
+        "album_art": "/images/releases/Andamp.png",
+        "release_date": "2020-04-18T18:25:43.511Z",
+        "genre": "Techno",
+        "release_bio": [
+            "The 4th release from GEAR Techno Collective.",
+            "\"Andamp\" by whythough? (Ian Rios) is his debut single on GEAR and his first original release of the year.",
+            "Recorded, Produced, Mixed, and Mastered by whythough?.",
+            "Artwork by Rafael Khan"
+        ],
+        "primary_artist_ids": [
+            1
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/1hhBWnpvWRJemsULPNO9n5",
+            "ap": "https://music.apple.com/us/album/andamp-single/1506523982",
+            "az": "https://www.amazon.com/gp/product/B086SKL82P",
+            "yt": "",
+            "dk": "https://distrokid.com/hyperfollow/whythough/andamp"
+        }
+    },
+    {
+        "name": "wttp (svnteen deep fried bootleg)",
+        "local_path": "WTTP",
+        "id": 12,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/wttp.png",
+        "release_date": "2020-01-26T18:25:43.511Z",
+        "genre": "Dubstep",
+        "release_bio": [
+            "",
+            "Artwork by Ian Rios"
+        ],
+        "primary_artist_ids": [
+            5
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
+        }
+    },
+    {
+        "name": "Free Fall (The Remixes)",
+        "local_path": "FFTR",
+        "id": 11,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/retiredorphanremix.jpeg",
+        "release_date": "2019-10-28T18:25:43.511Z",
+        "genre": "Garage",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            13
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [
+            1
+        ],
+        "links": {
+            "sp": "https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
+        }
+    },
+    {
+        "name": "Vega (Remixes)",
+        "local_path": "Vega-Remixes",
+        "id": 10,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/vega_remix.jpg",
+        "release_date": "2019-02-22T18:25:43.511Z",
+        "genre": "Mid Tempo",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            7
+        ],
+        "secondary_artist_ids": [
+            2,
+            10
+        ],
+        "remix_artist_ids": [
+            1,
+            2
+        ],
+        "links": {
+            "sp": "https://open.spotify.com/album/5AncwNuZvP15SgTrT7cmM0?si=wwFhqsYlSA2gui85nYfYpw"
+        }
+    },
+    {
+        "name": "Gashadokuro (Remixes)",
+        "local_path": "Gashadokuro-Remixes",
+        "id": 9,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/gdkwtr.jpg",
+        "release_date": "2018-10-31T18:25:43.511Z",
+        "genre": "Hard Style",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            10,
+            1
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [
+            7
+        ],
+        "links": {
+            "sc": "https://soundcloud.com/whythough/sets/gashadokuro-remixes"
+        }
+    },
+    {
+        "name": "Gashadokuro",
+        "local_path": "Gashadokuro",
+        "id": 8,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/gdkwt.jpg",
+        "release_date": "2018-10-13T18:25:43.511Z",
+        "genre": "Dubstep",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            10,
+            1
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/5sRQj33m7MwGOJ6YmgNLo0?si=o3SXR-X9SkiDw1mxlF3PTg"
+        }
+    },
+    {
+        "name": "Glancing Memories",
+        "local_path": "Glancing-Memories",
+        "id": 7,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/gmmb.jpg",
+        "release_date": "2019-11-18T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            11
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/5Jau59HBTBSfcjrQoIz90r?si=yD90GqxgQCKZza3kqVGmBg"
+        }
+    },
+    {
+        "name": "Harmonious Interactions of Patterns",
+        "local_path": "HIOP",
+        "id": 6,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/hiopf.jpeg",
+        "release_date": "2018-07-05T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/4wvjxE2JcyqUhCb0kiigLY?si=-R5snQrYTnq0Gpa0HbSN3w"
+        }
+    },
+    {
+        "name": "Sapphire Sky",
+        "local_path": "Sapphire-Sky",
+        "id": 5,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/ssf.jpg",
+        "release_date": "2019-08-29T18:25:43.511Z",
+        "genre": "Lo-Fi Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/20NdJB5onAVhwB9USvUlSu?si=wSnSPg0CSXevf3VC1M6DSQ"
+        }
+    },
+    {
+        "name": "Saturday Morning",
+        "local_path": "Saturday-Morning",
+        "id": 4,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/smf.png",
+        "release_date": "2019-08-21T18:25:43.511Z",
+        "genre": "Lo-Fi Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/4xtliDZcrhgAQaB9hBNWXt?si=M_ezLtUrSdKXAfX5AI8RLg"
+        }
+    },
+    {
+        "name": "Floating Like a Feather",
+        "local_path": "FLAF",
+        "id": 3,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/flaff.jpg",
+        "release_date": "2019-02-22T18:25:43.511Z",
+        "genre": "Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/6qFNQFqg98DaTyAB7PLjz3?si=rzN6oSGMRFCa81tktFgnJQ"
+        }
+    },
+    {
+        "name": "The Beginning",
+        "local_path": "The-Beginning",
+        "id": 2,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/the_beginning.jpg",
+        "release_date": "2017-04-21T18:25:43.511Z",
+        "genre": "Trap",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            5
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/6AORqUaCbnGUPUlyHDbabE?si=KALsu1q-SAStMzyQGzzFdQ"
+        }
+    },
+    {
+        "name": "MURDA EP",
+        "local_path": "MURDA",
+        "id": 1,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/murda.jpg",
+        "release_date": "2017-03-06T18:25:43.511Z",
+        "genre": "House",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            2
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [
+            1
+        ],
+        "links": {
+            "sc": "https://soundcloud.com/dyl_pykl/sets/murda-ep"
+        }
+    },
+    {
+        "name": "The Above/Below EP",
+        "local_path": "Above-Below",
+        "id": 0,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/abovebelow.jpg",
+        "release_date": "2017-02-15T18:25:43.511Z",
+        "genre": "Drum and Bass",
+        "release_bio": [
+            "Drum and Bass EP from dyl_pykl"
+        ],
+        "primary_artist_ids": [
+            2
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sc": "https://soundcloud.com/dyl_pykl/sets/the-above-below-ep"
+        }
+    }
+]
