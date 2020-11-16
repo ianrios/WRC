@@ -6,6 +6,7 @@ import mixData from "../../constants/mixData.json";
 import playlistData from "../../constants/playlistData.json";
 import futureReleases from "../../constants/futureReleases.json";
 import collectionData from "../../constants/collectionData.json"
+import contestData from "../../constants/contestData.json"
 import "./Collections.scss"
 
 export default function Collections() {
@@ -14,18 +15,13 @@ export default function Collections() {
 		...independentReleaseData,
 		...mixData,
 		...playlistData,
-		// ...contestData, 
+		...contestData,
 		futureReleases[0]
 	]
 	let releaseTypes = {}
 
 	allData.map(i => !(i.release_type in releaseTypes) ? releaseTypes[i.release_type] = i : null)
 	Object.keys(releaseTypes).map(i => releaseTypes[i]["collection"] = collectionData.find(j => j.short_title === i))
-	releaseTypes["Contests"] = {
-		name: "Contests",
-		album_art: "/images/releases/WRC.jpg",
-		collection: { local_path: 'contests' }
-	}
 	const mappedReleaseTypes = Object.keys(releaseTypes)
 		.sort((a, b) => {
 			if (a === "Independent") return 1
@@ -38,9 +34,7 @@ export default function Collections() {
 				<Link
 					className={`col-md-6 col-lg-4 col-xl-3 col-sm-12 text-center artist-page-album-art-container`}
 					key={i}
-					to={releaseTypes[i].collection.local_path === 'contests'
-						? "/contests"
-						: `/collection/${releaseTypes[i].collection.local_path}`}
+					to={`/collection/${releaseTypes[i].collection.local_path}`}
 				>
 					<div className={`help-cursor artist-page-album-art-link ${-1 === i ? "description-large" : null}`}>
 						<img alt={releaseTypes[i].name} src={releaseTypes[i].album_art} className="img-fluid artist-page-album-art" />

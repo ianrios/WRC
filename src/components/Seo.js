@@ -4,9 +4,9 @@ import Helmet from "react-helmet";
 const Seo = props => {
 	const { data } = props;
 
-	const postTitle = data.title ? data.title : "";
+	const postTitle = `${data.title}`;
 	const title = postTitle !== "" ? `${postTitle} - ${data.shortSiteTitle}` : data.siteTitle;
-	const description = data.description ? data.description : "";
+	const description = `${data.description}`;
 	const image = data.imgSrc;
 	const url = data.url;
 	const keywords = data.keywords;

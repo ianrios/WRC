@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
-import { useLocation, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import artistData from "../../constants/artistData.json";
 import "./ArtistPage.scss";
-import { mappedPTag } from '../../utilities/maps'
+import { mappedPTag, mappedATag } from '../../utilities/maps'
 
 export default function ArtistPage() {
-	const location = useLocation();
-	const path = location.pathname.split("/")[2];
-	const currArtist = artistData.find(i => i.local_path.toLowerCase() === path.toLowerCase());
-	const foundArtist = currArtist === undefined ? false : true;
+
+	const { name } = useParams();
+
+	const currArtist = artistData.find(i => i.local_path.toLowerCase() === name.toLowerCase());
+	const foundArtist = currArtist !== undefined;
 
 	const sortedData = [
 		...releaseData,
@@ -33,33 +34,13 @@ export default function ArtistPage() {
 			)
 		})
 	}
-	const mappedATag = (props) => {
-		const keys = Object.keys(props);
-		return (
-			keys.map((item, idx) => {
-				return (
-					<React.Fragment key={idx}>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href={props[item]}>
-							{item}
-						</a>
-						{
-							idx < keys.length - 1 ? " - " : null
-						}
-					</React.Fragment>
 
-				)
-			})
-		)
-	}
 	const [photoI, setPhotoI] = useState(0)
 	const headData = foundArtist ? {
 		title: currArtist.name + " - WRC",
 		shortSiteTitle: `${currArtist.name} Artist Page - WRC`,
 		siteTitle: "WHY? Record Company",
-		url: location.pathname,
+		url: name,
 		imgSrc: currArtist.photos[0],
 		description: currArtist.quote,
 		keywords: "why, record, company, music, edm, techno, idm, experimental, label, artist, " + currArtist.name
@@ -67,7 +48,7 @@ export default function ArtistPage() {
 			title: "Error Page not found - WRC",
 			shortSiteTitle: `Collection page not found - WRC`,
 			siteTitle: "WHY? Record Company",
-			url: location.pathname,
+			url: name,
 			imgSrc: "error.jpg",
 			description: "",
 			keywords: "why, record, company, page not found"
@@ -88,7 +69,7 @@ export default function ArtistPage() {
 				</div>
 			</div>
 			{
-				foundArtist ?
+				foundArtist &&
 					<>
 						<Seo data={headData} />
 						<div className="row">
@@ -106,11 +87,10 @@ export default function ArtistPage() {
 										<p>
 											{currArtist.quote}
 										</p>
-										{currArtist.body_paragraphs.length > 0 ?
+										{currArtist.body_paragraphs.length > 0 &&
 											<div className="text-border d-none d-lg-block">
 												{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs mappedPTag")}
 											</div>
-											: null
 										}
 										<div className="row">
 											<div className="col-md-6">Social Platforms
@@ -118,13 +98,12 @@ export default function ArtistPage() {
 													{mappedATag(currArtist.social_platforms)}
 												</div>
 											</div>
-											{Object.keys(currArtist.music_platforms).length > 0 ?
+											{Object.keys(currArtist.music_platforms).length > 0 &&
 												<div className="col-md-6">Music Platforms
 													<div>
 														{mappedATag(currArtist.music_platforms)}
 													</div>
 												</div>
-												: null
 											}
 										</div>
 										<div className="row">
@@ -137,13 +116,12 @@ export default function ArtistPage() {
 										<div className="row">
 											<div className="col">
 												{currArtist.email
-													? <a
+													&& <a
 														className="email-link"
 														href={`mailto:${currArtist.email}?Subject=Hello%20${currArtist.name}`}
 													>
 														{currArtist.email}
 													</a>
-													: null
 												}
 											</div>
 										</div>
@@ -151,11 +129,10 @@ export default function ArtistPage() {
 								</div>
 								<div className="row d-block d-lg-none mt-5">
 									<div className="col">
-										{currArtist.body_paragraphs.length > 0 ?
+										{currArtist.body_paragraphs.length > 0 &&
 											<div className="text-border">
 												{mappedPTag(currArtist.body_paragraphs, "artist-bio-paragraphs")}
 											</div>
-											: null
 										}
 									</div>
 								</div>
@@ -190,7 +167,6 @@ export default function ArtistPage() {
 							</div>
 						</div>
 					</>
-					: null
 			}
 		</>
 	)

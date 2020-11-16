@@ -1,5 +1,44 @@
 [
     {
+        "name": "Seven Deadly Fins",
+        "local_path": "seven-deadly-fins",
+        "id": 16,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/sdf.png",
+        "release_date": "2020-11-10T18:25:43.511Z",
+        "genre": "Blues Rock",
+        "release_bio": [
+            "Seven Deadly Fins – 1985 (LP)",
+            "Originally Released on Blotto Records – 1985 – SLP – 12",
+            "Re-release on WHY? Record Company - 2020 - digital",
+            "Arm in Arm (4:00) – Michael Kelley__BREAK__1000 Reasons Why (3:14) – Jerry Yarro__BREAK__Too Good for Words (3:43) – Bob Button/Joe Gorman__BREAK__Tough Guy (3:27) - Jerry Yarro__BREAK__Madman (3:28) – Michael Kelley__BREAK__One Track Mind (4:05) – Michael Kelley__BREAK__How Can I Give You (What You Want) (3:21) – Michael Kelley__BREAK__I’ll Be Better (3:39) - Jerry Yarro__BREAK__Take a Look at Yourself (3:57) – Michael Kelley/Bob Button__BREAK__When Things Go Wrong (3:51) – Michael Kelley__BREAK__Rehabilitation Blues (3:59) – Michael Kelley__BREAK__Drivin’ Me Wild (4:33) – Drivin’ Me Wild",
+            "Produced by Broadway Blotto",
+            "Engineered by Mark Ernst",
+            "2nd Engineer – Pat Norris",
+            "Recorded/Mixed at MCE Studios, Schenectady, NY",
+            "Mastered by Howie Weinberg at Masterdisk, NYC",
+            "Photography by Martin Benjamin",
+            "Cover Design and Collge – Donna Fitzgerald",
+            "Digital Transfer – Paul Pesco – Paul Pesco Music",
+            "String Arrangement on “How Can I Give You” – Bob Button and Broadway Blotto",
+            "The Sharks:__BREAK__Michael Kelley – Vocals, Piano, Organ, Clavinet, Synthesizer, Harmonica__BREAK__Jerry Yarro – Vocals, Electric and Acoustic Guitars__BREAK__Bob Button – Vocals, Trumpet__BREAK__Steve Gilhooley – Bass__BREAK__Bob Assini – Drums, Percussion__BREAK__Tom D’Ambrose – Soprano, Alto, Tenor, Baritone Saxophones and Flute",
+            "Additional Musicians:__BREAK__James Montgomery – Harmonica on “Take a Look at Yourself”__BREAK__Bowtie Blotto – Banjo__BREAK__D. Willie Slezak – Accordian__BREAK__Michael Emory – Violin__BREAK__Michael Raspovic – Cello__BREAK__Jack Nailor – Harley Davidson__BREAK__Marshall Strange – Sound Effects/Scratches__BREAK__",
+            "1985  - Sharkbeat Music (BMI)"
+        ],
+        "primary_artist_ids": [
+            31
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "spotify": "https://open.spotify.com/album/7xhJT8GabQTQ345zTv7Iu7?si=8n-5kKh3RbO7wM7A-IdyZg",
+            "apple music / itunes": "https://music.apple.com/us/album/too-good-for-words/1540122543?i=1540123296",
+            "pandora": "https://www.pandora.com/artist/the-sharks/7-deadly-fins/ALfgknq7Vk2bZcX?part=ug-desktop&corr=396272212",
+            "deezer": "https://www.deezer.com/us/album/185950582"
+        }
+    },
+    {
         "name": "The Time Has Come",
         "local_path": "TTHC",
         "id": 14,

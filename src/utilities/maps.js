@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import _ from 'lodash'
 
 export const mappedPTag = (arr, className) => {
@@ -16,7 +17,11 @@ export const mappedPTag = (arr, className) => {
         }
         if (item.search("__email__") !== -1) {
             let arr = item.split("__email__")
-            use = [arr[0], <a key={"a"}href="mailto: info@whyrecord.com?subject=Nov%20WRC%20Competition">info@whyrecord.com</a>, arr[1]]
+            use = [arr[0], <a key={"a"} href="mailto: info@whyrecord.com?subject=Nov%20WRC%20Competition">info@whyrecord.com</a>, arr[1]]
+        }
+        if (item.search("discord") !== -1) {
+            let arr = item.split("discord")
+            use = [arr[0], <a key={"a"} href="https://discord.gg/ZHe4A5k">discord</a>, arr[1]]
         }
         return (
             <p
@@ -52,3 +57,32 @@ export const mappedObjArr = (arr, className) => {
 }
 
 
+
+export const mappedATag = (props) => {
+    const keys = Object.keys(props);
+    return (
+        keys.map((item, idx) => {
+            return (
+                <React.Fragment key={idx}>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={props[item]}>
+                        {item}
+                    </a>
+                    {
+                        idx < keys.length - 1 && " - "
+                    }
+                </React.Fragment>
+
+            )
+        })
+    )
+}
+
+export const mappedD3ArtistTags = (props) => {
+    const keys = Object.keys(props);
+    const mappedData = keys.map((item, idx) => <span key={idx}>{item}{idx < keys.length - 1 ? ', ' : ''}</span>);
+    console.log(mappedData)
+    return mappedData
+}

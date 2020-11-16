@@ -8,6 +8,7 @@ export default function Navbar(props) {
 		"Artists": ["Fingerprint", true],
 		"Releases": ["Dot", true],
 		"Collections": ["Honeycomb", true],
+		"Contests": ["Star", true],
 		// "Store": ["Cube", true],
 		// "Atlas": ["Blockchain", true],
 		"Contact": ["@", false],
@@ -20,13 +21,13 @@ export default function Navbar(props) {
 				key={idx}
 				linksObj={Links}
 				iconHover={true}
-				icon={Links[item][1] ? item : false}
-				iconText={!Links[item][1] ? Links[item][0] : null}
+				icon={Links[item][1] && item}
+				iconText={!Links[item][1] && Links[item][0] }
 				size={"25px"}
 				to={`/${item}`}
 				id={idx}
 				text={item}
-				qMark={idx === 0 ? true : false}
+				qMark={idx === 0}
 				isText={!Links[item][1]}
 				lastItem={idx === (linkKeys.length - 1)}
 			/>

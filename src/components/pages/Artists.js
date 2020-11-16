@@ -5,7 +5,7 @@ import './Artists.scss';
 
 export default function Artists() {
 	const ArtistsMap = artistData.map((item, idx) => {
-		return item.show_on_artist_page ?
+		return item.show_on_artist_page &&
 			<div key={idx} className="row artist-image-row">
 				<div className="col-lg-6 col-md-8 col-sm-10 mx-auto text-on-image text-center">
 					<Link
@@ -16,7 +16,6 @@ export default function Artists() {
 					</Link>
 				</div>
 			</div>
-			: null
 	})
 	return (
 		<>

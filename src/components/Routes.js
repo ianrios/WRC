@@ -14,7 +14,7 @@ import Contests from "./pages/Contests";
 import ContestPage from "./pages/ContestPage";
 import Services from './pages/Services';
 import Store from './pages/Merchandise';
-// import Atlas from './pages/Atlas';
+import Nexus from './pages/Nexus';
 import Errors from './pages/Errors';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -29,22 +29,25 @@ export default function Routes() {
 			<Route exact path="/">
 				<Home />
 			</Route>
+			<Route path="/nexus">
+				<Nexus />
+			</Route>
 			<Route path="/artists">
 				<Artists />
 			</Route>
-			<Route path="/artist/*">
+			<Route path="/artist/:name">
 				<ArtistPage />
 			</Route>
 			<Route path="/collections">
 				<Collections />
 			</Route>
-			<Route path="/collection/*">
+			<Route path="/collection/:name">
 				<CollectionPage />
 			</Route>
 			<Route path="/releases">
 				<Releases />
 			</Route>
-			<Route path="/release/*">
+			<Route path="/release/:name">
 				<ReleasePage />
 			</Route>
 			<Route path="/services">
@@ -74,11 +77,11 @@ export default function Routes() {
 			<Route path="/contests">
 				<Contests />
 			</Route>
-			<Route path="/contest/*">
+			<Route path="/contest/:name">
 				<ContestPage />
 			</Route>
 			<Route path="/competitions">
-			{/* TODO: remove /competitions */}
+				{/* TODO: remove /competitions */}
 				<Contests />
 			</Route>
 			<Route path="*">

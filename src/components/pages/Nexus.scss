@@ -1,0 +1,25 @@
+#graph-id-graph-wrapper svg {
+  background-color: white;
+  width: 100% !important;
+  min-height: calc(100vh - 200px) !important;
+  max-height: 100vh !important;
+}
+.nivo-wrapper {
+  min-height: calc(100vh - 200px) !important;
+  max-height: 100vh !important;
+  width: 100% !important;
+}
+.nexus-page{
+  height:calc(100vh + 100px)!important;
+}
+@media only screen and (max-width: 991px) {
+  .nivo-wrapper {
+    min-height: calc(100vh + 500px) !important;
+    max-height: calc(100vh + 500px) !important;
+    height: calc(100vh + 500px)!important;
+  }
+  .node-info{
+    margin-top:30px;
+  }
+}
+

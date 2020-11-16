@@ -916,5 +916,33 @@
 		"music_platforms": {
 			"sc": ""
 		}
+	},
+	{
+		"id": 31,
+		"name": "The Sharks",
+		"local_path": "the-sharks",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/artists/thesharks.png"
+		],
+		"email": "",
+		"location": {
+			"city": "Albany",
+			"country": "USA"
+		},
+		"quote": "\"The Sharks\"",
+		"body_paragraphs": [
+			"The Sharks!"
+		],
+		"roles": [
+			"band"
+		],
+		"social_platforms": {},
+		"music_platforms": {
+			"spotify": "https://open.spotify.com/artist/3ZQZlZ5ZhQZxhsm6mh1Goq?si=3ZNPF12JTyuJX2xQotOweQ",
+			"apple music / itunes": "https://music.apple.com/us/artist/the-sharks/45449240",
+			"pandora": "https://www.pandora.com/artist/the-sharks/ARK3kkcvzhw6z3V",
+			"deezer": "https://www.deezer.com/us/artist/259184"
+		}
 	}
 ]

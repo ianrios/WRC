@@ -1,11 +1,13 @@
+import { filter } from "lodash"
 import artistData from "./artistData.json"
 import releaseData from "./releaseData.json"
+import independentReleaseData from "./independentReleaseData.json"
 
 const nodes = artistData.map(i => { return { id: i.name } })
+const combinedData = [...releaseData, ...independentReleaseData]
 
-// dont add the why record company artist
 const linkObj = {}
-for (let r of releaseData) {
+for (let r of combinedData) {
 	if (r.primary_artist_ids.length > 1) {
 		for (let i of r.primary_artist_ids) {
 			for (let j of r.primary_artist_ids) {
@@ -71,10 +73,20 @@ for (let r of releaseData) {
 }
 const links = Object.keys(linkObj).map(i => JSON.parse(i))
 
-console.log({ nodes, links, linkObj })
 
+// if nodes do not appear in links, remove them
+const filteredNodes = nodes.filter(item => {
+	const foundSource = links.find(l => l.source === item.id)
+	const foundTarget = links.find(l => l.target === item.id)
+	if (foundSource || foundTarget) {
+		return item
+	}
+});
+
+console.log({ nodes, links, linkObj, filteredNodes })
 const data = {
-	nodes,
+	linkObj,
+	nodes: filteredNodes,
 	links
 };
 

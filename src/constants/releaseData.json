@@ -2,7 +2,7 @@
 	{
 		"name": "Trash Beats For Trash People 2",
 		"local_path": "tb4tp2",
-		"id": -1,
+		"id": 54,
 		"label_number": "WHY054",
 		"release_type": "WRC",
 		"album_art": "/images/releases/tb4tp2.png",
@@ -54,8 +54,9 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "https://soundcloud.com/whyrecordcompany/sets/rain",
-			"bc": ""
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/whycomp001-rain",
+			"sp": "https://open.spotify.com/album/6i3lqqb0gD3KFpxKCyDOpz?si=AxcFc0sxSj2mabnAbuvHJQ",
+			"ap": "https://music.apple.com/us/album/valencia/1539716526?i=1539716528"
 		}
 	},
 	{
@@ -81,7 +82,9 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "https://soundcloud.com/dyl_pykl/sets/beats-you-dont-deserve-ep"
+			"sc": "https://soundcloud.com/dyl_pykl/sets/beats-you-dont-deserve-ep",
+			"sp": "https://open.spotify.com/album/7tvqu1DiksxSh3YF9i3bVx?si=WKqySOCNQ-2Pa91B3xDhlA",
+			"ap": "https://music.apple.com/us/album/beats-you-dont-deserve-ep/1537463672"
 		}
 	},
 	{

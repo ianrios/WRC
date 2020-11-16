@@ -1,21 +1,21 @@
 import React from 'react'
-import { useLocation, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import Seo from '../Seo'
 import contestData from '../../constants/contestData.json'
 import { mappedPTag, mappedObjArr } from '../../utilities/maps'
 
 export default function ContestPage() {
 
-    const location = useLocation();
-    const path = location.pathname.split("/")[2];
-    const currContest = contestData.find(i => i.local_path.toLowerCase() === path.toLowerCase());
+    const { name } = useParams();
+
+    const currContest = contestData.find(i => i.local_path.toLowerCase() === name.toLowerCase());
     const foundContest = currContest === undefined ? false : true;
 
     const headData = {
         title: "Contests - WRC",
         shortSiteTitle: `Competition Page - WRC`,
         siteTitle: "WHY? Record Company",
-        url: location.pathname,
+        url: name,
         description: "WHY? Record Company Contests",
         keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, competition"
     }

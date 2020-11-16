@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Dot from './icons/Dot';
 import Cube from './icons/Cube';
+import Star from './icons/Star';
 import Honeycomb from './icons/Honeycomb';
 import Blockchain from './icons/Blockchain';
 import Fingerprint from './icons/Fingerprint';
@@ -16,47 +17,51 @@ function titleCase(str) {
 	}).join(' ');
 }
 
-function chooseIcon(props, location) {
-	if (props.iconHover &&
-		props.icon) {
-		switch (props.icon) {
+function chooseIcon({ iconHover, iconText, icon, to, location }) {
+	if (iconHover && icon) {
+		switch (icon) {
 			case "Artists":
 				return <Fingerprint
-					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
+					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Releases":
 				return <Dot
-					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
+					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Collections":
 				return <Honeycomb
-					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
+					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Store":
 				return <Cube
-					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
+					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Atlas":
 				return <Blockchain
-					className={`nav-icon ${location.pathname === props.to.toLowerCase() ? "nav-icon-active" : null}`}
+					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
+					height={"35px"}
+					width={"35px"}
+				/>
+			case "Contests":
+				return <Star
+					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
 					height={"35px"}
 					width={"35px"}
 				/>
 			default:
 				return null
-
 		}
 	}
 	else {
-		return props.iconText
+		return iconText
 	}
 }
 
@@ -75,17 +80,15 @@ export default function LinkWrapper(props) {
 			to={props.to.toLowerCase()}
 		>
 			<span
-
-
 				className={
 					`nav-link 
-				${props.isText ? "text-nav-icon" : null} 
-				${location.pathname === props.to.toLowerCase() ? "nav-link-active" : null}
-				${props.qMark ? "em2" : ""}
+				${props.isText && "text-nav-icon"} 
+				${location.pathname === props.to.toLowerCase() && "nav-link-active"}
+				${props.qMark && "em2"}
 				`
 				}
 			>
-				{props.iconHover ? chooseIcon(props, location) : text}
+				{props.iconHover ? chooseIcon({ ...props, location }) : text}
 			</span>
 		</Link>
 	);

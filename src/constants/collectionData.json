@@ -63,14 +63,6 @@
 		"local_path": "playlists"
 	},
 	{
-		"short_title": "WHYCOMP",
-		"title": "WHYCOMP",
-		"paragraphs": [
-			"Contests, Competitions, and Compilations"
-		],	
-		"local_path": "contests"
-	},
-	{
 		"short_title": "Independent",
 		"title": "Independent Releases",
 		"paragraphs": [
@@ -79,5 +71,16 @@
 			"Take a listen to some tracks released artists independently from WHY? Record Company."
 		],
 		"local_path": "independent"
+	},
+	{
+		"short_title": "Contests",
+		"title": "Contests, Competitions, and Compilations",
+		"paragraphs": [
+			"Every month, we host contests to better engage with the members of our WRC community.",
+			"These contests range from sample challenges, to spin the wheel genre competitions, and more!",
+			"We release a monthly compilation of winners of each contest under the release code WHYCOMP, check out the linked release page within each finished contest to listen to the final results!",
+			"Each release is celebrated with a release listening party, hosted on twitch. Check out our discord to be informed for the next one!"
+		],
+		"local_path": "contests"
 	}
 ]

@@ -55,10 +55,11 @@ export default function Footer(props) {
 				<div className="col-6 col-md">
 					<h5>About</h5>
 					<ul className="list-unstyled text-small">
-						{/* <li><Link className="text-muted" to="/coming-soon">Team</Link></li> */}
-						{/* <li><Link className="text-muted" to="/atlas">Atlas</Link></li> */}
-						{/* <li><Link className="text-muted" to="/coming-soon">Services</Link></li> */}
 						<li><Link className="text-muted" to="/contact">Contact</Link></li>
+						<li><Link className="text-muted" to="/nexus">Nexus</Link></li>
+						<li><Link className="text-muted" to="/coming-soon">Coming Soon</Link></li>
+						{/* <li><Link className="text-muted" to="/coming-soon">Team</Link></li> */}
+						{/* <li><Link className="text-muted" to="/coming-soon">Services</Link></li> */}
 					</ul>
 				</div>
 				<div className="col-6 col-md">
