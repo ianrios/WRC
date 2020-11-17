@@ -44,7 +44,7 @@ function chooseIcon({ iconHover, iconText, icon, to, location }) {
 					height={"35px"}
 					width={"35px"}
 				/>
-			case "Atlas":
+			case "Nexus":
 				return <Blockchain
 					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
 					height={"35px"}

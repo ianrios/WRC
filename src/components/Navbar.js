@@ -10,7 +10,7 @@ export default function Navbar(props) {
 		"Collections": ["Honeycomb", true],
 		"Contests": ["Star", true],
 		// "Store": ["Cube", true],
-		// "Atlas": ["Blockchain", true],
+		// "Nexus": ["Blockchain", true],
 		"Contact": ["@", false],
 	}
 	const linkKeys = Object.keys(Links)

@@ -6,6 +6,16 @@ import independentReleaseData from "./independentReleaseData.json"
 const nodes = artistData.map(i => { return { id: i.name } })
 const combinedData = [...releaseData, ...independentReleaseData]
 
+// TODO: add "is on a release with" data, instead of accidentally saying it is a collab
+// convert to database
+// create artist table
+// create roles table
+// create artist roles table (this let us assign roles such as 'producer', 'graphic designer', 'web developer', etc)
+// create song table
+// create artist song table (this will let us know who was a remixer, primary artist, feature, etc)
+// create release table
+// create artist release table (this will let us know who was on a release)
+
 const linkObj = {}
 for (let r of combinedData) {
 	if (r.primary_artist_ids.length > 1) {

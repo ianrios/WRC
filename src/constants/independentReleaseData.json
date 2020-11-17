@@ -153,7 +153,11 @@
         ],
         "remix_artist_ids": [
             1,
-            2
+            2,
+            7,
+            10,
+            9,
+            8
         ],
         "links": {
             "sp": "https://open.spotify.com/album/5AncwNuZvP15SgTrT7cmM0?si=wwFhqsYlSA2gui85nYfYpw"
