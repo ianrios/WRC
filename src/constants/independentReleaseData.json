@@ -1,5 +1,42 @@
 [
     {
+        "name": "SHARK TREATMENT",
+        "local_path": "shark-treatment",
+        "id": 17,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/st.png",
+        "release_date": "2020-11-17T18:25:43.511Z",
+        "genre": "Blues Rock",
+        "release_bio": [
+            "SHARK TREATMENT – 1983 (LP)",
+            "Originally Released on Blotto Records – 1983 – SLP – 12",
+            "Re-release on WHY? Record Company - 2020 - digital",
+            "I’ll Follow You (3:24) – Jerry Yarro__BREAK__Baby Don’t Know It (3:47) – Michael Kelley__BREAK__Please Say Yes (3:45) – Michael Kelley__BREAK__I won’t Be Happy (4:32) – Bob Button",
+            "Produced by Broadway Blotto",
+            "Engineered by Mark Ernst",
+            "Recorded/Mixed at MCE Studios, Schenectady, NY – 1983",
+            "Mastered by Howie Weinberg at Masterdisk, NYC",
+            "Photography by Martin Benjamin",
+            "Digital Transfer – Paul Pesco – Paul Pesco Music",
+            "The Sharks:",
+            "Michael Kelley – Vocals, Keyboards__BREAK__Jerry Yarro – Vocals, Guitars__BREAK__Bob Button – Vocals, Trumpet__BREAK__Steve Gilhooley – Bass__BREAK__Bob Assini – Drums__BREAK__Tom D’Ambrose – Saxophones",
+            "1983  - Sharkbeat Music (BMI)"
+        ],
+        "primary_artist_ids": [
+            31
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "spotify": "https://open.spotify.com/album/2hfYHY8iJX3LPRyua9fnQa?si=8TI-sNeBRp-zeRPbB2xEVA",
+            "apple music / itunes": "https://music.apple.com/us/album/shark-treatment-ep/1540116168",
+            "pandora": "https://www.pandora.com/artist/the-sharks/shark-treatment/ALkprmghdcKrJg2?part=ug-desktop&corr=452133847",
+            "amazon": "https://www.amazon.com/SHARK-TREATMENT-Sharks/dp/B08NCDJD1Q/ref=sr_1_2?dchild=1&keywords=the+sharks+shark+treatment&qid=1605732533&sr=8-2",
+            "deezer": "https://www.deezer.com/us/album/185946282"
+        }
+    },
+    {
         "name": "Seven Deadly Fins",
         "local_path": "seven-deadly-fins",
         "id": 16,
@@ -35,6 +72,7 @@
             "spotify": "https://open.spotify.com/album/7xhJT8GabQTQ345zTv7Iu7?si=8n-5kKh3RbO7wM7A-IdyZg",
             "apple music / itunes": "https://music.apple.com/us/album/too-good-for-words/1540122543?i=1540123296",
             "pandora": "https://www.pandora.com/artist/the-sharks/7-deadly-fins/ALfgknq7Vk2bZcX?part=ug-desktop&corr=396272212",
+            "amazon": "https://www.amazon.com/Seven-Deadly-Fins-Sharks/dp/B08NGWCLTP/ref=sr_1_2?dchild=1&keywords=the+sharks+seven+deadly+fins&qid=1605732432&sr=8-2",
             "deezer": "https://www.deezer.com/us/album/185950582"
         }
     },

@@ -79,14 +79,10 @@ export default function LinkWrapper(props) {
 			}}
 			to={props.to.toLowerCase()}
 		>
-			<span
-				className={
-					`nav-link 
+			<span className={`nav-link 
 				${props.isText && "text-nav-icon"} 
 				${location.pathname === props.to.toLowerCase() && "nav-link-active"}
-				${props.qMark && "em2"}
-				`
-				}
+				${props.qMark && "em2"}`}
 			>
 				{props.iconHover ? chooseIcon({ ...props, location }) : text}
 			</span>
