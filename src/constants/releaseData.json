@@ -25,7 +25,13 @@
 			11
 		],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"sp":"https://open.spotify.com/album/02NYkDhwz3991cmMHisKbb?si=csKhUD-URUOeRbCQ1k5yMw",
+			"ap":"https://music.apple.com/us/album/working-title-too-audacious-toned-down-for-public-consumption/1540338530?i=1540338544",
+			"az":"https://www.amazon.com/gp/product/B08NFGNLYZ/ref=dm_ws_sp_ps_dp",
+			"dz":"https://www.deezer.com/us/album/186247412",
+			"pd":"https://www.pandora.com/artist/dyl-pykl-and-whythough/trash-beats-for-trash-people-2-explicit/ALhktxc7mrbq7jX?part=ug-desktop&corr=367109588"
+		}
 	},
 	{
 		"name": "rain",
