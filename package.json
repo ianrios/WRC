@@ -48,8 +48,12 @@
   },
   "reactSnapshot": {
     "include": [
+      "/releases",
       "/release/tb4tp2",
+      "/release/tb4tp3",
+      "/artists",
       "/artist/whythough",
+      "/artist/dyl_pykl",
       "/artist/whythough?"
     ]
   }
