@@ -146,13 +146,13 @@ export default function Nexus() {
   const mappedRM = ALink(remixed)
   const mappedRB = ALink(remixedBy)
 
-  console.log({
-    mappedCW,
-    mappedFB,
-    mappedIF,
-    mappedRM,
-    mappedRB
-  })
+  // console.log({
+  //   mappedCW,
+  //   mappedFB,
+  //   mappedIF,
+  //   mappedRM,
+  //   mappedRB
+  // })
 
   return (
 

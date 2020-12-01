@@ -1,17 +1,19 @@
 [
 	{
-		"name": "shell artist x quantopix album",
-		"local_path": "saxq",
-		"id": -1,
-		"label_number": "WHY056",
+		"name": "\"is, as far as I know, not the name of any other album\" is, as far as i know, not the name of any other album",
+		"local_path": "shell-artist-x-quantopix",
+		"id": 57,
+		"label_number": "WHY057",
 		"release_type": "WRC",
 		"album_art": "/images/releases/saxq.png",
-		"release_date": "2020-12-12T18:25:43.511Z",
-		"genre": "noise",
+		"release_date": "2020-12-30T18:25:43.511Z",
+		"genre": "ambient",
 		"release_bio": [
-			"The 56th release from WHY Record Company (WRC) - WHY056",
-			"shell artist and Quantopix present \"\"",
-			"Artwork by Akrilix"
+			"shell artist and Quantopix present '\"is, as far as i know, not the name of any other album\" is, as far as i know, not the name of any other album'",
+			"The 57th release from WHY Record Company (WRC) - WHY057",
+			"Original songs Recorded and Produced by shell artist (Ian Rios) and Quantopix (Josh Jacobson)",
+			"Original songs Mixed and Mastered by Ian Rios",
+			"Original Artwork by Akrilix (Josh Jacobson), WRC Logo and Prepared for Release by Ian Rios"
 		],
 		"primary_artist_ids": [
 			25,
@@ -20,6 +22,34 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {}
+	},
+	{
+		"name": "bells",
+		"local_path": "WHYCOMP002",
+		"id": 56,
+		"label_number": "WHY056",
+		"release_type": "WRC",
+		"album_art": "/images/releases/bells.png",
+		"release_date": "2020-12-28T18:25:43.511Z",
+		"genre": "beats",
+		"release_bio": [
+			"The 56th release from WHY Record Company (WRC) - WHY056",
+			"\"WHYCOMP002: bells\"",
+			"Original songs Recorded, Produced, Mixed, and mastered by Fohrenbach, robbiegay, ofoot, and Weeping Sun.",
+			"Featuring live modular, lo-fi hip-hop, and ______ all inspired or recorded from winter holiday bells",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			4,
+			8,
+			24,
+			9
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/whycomp002-bells"
+		}
 	},
 	{
 		"name": "Trash Beats For Trash People 3",

@@ -93,7 +93,7 @@ const filteredNodes = nodes.filter(item => {
 	}
 });
 
-console.log({ nodes, links, linkObj, filteredNodes })
+// console.log({ nodes, links, linkObj, filteredNodes })
 const data = {
 	linkObj,
 	nodes: filteredNodes,

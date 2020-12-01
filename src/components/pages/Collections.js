@@ -29,7 +29,7 @@ export default function Collections() {
 			return a < b
 		})
 		.map(i => {
-			console.log({ i, coll: releaseTypes[i].collection })
+			// console.log({ i, coll: releaseTypes[i].collection })
 			return (
 				<Link
 					className={`col-md-6 col-lg-4 col-xl-3 col-sm-12 text-center artist-page-album-art-container`}

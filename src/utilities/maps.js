@@ -83,6 +83,6 @@ export const mappedATag = (props) => {
 export const mappedD3ArtistTags = (props) => {
     const keys = Object.keys(props);
     const mappedData = keys.map((item, idx) => <span key={idx}>{item}{idx < keys.length - 1 ? ', ' : ''}</span>);
-    console.log(mappedData)
+    // console.log(mappedData)
     return mappedData
 }

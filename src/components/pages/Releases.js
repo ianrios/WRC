@@ -10,7 +10,7 @@ export default function Releases() {
 		.filter(i => i.label_number.slice(0, 3) === "WHY")
 		.map((item, idx) => {
 			const firstArtist = item.primary_artist_ids[0];
-			console.log(item)
+			// console.log(item)
 			const currArtistName = firstArtist.name;
 			if (currArtistName in artistsObj) {
 				artistsObj[currArtistName]++;
