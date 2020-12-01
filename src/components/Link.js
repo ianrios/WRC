@@ -17,42 +17,44 @@ function titleCase(str) {
 	}).join(' ');
 }
 
-function chooseIcon({ iconHover, iconText, icon, to, location }) {
+function chooseIcon({ iconHover, iconText, icon, to, pathname }) {
+	const lowTo = to.toLowerCase();
+	const className = `nav-icon ${pathname === lowTo && "nav-icon-active"}`
 	if (iconHover && icon) {
 		switch (icon) {
 			case "Artists":
 				return <Fingerprint
-					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
+					className={className}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Releases":
 				return <Dot
-					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
+					className={className}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Collections":
 				return <Honeycomb
-					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
+					className={className}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Store":
 				return <Cube
-					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
+					className={className}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Nexus":
 				return <Blockchain
-					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
+					className={className}
 					height={"35px"}
 					width={"35px"}
 				/>
 			case "Contests":
 				return <Star
-					className={`nav-icon ${location.pathname === to.toLowerCase() ? "nav-icon-active" : ""}`}
+					className={className}
 					height={"35px"}
 					width={"35px"}
 				/>
@@ -67,7 +69,8 @@ function chooseIcon({ iconHover, iconText, icon, to, location }) {
 
 export default function LinkWrapper(props) {
 	const text = titleCase(props.text);
-	const location = useLocation();
+	const { pathname } = useLocation();
+	const lowTo = props.to.toLowerCase();
 	return (
 		<Link
 			className="link-icon-navbar"
@@ -77,15 +80,15 @@ export default function LinkWrapper(props) {
 				textDecoration: 'none',
 				fontSize: props.size,
 			}}
-			to={props.to.toLowerCase()}
+			to={lowTo}
 		>
 			<span className={`nav-link 
 				${props.isText && "text-nav-icon"} 
-				${location.pathname === props.to.toLowerCase() && "nav-link-active"}
+				${pathname === lowTo && "nav-link-active"}
 				${props.qMark && "em2"}`}
 			>
-				{props.iconHover ? chooseIcon({ ...props, location }) : text}
+				{props.iconHover ? chooseIcon({ ...props, pathname }) : text}
 			</span>
 		</Link>
-	);
+	)
 }

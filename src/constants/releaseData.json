@@ -1,5 +1,52 @@
 [
 	{
+		"name": "shell artist x quantopix album",
+		"local_path": "saxq",
+		"id": -1,
+		"label_number": "WHY056",
+		"release_type": "WRC",
+		"album_art": "/images/releases/saxq.png",
+		"release_date": "2020-12-12T18:25:43.511Z",
+		"genre": "noise",
+		"release_bio": [
+			"The 56th release from WHY Record Company (WRC) - WHY056",
+			"shell artist and Quantopix present \"\"",
+			"Artwork by Akrilix"
+		],
+		"primary_artist_ids": [
+			25,
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
+		"name": "Trash Beats For Trash People 3",
+		"local_path": "tb4tp3",
+		"id": 55,
+		"label_number": "WHY055",
+		"release_type": "WRC",
+		"album_art": "/images/releases/tb4tp3.png",
+		"release_date": "2020-12-04T18:25:43.511Z",
+		"genre": "beats",
+		"release_bio": [
+			"The 55th release from WHY Record Company (WRC) - WHY055",
+			"\"Trash Beats For Trash People 3\" by dyl_pykl & whythough?",
+			"The third and final installment of the trash beats catalogue.",
+			"Original songs Recorded, Produced, and Mixed by dyl_pykl (Dylan Smock) & whythough? (Ian Rios)",
+			"Mastering by Ian Rios",
+			"Photograph for Artwork by Olivia Rios, Logo by \"tiimonn\" on Fiverr, Release Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			2,
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
 		"name": "Trash Beats For Trash People 2",
 		"local_path": "tb4tp2",
 		"id": 54,
@@ -26,11 +73,11 @@
 		],
 		"remix_artist_ids": [],
 		"links": {
-			"sp":"https://open.spotify.com/album/02NYkDhwz3991cmMHisKbb?si=csKhUD-URUOeRbCQ1k5yMw",
-			"ap":"https://music.apple.com/us/album/working-title-too-audacious-toned-down-for-public-consumption/1540338530?i=1540338544",
-			"az":"https://www.amazon.com/gp/product/B08NFGNLYZ/ref=dm_ws_sp_ps_dp",
-			"dz":"https://www.deezer.com/us/album/186247412",
-			"pd":"https://www.pandora.com/artist/dyl-pykl-and-whythough/trash-beats-for-trash-people-2-explicit/ALhktxc7mrbq7jX?part=ug-desktop&corr=367109588"
+			"sp": "https://open.spotify.com/album/02NYkDhwz3991cmMHisKbb?si=csKhUD-URUOeRbCQ1k5yMw",
+			"ap": "https://music.apple.com/us/album/working-title-too-audacious-toned-down-for-public-consumption/1540338530?i=1540338544",
+			"az": "https://www.amazon.com/gp/product/B08NFGNLYZ/ref=dm_ws_sp_ps_dp",
+			"dz": "https://www.deezer.com/us/album/186247412",
+			"pd": "https://www.pandora.com/artist/dyl-pykl-and-whythough/trash-beats-for-trash-people-2-explicit/ALhktxc7mrbq7jX?part=ug-desktop&corr=367109588"
 		}
 	},
 	{

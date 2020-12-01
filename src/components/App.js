@@ -14,8 +14,8 @@ import './App.scss';
 
 function Wrapper() {
 	const [viewMain, setViewMain] = useState(true);
-	const location = useLocation();
-	const pathArr = location.pathname.split("/");
+	const { pathname } = useLocation();
+	const pathArr = pathname.split("/");
 	useEffect(() => {
 		if (
 			pathArr[1] === "artists" ||
@@ -41,7 +41,7 @@ function Wrapper() {
 		title: "Home",
 		shortSiteTitle: "WRC",
 		siteTitle: "WHY? Record Company",
-		url: location.pathname,
+		url: pathname,
 		imgSrc: "meta.jpg",
 		description: "WHY? Record Company Homepage",
 		keywords: "why, record, company, music, edm, techno, idm, experimental, label"
