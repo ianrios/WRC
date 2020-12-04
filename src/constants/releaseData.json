@@ -9,7 +9,7 @@
 		"release_date": "2020-12-30T18:25:43.511Z",
 		"genre": "ambient",
 		"release_bio": [
-			"shell artist and Quantopix present '\"is, as far as i know, not the name of any other album\" is, as far as i know, not the name of any other album'",
+			"shell artist and Quantopix present, '\"is, as far as i know, not the name of any other album\" is, as far as i know, not the name of any other album'",
 			"The 57th release from WHY Record Company (WRC) - WHY057",
 			"Original songs Recorded and Produced by shell artist (Ian Rios) and Quantopix (Josh Jacobson)",
 			"Original songs Mixed and Mastered by Ian Rios",
@@ -74,7 +74,14 @@
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"sp": "",
+			"ap": "",
+			"sc": "https://soundcloud.com/whythough/sets/trash-beats-for-trash-people-3",
+			"az": "",
+			"dz": "",
+			"pd": ""
+		}
 	},
 	{
 		"name": "Trash Beats For Trash People 2",
@@ -105,6 +112,7 @@
 		"links": {
 			"sp": "https://open.spotify.com/album/02NYkDhwz3991cmMHisKbb?si=csKhUD-URUOeRbCQ1k5yMw",
 			"ap": "https://music.apple.com/us/album/working-title-too-audacious-toned-down-for-public-consumption/1540338530?i=1540338544",
+			"sc": "https://soundcloud.com/dyl_pykl/sets/trash-beats-2",
 			"az": "https://www.amazon.com/gp/product/B08NFGNLYZ/ref=dm_ws_sp_ps_dp",
 			"dz": "https://www.deezer.com/us/album/186247412",
 			"pd": "https://www.pandora.com/artist/dyl-pykl-and-whythough/trash-beats-for-trash-people-2-explicit/ALhktxc7mrbq7jX?part=ug-desktop&corr=367109588"
