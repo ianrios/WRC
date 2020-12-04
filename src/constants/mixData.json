@@ -9,7 +9,7 @@
         "release_date": "2020-09-24T18:25:44.511Z",
         "genre": "Techno",
         "release_bio": [
-            "Matyb brings another headed mix featuring his newest 'Tech Demo' EP on the blue label. Click on Matyb's artist profile to see all previous and future releases!",
+            "Matyb brings another headed mix featuring his newest 'Tech Demo' EP on the blue label. Visit Matyb's artist profile to see all previous and future releases!",
             "Artwork by Ian Rios"
         ],
         "primary_artist_ids": [
@@ -18,8 +18,7 @@
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {
-            "mc": "",
-            "sc": ""
+            "mc": "https://www.mixcloud.com/matt-benjamin/matyb-live-mix-dec-3/"
         }
     },
     {

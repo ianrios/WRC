@@ -35,8 +35,8 @@
 		"release_bio": [
 			"The 56th release from WHY Record Company (WRC) - WHY056",
 			"\"WHYCOMP002: bells\"",
-			"Original songs Recorded, Produced, Mixed, and mastered by Fohrenbach, robbiegay, ofoot, and Weeping Sun.",
-			"Featuring live modular, lo-fi hip-hop, and ______ all inspired or recorded from winter holiday bells",
+			"Original songs Recorded, Produced, Mixed, and mastered by Weeping Sun, ofoot, robbiegay, and Fohrenbach.",
+			"Featuring live modular, piano, and hip-hop beats all inspired or recorded from winter holiday bells.",
 			"Artwork by Ian Rios"
 		],
 		"primary_artist_ids": [
@@ -75,12 +75,12 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": "",
-			"ap": "",
+			"sp": "https://open.spotify.com/album/6DKtrQHSaDU6c172k7Vo6G?si=leMnjl7eTw22CVPSA7ypbw",
+			"ap": "https://music.apple.com/us/album/trash-beats-for-trash-people-3/1541090279",
 			"sc": "https://soundcloud.com/whythough/sets/trash-beats-for-trash-people-3",
-			"az": "",
-			"dz": "",
-			"pd": ""
+			"az": "https://www.amazon.com/Trash-Beats-People-Explicit/dp/B08NTYPCHL/ref=sr_1_2?dchild=1&keywords=dyl_pykl%2C+whythough%3F&qid=1607099567&s=dmusic&search-type=ss&sr=1-2",
+			"dz": "https://www.deezer.com/us/album/187409572",
+			"pd": "https://www.pandora.com/artist/whythough-and-dyl-pykl/trash-beats-for-trash-people-3-explicit/ALmkhjt322xt3JX?part=ug-desktop&corr=472655302"
 		}
 	},
 	{
