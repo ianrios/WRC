@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Redirect } from 'react-router-dom';
 import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
@@ -14,6 +14,13 @@ export default function ReleasePage() {
 
   const currRelease = [...releaseData, ...mixData, ...independentReleaseData].find(i => i.local_path.toLowerCase() === name.toLowerCase());
   const foundRelease = currRelease === undefined ? false : true;
+  if(!foundRelease){
+    if (name.includes("WHYCOMP")){
+      return(
+        <Redirect to={`/contest/${name}`} />
+      )
+    }
+  }
 
   const headData = foundRelease ? {
     title: currRelease.name + " - WRC",
