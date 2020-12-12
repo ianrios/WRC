@@ -52,7 +52,7 @@ export default function ContestPage() {
                                             <h3>Rules:</h3>
                                             {mappedPTag(currContest.rules, "text-left")}
                                         </div>
-                                        {currContest.resources.length &&
+                                        {currContest.resources.length > 0 &&
                                             <>
                                                 <hr />
                                                 <div className="text-left text-border">

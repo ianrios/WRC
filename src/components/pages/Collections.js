@@ -4,7 +4,7 @@ import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import mixData from "../../constants/mixData.json";
 import playlistData from "../../constants/playlistData.json";
-import futureReleases from "../../constants/futureReleases.json";
+// import futureReleases from "../../constants/futureReleases.json";
 import collectionData from "../../constants/collectionData.json"
 import contestData from "../../constants/contestData.json"
 import "./Collections.scss"
@@ -16,7 +16,7 @@ export default function Collections() {
 		...mixData,
 		...playlistData,
 		...contestData,
-		futureReleases[0]
+		// futureReleases[0]
 	]
 	let releaseTypes = {}
 
@@ -24,6 +24,7 @@ export default function Collections() {
 	Object.keys(releaseTypes).map(i => releaseTypes[i]["collection"] = collectionData.find(j => j.short_title === i))
 	const mappedReleaseTypes = Object.keys(releaseTypes)
 		.sort((a, b) => {
+			if (a === "WRC") return -1
 			if (a === "Independent") return 1
 			if (b === "Independent") return -1
 			return a < b

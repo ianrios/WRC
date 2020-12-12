@@ -10,7 +10,7 @@ export default function Contests() {
                     <Link
                         to={`/contest/${item.local_path}`}
                     >
-                        <img className="img-fluid" src={item.photos[0]} alt={item.name} />
+                        <img className="img-fluid" src={item.album_art} alt={item.name} />
                         <span className="centered-text">{item.name}</span>
                     </Link>
                 </div>

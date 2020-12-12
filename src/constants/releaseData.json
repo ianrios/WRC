@@ -1,8 +1,31 @@
 [
 	{
+		"name": "ode22020",
+		"local_path": "ode22020",
+		"id": 59,
+		"label_number": "WHY059",
+		"release_type": "Pink Label",
+		"album_art": "/images/releases/ode22020.png",
+		"release_date": "2021-01-11T18:25:43.511Z",
+		"genre": "experimental",
+		"release_bio": [
+			"Quantopix presents, \"ode22020\"",
+			"The 59th release from WHY Record Company (WRC) - WHY059, the first installment in the Pink Label IDM, Noise, and Experimental Series.",
+			"Original songs Recorded, Produced, Mixed and Mastered Quantopix (J)",
+			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios",
+			"A WRC Pink Label Release"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
 		"name": "\"is, as far as I know, not the name of any other album\" is, as far as i know, not the name of any other album",
 		"local_path": "shell-artist-x-quantopix",
-		"id": 57,
+		"id": 58,
 		"label_number": "WHY057",
 		"release_type": "WRC",
 		"album_art": "/images/releases/saxq.png",
@@ -11,12 +34,34 @@
 		"release_bio": [
 			"shell artist and Quantopix present, '\"is, as far as i know, not the name of any other album\" is, as far as i know, not the name of any other album'",
 			"The 57th release from WHY Record Company (WRC) - WHY057",
-			"Original songs Recorded and Produced by shell artist (Ian Rios) and Quantopix (Josh Jacobson)",
+			"Original songs Recorded and Produced by shell artist (Ian Rios) and Quantopix (J)",
 			"Original songs Mixed and Mastered by Ian Rios",
-			"Original Artwork by Akrilix (Josh Jacobson), WRC Logo and Prepared for Release by Ian Rios"
+			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
 		],
 		"primary_artist_ids": [
 			25,
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
+		"name": "Cilantro",
+		"local_path": "cilantro",
+		"id": 57,
+		"label_number": "WHY058",
+		"release_type": "WRC",
+		"album_art": "/images/releases/Cilantro.png",
+		"release_date": "2020-12-28T18:25:43.511Z",
+		"genre": "dubstep",
+		"release_bio": [
+			"Quantopix presents \"Cilantro\", the first single from his upcoming Heirloom Herbs EP.",
+			"The 58th release from WHY Record Company (WRC) - WHY058",
+			"Original songs Recorded, Produced, Mixed and Mastered by Quantopix (J)",
+			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
+		],
+		"primary_artist_ids": [
 			18
 		],
 		"secondary_artist_ids": [],
@@ -35,7 +80,7 @@
 		"release_bio": [
 			"The 56th release from WHY Record Company (WRC) - WHY056",
 			"\"WHYCOMP002: bells\"",
-			"Original songs Recorded, Produced, Mixed, and mastered by Weeping Sun, ofoot, robbiegay, and Fohrenbach.",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Weeping Sun, ofoot, robbiegay, and Fohrenbach.",
 			"Featuring live modular, piano, and hip-hop beats all inspired or recorded from winter holiday bells.",
 			"Artwork by Ian Rios"
 		],
@@ -48,7 +93,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "https://soundcloud.com/whyrecordcompany/sets/whycomp002-bells"
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/bells"
 		}
 	},
 	{
@@ -81,7 +126,7 @@
 			"az": "https://www.amazon.com/Trash-Beats-People-Explicit/dp/B08NTYPCHL/ref=sr_1_2?dchild=1&keywords=dyl_pykl%2C+whythough%3F&qid=1607099567&s=dmusic&search-type=ss&sr=1-2",
 			"dz": "https://www.deezer.com/us/album/187409572",
 			"pd": "https://www.pandora.com/artist/whythough-and-dyl-pykl/trash-beats-for-trash-people-3-explicit/ALmkhjt322xt3JX?part=ug-desktop&corr=472655302",
-			"bc":"https://dylpykl.bandcamp.com/album/trash-beats-for-trash-people-3"
+			"bc": "https://dylpykl.bandcamp.com/album/trash-beats-for-trash-people-3"
 		}
 	},
 	{
@@ -117,7 +162,7 @@
 			"az": "https://www.amazon.com/gp/product/B08NFGNLYZ/ref=dm_ws_sp_ps_dp",
 			"dz": "https://www.deezer.com/us/album/186247412",
 			"pd": "https://www.pandora.com/artist/dyl-pykl-and-whythough/trash-beats-for-trash-people-2-explicit/ALhktxc7mrbq7jX?part=ug-desktop&corr=367109588",
-			"bc":"https://dylpykl.bandcamp.com/album/trash-beats-for-trash-people-2"
+			"bc": "https://dylpykl.bandcamp.com/album/trash-beats-for-trash-people-2"
 		}
 	},
 	{
@@ -147,7 +192,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "https://soundcloud.com/whyrecordcompany/sets/whycomp001-rain",
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/rain",
 			"sp": "https://open.spotify.com/album/6i3lqqb0gD3KFpxKCyDOpz?si=AxcFc0sxSj2mabnAbuvHJQ",
 			"ap": "https://music.apple.com/us/album/valencia/1539716526?i=1539716528"
 		}
@@ -193,7 +238,8 @@
 			"The 51th release from WHY Record Company (WRC) - WHY050",
 			"\"Tech Demo EP\" by Matyb",
 			"Original songs Recorded, Produced, Mixed, and Mastered by Matyb (Matt Benjamin)",
-			"Artwork by Ian Rios"
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
 		],
 		"primary_artist_ids": [
 			11
@@ -366,7 +412,8 @@
 			"The 45th release from WHY Record Company (WRC) - WHY045",
 			"\"CYCLE001: GRIEF (Club Mixes)\" by whythough? (Ian Rios)",
 			"Recorded, Produced, Mixed & Mastered by Ian Rios",
-			"Artwork by Ian Rios"
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
 		],
 		"primary_artist_ids": [
 			1
@@ -393,7 +440,8 @@
 			"\"Corrupted Data\" by dyl_pykl (Robert Dylan Smock) & whythough? (Ian Rios)",
 			"Recorded and Produced by Robert Dylan Smock and Ian Rios",
 			"Mixed & Mastered by Ian Rios",
-			"Artwork by Ian Rios"
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
 		],
 		"primary_artist_ids": [
 			1,
@@ -420,7 +468,8 @@
 			"The 43rd release from WHY Record Company (WRC) - WHY043",
 			"\"June Evening\" by whythough? (Ian Rios)",
 			"Recorded, Produced, Mixed & Mastered by Ian Rios",
-			"Artwork by Ian Rios"
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
 		],
 		"primary_artist_ids": [
 			1
@@ -563,8 +612,9 @@
 			"The 38th release from WHY? Record Company (WRC) - WHY038",
 			"The 1st WRC release of the year from whythough?",
 			"The \"Eternal Gloop EP\" by whythough? (Ian Rios) is a four track driving trance techno journey consisting of bangers to play at 3AM. You'll hear these songs played right after the scheduled time for the venue to close, while all the people who listen to generic techno leave, the gurners get a chance to make their way to the front to stay for \"One More Song!\" or 20 minutes while the DJ mixes these four tracks into one long final encore.",
-			"Recorded, Produced, Mixed, and Mastered by whythough?. A WRC Blue Label Release.",
-			"Artwork by Ian Rios"
+			"Recorded, Produced, Mixed, and Mastered by whythough?",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
 		],
 		"primary_artist_ids": [
 			1
