@@ -12,8 +12,9 @@ you gotta fix this file to be like the other ones on the contest DAtajson
             "3. You cannot use \"score\" in your track title, as it is in the album name",
             "4. We will provide a graphical score that you can create your audio file to. Be sure to view the resources to understand what it is and how you can use the one we provide",
             "5. Your song should be your interpretation of what the score should sound like. If your song does not sounds like it goes along with the graphical score, it will not be considered in the final picks for the album.",
-            "6. Submit your final track mixed and mastered to __email__ as a downloadable 44.1Khz wav file.",
-            "7. Title your track __i__\"artist_name - track_name.wav\"__i__, stylized correctly. If you are unable to do that due to character choice, please type your correctly stylized artist and/or song name in the body of your submission email."
+            "6. Title your track __i__\"artist name - track name.wav\"__i__, stylized correctly. If you are unable to do that due to character choice, please type your correctly stylized artist and/or song name in the body of your submission email.",
+            "7. Please render your file properly. It should be a downloadable __b__16 bit 44.1Khz wav file__b__.",
+            "8. Submit your final track mixed and mastered to __email__."
         ],
         "recommendations": [
             "Genre of music does not matter for this album",
