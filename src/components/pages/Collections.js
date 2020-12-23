@@ -47,7 +47,7 @@ export default function Collections() {
 			)
 		})
 	return (
-		<div>
+		<>
 			<h1 className="header-sub-page">Collections</h1>
 			<div className="row">
 				<div className="col-10 offset-1">
@@ -56,6 +56,6 @@ export default function Collections() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	)
 }

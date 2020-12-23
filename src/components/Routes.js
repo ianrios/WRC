@@ -21,16 +21,16 @@ import Contact from './pages/Contact';
 import ReloadPage from "./pages/Reload";
 import CookiePolicy from "./pages/CookiePolicy";
 import ComingSoon from "./pages/ComingSoon";
+import Software from "./pages/Software";
+import ThankYou from "./pages/ThankYou";
 
 export default function Routes() {
 
 	return (
 		<Switch>
+			{/* Site Index */}
 			<Route exact path="/">
 				<Home />
-			</Route>
-			<Route path="/nexus">
-				<Nexus />
 			</Route>
 			<Route path="/artists">
 				<Artists />
@@ -38,41 +38,17 @@ export default function Routes() {
 			<Route path="/artist/:name">
 				<ArtistPage />
 			</Route>
-			<Route path="/collections">
-				<Collections />
-			</Route>
-			<Route path="/collection/:name">
-				<CollectionPage />
-			</Route>
 			<Route path="/releases">
 				<Releases />
 			</Route>
 			<Route path="/release/:name">
 				<ReleasePage />
 			</Route>
-			<Route path="/services">
-				<Services />
+			<Route path="/collections">
+				<Collections />
 			</Route>
-			<Route path="/store">
-				<Store />
-			</Route>
-			<Route exact path="/contact">
-				<Contact />
-			</Route>
-			<Route path="/atlas">
-				<ComingSoon />
-			</Route>
-			<Route path="/hard-reload">
-				<ReloadPage />
-			</Route>
-			<Route path="/cookie-policy">
-				<CookiePolicy />
-			</Route>
-			<Route path="/coming-soon">
-				<ComingSoon />
-			</Route>
-			<Route path="/errors">
-				<Errors />
+			<Route path="/collection/:name">
+				<CollectionPage />
 			</Route>
 			<Route path="/contests">
 				<Contests />
@@ -80,9 +56,37 @@ export default function Routes() {
 			<Route path="/contest/:name">
 				<ContestPage />
 			</Route>
-			<Route path="/competitions">
-				{/* TODO: remove /competitions */}
-				<Contests />
+			{/* Resources */}
+			<Route path="/cookie-policy">
+				<CookiePolicy />
+			</Route>
+			<Route path="/hard-reload">
+				<ReloadPage />
+			</Route>
+			<Route path="/errors">
+				<Errors />
+			</Route>
+			{/* About */}
+			<Route exact path="/contact">
+				<Contact />
+			</Route>
+			<Route path="/nexus">
+				<Nexus />
+			</Route>
+			<Route path="/coming-soon">
+				<ComingSoon />
+			</Route>
+			<Route path="/services">
+				<Services />
+			</Route>
+			<Route path="/store">
+				<Store />
+			</Route>
+			<Route path="/software">
+				<Software />
+			</Route>
+			<Route path="/thanks/:year">
+				<ThankYou />
 			</Route>
 			<Route path="*">
 				<Home />

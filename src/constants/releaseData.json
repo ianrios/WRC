@@ -2,11 +2,11 @@
 	{
 		"name": "ode22020",
 		"local_path": "ode22020",
-		"id": 59,
+		"id": 60,
 		"label_number": "WHY059",
 		"release_type": "Pink Label",
 		"album_art": "/images/releases/ode22020.png",
-		"release_date": "2021-01-11T18:25:43.511Z",
+		"release_date": "2021-01-11T11:11:11.511Z",
 		"genre": "experimental",
 		"release_bio": [
 			"Quantopix presents, \"ode22020\"",
@@ -25,7 +25,7 @@
 	{
 		"name": "\"is, as far as I know, not the name of any other album\" is, as far as i know, not the name of any other album",
 		"local_path": "shell-artist-x-quantopix",
-		"id": 58,
+		"id": 59,
 		"label_number": "WHY057",
 		"release_type": "WRC",
 		"album_art": "/images/releases/saxq.png",
@@ -49,7 +49,7 @@
 	{
 		"name": "Cilantro",
 		"local_path": "cilantro",
-		"id": 57,
+		"id": 58,
 		"label_number": "WHY058",
 		"release_type": "WRC",
 		"album_art": "/images/releases/Cilantro.png",
@@ -67,6 +67,31 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {}
+	},
+	{
+		"name": "RECORDINGS002: ranch",
+		"local_path": "rec002",
+		"id": 57,
+		"label_number": "WHY060",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/rec002.png",
+		"release_date": "2020-12-23T18:25:43.511Z",
+		"genre": "Sample Pack",
+		"release_bio": [
+			"WHYREC002: ranch",
+			"Sample pack of one shots, techno pounders, drones and more taken from the LYRA-8 synthesizer.",
+			"Recorded, Produced, Mixed, and Mastered by ofoot",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"zip": ""
+		}
 	},
 	{
 		"name": "bells",
@@ -659,14 +684,14 @@
 		}
 	},
 	{
-		"name": "RECORDINGS001",
+		"name": "RECORDINGS001: honey",
 		"local_path": "rec001",
 		"id": 36,
-		"label_number": "WHYREC001",
+		"label_number": "WHY036.5",
 		"release_type": "RECORDINGS",
-		"album_art": "/images/releases/rec001.jpg",
+		"album_art": "/images/releases/rec001.png",
 		"release_date": "2020-07-10T18:25:43.511Z",
-		"genre": "Samples",
+		"genre": "Sample Pack",
 		"release_bio": [
 			"The first release from the RECORDINGS WRC imprint.",
 			"Sample pack of basses, drums, leads, textures, and of course, field recordings.",

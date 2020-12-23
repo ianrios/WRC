@@ -1,24 +1,57 @@
 [
     {
-        "name": "pl-01",
-        "local_path": "pl-01",
-        "id": -1,
-        "label_number": "WHY056",
-        "release_type": "Pink Label",
-        "album_art": "/images/releases/WRC.jpg",
-        "release_date": "2020-12-12T18:25:43.511Z",
-        "genre": "noise",
-        "release_bio": [
-            "The 56th release from WHY Record Company (WRC) - WHY056",
-            "Introducing the pink label."
-        ],
-        "primary_artist_ids": [
-            1
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {}
-    },
+		"name": "breaks",
+		"local_path": "WHYCOMP002",
+		"id": 56,
+		"label_number": "WHY056",
+		"release_type": "WRC",
+		"album_art": "/images/releases/breaks.png",
+		"release_date": "2020-12-28T18:25:43.511Z",
+		"genre": "breaks",
+		"release_bio": [
+			"The 60th release from WHY Record Company (WRC) - WHY060",
+			"\"WHYCOMP003: breaks\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by .",
+			"Featuring music all using classic breaks and inspired from buttered popcorn.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			4,
+			8,
+			24,
+			9
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/breaks"
+		}
+	},
+    {
+		"name": "RECORDINGS002: balsamic",
+		"local_path": "rec002",
+		"id": 36,
+		"label_number": "WHYREC002",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/rec002.png",
+		"release_date": "2020-12-10T18:25:43.511Z",
+		"genre": "Samples",
+		"release_bio": [
+			"The second release from the RECORDINGS WRC imprint.",
+			"Sample pack of basses, drums, leads, textures, and of course, field recordings.",
+			"Recorded, Produced, Mixed, and Mastered by Robert Dylan Smock (dyl_pykl)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"gr": "",
+			"zip": ""
+		}
+	},
     {
         "name": "He Called Me Beautiful (Remixes)",
         "local_path": "hcmb-remixes",

@@ -742,7 +742,7 @@
 		"id": 23,
 		"name": "produceronline",
 		"local_path": "produceronline",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -768,7 +768,7 @@
 		"id": 25,
 		"name": "shell artist",
 		"local_path": "shell-artist",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -796,7 +796,7 @@
 		"id": 26,
 		"name": "Wash And Fold Laundry Service",
 		"local_path": "wash-and-fold-laundry-service",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -821,7 +821,7 @@
 		"id": 27,
 		"name": "Sub Pump",
 		"local_path": "subpump",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
@@ -896,7 +896,7 @@
 		"id": 30,
 		"name": "No",
 		"local_path": "No",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
 		],
