@@ -85,7 +85,7 @@ export default function Routes() {
 			<Route path="/software">
 				<Software />
 			</Route>
-			<Route path="/thanks/:year">
+			<Route path="/thanks/2020">
 				<ThankYou />
 			</Route>
 			<Route path="*">

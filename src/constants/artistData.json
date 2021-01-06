@@ -944,5 +944,32 @@
 			"pandora": "https://www.pandora.com/artist/the-sharks/ARK3kkcvzhw6z3V",
 			"deezer": "https://www.deezer.com/us/artist/259184"
 		}
+	},
+	{
+		"id": 32,
+		"name": "Tilt Shift",
+		"local_path": "tilt-shift",
+		"show_on_artist_page": true,
+		"photos": [
+			"/images/artists/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "~",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"producer"
+		],
+		"social_platforms": {
+			"ig":"https://www.instagram.com/tiltshiftmusic/"
+		},
+		"music_platforms": {
+			"spotify": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w"
+		}
 	}
 ]

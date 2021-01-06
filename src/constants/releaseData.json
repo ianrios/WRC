@@ -1,5 +1,35 @@
 [
 	{
+		"name": "breaks",
+		"local_path": "WHYCOMP003",
+		"id": 61,
+		"label_number": "WHY060",
+		"release_type": "WRC",
+		"album_art": "/images/releases/breaks.png",
+		"release_date": "2021-01-15T18:25:43.511Z",
+		"genre": "breaks",
+		"release_bio": [
+			"The 60th release from WHY Record Company (WRC) - WHY060",
+			"\"WHYCOMP003: breaks\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Tilt Shift, Wash And Fold Laundry Service, dyl_pykl, Weeping Sun, StratosFear, and Quantopix.",
+			"Featuring jungle, breakbeats, and IDM all incorporating break samples.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			32,
+			26,
+			2,
+			9,
+			3,
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": ""
+		}
+	},
+	{
 		"name": "ode22020",
 		"local_path": "ode22020",
 		"id": 60,
@@ -72,7 +102,7 @@
 		"name": "RECORDINGS002: ranch",
 		"local_path": "rec002",
 		"id": 57,
-		"label_number": "WHY060",
+		"label_number": "WHY061",
 		"release_type": "RECORDINGS",
 		"album_art": "/images/releases/rec002.png",
 		"release_date": "2020-12-23T18:25:43.511Z",
@@ -89,8 +119,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
-			"zip": ""
+			"bc": "https://ofoot.bandcamp.com/album/ranch"
 		}
 	},
 	{

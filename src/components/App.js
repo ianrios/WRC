@@ -18,6 +18,7 @@ function Wrapper() {
 	const pathArr = pathname.split("/");
 	useEffect(() => {
 		if (
+			pathArr[1] === "thanks" ||
 			pathArr[1] === "artists" ||
 			pathArr[1] === "collections" ||
 			pathArr[1] === "contact" ||
