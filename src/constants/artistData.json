@@ -949,9 +949,9 @@
 		"id": 32,
 		"name": "Tilt Shift",
 		"local_path": "tilt-shift",
-		"show_on_artist_page": true,
+		"show_on_artist_page": false,
 		"photos": [
-			"/images/artists/WRC.jpg"
+			"/images/releases/WRC.jpg"
 		],
 		"email": "",
 		"location": {

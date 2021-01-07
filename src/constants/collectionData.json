@@ -36,6 +36,16 @@
 		"local_path": "CYCLE"
 	},
 	{
+		"short_title": "WHYCOMP",
+		"title": "Monthly Production Contest",
+		"paragraphs": [
+			"Starting in 2020, we started a monthly contest to bring members of our community together and create music in a rule constrained setting. Each turnaround for the competition takes about a month total, with about three weeks for production, and one week for uploading the release, promo, and the preview stream. In a celebratory format, we all hop on a video call and go live on twitch, taking turns listening to each others songs, asking questions, and getting a sneak peak behind the scenes.",
+			"Each time a preview stream finishes, the winners of that month decide what rules for the next challenge should be. For example, winners of the first rain sample competition decided that the next contest should incorporate the use of bells.",
+			"One of the best parts of these contests is the collaboration between artists and the exposure the label gets by having new people join the WRC family by entering into the contest. Be sure to visit the contests page to see what current challenge is happening now to join in!"
+		],
+		"local_path": "WHYCOMP"
+	},
+	{
 		"short_title": "RECORDINGS",
 		"title": "Sample Packs",
 		"paragraphs": [
