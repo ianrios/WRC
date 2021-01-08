@@ -46,12 +46,14 @@ export default function ContestPage() {
                                     <div className="col text-center questrial">
                                         <h2>{currContest.description}</h2>
                                         <h4>{currContest.h4}</h4>
+                                        <h5><a href="#submit_form">Click here to jump to the submission form.</a></h5>
                                         {currContest.releasePage && <Link to={`/release/${currContest.local_path}`}>Visit Release Page</Link>}
                                         <hr />
                                         <div className="text-left text-border">
                                             <h3>Rules:</h3>
                                             {mappedPTag(currContest.rules, "text-left")}
                                         </div>
+                                        <h5><a href="#submit_form">Click here to jump to the submission form.</a></h5>
                                         {currContest.resources.length > 0 &&
                                             <>
                                                 <hr />
@@ -65,6 +67,12 @@ export default function ContestPage() {
                                         <div className="text-left text-border">
                                             <h3>Recommendations:</h3>
                                             {mappedPTag(currContest.recommendations, "text-left")}
+                                        </div>
+                                        <hr />
+                                        <a className="no-style-link" id="submit_form"></a>
+                                        <div className="text-left text-border">
+                                            <h3>Submit Here!</h3>
+                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegknY-MX1mi7bH16CoMjwwCwzmw6lSYwMNl1Ml81UAyJlaw/viewform?embedded=true" width="640" height="1633" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                                         </div>
                                         <hr />
                                         <h5>Full Disclosure:</h5>

@@ -26,7 +26,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": ""
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp003-breaks"
 		}
 	},
 	{
@@ -50,7 +50,12 @@
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap":""
+		}
 	},
 	{
 		"name": "\"is, as far as I know, not the name of any other album\" is, as far as i know, not the name of any other album",
@@ -74,7 +79,11 @@
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"bc": "https://shellartist.bandcamp.com/album/is-as-far-as-i-know-not-the-name-of-any-other-album-is-as-far-as-i-know-not-the-name-of-any-other-album",
+			"sc": "https://soundcloud.com/shellartist/sets/shell-artist-album-1",
+			"sp": "https://open.spotify.com/album/30zVShDLzIh0Bl28iHxAhi?si=bOLy73JoQ3eTaqy2pwa33A"
+		}
 	},
 	{
 		"name": "Cilantro",
@@ -96,7 +105,12 @@
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": "https://music.apple.com/us/album/cilantro-single/1544583223"
+		}
 	},
 	{
 		"name": "RECORDINGS002: ranch",
@@ -147,7 +161,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "https://soundcloud.com/whyrecordcompany/sets/bells"
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp002-bells",
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/bells",
+			"sp": "https://open.spotify.com/album/7xmE8Dosv7tHjYwb9wtHME?si=-Y-6NfVHQ-iSBu1Q28TZkA",
+			"ap": "https://music.apple.com/us/album/bells-ep/1544569993"
 		}
 	},
 	{
@@ -246,6 +263,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp001-rain",
 			"sc": "https://soundcloud.com/whyrecordcompany/sets/rain",
 			"sp": "https://open.spotify.com/album/6i3lqqb0gD3KFpxKCyDOpz?si=AxcFc0sxSj2mabnAbuvHJQ",
 			"ap": "https://music.apple.com/us/album/valencia/1539716526?i=1539716528"
