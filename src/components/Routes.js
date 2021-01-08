@@ -23,6 +23,7 @@ import CookiePolicy from "./pages/CookiePolicy";
 import ComingSoon from "./pages/ComingSoon";
 import Software from "./pages/Software";
 import ThankYou from "./pages/ThankYou";
+import LivePage from "./pages/LivePage";
 
 export default function Routes() {
 
@@ -84,6 +85,9 @@ export default function Routes() {
 			</Route>
 			<Route path="/software">
 				<Software />
+			</Route>
+			<Route path="/live">
+				<LivePage />
 			</Route>
 			<Route path="/thanks/2020">
 				<ThankYou />

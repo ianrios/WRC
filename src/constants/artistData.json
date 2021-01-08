@@ -323,24 +323,26 @@
 		],
 		"email": "",
 		"location": {
-			"city": "",
+			"city": "Oneonta",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"Hi, do you have a moment to talk about our Lord and Savior, Megamix?\"",
 		"body_paragraphs": [
-			""
+			"LoM is a electronic music mashup artist who also dabbles in production.  He is most known for his Megamix series of mixtapes blending pop, rap, rock, edm and more into seamless albums.  He runs his twitch channel where he hosts artist interviews, WRC release parties, tutorials and more."
 		],
 		"roles": [
-			""
+			"Producer",
+			"DJ",
+			"Live Musician"
 		],
 		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
+			"tw": "https://twitter.com/thisislom",
+			"fb": "https://www.facebook.com/LoM.Music",
+			"ig": "https://www.instagram.com/eric_of_lom/"
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/lom_music",
-			"bc": "",
+			"tw": "https://twitch.tv/lom564",
 			"sp": "https://open.spotify.com/artist/4TtwSpUTK7KAvDbOZuN4HP",
 			"ap": ""
 		}
