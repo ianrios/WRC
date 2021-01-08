@@ -72,7 +72,7 @@ export default function ContestPage() {
                                         <a className="no-style-link" id="submit_form"></a>
                                         <div className="text-left text-border">
                                             <h3>Submit Here!</h3>
-                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegknY-MX1mi7bH16CoMjwwCwzmw6lSYwMNl1Ml81UAyJlaw/viewform?embedded=true" width="100%" height="1633" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegknY-MX1mi7bH16CoMjwwCwzmw6lSYwMNl1Ml81UAyJlaw/viewform?embedded=true" width="100%" height="1903" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                                         </div>
                                         <hr />
                                         <h5>Full Disclosure:</h5>

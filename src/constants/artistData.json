@@ -118,8 +118,8 @@
 		"music_platforms": {
 			"sc": "https://soundcloud.com/stratosfear-music",
 			"bc": "",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/artist/0ushPuHrDj0nasOiGCTp6v?si=ad1jmkx7TfKV2kwS65USEA",
+			"ap": "https://music.apple.com/us/artist/stratosfear/1331746048"
 		}
 	},
 	{
@@ -157,9 +157,10 @@
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/fohrenbach",
+			"bc": "https://fohrenbach.bandcamp.com/releases",
 			"sp": "https://open.spotify.com/artist/6oThJNc7S13BdyAf5GCJCh",
-			"dz": "https://www.deezer.com/us/artist/15282653",
 			"ap": "https://music.apple.com/us/artist/fohrenbach/1407573462",
+			"dz": "https://www.deezer.com/us/artist/15282653",
 			"yt": "https://www.youtube.com/channel/UC1DbZbwVKpfhdmqOxxymu3Q"
 		}
 	},
@@ -228,9 +229,9 @@
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/matybeats",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+
+			"sp": "https://open.spotify.com/artist/5yBx3XPszXBZLxy3e5Rp9y?si=yT1LVowBRbiVooL91NkA0g",
+			"ap": "https://music.apple.com/us/artist/matyb/1450856293"
 		}
 	},
 	{
@@ -303,7 +304,8 @@
 		],
 		"social_platforms": {
 			"tw": "https://twitter.com/ezraparkermusic",
-			"fb": "https://www.facebook.com/ezraparkermusic"
+			"fb": "https://www.facebook.com/ezraparkermusic",
+			"ig":""
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/ezraparker",
@@ -966,7 +968,7 @@
 			"producer"
 		],
 		"social_platforms": {
-			"ig":"https://www.instagram.com/tiltshiftmusic/"
+			"ig": "https://www.instagram.com/tiltshiftmusic/"
 		},
 		"music_platforms": {
 			"spotify": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w"

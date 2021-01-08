@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useParams, Link } from 'react-router-dom';
 import Seo from "../Seo"
+import mixData from "../../constants/mixData.json";
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import artistData from "../../constants/artistData.json";
@@ -16,7 +17,8 @@ export default function ArtistPage() {
 
 	const sortedData = [
 		...releaseData,
-		...independentReleaseData
+		...independentReleaseData,
+		...mixData
 	]
 		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 
