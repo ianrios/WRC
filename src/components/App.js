@@ -6,7 +6,9 @@ import {
 import Q from './Q';
 import Seo from './Seo';
 import Navbar from './Navbar';
+import Sidebar from './Sidebar';
 import Route from './Routes';
+import TopLogo from "./TopLogo";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import './App.scss';
@@ -49,6 +51,12 @@ function Wrapper() {
 		description: "WHY? Record Company Homepage",
 		keywords: "why, record, company, music, edm, techno, idm, experimental, label"
 	}
+
+	// const [sidebarOpen, setSidebarOpen] = useState(false)
+	// let sidebarStatus = sidebarOpen ? 'open' : 'closed';
+	// const toggleSidebar = () => {
+	// 	setSidebarOpen(prevSidebar => !prevSidebar)
+	// }
 	return (
 		<div className="App">
 			<Seo data={headData} />
@@ -72,8 +80,10 @@ function Wrapper() {
 				</div>
 				:
 				<div className="body-main">
-					<Navbar />
+					{/* <Navbar /> */}
+					<Sidebar />
 					<div className="container">
+						<TopLogo />
 						<Route />
 						<Footer viewMain={viewMain} setViewMain={setViewMain} />
 					</div>

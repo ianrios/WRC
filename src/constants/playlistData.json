@@ -59,5 +59,89 @@
         "links": {
             "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
         }
+    },
+    {
+        "name": "WRC Pink Label",
+        "local_path": "play00?",
+        "id": -3,
+        "label_number": "WHYPLAY001",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2016-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+        }
+    },
+    {
+        "name": "WRC 2019 Releases",
+        "local_path": "play001",
+        "id": -3,
+        "label_number": "WHYPLAY001",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2016-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+        }
+    },
+    {
+        "name": "WRC 2020 Releases",
+        "local_path": "play001",
+        "id": -3,
+        "label_number": "WHYPLAY001",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2016-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+        }
+    },
+    {
+        "name": "WRC 2021 Releases",
+        "local_path": "play001",
+        "id": -3,
+        "label_number": "WHYPLAY001",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2016-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+        }
     }
 ]

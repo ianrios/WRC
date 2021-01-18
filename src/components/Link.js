@@ -6,18 +6,20 @@ import {
 } from "react-router-dom";
 import Dot from './icons/Dot';
 import Cube from './icons/Cube';
+import AtSign from './icons/AtSign';
+import Question from './icons/Question';
 import Star from './icons/Star';
 import Honeycomb from './icons/Honeycomb';
 import Blockchain from './icons/Blockchain';
 import Fingerprint from './icons/Fingerprint';
 
-function titleCase(str) {
+export function titleCase(str) {
 	return str.toLowerCase().split(' ').map(function (word) {
 		return (word.charAt(0).toUpperCase() + word.slice(1));
 	}).join(' ');
 }
 
-function chooseIcon({ iconHover, iconText, icon, to, pathname }) {
+export function chooseIcon({ iconHover, iconText, icon, to, pathname, color = '' }) {
 	const lowTo = to.toLowerCase();
 	const className = `nav-icon ${pathname === lowTo && "nav-icon-active"}`
 	if (iconHover && icon) {
@@ -27,36 +29,56 @@ function chooseIcon({ iconHover, iconText, icon, to, pathname }) {
 					className={className}
 					height={"35px"}
 					width={"35px"}
+					fillColor={color}
 				/>
 			case "Releases":
 				return <Dot
 					className={className}
 					height={"35px"}
 					width={"35px"}
+					fillColor={color}
 				/>
 			case "Collections":
 				return <Honeycomb
 					className={className}
 					height={"35px"}
 					width={"35px"}
+					fillColor={color}
 				/>
 			case "Store":
 				return <Cube
 					className={className}
 					height={"35px"}
 					width={"35px"}
+					fillColor={color}
 				/>
 			case "Nexus":
 				return <Blockchain
 					className={className}
 					height={"35px"}
 					width={"35px"}
+					fillColor={color}
 				/>
 			case "Contests":
 				return <Star
 					className={className}
 					height={"35px"}
 					width={"35px"}
+					fillColor={color}
+				/>
+			case "Home":
+				return <Question
+					className={className}
+					height={"35px"}
+					width={"35px"}
+					fillColor={color}
+				/>
+			case "Contact":
+				return <AtSign
+					className={className}
+					height={"35px"}
+					width={"35px"}
+					fillColor={color}
 				/>
 			default:
 				return null

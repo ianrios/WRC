@@ -1,5 +1,30 @@
 [
 	{
+		"name": "Northern Exposure",
+		"local_path": "northern-exposure",
+		"id": 62,
+		"label_number": "WHY062",
+		"release_type": "WRC",
+		"album_art": "/images/releases/northern-exposure.png",
+		"release_date": "2020-01-29T18:25:43.511Z",
+		"genre": "house",
+		"release_bio": [
+			"The 62nd release from WHY Record Company (WRC) - WHY062",
+			"\"Northern Exposure\" by dyl_pykl (Robert Dylan Smock)",
+			"Original song Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios",
+			"Artwork taken by Robert Dylan Smock and prepared for release by Ian Rios"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"____": "____"
+		}
+	},
+	{
 		"name": "breaks",
 		"local_path": "WHYCOMP003",
 		"id": 61,
@@ -26,7 +51,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp003-breaks"
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/breaks",
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp003-breaks",
+			"sp": "https://open.spotify.com/album/68RRWRibze9znH0ga98IYo?si=ZORv9NmCQn6K2dvJpvWYtA",
+			"ap": "https://music.apple.com/us/album/breaks-ep/1547650739"
 		}
 	},
 	{
@@ -51,10 +79,8 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
-			"sc": "",
-			"sp": "",
-			"ap":""
+			"sp": "https://open.spotify.com/album/6sA67FY7FH9iW4XITlZ7tI?si=B0JvOQ6iT5GZconGxzkghQ",
+			"ap": ""
 		}
 	},
 	{
@@ -108,7 +134,7 @@
 		"links": {
 			"bc": "",
 			"sc": "",
-			"sp": "",
+			"sp": "https://open.spotify.com/album/0JT8e1shS7bOL7f8BKvOli?si=3xSNcUyeTviLGet4WH--Kg",
 			"ap": "https://music.apple.com/us/album/cilantro-single/1544583223"
 		}
 	},

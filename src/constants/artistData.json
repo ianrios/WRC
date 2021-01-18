@@ -107,9 +107,18 @@
 			"city": "Lincoln",
 			"country": "USA"
 		},
-		"quote": "\"\"",
-		"body_paragraphs": [],
-		"roles": [],
+		"quote": "\"💧︎⧫︎❒︎♋︎⧫︎□︎⬧︎☞︎♏︎♋︎❒︎\"",
+		"body_paragraphs": [
+			"Currently based in Lincoln, Nebraska, StratosFear is a chillout and ambient musician who focuses on meditative soundscapes and melodic journeys."
+		],
+		"roles": [
+			"Producer",
+			"Songwriter",
+			"Sound Designer",
+			"Audio Engineer",
+			"DJ",
+			"Live Musician"
+		],
 		"social_platforms": {
 			"tw": "https://twitter.com/Stratos_Fear",
 			"ig": "https://www.instagram.com/stratosfearmusic/",
@@ -117,7 +126,6 @@
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/stratosfear-music",
-			"bc": "",
 			"sp": "https://open.spotify.com/artist/0ushPuHrDj0nasOiGCTp6v?si=ad1jmkx7TfKV2kwS65USEA",
 			"ap": "https://music.apple.com/us/artist/stratosfear/1331746048"
 		}
@@ -229,7 +237,6 @@
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/matybeats",
-
 			"sp": "https://open.spotify.com/artist/5yBx3XPszXBZLxy3e5Rp9y?si=yT1LVowBRbiVooL91NkA0g",
 			"ap": "https://music.apple.com/us/artist/matyb/1450856293"
 		}
@@ -305,7 +312,7 @@
 		"social_platforms": {
 			"tw": "https://twitter.com/ezraparkermusic",
 			"fb": "https://www.facebook.com/ezraparkermusic",
-			"ig":""
+			"ig": ""
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/ezraparker",
@@ -382,19 +389,28 @@
 		"local_path": "robbiegay",
 		"show_on_artist_page": true,
 		"photos": [
-			"/images/artists/profiles/robbiegay_4x6.png"
+			"/images/artists/robbiegay_lights.jpg"
 		],
 		"email": "robbiegaymedia@gmail.com",
 		"location": {
-			"city": "Versailles",
+			"city": "KY",
 			"country": "USA"
 		},
-		"quote": "\"One impulse from a vernal wood / May teach you more of man, / Of moral evil and of good, / Than all the sages can.\"",
+		"quote": "\"🌳🌳🌳🌳\"",
 		"body_paragraphs": [
-			"Software developer and laptop musician. Occasional host of the \"Bedroom Productions\" talk show."
+			"robbiegay thinks he might be a music producer, but he's not entirely sure. Sometimes he likes to make music on his laptop, sometimes he fiddles around on an old, out of tune piano, and sometimes he'd rather just skip the whole music thing and have a snack.",
+			"He first got interested in making music in college. He was into EDM and thought, \"hey, I could make that!\" With a determined spirit, he traveled down to the school's music studio (located in a far corner of the sub-basement), and sat himself down at one of the workstations. With Cubase open, he prepared to make the greatest EDM banger every heard. After countless hours of work, he still had no idea how to work Cubase and decided it was time to go home and get some sleep.",
+			"After a few music electives and some poking around on the internet, robbiegay eventually learned how to make sounds on a computer. At first he thought he was an EDM producer, but then he heard San Holo, and decided he was a future bass producer. He then got into playing the piano, and now thinks most of his music fits in the neo-classical genre.",
+			"Not that anyone asked, but his favorite books on creativity, art, music, and such are:",
+			"- The Alchemist (Paulo Coelho)",
+			"- The Artist's Way (Julia Cameron)",
+			"- On Writing (Stephen King)",
+			"- A Year With Swollen Appendices (Brian Eno)",
+			"- Tonal Harmony (Stefan Kostka)"
 		],
 		"roles": [
-			"producer"
+			"Producer",
+			"Artist"
 		],
 		"social_platforms": {
 			"ra": "https://www.robbiegay.art/music",
@@ -439,7 +455,7 @@
 			"sc": "https://soundcloud.com/weeping-sun",
 			"bc": "https://bandcamp.com/weepingsun",
 			"sp": "https://open.spotify.com/artist/56mF4NaRrP5QQo82Ynxupv",
-			"ap": ""
+			"ap": "https://music.apple.com/us/artist/weeping-sun/1331746037"
 		}
 	},
 	{
@@ -625,8 +641,8 @@
 		],
 		"email": "",
 		"location": {
-			"city": "",
-			"country": ""
+			"city": "Chicago",
+			"country": "USA"
 		},
 		"quote": "\"\"",
 		"body_paragraphs": [
@@ -635,8 +651,16 @@
 		"roles": [
 			""
 		],
-		"social_platforms": {},
-		"music_platforms": {}
+		"social_platforms": {
+			"ig": "https://www.instagram.com/quantopix.music",
+			"tw": "https://twitter.com/Quantopix_music",
+			"fb": "https://www.facebook.com/quantopix.official"
+		},
+		"music_platforms": {
+			"sp": "https://open.spotify.com/artist/2kPTZJmjcVUxCaZiH5e9SS?si=foOMntXMQo23g7i-I-TRaQ",
+			"ap": "https://music.apple.com/us/artist/quantopix/1054418855",
+			"bc": "https://quantopix.bandcamp.com/"
+		}
 	},
 	{
 		"id": 19,
@@ -955,25 +979,37 @@
 		"local_path": "tilt-shift",
 		"show_on_artist_page": false,
 		"photos": [
-			"/images/releases/WRC.jpg"
+			"/images/artists/profiles/tilt_shift_4x6.jpg"
 		],
-		"email": "",
+		"email": "tiltshiftbooking@gmail.com",
 		"location": {
-			"city": "~",
+			"city": "Madison",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"Schrödinger's hoes... I just wanna know...\"",
 		"body_paragraphs": [
-			""
+			"Tilt Shift is a glitch pop project from Wisconsin-based producer and singer Jeremy Wisbey 💕"
 		],
 		"roles": [
-			"producer"
+			"Producer",
+			"Graphic Designer",
+			"Mix Engineer",
+			"Mastering Engineer",
+			"Recording Engineer",
+			"Songwriter",
+			"Singer",
+			"Sound Designer",
+			"Audio Engineer",
+			"Live Musician"
 		],
 		"social_platforms": {
-			"ig": "https://www.instagram.com/tiltshiftmusic/"
+			"ig": "https://www.instagram.com/tiltshiftmusic/",
+			"tw": "https://www.twitter.com/tiltshiftband"
 		},
 		"music_platforms": {
-			"spotify": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w"
+			"sc": "https://www.soundcloud.com/tilt-shift",
+			"sp": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w",
+			"ap": "https://music.apple.com/us/artist/tilt-shift/1399652919"
 		}
 	}
 ]

@@ -1,23 +1,24 @@
 [
     {
         "local_path": "WHYCOMP004",
-        "name": "WHYCOMP004: __TOPIC__",
+        "name": "WHYCOMP004: Romance and Random",
         "label_number": "WHYCOMP004",
         "release_type": "Contests",
         "deadline": "2021-02-01T00:00:00.511Z",
-        "description": "__TOPIC__ Themed Competition",
-        "h4": "Winning tracks will be released on \"WHYCOMP004 - __TOPIC__\", set to release in February 2021",
+        "description": "Romance and Random Themed Competition",
+        "h4": "Winning tracks will be featured on \"WHYCOMP004 - Romance and Random\", set to release in February 2021",
         "rules": [
             "1. Deadline: February 1st, 2021",
             "2. If you use samples, they must be royalty free.",
-            "3. Theme: __b____TOPIC____b__ (you should create a track that used breaks and embodies \"__TOPIC__\"; perhaps this means you use __TOPIC__ recordings, record live __TOPIC__, synthesize the sound of a __TOPIC__, use __TOPIC__ as inspiration for your song / lyrics, create a __TOPIC__ soundscape using sounds not heard in __TOPIC__, etc.)",
-            "4. You cannot use \"__TOPIC__\" in your track title, as it is the album name.",
-            "5. Your song must include __TOPIC__ samples.",
-            "6. Please render your file properly. It should be a downloadable __b__16 bit 44.1Khz wav file__b__.",
-            "7. Submit your final track mixed and mastered below!"
+            "3. Theme: __b__Romance and Random__b__",
+            "4. __b__Romance__b__: You should create a track that embodies what you love about music; perhaps this means you use your favorite samples or recordings, make a song in your favorite genre, use your most loved ideas in music as inspiration for your song / lyrics, etc.)",
+            "5. __b__Random__b__: Your song must include a randomly generated element; perhaps this means you randomly generate midi notes, use automation to randomly design sounds as time progresses in your song, click and point with a blindfold on in your DAW, roll dice for every time you face a choice when producing, etc.",
+            "6. You cannot use \"romance\" or \"random\" in your track title, as it is the album name.",
+            "7. Please render your file properly. It should be a downloadable __b__16 bit 44.1Khz wav file__b__.",
+            "8. Submit your final track mixed and mastered below!"
         ],
         "recommendations": [
-            "Use __TOPIC__ creatively in the structure of your song. Think outside the box; the more creative your use of a break is while still sounding good, the more chances you have of your song being selected in the final rendition.",
+            "Use random elements creatively in the structure of your song. Think outside the box; even though \"random\" sounds chaotic, your role as a music producer is to make a good sounding song, not just random low effort garbage. The better your random element sounds within the context of your arrangement, more chances you have of your song being selected in the final rendition.",
             "Collabs are good ways to make new friends and make cool sounds. Visit our discord to chat with other artists!"
         ],
         "resources": [

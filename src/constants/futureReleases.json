@@ -1,4 +1,30 @@
 [
+
+    {
+		"name": "Northern Exposure (VIP)",
+		"local_path": "northern-exposure-vip",
+		"id": 63,
+		"label_number": "WHY063",
+		"release_type": "WRC",
+		"album_art": "/images/releases/northern-exposure-vip.png",
+		"release_date": "2020-01-29T18:25:43.511Z",
+		"genre": "house",
+		"release_bio": [
+			"The 62nd release from WHY Record Company (WRC) - WHY062",
+			"\"Northern Exposure\" by dyl_pykl (Robert Dylan Smock)",
+			"Original song Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios",
+			"Artwork taken by Robert Dylan Smock and prepared for release by Ian Rios"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"____": "____"
+		}
+	},
     
     {
 		"name": "RECORDINGS003: balsamic",

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import CookieConsent from 'react-cookie-consent';
+import Question from './icons/Question';
 
 export default function Footer(props) {
 	return (
@@ -14,10 +15,15 @@ export default function Footer(props) {
 			<div className="row">
 				<div className="col-12 col-md">
 					<small className="d-block mb-3 text-muted">
-						<img src="/whitelogo2024.png" alt="mini logo" width="24" height="24" className=" mb-1" />
+						<Question
+							className="mb-1"
+							height={"24px"}
+							width={"24px"}
+							fillColor={"white"}
+						/>
 					</small>
 					<small className="d-block mb-3 text-muted">
-						© 2020 WHY? Record Company (WRC)
+						© 2021 WHY? Record Company (WRC)
 					</small>
 				</div>
 				<div className="col-6 col-md">
@@ -64,7 +70,7 @@ export default function Footer(props) {
 				</div>
 				<div className="col-6 col-md">
 					<img
-						src="/WRCWhiteLabel.png"
+						src="/whiteLogoSmall.png"
 						className="img-fluid"
 						alt="logo"
 						onClick={() => props.setViewMain(!props.viewMain)}
