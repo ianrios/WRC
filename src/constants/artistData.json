@@ -312,7 +312,7 @@
 		"social_platforms": {
 			"tw": "https://twitter.com/ezraparkermusic",
 			"fb": "https://www.facebook.com/ezraparkermusic",
-			"ig": ""
+			"ig": "https://www.instagram.com/ezra_parker_music"
 		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/ezraparker",
@@ -351,7 +351,7 @@
 			"sc": "https://soundcloud.com/lom_music",
 			"tw": "https://twitch.tv/lom564",
 			"sp": "https://open.spotify.com/artist/4TtwSpUTK7KAvDbOZuN4HP",
-			"ap": ""
+			"ap": "https://music.apple.com/us/artist/lom/1435537881"
 		}
 	},
 	{
@@ -380,7 +380,8 @@
 		"music_platforms": {
 			"sc": "https://soundcloud.com/ofoot",
 			"bc": "https://ofoot.bandcamp.com/",
-			"sp": "https://open.spotify.com/artist/4jUrxpOeTRkPAjTVMQamc9?si=CCimrUylRXuWJLzBikZ3Kg"
+			"sp": "https://open.spotify.com/artist/4jUrxpOeTRkPAjTVMQamc9",
+			"ap": "https://music.apple.com/us/artist/ofoot/1438669839"
 		}
 	},
 	{
@@ -657,9 +658,10 @@
 			"fb": "https://www.facebook.com/quantopix.official"
 		},
 		"music_platforms": {
+			"sc": "https://soundcloud.com/quantopix",
+			"bc": "https://quantopix.bandcamp.com/",
 			"sp": "https://open.spotify.com/artist/2kPTZJmjcVUxCaZiH5e9SS?si=foOMntXMQo23g7i-I-TRaQ",
-			"ap": "https://music.apple.com/us/artist/quantopix/1054418855",
-			"bc": "https://quantopix.bandcamp.com/"
+			"ap": "https://music.apple.com/us/artist/quantopix/1054418855"
 		}
 	},
 	{
@@ -1007,6 +1009,41 @@
 			"tw": "https://www.twitter.com/tiltshiftband"
 		},
 		"music_platforms": {
+			"sc": "https://www.soundcloud.com/tilt-shift",
+			"sp": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w",
+			"ap": "https://music.apple.com/us/artist/tilt-shift/1399652919"
+		}
+	},
+	{
+		"id": 33,
+		"name": "Gintas K",
+		"local_path": "gintask",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/artists/profiles/gintask.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": "Lithuania"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Producer",
+			"Songwriter",
+			"Sound Designer",
+			"Software Developer"
+		],
+		"social_platforms": {
+			"ig": "https://www.instagram.com/tiltshiftmusic/",
+			"tw": "",
+			"fb": ""
+		},
+		"music_platforms": {
+			"bc": "https://music.apple.com/us/artist/tilt-shift/1399652919",
 			"sc": "https://www.soundcloud.com/tilt-shift",
 			"sp": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w",
 			"ap": "https://music.apple.com/us/artist/tilt-shift/1399652919"

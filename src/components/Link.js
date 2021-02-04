@@ -12,6 +12,8 @@ import Star from './icons/Star';
 import Honeycomb from './icons/Honeycomb';
 import Blockchain from './icons/Blockchain';
 import Fingerprint from './icons/Fingerprint';
+import Multiply from './icons/Multiply';
+import Hamburger from './icons/Hamburger';
 
 export function titleCase(str) {
 	return str.toLowerCase().split(' ').map(function (word) {
@@ -75,6 +77,20 @@ export function chooseIcon({ iconHover, iconText, icon, to, pathname, color = ''
 				/>
 			case "Contact":
 				return <AtSign
+					className={className}
+					height={"35px"}
+					width={"35px"}
+					fillColor={color}
+				/>
+			case "Menu":
+				return <Hamburger
+					className={className}
+					height={"35px"}
+					width={"35px"}
+					fillColor={color}
+				/>
+			case "Close":
+				return <Multiply
 					className={className}
 					height={"35px"}
 					width={"35px"}

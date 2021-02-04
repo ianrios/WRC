@@ -21,7 +21,33 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"____": "____"
+			"bc": "https://dylpykl.bandcamp.com/album/northern-exposure",
+			"sp": "https://open.spotify.com/track/4Rbe4TlWdQ9A43WAmvXthh?si=m0rFf24KSIOeueTEJz4pLg",
+			"ap": "https://music.apple.com/us/album/northern-exposure-single/1549881697"
+		}
+	},
+	{
+		"name": "RECORDINGS003: balsamic",
+		"local_path": "rec003",
+		"id": 36,
+		"label_number": "WHY063",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/rec003.png",
+		"release_date": "2021-01-22T18:25:43.511Z",
+		"genre": "Samples",
+		"release_bio": [
+			"The third release from the RECORDINGS WRC imprint.",
+			"Sample pack of field recordings taken across the world.",
+			"Recorded, Mixed, and Mastered by Robert Dylan Smock (dyl_pykl)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://dylpykl.bandcamp.com/album/rec003-balsamic"
 		}
 	},
 	{
@@ -80,7 +106,7 @@
 		"remix_artist_ids": [],
 		"links": {
 			"sp": "https://open.spotify.com/album/6sA67FY7FH9iW4XITlZ7tI?si=B0JvOQ6iT5GZconGxzkghQ",
-			"ap": ""
+			"ap": "https://music.apple.com/us/album/a-quick-and-effective-implementation/1547500805?i=1547500931"
 		}
 	},
 	{
@@ -132,8 +158,6 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
-			"sc": "",
 			"sp": "https://open.spotify.com/album/0JT8e1shS7bOL7f8BKvOli?si=3xSNcUyeTviLGet4WH--Kg",
 			"ap": "https://music.apple.com/us/album/cilantro-single/1544583223"
 		}

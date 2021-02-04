@@ -61,18 +61,21 @@ function Sidebar() {
         )
     })
     return (
-        <ul class="list-group fixed-top" style={{width:open?"225px":"70px"}}>
-            <li className={`
+        <ul class="list-group fixed-top"
+            style={{
+                width: open ? "225px" : "70px",
+                backgroundColor: "black"
+            }}>
+            <li onClick={toggle}
+                style={{ color: "white", opacity: 1, backgroundColor: "black" }}
+                className={`
                 list-group-item
                 white-text
                 text-left
                 text-nav-icon
                 em2`
-            }
-                onClick={toggle}
-                style={{ color: "white", opacity: 1, backgroundColor: "black" }}
-            >
-                <span style={{ width: "150px", paddingLeft:"10px", paddingTop:"10px"}}>
+                }>
+                <span style={{ width: "150px", paddingLeft: "10px", paddingTop: "10px" }}>
                     &equiv;
                 </span>
             </li>

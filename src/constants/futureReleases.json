@@ -1,5 +1,87 @@
 [
 	{
+		"name": "romance and random",
+		"local_path": "WHYCOMP004",
+		"id": 61,
+		"label_number": "WHY066",
+		"release_type": "WHYCOMP",
+		"album_art": "/images/releases/random.png",
+		"release_date": "2021-02-19T18:25:43.511Z",
+		"genre": "IDM",
+		"release_bio": [
+			"The 66th release from WHY Record Company (WRC) - WHY066",
+			"\"WHYCOMP004: romance and random\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Weeping Sun, Quantopix, and ofoot.",
+			"Featuring IDM all incorporating using some form of random element or generative sound.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			9,
+			18,
+			8
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/breaks",
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp003-breaks",
+			"sp": "https://open.spotify.com/album/68RRWRibze9znH0ga98IYo?si=ZORv9NmCQn6K2dvJpvWYtA",
+			"ap": "https://music.apple.com/us/album/breaks-ep/1547650739"
+		}
+	},
+	{
+		"name": "Art Brut",
+		"local_path": "art-brut",
+		"id": ,
+		"label_number": "WHY068",
+		"release_type": "Pink Label",
+		"album_art": "/images/releases/artbrut.png",
+		"release_date": "2021-03-05T11:11:11.511Z",
+		"genre": "experimental",
+		"release_bio": [
+			"Gintas K presents, \"Art Brut\"",
+			"The 68th release from WHY Record Company (WRC) - WHY068",
+			"Original songs Recorded, Produced, Mixed and Mastered Gintas K (Gintas Kraptavicius)",
+			"Original Artwork by Ian Rios",
+			"A WRC Pink Label Release"
+		],
+		"primary_artist_ids": [],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "Northern Exposure VIP",
+		"local_path": "northern-exposure-vip",
+		"id": 63,
+		"label_number": "WHY063",
+		"release_type": "WRC",
+		"album_art": "/images/releases/northern-exposure-vip.png",
+		"release_date": "2021-02-05T18:25:43.511Z",
+		"genre": "dnb",
+		"release_bio": [
+			"The 64th release from WHY Record Company (WRC) - WHY064",
+			"\"Northern Exposure VIP\" by dyl_pykl (Robert Dylan Smock)",
+			"Original song Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios",
+			"Artwork taken by Robert Dylan Smock and prepared for release by Ian Rios"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://dylpykl.bandcamp.com/album/northern-exposure-vip",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "Vacation Home (Remixes)",
 		"local_path": "Vacation-Home",
 		"id": 41,
@@ -33,14 +115,14 @@
 		"name": "Heirloom Herbs",
 		"local_path": "heirloom-herbs",
 		"id": 58,
-		"label_number": "WHY058",
+		"label_number": "WHY065",
 		"release_type": "WRC",
 		"album_art": "/images/releases/heirloom-herbs.png",
 		"release_date": "2021-12-28T18:25:43.511Z",
 		"genre": "dubstep",
 		"release_bio": [
 			"Quantopix presents \"Heirloom Herbs\"",
-			"The 58th release from WHY Record Company (WRC) - WHY058",
+			"The 65th release from WHY Record Company (WRC) - WHY065",
 			"Original songs Recorded, Produced, Mixed and Mastered by Quantopix (J)",
 			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
 		],
@@ -56,90 +138,39 @@
 			"ap": "https://music.apple.com/us/album/cilantro-single/1544583223"
 		}
 	},
-    {
-		"name": "Northern Exposure (VIP)",
-		"local_path": "northern-exposure-vip",
-		"id": 63,
-		"label_number": "WHY063",
+	{
+		"name": "He Called Me Beautiful (Remixes)",
+		"local_path": "hcmb-remixes",
+		"id": -1,
+		"label_number": "WHY057",
 		"release_type": "WRC",
-		"album_art": "/images/releases/northern-exposure-vip.png",
-		"release_date": "2021-01-29T18:25:43.511Z",
-		"genre": "dnb",
+		"album_art": "/images/releases/hcmb-remixes.png",
+		"release_date": "2021-0?-??T18:25:43.511Z",
+		"genre": "house",
 		"release_bio": [
-			"The 64th release from WHY Record Company (WRC) - WHY064",
-			"\"Northern Exposure\" by dyl_pykl (Robert Dylan Smock)",
-			"Original song Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered by Ian Rios",
-			"Artwork taken by Robert Dylan Smock and prepared for release by Ian Rios"
+			"The 57rd release from WHY Record Company (WRC) - WHY057",
+			"\"He Called Me Beautiful\" (Remixes) by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
+			"Original song Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
+			"Songwriting and Vocals by Katie Hoffstatter",
+			"Remixes by StratosFear, whythough?, dyl_pykl, ofoot, & ____",
+			"Mixed by Robert Dylan Smock & Ian Rios",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork originally by Katie Hoffstatter and remixed by Ian Rios"
 		],
 		"primary_artist_ids": [
-			2
+			14,
+			2,
+			11
 		],
 		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
+		"remix_artist_ids": [
+			1,
+			2,
+			3,
+			8
+		],
 		"links": {
 			"____": "____"
 		}
-	},
-    
-    {
-		"name": "RECORDINGS003: balsamic",
-		"local_path": "rec003",
-		"id": 36,
-		"label_number": "WHY062",
-		"release_type": "RECORDINGS",
-		"album_art": "/images/releases/rec002.png",
-		"release_date": "2021-12-10T18:25:43.511Z",
-		"genre": "Samples",
-		"release_bio": [
-			"The third release from the RECORDINGS WRC imprint.",
-			"Sample pack of field recordings taken across the world.",
-			"Recorded, Mixed, and Mastered by Robert Dylan Smock (dyl_pykl)",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"gr": "",
-			"zip": ""
-		}
-	},
-    {
-        "name": "He Called Me Beautiful (Remixes)",
-        "local_path": "hcmb-remixes",
-        "id": -1,
-        "label_number": "WHY057",
-        "release_type": "WRC",
-        "album_art": "/images/releases/hcmb-remixes.png",
-        "release_date": "2021-0?-??T18:25:43.511Z",
-        "genre": "house",
-        "release_bio": [
-            "The 57rd release from WHY Record Company (WRC) - WHY057",
-            "\"He Called Me Beautiful\" (Remixes) by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
-            "Original song Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
-            "Songwriting and Vocals by Katie Hoffstatter",
-            "Remixes by StratosFear, whythough?, dyl_pykl, ofoot, & ____",
-            "Mixed by Robert Dylan Smock & Ian Rios",
-            "Mastered by Ian Rios (whythough?)",
-            "Artwork originally by Katie Hoffstatter and remixed by Ian Rios"
-        ],
-        "primary_artist_ids": [
-            14,
-            2,
-            11
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [
-            1,
-            2,
-            3,
-            8
-        ],
-        "links": {
-            "____": "____"
-        }
-    }
+	}
 ]
