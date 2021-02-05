@@ -11,13 +11,12 @@ function LivePage() {
                 <h1 className="header-sub-page">Livestreams</h1>
                 <div className="questrial">
                     <TwitchEmbed
-                        channel={twitchUsers[2]}
-                        id={twitchUsers[2]}
+                        channel={twitchUsers[0]}
+                        id={twitchUsers[0]}
                         theme="dark"
                         width="100%"
                         onVideoPause={() => console.log(':(')}
                     />
-
                 </div>
             </div>
         </div>

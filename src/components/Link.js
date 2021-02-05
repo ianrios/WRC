@@ -14,6 +14,7 @@ import Blockchain from './icons/Blockchain';
 import Fingerprint from './icons/Fingerprint';
 import Multiply from './icons/Multiply';
 import Hamburger from './icons/Hamburger';
+import Play from './icons/Play';
 
 export function titleCase(str) {
 	return str.toLowerCase().split(' ').map(function (word) {
@@ -91,6 +92,13 @@ export function chooseIcon({ iconHover, iconText, icon, to, pathname, color = ''
 				/>
 			case "Close":
 				return <Multiply
+					className={className}
+					height={"35px"}
+					width={"35px"}
+					fillColor={color}
+				/>
+			case "Live":
+				return <Play
 					className={className}
 					height={"35px"}
 					width={"35px"}

@@ -14,6 +14,7 @@ function Sidebar() {
         "Collections": ["Honeycomb", true],
         "Contests": ["Star", true],
         "Store": ["Cube", true],
+        "Live": ["Live", true],
         "Nexus": ["Blockchain", true],
         "Contact": ["AtSign", true],
     }
