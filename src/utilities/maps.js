@@ -43,10 +43,10 @@ export const mappedObjArr = (arr, className) => {
                     return (
                         <React.Fragment key={k}>
                             <dt className="col-sm-3">
-                                {(k === "Info" || k === "Resources") && k}
+                                {(k === "Info" || k === "Resources" || k === "Sample") && k}
                             </dt>
                             <dd className="col-sm-9">
-                                {(k === "Info" || k === "Resources") ? i : (<a href={i} target="_blank" rel="noopener noreferrer">{k}</a>)}
+                                {(k === "Info" || k === "Resources" || k === "Sample") ? i : (<a href={i} target="_blank" rel="noopener noreferrer">{k}</a>)}
                             </dd>
                         </React.Fragment>
                     )

@@ -1,8 +1,46 @@
 [
 	{
+		"name": "He Called Me Beautiful (Remixes)",
+		"local_path": "hcmb-remixes",
+		"id": 67,
+		"label_number": "WHY067",
+		"release_type": "WRC",
+		"album_art": "/images/releases/hcmb-remix.png",
+		"release_date": "2021-02-26T18:25:43.511Z",
+		"genre": "house",
+		"release_bio": [
+			"The 67th release from WHY Record Company (WRC) - WHY067",
+			"\"He Called Me Beautiful\" (Remixes) by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
+			"Original song Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
+			"Songwriting and Vocals by Katie Hoffstatter",
+			"Remixes by StratosFear, whythough?, dyl_pykl, and ofoot",
+			"Mixed by Robert Dylan Smock & Ian Rios",
+			"Mastered by Ian Rios",
+			"Artwork originally by Katie Hoffstatter and prepared for release by Ian Rios"
+		],
+		"primary_artist_ids": [
+			14,
+			2,
+			11
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			1,
+			2,
+			3,
+			8
+		],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "romance and random",
 		"local_path": "WHYCOMP004",
-		"id": 61,
+		"id": 66,
 		"label_number": "WHY066",
 		"release_type": "WHYCOMP",
 		"album_art": "/images/releases/random.png",
@@ -32,7 +70,7 @@
 	{
 		"name": "Heirloom Herbs",
 		"local_path": "heirloom-herbs",
-		"id": 58,
+		"id": 65,
 		"label_number": "WHY065",
 		"release_type": "WRC",
 		"album_art": "/images/releases/heirloom-herbs.png",
@@ -59,7 +97,7 @@
 	{
 		"name": "Northern Exposure VIP",
 		"local_path": "northern-exposure-vip",
-		"id": 63,
+		"id": 64,
 		"label_number": "WHY064",
 		"release_type": "WRC",
 		"album_art": "/images/releases/northernexposurevip.png",
@@ -87,7 +125,7 @@
 	{
 		"name": "Northern Exposure",
 		"local_path": "northern-exposure",
-		"id": 62,
+		"id": 63,
 		"label_number": "WHY062",
 		"release_type": "WRC",
 		"album_art": "/images/releases/northern-exposure.png",
@@ -115,7 +153,7 @@
 	{
 		"name": "RECORDINGS003: balsamic",
 		"local_path": "rec003",
-		"id": 36,
+		"id": 62,
 		"label_number": "WHY063",
 		"release_type": "RECORDINGS",
 		"album_art": "/images/releases/rec003.png",

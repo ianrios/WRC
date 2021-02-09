@@ -80,43 +80,5 @@
 			"sp": "",
 			"ap": ""
 		}
-	},
-	{
-		"name": "He Called Me Beautiful (Remixes)",
-		"local_path": "hcmb-remixes",
-		"id": -1,
-		"label_number": "WHY067",
-		"release_type": "WRC",
-		"album_art": "/images/releases/hcmb-remixes.png",
-		"release_date": "2021-02-26T18:25:43.511Z",
-		"genre": "house",
-		"release_bio": [
-			"The 67th release from WHY Record Company (WRC) - WHY067",
-			"\"He Called Me Beautiful\" (Remixes) by Katie Hoffstatter, dyl_pykl (Robert Dylan Smock), & Matyb (Matt Benjamin)",
-			"Original song Recorded and Produced by Robert Dylan Smock & Matt Benjamin",
-			"Songwriting and Vocals by Katie Hoffstatter",
-			"Remixes by StratosFear, whythough?, dyl_pykl, ofoot, & ____",
-			"Mixed by Robert Dylan Smock & Ian Rios",
-			"Mastered by Ian Rios",
-			"Artwork originally by Katie Hoffstatter and prepared for release by Ian Rios"
-		],
-		"primary_artist_ids": [
-			14,
-			2,
-			11
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [
-			1,
-			2,
-			3,
-			8
-		],
-		"links": {
-			"sc": "____",
-			"bc": "____",
-			"sp": "____",
-			"ap": "____"
-		}
 	}
 ]
