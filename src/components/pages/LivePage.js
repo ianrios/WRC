@@ -3,7 +3,7 @@ import { TwitchEmbed } from 'react-twitch-embed';
 
 
 function LivePage() {
-    const twitchUsers = ["lom564", "quantopix", 'euphorixeventsofficial']
+    const twitchUsers = ["lom564", 'of00t', "quantopix", 'euphorixeventsofficial']
     // TODO: add this to sidebar
     return (
         <div className="row center-contact">

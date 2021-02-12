@@ -640,17 +640,22 @@
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],
-		"email": "",
+		"email": "quantop.x@gmail.com",
 		"location": {
 			"city": "Chicago",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"I make music I like, maybe you'll like it too\"",
 		"body_paragraphs": [
-			""
+			"Quantopix is a music project by J. Jacobson, ranging in sound from ambient music to meditate to, to heavy dubstep.",
+			"Hailing from Chicago, J has been making electronic music since soon after xe discovered the genre in highschool.",
+			"Since then, xe has been incorporating elements from different sources to create music that xe likes to listen to."
 		],
 		"roles": [
-			""
+			"Producer",
+			"Sound Designer",
+			"DJ",
+			"Live Musician"
 		],
 		"social_platforms": {
 			"ig": "https://www.instagram.com/quantopix.music",
@@ -661,7 +666,8 @@
 			"sc": "https://soundcloud.com/quantopix",
 			"bc": "https://quantopix.bandcamp.com/",
 			"sp": "https://open.spotify.com/artist/2kPTZJmjcVUxCaZiH5e9SS?si=foOMntXMQo23g7i-I-TRaQ",
-			"ap": "https://music.apple.com/us/artist/quantopix/1054418855"
+			"ap": "https://music.apple.com/us/artist/quantopix/1054418855",
+			"yt": "https://www.youtube.com/channel/UCOel_Bn-bNrDuqBinEor9Cw"
 		}
 	},
 	{

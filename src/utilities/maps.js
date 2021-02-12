@@ -34,55 +34,40 @@ export const mappedPTag = (arr, className) => {
     })
 }
 
-export const mappedObjArr = (arr, className) => {
+export const mappedObjArr = (arr, className) => (
+    <dl className="row">
+        {arr.map((o) => _.map(o, (i, k) => <React.Fragment key={k}>
+            <dt className="col-sm-3">
+                {(k === "Info" || k === "Resources" || k === "Sample") && k}
+            </dt>
+            <dd className="col-sm-9">
+                {(k === "Info" || k === "Resources" || k === "Sample") ? i : <a href={i} target="_blank" rel="noopener noreferrer">{k}</a>}
+            </dd>
+        </React.Fragment>))}
+    </dl>
+)
 
-    return (
-        <dl className="row">
-            {arr.map((o) => {
-                return _.map(o, (i, k) => {
-                    return (
-                        <React.Fragment key={k}>
-                            <dt className="col-sm-3">
-                                {(k === "Info" || k === "Resources" || k === "Sample") && k}
-                            </dt>
-                            <dd className="col-sm-9">
-                                {(k === "Info" || k === "Resources" || k === "Sample") ? i : (<a href={i} target="_blank" rel="noopener noreferrer">{k}</a>)}
-                            </dd>
-                        </React.Fragment>
-                    )
-                })
-            })}
-        </dl>
-    )
-}
 
 
 
 export const mappedATag = (props) => {
     const keys = Object.keys(props);
-    return (
-        keys.map((item, idx) => {
-            return (
-                <React.Fragment key={idx}>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href={props[item]}>
-                        {item}
-                    </a>
-                    {
-                        idx < keys.length - 1 && " - "
-                    }
-                </React.Fragment>
-
-            )
-        })
+    return keys.map((item, idx) => props[item].length > 0 &&
+        <React.Fragment key={idx}>
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={props[item]}
+            >
+                {item}
+            </a>
+            {idx < keys.length - 1 && " - "}
+        </React.Fragment>
     )
 }
 
 export const mappedD3ArtistTags = (props) => {
     const keys = Object.keys(props);
     const mappedData = keys.map((item, idx) => <span key={idx}>{item}{idx < keys.length - 1 ? ', ' : ''}</span>);
-    // console.log(mappedData)
     return mappedData
 }

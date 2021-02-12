@@ -14,9 +14,9 @@ export default function ReleasePage() {
 
   const currRelease = [...releaseData, ...mixData, ...independentReleaseData].find(i => i.local_path.toLowerCase() === name.toLowerCase());
   const foundRelease = currRelease === undefined ? false : true;
-  if(!foundRelease){
-    if (name.includes("WHYCOMP")){
-      return(
+  if (!foundRelease) {
+    if (name.includes("WHYCOMP")) {
+      return (
         <Redirect to={`/contest/${name}`} />
       )
     }
@@ -112,8 +112,6 @@ export default function ReleasePage() {
                       </>
                       : null
                     }
-
-
                     {currRelease.remix_artist_ids.length > 0 ?
                       <>
                         <h4 className="release-page-h4">
@@ -141,7 +139,6 @@ export default function ReleasePage() {
                       </>
                       : null
                     }
-
                     <p>
                       {currRelease.short_description}
                     </p>
@@ -150,13 +147,8 @@ export default function ReleasePage() {
 
                       {currRelease.local_path.includes("WHYCOMP") && <Link to={`/contest/${currRelease.local_path}`}>Competition Details</Link>}
                     </div>
-                    <p>
-                      Primary Genre:  {currRelease.genre}
-                    </p>
-                    <p>
-                      Release Date: {currRelease.release_date.split("T")[0]}
-
-                    </p>
+                    <p>Primary Genre:  {currRelease.genre}</p>
+                    <p>Release Date: {currRelease.release_date.split("T")[0]}</p>
                     <div className="row">
                       <div className="col">
                         Music Platforms
@@ -175,7 +167,7 @@ export default function ReleasePage() {
                   </div>
                 </div>
               </div>
-            </div >
+            </div>
           </>
           :
           null
