@@ -1,5 +1,32 @@
 [
 	{
+		"name": "NTB",
+		"local_path": "ntb",
+		"id": 58,
+		"label_number": "WHY070",
+		"release_type": "WRC",
+		"album_art": "/images/releases/NTB.png",
+		"release_date": "2021-03-19T18:25:43.511Z",
+		"genre": "dubstep",
+		"release_bio": [
+			"Quantopix presents \"NTB\"",
+			"The 70th release from WHY Record Company (WRC) - WHY070",
+			"Original songs Recorded, Produced, Mixed and Mastered by Quantopix (J)",
+			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "He Called Me Beautiful (Remixes)",
 		"local_path": "hcmb-remixes",
 		"id": 67,
@@ -90,6 +117,9 @@
 		"links": {
 			"bc": "",
 			"sc": "",
+			"td": "https://tidal.com/album/170313183",
+			"az": "https://music.amazon.com/albums/B08THYYY7P?marketplaceId=ATVPDKIKX0DER&musicTerritory=US",
+			"yt": "https://youtube.com/playlist?list=OLAK5uy_nzKXG5tCzt1imrtNxPQm1AzqA4GMxmmrI",
 			"sp": "https://open.spotify.com/album/5XV7Sqdr0oxlc3BEKOnem3",
 			"ap": "https://music.apple.com/us/album/heirloom-herbs-ep/1549882596"
 		}

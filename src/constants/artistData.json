@@ -636,7 +636,7 @@
 		"id": 18,
 		"name": "Quantopix",
 		"local_path": "Quantopix",
-		"show_on_artist_page": false,
+		"show_on_artist_page": true,
 		"photos": [
 			"/images/artists/profiles/profile_4x6.jpg"
 		],

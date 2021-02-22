@@ -1,9 +1,8 @@
 [
-	
 	{
 		"name": "Art Brut",
 		"local_path": "art-brut",
-		"id": ,
+		"id": 1,
 		"label_number": "WHY068",
 		"release_type": "Pink Label",
 		"album_art": "/images/releases/artbrut.png",
@@ -49,34 +48,6 @@
 		"links": {
 			"sc": "",
 			"bc": "",
-			"sp": "",
-			"ap": ""
-		}
-	},
-	
-	{
-		"name": "NBT",
-		"local_path": "nbt",
-		"id": 58,
-		"label_number": "WHY070",
-		"release_type": "WRC",
-		"album_art": "/images/releases/heirloom-herbs.png",
-		"release_date": "2021-12-28T18:25:43.511Z",
-		"genre": "dubstep",
-		"release_bio": [
-			"Quantopix presents \"NBT\"",
-			"The 70th release from WHY Record Company (WRC) - WHY070",
-			"Original songs Recorded, Produced, Mixed and Mastered by Quantopix (J)",
-			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
-		],
-		"primary_artist_ids": [
-			18
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"bc": "",
-			"sc": "",
 			"sp": "",
 			"ap": ""
 		}
