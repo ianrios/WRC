@@ -59,9 +59,9 @@
 		],
 		"links": {
 			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://dylpykl.bandcamp.com/album/he-called-me-beautiful-remixes",
+			"sp": "https://open.spotify.com/album/2Ndq7d9MimUvaFr99BFWFe?si=5rg0GhuHRCyUoNAIuxXADg",
+			"ap": "https://music.apple.com/us/album/he-called-me-beautiful-extended-mix/1553283457?i=1553283463"
 		}
 	},
 	{
@@ -512,6 +512,7 @@
 		"genre": "Techno",
 		"release_bio": [
 			"The 51th release from WHY Record Company (WRC) - WHY050",
+			"The Seventh release from the Blue Label Imprint - BL007",
 			"\"Tech Demo EP\" by Matyb",
 			"Original songs Recorded, Produced, Mixed, and Mastered by Matyb (Matt Benjamin)",
 			"Artwork by Ian Rios",

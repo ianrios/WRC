@@ -1,8 +1,83 @@
 [
 	{
+		"name": "The Revival",
+		"local_path": "the-revival",
+		"id": 45,
+		"label_number": "WHY071",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/cycle001club.png",
+		"release_date": "2021-03-26T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 71st release from WHY Record Company (WRC) - WHY071",
+			"\"The Revival EP\" by Wash And Fold Laundry Service (Ian Rios)",
+			"Recorded, Produced, Mixed & Mastered by Ian Rios",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://whythough.bandcamp.com/album/cycle001-grief-club-mixes",
+			"sp": "https://open.spotify.com/album/6yZ01aD1FKJnJ4gYHt7ORZ?si=jk8NfyZWQy28nMC29Eul3w",
+			"ap": "https://music.apple.com/us/album/cycle001-club-mixes-ep/1515601290"
+		}
+	},
+	{
+		"name": "Ezra Parker EP",
+		"local_path": "ezra-parker-ep",
+		"id": ,
+		"label_number": "WHY086",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/bl09.png",
+		"release_date": "2021-06-25T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 86th release from WHY Record Company (WRC) - WHY086",
+			"The 12th release from the Blue Label Imprint - BL012",
+			"\"EP\" by Ezra Parker",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Ezra Parker",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
+		],
+		"primary_artist_ids": [
+			6
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
+		"name": "radiation (club mix)",
+		"local_path": "radiation",
+		"id": ,
+		"label_number": "WHY077",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/bl09.png",
+		"release_date": "2021-04-23T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 77th release from WHY Record Company (WRC) - WHY077",
+			"The 9th release from the Blue Label Imprint - BL009",
+			"\"radiation (club mix)\" by Ezra Parker",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Ezra Parker",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
+		],
+		"primary_artist_ids": [
+			6
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
 		"name": "Art Brut",
 		"local_path": "art-brut",
-		"id": 1,
+		"id": ,
 		"label_number": "WHY068",
 		"release_type": "Pink Label",
 		"album_art": "/images/releases/artbrut.png",
