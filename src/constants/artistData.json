@@ -638,7 +638,7 @@
 		"local_path": "Quantopix",
 		"show_on_artist_page": true,
 		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
+			"/images/artists/qtemplogo.png"
 		],
 		"email": "quantop.x@gmail.com",
 		"location": {
@@ -1026,7 +1026,7 @@
 		"local_path": "gintask",
 		"show_on_artist_page": false,
 		"photos": [
-			"/images/artists/profiles/gintask.jpg"
+			"/images/artists/profiles/gintask.png"
 		],
 		"email": "",
 		"location": {
@@ -1035,7 +1035,10 @@
 		},
 		"quote": "\"\"",
 		"body_paragraphs": [
-			""
+			"Gintas K (born Gintas Kraptavicius, 1969) is a sound artist born in Lithuania in 1969. He was the core member of the first Lithuanian industrial music group \"Modus\". Performances, actions, even short films shape the activities of \"Modus\" (which is translated as \"the way of life\").",
+			"Later Gintas Kraptavicius was active as a performer and interdisciplinary artist, known for his actions, happenings, written instructions in a post-fluxus manner.",
+			"In 1999 Gintas turned his scenery name into Gintas K and started exploring experimental, electroacoustic, electronic, computer music, granular synthesis, live electronic music aesthetics. Since 2011 member of Lithuanian Composers Union. He has released over 30 albums, took part in various international festivals, conferences, and symposiums.",
+			"Sourced from Wikipedia"
 		],
 		"roles": [
 			"Producer",
@@ -1044,15 +1047,48 @@
 			"Software Developer"
 		],
 		"social_platforms": {
-			"ig": "https://www.instagram.com/tiltshiftmusic/",
+			"ig": "https://www.instagram.com/gintask",
+			"tw": "",
+			"fb": "",
+			"wk": "https://en.wikipedia.org/wiki/Gintas_K"
+		},
+		"music_platforms": {
+			"bc": "https://gintask.bandcamp.com/",
+			"sc": "",
+			"sp": "https://open.spotify.com/artist/2sUaUghIUIdsDo2TCQKvJW?si=98kRPVdCQSy32Bl1uSIc8A",
+			"ap": "https://music.apple.com/us/artist/gintas-k/265380256"
+		}
+	},
+	{
+		"id": 34,
+		"name": "sweet hunna",
+		"local_path": "sweet-hunna",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/artists/profiles/profile_4x6.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "Chicago",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Producer"
+		],
+		"social_platforms": {
+			"ig": "",
 			"tw": "",
 			"fb": ""
 		},
 		"music_platforms": {
-			"bc": "https://music.apple.com/us/artist/tilt-shift/1399652919",
-			"sc": "https://www.soundcloud.com/tilt-shift",
-			"sp": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w",
-			"ap": "https://music.apple.com/us/artist/tilt-shift/1399652919"
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
 		}
 	}
 ]
