@@ -8,7 +8,9 @@ function LivePage() {
     useEffect(() => setInterval(() => setWeekday(new Date().getDay(), 1000)), [])
     // TODO: add this to sidebar
 
-    const currentTwitchUser = useMemo(() => twitchUsers[weekday], [weekday])
+    const scheduledTwitchUser = useMemo(() => twitchUsers[weekday], [weekday])
+    const hardcodedTwitch = "quantopix"
+    const currentTwitchUser = false ? hardcodedTwitch : scheduledTwitchUser
     return (
         <div className="row center-contact">
             <div className="col-12">

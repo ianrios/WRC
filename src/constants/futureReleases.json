@@ -30,16 +30,45 @@
 		"name": "Vacation Home (Remixes)",
 		"local_path": "Vacation-Home",
 		"id": 41,
-		"label_number": "WHY040",
+		"label_number": "WHY080",
 		"release_type": "WRC",
 		"album_art": "/images/releases/vacationhomeremixes.png",
 		"release_date": "2021-05-22T18:25:43.511Z",
 		"genre": "Downtempo",
 		"release_bio": [
 			"The 40th release from WHY? Record Company (WRC) - WHY040",
-			"Debut album \"Vacation Home\" by dyl_pykl (Robert Dylan Smock)",
+			"\"Vacation Home (Remixes)\" by dyl_pykl (Robert Dylan Smock)",
 			"Recorded, Produced, and Mixed by Robert Dylan Smock",
 			"Featuring Artists: Matyb, whythough?",
+			"Remixes by shell artist, whythough?, Wash And Fold Laundry Service, svnteen, produceronline, LoM",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "Unwashed",
+		"local_path": "unwashed",
+		"id": 41,
+		"label_number": "WHY074",
+		"release_type": "WRC",
+		"album_art": "/images/releases/unwashed.png",
+		"release_date": "2021-04-16T18:25:43.511Z",
+		"genre": "?",
+		"release_bio": [
+			"The 74th release from WHY? Record Company (WRC) - WHY074",
+			"\"Unwashed\" by dyl_pykl (Robert Dylan Smock)",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
 			"Mastered by Ian Rios (whythough?)",
 			"Artwork by Molly Kerwick"
 		],

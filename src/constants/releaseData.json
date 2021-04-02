@@ -1,5 +1,32 @@
 [
 	{
+		"name": "ZAYO",
+		"local_path": "zayo",
+		"id": 78,
+		"label_number": "WHY085",
+		"release_type": "WRC",
+		"album_art": "/images/releases/zayo-mini.png",
+		"release_date": "2021-06-18T18:25:43.511Z",
+		"genre": "experimental",
+		"release_bio": [
+			"The 85th release from WHY Record Company (WRC) - WHY085",
+			"Part four of four - \"ZAYO\" by whythough?",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "radiation (club mix)",
 		"local_path": "radiation",
 		"id": 77,
@@ -21,7 +48,143 @@
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "WITK",
+		"local_path": "witk",
+		"id": 70,
+		"label_number": "WHY075",
+		"release_type": "WRC",
+		"album_art": "/images/releases/WITK.png",
+		"release_date": "2021-04-19T18:25:43.511Z",
+		"genre": "dubstep",
+		"release_bio": [
+			"Quantopix presents \"CYCLE003 - WITK\"",
+			"The 75th release from WHY Record Company (WRC) - WHY075",
+			"Original songs Recorded and Produced by Quantopix (J)",
+			"Mixed by dyl_pykl (Robert Dylan Smock)",
+			"Mastered by whythough? (Ian Rios)",
+			"Original Artwork for release by Akrilix (J), WRC Logo and Release artwork by Ian Rios",
+			"A WRC CYCLE Release"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"au": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "collab",
+		"local_path": "WHYCOMP006",
+		"id": 69,
+		"label_number": "WHY069",
+		"release_type": "WHYCOMP",
+		"album_art": "/images/releases/collab.png",
+		"release_date": "2021-04-09T18:25:43.511Z",
+		"genre": "Dubstep",
+		"release_bio": [
+			"The 73rd release from WHY Record Company (WRC) - WHY073",
+			"\"WHYCOMP005: collab\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Quantopix, SUPREME, sweet hunna, LoM, dyl_pykl, Rafael Khan, and Wash And Fold Laundry Music",
+			"Featuring Techno, Dubstep, and more! All songs are collabs.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			26,
+			36,
+			35,
+			18,
+			34,
+			2,
+			7,
+			8
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/collab",
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp006-collab",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "Woken",
+		"local_path": "woken",
+		"id": 70,
+		"label_number": "WHY075-A",
+		"release_type": "WRC",
+		"album_art": "/images/releases/woken.png",
+		"release_date": "2021-04-09T18:25:43.511Z",
+		"genre": "dubstep",
+		"release_bio": [
+			"Quantopix presents \"Woken\", taken from the forthcoming WITK EP",
+			"The 75.5th release from WHY Record Company (WRC) - WHY075-A",
+			"Original song Recorded, Produced, and Mixed by Quantopix (J)",
+			"Mastered by whythough? (Ian Rios)",
+			"Original Artwork for release by Akrilix (J), WRC Logo and Release artwork by Ian Rios",
+			"A WRC CYCLE Release"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"au": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "DUO (Remixes)",
+		"local_path": "DUO-Remixes",
+		"id": 72,
+		"label_number": "WHY072",
+		"release_type": "WRC",
+		"album_art": "/images/releases/duo-minimized.png",
+		"release_date": "2021-04-02T18:25:43.511Z",
+		"genre": "Dubstep",
+		"release_bio": [
+			"The 46th release from WHY Record Company (WRC) - WHY046",
+			"\"DUO (Remixes)\" by whythough? (Ian Rios)",
+			"Original EP Recorded and Produced by and Ian Rios",
+			"Remixes Recorded, Produced, and Mixed by dyl_pykl, produceronline, Quantopix, and shell artist.",
+			"All songs Mastered by Ian Rios",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			25,
+			18,
+			23,
+			2
+		],
+		"links": {
+			"sc": "https://soundcloud.com/whythough/sets/duo-remixes",
+			"bc": "https://whythough.bandcamp.com/album/duo-remixes",
+			"sp": "",
+			"ap": "",
+			"yt": ""
+		}
 	},
 	{
 		"name": "The Revival",
@@ -42,7 +205,10 @@
 		"primary_artist_ids": [
 			26
 		],
-		"secondary_artist_ids": [],
+		"secondary_artist_ids": [
+			2,
+			24
+		],
 		"remix_artist_ids": [],
 		"links": {
 			"bc": "https://whythough.bandcamp.com/album/cycle001-grief-club-mixes",
@@ -71,10 +237,11 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
-			"sc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://quantopix.bandcamp.com/album/ntb-2",
+			"au": "https://audius.co/quantopix_music/album/ntb-31964",
+			"sc": "https://soundcloud.app.goo.gl/DVfgcaoXipcAnfjv5",
+			"sp": "https://open.spotify.com/album/3noRo5fquADlJ69cJyCJl7?si=M53FO0tERcmUZAN8RkuJFw",
+			"ap": "https://music.apple.com/us/album/ntb-single/1556050522"
 		}
 	},
 	{
@@ -103,10 +270,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "https://whyrecordcompany.bandcamp.com/album/march",
-			"sp": "",
-			"ap": ""
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/march",
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp005-march",
+			"sp": "https://open.spotify.com/album/7Avl6JppGlgyb6pXSJXvZu?si=djipZj84SQ-jG68ZqzGHHA",
+			"ap": "https://music.apple.com/us/album/march-single/1556250685"
 		}
 	},
 	{
@@ -131,8 +298,8 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/album/62RAq3LoauedT4uFcU6toJ?si=fLvRkMB5TIGnpmLO51Wu0w",
+			"ap": "https://music.apple.com/us/album/art-brut/1551359635"
 		}
 	},
 	{
@@ -506,7 +673,6 @@
 		"links": {
 			"sp": "https://open.spotify.com/album/6DKtrQHSaDU6c172k7Vo6G?si=leMnjl7eTw22CVPSA7ypbw",
 			"ap": "https://music.apple.com/us/album/trash-beats-for-trash-people-3/1541090279",
-			"sc": "https://soundcloud.com/whythough/sets/trash-beats-for-trash-people-3",
 			"az": "https://www.amazon.com/Trash-Beats-People-Explicit/dp/B08NTYPCHL/ref=sr_1_2?dchild=1&keywords=dyl_pykl%2C+whythough%3F&qid=1607099567&s=dmusic&search-type=ss&sr=1-2",
 			"dz": "https://www.deezer.com/us/album/187409572",
 			"pd": "https://www.pandora.com/artist/whythough-and-dyl-pykl/trash-beats-for-trash-people-3-explicit/ALmkhjt322xt3JX?part=ug-desktop&corr=472655302",

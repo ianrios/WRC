@@ -13,7 +13,6 @@ import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import './App.scss';
 
-
 function Wrapper() {
 	const [viewMain, setViewMain] = useState(true);
 	const { pathname } = useLocation();
@@ -41,11 +40,12 @@ function Wrapper() {
 			setViewMain(false)
 		}
 	}, [pathArr]);
-	const appTitle = "WHY? Record Company".split("").map((i, k) => i === "?" ? <Q s={2} key={k} /> : <span key={k} >{i}</span>)
+	const siteTitle = "WHY? Record Company"
+	const appTitle = siteTitle.split("").map((i, k) => i === "?" ? <Q s={2} key={k} /> : <span key={k} >{i}</span>)
 	const headData = {
 		title: "Home",
 		shortSiteTitle: "WRC",
-		siteTitle: "WHY? Record Company",
+		siteTitle,
 		url: pathname,
 		imgSrc: "meta.jpg",
 		description: "WHY? Record Company Homepage",

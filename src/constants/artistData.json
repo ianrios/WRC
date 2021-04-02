@@ -298,12 +298,12 @@
 		],
 		"email": "ezraparkermusic@gmail.com",
 		"location": {
-			"city": "Troy",
-			"country": "USA"
+			"city": "Ibiza",
+			"country": "Spain"
 		},
-		"quote": "do not look at the dj, only listen",
+		"quote": "listen to the dj",
 		"body_paragraphs": [
-			""
+			"Ezra Parker is a trust fund baby from Bosnia and Herzegovina who spends most of his time producing from his island villa in Ibiza."
 		],
 		"roles": [
 			"DJ",
@@ -1033,9 +1033,9 @@
 			"city": "",
 			"country": "Lithuania"
 		},
-		"quote": "\"\"",
+		"quote": "\"the way of life\"",
 		"body_paragraphs": [
-			"Gintas K (born Gintas Kraptavicius, 1969) is a sound artist born in Lithuania in 1969. He was the core member of the first Lithuanian industrial music group \"Modus\". Performances, actions, even short films shape the activities of \"Modus\" (which is translated as \"the way of life\").",
+			"Gintas K (born Gintas Kraptavicius, 1969) is a sound artist born in Lithuania in 1969. He was the core member of the first Lithuanian industrial music group \"Modus\". Performances, actions, even short films shape the activities of \"Modus\".",
 			"Later Gintas Kraptavicius was active as a performer and interdisciplinary artist, known for his actions, happenings, written instructions in a post-fluxus manner.",
 			"In 1999 Gintas turned his scenery name into Gintas K and started exploring experimental, electroacoustic, electronic, computer music, granular synthesis, live electronic music aesthetics. Since 2011 member of Lithuanian Composers Union. He has released over 30 albums, took part in various international festivals, conferences, and symposiums.",
 			"Sourced from Wikipedia"
@@ -1065,30 +1065,104 @@
 		"local_path": "sweet-hunna",
 		"show_on_artist_page": false,
 		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
+			"/images/artists/sweet-hunna.png"
 		],
-		"email": "",
+		"email": "sweethunna@whyrecord.com",
 		"location": {
 			"city": "Chicago",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"have you heard?\"",
 		"body_paragraphs": [
-			""
+			"sweet hunna is a producer who makes music on Earth and someday hopes to make music elsewhere"
 		],
 		"roles": [
-			"Producer"
+			"Producer",
+			"Sound Designer"
 		],
 		"social_platforms": {
-			"ig": "",
-			"tw": "",
+			"ig": "https://www.instagram.com/sweet.hunna/",
+			"tw": "https://twitter.com/sweet_hunna",
 			"fb": ""
 		},
 		"music_platforms": {
 			"bc": "",
-			"sc": "",
+			"sc": "https://soundcloud.com/sweet-hunna",
 			"sp": "",
 			"ap": ""
+		}
+	},
+	{
+		"id": 35,
+		"name": "SUPREME",
+		"local_path": "SUPREME",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/artists/SUPREME.jpeg"
+		],
+		"email": "makedujo@gmail.com",
+		"location": {
+			"city": "San Francisco",
+			"country": "USA"
+		},
+		"quote": "\"spoiler alert we like to break beats\"",
+		"body_paragraphs": [
+			"SUPREME is an artist from Chicago dabbling with weird time signatures and trite bio copy.",
+			"Catch them outside with them sick trippy energies of nihilism and nonchalance.",
+			"@Suprem.us on IG"
+		],
+		"roles": [
+			"Producer",
+			"Graphic Designer"
+		],
+		"social_platforms": {
+			"ig": "https://instagram.com/suprem.us",
+			"tw": "https://twitter.com/supremehint",
+			"fb": "https://Facebook.com/glitchsociety"
+		},
+		"music_platforms": {
+			"bc": "",
+			"sc": "https://soundcloud.com/hyper_pop",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"id": 36,
+		"name": "Rafael Khan",
+		"local_path": "rafael-khan",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/artists/RAF.jpg"
+		],
+		"email": "rafael@rafkhan.me",
+		"location": {
+			"city": "Toronto",
+			"country": "Canada"
+		},
+		"quote": "\"WILL DO LATER\"",
+		"body_paragraphs": [
+			"WILL DO LATER"
+		],
+		"roles": [
+			"Producer",
+			"Mix Engineer",
+			"Songwriter",
+			"Sound Designer",
+			"Audio Engineer",
+			"DJ",
+			"Live Musician"
+		],
+		"social_platforms": {
+			"ig": "https://www.instagram.com/rafaelkhan/",
+			"tw": "https://twitter.com/_rafaelkhan_",
+			"fb": ""
+		},
+		"music_platforms": {
+			"bc": "https://rafaelkhan.bandcamp.com/",
+			"sc": "https://soundcloud.com/rafaelkhan",
+			"sp": "https://open.spotify.com/artist/3BofWJI2AYM7FL4TCWoOJO",
+			"ap": "https://music.apple.com/us/artist/rafael-khan/1536599545"
 		}
 	}
 ]
