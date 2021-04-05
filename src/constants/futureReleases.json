@@ -1,6 +1,30 @@
 [
 	
 	{
+		"name": "Dream Journal",
+		"local_path": "dreamjournal",
+		"id": ,
+		"label_number": "WHY086",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/bl09.png",
+		"release_date": "2021-04-30T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 78th release from WHY Record Company (WRC) - WHY078",
+			"The 10th release from the Blue Label Imprint - BL010",
+			"\"Dream Journal EP\" by whythough? (Ian Rios)",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
+		],
+		"primary_artist_ids": [
+			6
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
 		"name": "Ezra Parker EP",
 		"local_path": "ezra-parker-ep",
 		"id": ,
@@ -11,7 +35,7 @@
 		"genre": "Techno",
 		"release_bio": [
 			"The 86th release from WHY Record Company (WRC) - WHY086",
-			"The 12th release from the Blue Label Imprint - BL012",
+			"The 11th release from the Blue Label Imprint - BL011",
 			"\"EP\" by Ezra Parker",
 			"Original songs Recorded, Produced, Mixed, and Mastered by Ezra Parker",
 			"Artwork by Ian Rios",
@@ -74,6 +98,34 @@
 		],
 		"primary_artist_ids": [
 			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "bobby loop beat",
+		"local_path": "bobby loop beat",
+		"id": 41,
+		"label_number": "WHY076",
+		"release_type": "WRC",
+		"album_art": "/images/releases/unwashed.png",
+		"release_date": "2021-04-20T18:25:43.511Z",
+		"genre": "?",
+		"release_bio": [
+			"The 76th release from WHY? Record Company (WRC) - WHY076",
+			"\"Unwashed\" by produceronline (Robert Dylan Smock and Ian Rios)",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock and Ian Rios",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			23
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
