@@ -1,5 +1,29 @@
 [
 	{
+		"name": "Dream Journal",
+		"local_path": "dreamjournal",
+		"id": 80,
+		"label_number": "WHY086",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/bl10.png",
+		"release_date": "2021-04-30T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 78th release from WHY Record Company (WRC) - WHY078",
+			"The 10th release from the Blue Label Imprint - BL010",
+			"\"Dream Journal EP\" by whythough? (Ian Rios)",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
+		],
+		"primary_artist_ids": [
+			6
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
 		"name": "ZAYO",
 		"local_path": "zayo",
 		"id": 78,
@@ -58,7 +82,7 @@
 	{
 		"name": "WITK",
 		"local_path": "witk",
-		"id": 70,
+		"id": 76,
 		"label_number": "WHY075",
 		"release_type": "WRC",
 		"album_art": "/images/releases/WITK.png",
@@ -87,10 +111,38 @@
 		}
 	},
 	{
+		"name": "Unwashed",
+		"local_path": "unwashed",
+		"id": 75,
+		"label_number": "WHY074",
+		"release_type": "WRC",
+		"album_art": "/images/releases/unwashed-min.png",
+		"release_date": "2021-04-16T18:25:43.511Z",
+		"genre": "?",
+		"release_bio": [
+			"The 74th release from WHY? Record Company (WRC) - WHY074",
+			"\"Unwashed\" by dyl_pykl (Robert Dylan Smock)",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "collab",
 		"local_path": "WHYCOMP006",
-		"id": 69,
-		"label_number": "WHY069",
+		"id": 74,
+		"label_number": "WHY073",
 		"release_type": "WHYCOMP",
 		"album_art": "/images/releases/collab.png",
 		"release_date": "2021-04-09T18:25:43.511Z",
@@ -124,7 +176,7 @@
 	{
 		"name": "Woken",
 		"local_path": "woken",
-		"id": 70,
+		"id": 73,
 		"label_number": "WHY075-A",
 		"release_type": "WRC",
 		"album_art": "/images/releases/woken.png",
