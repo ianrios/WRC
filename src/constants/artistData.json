@@ -1164,5 +1164,80 @@
 			"sp": "https://open.spotify.com/artist/3BofWJI2AYM7FL4TCWoOJO",
 			"ap": "https://music.apple.com/us/artist/rafael-khan/1536599545"
 		}
+	},
+	{
+		"id": 37,
+		"name": "Ares Silver",
+		"local_path": "",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Producer"
+		],
+		"social_platforms": {},
+		"music_platforms": {
+
+		}
+	},
+	{
+		"id": 38,
+		"name": "Nateral Legend",
+		"local_path": "",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Rapper"
+		],
+		"social_platforms": {},
+		"music_platforms": {
+
+		}
+	},
+	{
+		"id": 39,
+		"name": "Young Dee",
+		"local_path": "",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Rapper"
+		],
+		"social_platforms": {},
+		"music_platforms": {
+
+		}
 	}
 ]

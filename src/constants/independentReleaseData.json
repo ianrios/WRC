@@ -1,8 +1,55 @@
 [
     {
+        "name": "Wounds",
+        "local_path": "wounds",
+        "id": 14,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/wounds-ares.jpeg",
+        "release_date": "2020-02-01T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            "Featuring dyl_pykl on Keys"
+        ],
+        "primary_artist_ids": [
+            37
+        ],
+        "secondary_artist_ids": [
+            38,
+            39,
+            2
+
+        ],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/track/3wO5JZbtf87zW4fITDamzS?si=2iH_KvoxRCGPucStXRC5eA"
+        }
+    },
+    {
+        "name": "Fohren Bap",
+        "local_path": "fohren-bap",
+        "id": 17,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/fohrenbap.jpeg",
+        "release_date": "2021-03-19T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/69GOqeVTYSWsDnabeTknDu?si=Ey3DWjBkRnCjZy0JKWcMpg"
+        }
+    },
+    {
         "name": "SHARK TREATMENT",
         "local_path": "shark-treatment",
-        "id": 17,
+        "id": 16,
         "label_number": "Independent",
         "release_type": "Independent",
         "album_art": "/images/releases/st.png",
@@ -39,7 +86,7 @@
     {
         "name": "Seven Deadly Fins",
         "local_path": "seven-deadly-fins",
-        "id": 16,
+        "id": 15,
         "label_number": "Independent",
         "release_type": "Independent",
         "album_art": "/images/releases/sdf.png",
@@ -77,6 +124,90 @@
         }
     },
     {
+        "name": "cottagecore gf",
+        "local_path": "",
+        "id": 14,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/ccgf.jpeg",
+        "release_date": "2020-07-28T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sc": ""
+        }
+    },
+    {
+        "name": "Freight Transport Solutions",
+        "local_path": "freight-transport-solutions",
+        "id": 14,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/fts.jpeg",
+        "release_date": "2020-05-22T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sc": ""
+        }
+    },
+    {
+        "name": "雪崩",
+        "local_path": "Avalanche",
+        "id": 14,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/Avalanche.jpeg",
+        "release_date": "2020-04-23T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/album/4fPmYqKv9iIDguQzcuUto6?si=87gwuOXoQHWEafPXV1Nfkw"
+        }
+    },
+    {
+        "name": "Bach One",
+        "local_path": "bach-one",
+        "id": 14,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/bach-one.jpeg",
+        "release_date": "2020-04-22T18:25:43.511Z",
+        "genre": "Hip-Hop Beats",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            4
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sc": ""
+        }
+    },
+    {
         "name": "The Time Has Come",
         "local_path": "TTHC",
         "id": 14,
@@ -94,7 +225,7 @@
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {
-            "sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
+            "sc": ""
         }
     },
     {
