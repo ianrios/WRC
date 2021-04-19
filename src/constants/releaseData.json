@@ -1,32 +1,8 @@
 [
 	{
-		"name": "Dream Journal",
-		"local_path": "dreamjournal",
-		"id": 80,
-		"label_number": "WHY086",
-		"release_type": "Blue Label",
-		"album_art": "/images/releases/bl10.png",
-		"release_date": "2021-04-30T18:25:43.511Z",
-		"genre": "Techno",
-		"release_bio": [
-			"The 78th release from WHY Record Company (WRC) - WHY078",
-			"The 10th release from the Blue Label Imprint - BL010",
-			"\"Dream Journal EP\" by whythough? (Ian Rios)",
-			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios",
-			"Artwork by Ian Rios",
-			"A WRC Blue Label Release"
-		],
-		"primary_artist_ids": [
-			6
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {}
-	},
-	{
 		"name": "ZAYO",
 		"local_path": "zayo",
-		"id": 78,
+		"id": 80,
 		"label_number": "WHY085",
 		"release_type": "WRC",
 		"album_art": "/images/releases/zayo-mini.png",
@@ -51,9 +27,33 @@
 		}
 	},
 	{
+		"name": "Dream Journal",
+		"local_path": "dreamjournal",
+		"id": 79,
+		"label_number": "WHY078",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/bl10.png",
+		"release_date": "2021-04-30T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 78th release from WHY Record Company (WRC) - WHY078",
+			"The 10th release from the Blue Label Imprint - BL010",
+			"\"Dream Journal EP\" by whythough? (Ian Rios)",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
+		],
+		"primary_artist_ids": [
+			6
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {}
+	},
+	{
 		"name": "radiation (club mix)",
 		"local_path": "radiation",
-		"id": 77,
+		"id": 78,
 		"label_number": "WHY077",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/bl09.png",
@@ -75,6 +75,34 @@
 		"links": {
 			"bc": "",
 			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "mint",
+		"local_path": "mint",
+		"id": 77,
+		"label_number": "WHY076",
+		"release_type": "WRC",
+		"album_art": "/images/releases/mint.png",
+		"release_date": "2021-04-20T18:25:43.511Z",
+		"genre": "trap",
+		"release_bio": [
+			"The 76th release from WHY? Record Company (WRC) - WHY076",
+			"\"mint\" by produceronline (Robert Dylan Smock and Ian Rios)",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock and Ian Rios",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			23
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
 			"sp": "",
 			"ap": ""
 		}
@@ -169,8 +197,9 @@
 		"links": {
 			"sc": "https://soundcloud.com/whyrecordcompany/sets/collab",
 			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp006-collab",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/album/4hLBfvp5mlj4railbeWz1K?si=-hgGORIPRAa2tIOp28RNXQ",
+			"ap": "https://music.apple.com/us/album/collab-ep/1561737244",
+			"ad": "https://audius.co/sweet_hunna/pyramid-scheming-move-it-move-it-mix-feat.-quantopix-352536"
 		}
 	},
 	{

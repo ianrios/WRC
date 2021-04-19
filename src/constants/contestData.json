@@ -1,28 +1,36 @@
 [
     {
         "local_path": "WHYCOMP007",
-        "name": "WHYCOMP007: __TOPIC",
-        "label_number": "WHYCOMP006",
+        "name": "WHYCOMP007: remix",
+        "label_number": "WHYCOMP007",
         "release_type": "Contests",
         "deadline": "2021-04-30T00:00:00.511Z",
-        "description": "__TOPIC__ Compilation",
-        "h4": "Winning tracks are featured on \"WHYCOMP006 - __TOPIC\"",
+        "description": "Remix Compilation",
+        "h4": "Winning tracks are featured on \"WHYCOMP007 - remix\"",
         "rules": [
-            "1. Deadline: Midnight, March 31st, 2021",
+            "1. Deadline: Midnight, April 30th, 2021",
             "2. If you use samples, they must be royalty free.",
-            "3. Theme: __b____TOPIC__b__",
-            "4. __b____TOPIC__b__: You should create a song with someone else. This means you can have someone record vocals, send you a cool sound, or mix the track that you arranged. Perhaps you can equally produce the same beat, one person does the drums, the other does the melodies? Maybe this means you can __TOPIC with 5 different people... etc.",
-            "5. Feel free to use the provided sample! It is not a requirement, just a free sound to help get those creative juices flowing.",
-            "6. You cannot use \"__TOPIC\", or \"__TOPICoration\" in your track title, as it is the album name.",
-            "7. Only one submission per person. (If you collaborate with someone, you cannot submit another song on your own or in another collab)",
+            "3. Theme: __b__remixes__b__",
+            "4. __b__remix__b__: can remix create any WHY? Record Company song from any WRC Artist, visit our spotify playlist or go to the releases page here on the site for more info. You cannot submit a VIP. It must be a WRC official release.",
+            "5. Be sure to ask on our discord server for the stems from that artist in the #WHYCOMP channel!",
+            "6. You can give your remix a fun name, like \"whythough? - Eternal Gloop (dyl_pykl's 'hot sauce' Remix) \"",
+            "7. Only one submission per person. If you collaborate with someone, you can submit another song on your own or in another collab, but you cannot submit more than one song made by just yourself or with the same collab members.",
             "8. Please render your file properly. It should be a downloadable __b__16 bit 44.1Khz wav file__b__.",
             "9. Submit your final track mixed and mastered below!",
-            "910. Everyone who submits a song, and is selected for the compilation will receive a merch item as a prize!"
+            "10. Anyone who submits and gets selected to be on the release has a chance to win a piece of merch! Will be announced on stream."
         ],
         "recommendations": [
             "Collabs are great ways to make new friends and cool sounds. Visit our discord to chat with other artists!"
         ],
         "resources": [
+            {
+                "Info": "Listen to all officially released songs from WRC on spotify!",
+                "Spotify link": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=weP9rgh5SrKMRvmD2nppjw"
+            },
+            {
+                "Info": "Find links to all of our releases from WRC here on on our website!",
+                "website link": "/releases"
+            },
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
                 "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"

@@ -56,34 +56,5 @@
 			"sp": "",
 			"ap": ""
 		}
-	},
-	
-	{
-		"name": "bobby loop beat",
-		"local_path": "bobby loop beat",
-		"id": 76,
-		"label_number": "WHY076",
-		"release_type": "WRC",
-		"album_art": "/images/releases/unwashed.png",
-		"release_date": "2021-04-20T18:25:43.511Z",
-		"genre": "?",
-		"release_bio": [
-			"The 76th release from WHY? Record Company (WRC) - WHY076",
-			"\"Unwashed\" by produceronline (Robert Dylan Smock and Ian Rios)",
-			"Recorded, Produced, and Mixed by Robert Dylan Smock and Ian Rios",
-			"Mastered by Ian Rios (whythough?)",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			23
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
-		}
 	}
 ]
