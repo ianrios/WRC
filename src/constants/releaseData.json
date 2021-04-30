@@ -1,5 +1,34 @@
 [
 	{
+		"name": "So High in the Sky",
+		"local_path": "So-High-in-the-Sky",
+		"id": 76,
+		"label_number": "WHY082",
+		"release_type": "WRC",
+		"album_art": "/images/releases/shits.png",
+		"release_date": "2021-05-28T18:25:43.511Z",
+		"genre": "avant garde",
+		"release_bio": [
+			"Quantopix presents \"So High in the Sky\"",
+			"The 82nd release from WHY Record Company (WRC) - WHY082",
+			"Original songs Recorded, Produced and Mixed by Quantopix (J)",
+			"Mastered by whythough? (Ian Rios)",
+			"Original Artwork for release by Akrilix (J), WRC Logo and Release Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"au": "https://audius.co/quantopix_music/album/so-high-in-the-sky-44456",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "ZAYO",
 		"local_path": "zayo",
 		"id": 80,
@@ -44,11 +73,14 @@
 			"A WRC Blue Label Release"
 		],
 		"primary_artist_ids": [
-			6
+			1
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
-		"links": {}
+		"links": {
+			"sp":"",
+			"ap":"https://music.apple.com/album/1562131913"
+		}
 	},
 	{
 		"name": "radiation (club mix)",
@@ -103,8 +135,8 @@
 		"links": {
 			"sc": "",
 			"bc": "",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/track/2BVP0vbEyU06KnDcyxqxuj",
+			"ap": "https://music.apple.com/us/album/mint/1563720620?i=1563720621"
 		}
 	},
 	{
@@ -132,10 +164,10 @@
 		"remix_artist_ids": [],
 		"links": {
 			"bc": "",
-			"au": "",
+			"au": "https://audius.co/quantopix_music/album/witk-43510",
 			"sc": "",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/album/5EA7I8nx4Xnlln4Vc6UioV",
+			"ap": "https://music.apple.com/us/album/witk-ep/1561155988"
 		}
 	},
 	{
@@ -161,9 +193,9 @@
 		"remix_artist_ids": [],
 		"links": {
 			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://dylpykl.bandcamp.com/album/unwashed-single",
+			"sp": "https://open.spotify.com/album/2T6qC2knYx4XaSxuOl3Unu?si=AnlLwGZWRsuhxocNi-sstg",
+			"ap": "https://music.apple.com/us/album/unwashed-single/1561931862"
 		}
 	},
 	{
@@ -197,7 +229,7 @@
 		"links": {
 			"sc": "https://soundcloud.com/whyrecordcompany/sets/collab",
 			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp006-collab",
-			"sp": "https://open.spotify.com/album/4hLBfvp5mlj4railbeWz1K?si=-hgGORIPRAa2tIOp28RNXQ",
+			"sp": "https://open.spotify.com/album/4hLBfvp5mlj4railbeWz1K",
 			"ap": "https://music.apple.com/us/album/collab-ep/1561737244",
 			"ad": "https://audius.co/sweet_hunna/pyramid-scheming-move-it-move-it-mix-feat.-quantopix-352536"
 		}
@@ -226,10 +258,10 @@
 		"remix_artist_ids": [],
 		"links": {
 			"bc": "",
-			"au": "",
+			"au": "https://audius.co/quantopix_music/woken-original-mix-336614",
 			"sc": "",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/track/2A0qz55S6Vlh8Z06B23dtb?si=m-M-RcGdQ5yNEUMEimNoBw",
+			"ap": "https://music.apple.com/us/album/woken-single-version/1560799037"
 		}
 	},
 	{
