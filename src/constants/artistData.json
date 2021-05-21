@@ -825,7 +825,9 @@
 		"social_platforms": {},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/shellartist",
-			"bc": "https://shellartist.bandcamp.com/"
+			"bc": "https://shellartist.bandcamp.com/",
+			"sp":"https://open.spotify.com/artist/5Y7v1MsJbX5MP8le7MH19r",
+			"ap":"https://music.apple.com/us/artist/shell-artist/1565787166"
 		}
 	},
 	{
@@ -850,7 +852,10 @@
 		],
 		"social_platforms": {},
 		"music_platforms": {
-			"sc": "https://soundcloud.com/washandfoldlaundryservice"
+			"sc": "https://soundcloud.com/washandfoldlaundryservice",
+			"bc":"",
+			"sp":"https://open.spotify.com/artist/3usGSeJ4AaR62XxmL0RFME",
+			"ap":"https://music.apple.com/us/artist/wash-and-fold-laundry-service/1547650742"
 		}
 	},
 	{
@@ -1168,7 +1173,7 @@
 	{
 		"id": 37,
 		"name": "Ares Silver",
-		"local_path": "",
+		"local_path": "ares-silver",
 		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
@@ -1186,14 +1191,12 @@
 			"Producer"
 		],
 		"social_platforms": {},
-		"music_platforms": {
-
-		}
+		"music_platforms": {}
 	},
 	{
 		"id": 38,
 		"name": "Nateral Legend",
-		"local_path": "",
+		"local_path": "nateral-legend",
 		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
@@ -1211,14 +1214,12 @@
 			"Rapper"
 		],
 		"social_platforms": {},
-		"music_platforms": {
-
-		}
+		"music_platforms": {}
 	},
 	{
 		"id": 39,
 		"name": "Young Dee",
-		"local_path": "",
+		"local_path": "young-dee",
 		"show_on_artist_page": false,
 		"photos": [
 			"/images/releases/WRC.jpg"
@@ -1236,8 +1237,67 @@
 			"Rapper"
 		],
 		"social_platforms": {},
+		"music_platforms": {}
+	},
+	{
+		"id": 40,
+		"name": "AllanPower!!!",
+		"local_path": "AllanPower",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/artists/allanpower_ginpic.jpg"
+		],
+		"email": "allanpower242@gmail.com",
+		"location": {
+			"city": "Freeport",
+			"country": "Bahamas"
+		},
+		"quote": "\"Keep It Potent\"",
+		"body_paragraphs": [
+			"I'm a producer from The Bahamas. I usually make avant garde, hip-hop, and Caribbean music."
+		],
+		"roles": [
+			"Producer", "Mix Engineer", "Mastering Engineer"
+		],
+		"social_platforms": {
+			"tw": "https://twitter.com/AllanPower242",
+			"fb": "https://www.facebook.com/AllanPower242",
+			"ig": "https://www.instagram.com/_allanpower_/"
+		},
 		"music_platforms": {
-
+			"sc":"https://soundcloud.com/user-470643955",
+			"yt": "https://www.youtube.com/channel/UCA0ReeB5-9q2raGpuaJvhRA",
+			"sp":"",
+			"ap":"",
+			"hn":"https://allanpower.hearnow.com/"
+		}
+	},
+	{
+		"id": 41,
+		"name": "HmGreen",
+		"local_path": "HmGreen",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "Lexington",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Producer"
+		],
+		"social_platforms": {
+			"ig":""
+		},
+		"music_platforms": {
+			"sp":"",
+			"ap":""
 		}
 	}
 ]

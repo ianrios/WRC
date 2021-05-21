@@ -19,6 +19,7 @@ export default function ContestPage() {
         description: "WHY? Record Company Contests",
         keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, competition"
     }
+    const contestEnded = Date.now() < new Date(currContest.deadline).getMilliseconds()
 
     return (
         <>
@@ -46,7 +47,7 @@ export default function ContestPage() {
                                     <div className="col text-center questrial">
                                         <h2>{currContest.description}</h2>
                                         <h4>{currContest.h4}</h4>
-                                        {Date.now() < new Date(currContest.deadline).getMilliseconds() &&
+                                        {contestEnded &&
                                             <h5><a href="#submit_form">Click here to jump to the submission form.</a></h5>}
                                         {currContest.releasePage && <Link to={`/release/${currContest.local_path}`}>Visit Release Page</Link>}
                                         <hr />
@@ -71,10 +72,13 @@ export default function ContestPage() {
                                         </div>
                                         <hr />
                                         <a className="no-style-link" id="submit_form"></a>
-                                        <div className="text-left text-border">
-                                            <h3>Submit Here!</h3>
-                                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegknY-MX1mi7bH16CoMjwwCwzmw6lSYwMNl1Ml81UAyJlaw/viewform?embedded=true" width="100%" height="1903" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                                        </div>
+
+                                        {contestEnded &&
+                                            <div className="text-left text-border">
+                                                <h3>Submit Here!</h3>
+                                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegknY-MX1mi7bH16CoMjwwCwzmw6lSYwMNl1Ml81UAyJlaw/viewform?embedded=true" width="100%" height="1903" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                            </div>
+                                        }
                                         <hr />
                                         <h5>Full Disclosure:</h5>
                                         <h5>{currContest.disclosure}</h5>

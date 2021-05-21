@@ -1,8 +1,35 @@
 [
 	{
+		"name": "ZAYO",
+		"local_path": "zayo",
+		"id": 85,
+		"label_number": "WHY085",
+		"release_type": "WRC",
+		"album_art": "/images/releases/zayo-mini.png",
+		"release_date": "2021-06-18T18:25:43.511Z",
+		"genre": "experimental",
+		"release_bio": [
+			"The 85th release from WHY Record Company (WRC) - WHY085",
+			"Part four of four - \"ZAYO\" by whythough?",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "So High in the Sky",
 		"local_path": "So-High-in-the-Sky",
-		"id": 76,
+		"id": 83,
 		"label_number": "WHY082",
 		"release_type": "WRC",
 		"album_art": "/images/releases/shits.png",
@@ -29,30 +56,105 @@
 		}
 	},
 	{
-		"name": "ZAYO",
-		"local_path": "zayo",
-		"id": 80,
-		"label_number": "WHY085",
+		"name": "Vacation Home (Remixes)",
+		"local_path": "Vacation-Home",
+		"id": 41,
+		"label_number": "WHY081",
 		"release_type": "WRC",
-		"album_art": "/images/releases/zayo-mini.png",
-		"release_date": "2021-06-18T18:25:43.511Z",
-		"genre": "experimental",
+		"album_art": "/images/releases/vacation-remixes.png",
+		"release_date": "2021-05-22T18:25:43.511Z",
+		"genre": "Downtempo",
 		"release_bio": [
-			"The 85th release from WHY Record Company (WRC) - WHY085",
-			"Part four of four - \"ZAYO\" by whythough?",
-			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
-			"Artwork by Ian Rios"
+			"The 81st release from WHY? Record Company (WRC) - WHY081",
+			"\"Vacation Home (Remixes)\" by dyl_pykl (Robert Dylan Smock)",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Featuring Artists: Matyb, whythough?",
+			"Remixes by shell artist, whythough?, Wash And Fold Laundry Service, svnteen, produceronline, LoM, ofoot, Quantopix, eraserMice, & dyl_pykl",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
 		],
 		"primary_artist_ids": [
-			1
+			2
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
 			"sc": "",
+			"bc": "",
 			"sp": "",
 			"ap": ""
+		}
+	},
+	{
+		"name": "Street Walking (dyl_pykl Remix)",
+		"local_path": "street-walking-remix",
+		"id": 81,
+		"label_number": "WHY080",
+		"release_type": "WRC",
+		"album_art": "/images/releases/street-walking.png",
+		"release_date": "2021-05-22T18:25:43.511Z",
+		"genre": "Downtempo",
+		"release_bio": [
+			"The 80th release from WHY? Record Company (WRC) - WHY080",
+			"\"Street Walking (dyl_pykl Remix)\" by Mitch Rocket",
+			"Remix Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Mitch Rocket"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "WRC Remixes: Volume 1",
+		"local_path": "WHYCOMP007",
+		"id": 80,
+		"label_number": "WHY079",
+		"release_type": "WHYCOMP",
+		"album_art": "/images/releases/whycomp007.png",
+		"release_date": "2021-05-07T18:25:43.511Z",
+		"genre": "Electronica",
+		"release_bio": [
+			"The 79th release from WHY Record Company (WRC) - WHY079",
+			"\"WHYCOMP007: WRC Remixes: Volume 1\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Fohrenbach, shell artist, dyl_pykl, whythough?, Katie Hoffstatter, Quantopix, produceronline, ofoot, and MatyB.",
+			"Remixes by dyl_pykl, Weeping Sun, Tilt Shift, AllanPower!!!, HmGreen, Quantopix, and Wash And Fold Laundry Music.",
+			"Featuring Techno, Dubstep, and more! All songs are remixes of originally released WRC songs.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1,
+			2,
+			4,
+			14,
+			11,
+			23,
+			18,
+			25
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			2,
+			9,
+			32,
+			40,
+			41,
+			18,
+			26
+		],
+		"links": {
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/why-record-company-remixes-vol-1",
+			"bc": "https://whyrecordcompany.bandcamp.com/album/remix-vol-1",
+			"sp": "https://open.spotify.com/album/3PnJP7JCEWjUx4q0XVBQ54",
+			"ap": "https://music.apple.com/us/album/wrc-remixes-volume-1/1565791897"
 		}
 	},
 	{
@@ -78,8 +180,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sp":"",
-			"ap":"https://music.apple.com/album/1562131913"
+			"sc":"",
+			"bc":"",
+			"sp": "https://open.spotify.com/album/0jr32xr18gnANkmIIr8Cv1",
+			"ap": "https://music.apple.com/album/1562131913"
 		}
 	},
 	{
@@ -107,8 +211,8 @@
 		"links": {
 			"bc": "",
 			"sc": "",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/track/0uh9rKCNrvNfLlCWHI5wwD",
+			"ap": "https://music.apple.com/us/album/radiation-club-mix/1556050898?i=1556050899"
 		}
 	},
 	{
@@ -163,9 +267,9 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
+			"sc": "",
 			"bc": "",
 			"au": "https://audius.co/quantopix_music/album/witk-43510",
-			"sc": "",
 			"sp": "https://open.spotify.com/album/5EA7I8nx4Xnlln4Vc6UioV",
 			"ap": "https://music.apple.com/us/album/witk-ep/1561155988"
 		}
@@ -209,7 +313,7 @@
 		"genre": "Dubstep",
 		"release_bio": [
 			"The 73rd release from WHY Record Company (WRC) - WHY073",
-			"\"WHYCOMP005: collab\"",
+			"\"WHYCOMP006: collab\"",
 			"Original songs Recorded, Produced, Mixed, and Mastered by Quantopix, SUPREME, sweet hunna, LoM, dyl_pykl, Rafael Khan, and Wash And Fold Laundry Music",
 			"Featuring Techno, Dubstep, and more! All songs are collabs.",
 			"Artwork by Ian Rios"
@@ -257,9 +361,9 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
+			"sc": "",
 			"bc": "",
 			"au": "https://audius.co/quantopix_music/woken-original-mix-336614",
-			"sc": "",
 			"sp": "https://open.spotify.com/track/2A0qz55S6Vlh8Z06B23dtb?si=m-M-RcGdQ5yNEUMEimNoBw",
 			"ap": "https://music.apple.com/us/album/woken-single-version/1560799037"
 		}
@@ -325,6 +429,7 @@
 		],
 		"remix_artist_ids": [],
 		"links": {
+			"sc":"",
 			"bc": "https://whythough.bandcamp.com/album/cycle001-grief-club-mixes",
 			"sp": "https://open.spotify.com/album/6yZ01aD1FKJnJ4gYHt7ORZ?si=jk8NfyZWQy28nMC29Eul3w",
 			"ap": "https://music.apple.com/us/album/cycle001-club-mixes-ep/1515601290"
@@ -412,6 +517,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
+			"bc":"",
 			"sp": "https://open.spotify.com/album/62RAq3LoauedT4uFcU6toJ?si=fLvRkMB5TIGnpmLO51Wu0w",
 			"ap": "https://music.apple.com/us/album/art-brut/1551359635"
 		}

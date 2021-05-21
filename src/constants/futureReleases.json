@@ -1,32 +1,6 @@
 [
-	{
-		"name": "Street Walking (dyl_pykl Remix)",
-		"local_path": "street-walking-remix",
-		"id": 41,
-		"label_number": "WHY080",
-		"release_type": "WRC",
-		"album_art": "/images/releases/vacationhomeremixes.png",
-		"release_date": "2021-05-22T18:25:43.511Z",
-		"genre": "Downtempo",
-		"release_bio": [
-			"The 80th release from WHY? Record Company (WRC) - WHY080",
-			"\"Street Walking (dyl_pykl Remix)\" by Mitch Rocket",
-			"Remix Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered by Ian Rios (whythough?)",
-			"Artwork by "
-		],
-		"primary_artist_ids": [
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
-		}
-	}
+	
+	
 	
 	{
 		"name": "Ezra Parker EP",
@@ -54,34 +28,5 @@
 	},
 	
 	
-	{
-		"name": "Vacation Home (Remixes)",
-		"local_path": "Vacation-Home",
-		"id": 41,
-		"label_number": "WHY081",
-		"release_type": "WRC",
-		"album_art": "/images/releases/vacationhomeremixes.png",
-		"release_date": "2021-05-22T18:25:43.511Z",
-		"genre": "Downtempo",
-		"release_bio": [
-			"The 81st release from WHY? Record Company (WRC) - WHY081",
-			"\"Vacation Home (Remixes)\" by dyl_pykl (Robert Dylan Smock)",
-			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Featuring Artists: Matyb, whythough?",
-			"Remixes by shell artist, whythough?, Wash And Fold Laundry Service, svnteen, produceronline, LoM",
-			"Mastered by Ian Rios (whythough?)",
-			"Artwork by Molly Kerwick"
-		],
-		"primary_artist_ids": [
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
-		}
-	}
+	
 ]

@@ -1,5 +1,40 @@
 [
     {
+        "local_path": "WHYCOMP008",
+        "name": "WHYCOMP008: spring",
+        "label_number": "WHYCOMP008",
+        "release_type": "Contests",
+        "deadline": "2021-04-30T00:00:00.511Z",
+        "description": "Spring Compilation",
+        "h4": "Winning tracks are featured on \"WHYCOMP008 - spring\"",
+        "rules": [
+            "1. Deadline: Midnight, May 31st, 2021",
+            "2. If you use samples, they must be royalty free.",
+            "3. Theme: __b__springs__b__",
+            "4. __b__spring__b__: use samples that embody \"spring\", maybe that means you use a metal spring sample like a jersey club squeak or garage door spring, or a seasonal spring sample like a flower growing or a bee buzzing or a bird chirping.",
+            "7. Only one submission per person. If you collaborate with someone, you can submit another song on your own or in another collab, but you cannot submit more than one song made by just yourself or with the same collab members.",
+            "8. Please render your file properly. It should be a downloadable __b__16 bit 44.1Khz wav file__b__.",
+            "9. Submit your final track mixed and mastered below!",
+            "10. Anyone who submits and gets selected to be on the release has a chance to win a piece of merch! Will be announced on stream."
+        ],
+        "recommendations": [
+            "Collabs are great ways to make new friends and cool sounds. Visit our discord to chat with other artists!"
+        ],
+        "resources": [
+            {
+                "Info": "Find links to all of our releases from WRC here on on our website!",
+                "website link": "/releases"
+            },
+            {
+                "Info": "Use these assets for promo to invite others to join the contest!",
+                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+            }
+        ],
+        "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
+        "album_art": "/images/releases/contest-promo-minified.png",
+        "releasePage": true
+    },
+    {
         "local_path": "WHYCOMP007",
         "name": "WHYCOMP007: remix",
         "label_number": "WHYCOMP007",
@@ -37,8 +72,8 @@
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
-        "album_art": "/images/releases/contest-promo-minified.png",
-        "releasePage": false
+        "album_art": "/images/releases/WHYCOMP007.png",
+        "releasePage": true
     },
     {
         "local_path": "WHYCOMP006",
