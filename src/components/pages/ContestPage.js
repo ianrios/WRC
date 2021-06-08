@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import Seo from '../Seo'
 import contestData from '../../constants/contestData.json'
 import { mappedPTag, mappedObjArr } from '../../utilities/maps'
+import Discord from '../Discord'
 
 export default function ContestPage() {
 
@@ -20,6 +21,8 @@ export default function ContestPage() {
         keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, competition"
     }
     const contestEnded = Date.now() < new Date(currContest.deadline).getMilliseconds()
+
+    console.log({ contestEnded })
 
     return (
         <>
@@ -73,12 +76,19 @@ export default function ContestPage() {
                                         <hr />
                                         <a className="no-style-link" id="submit_form"></a>
 
-                                        {contestEnded &&
-                                            <div className="text-left text-border">
-                                                <h3>Submit Here!</h3>
-                                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegknY-MX1mi7bH16CoMjwwCwzmw6lSYwMNl1Ml81UAyJlaw/viewform?embedded=true" width="100%" height="1903" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                                            </div>
-                                        }
+                                        <div className="text-left text-border">
+                                            {contestEnded ?
+                                                <>
+                                                    <h3>Contest Closed</h3>
+                                                    <p>If you think this contest is closed by mistake or you would like to submit a late entry, please contact us on our <Discord /> in the #WHYCOMP channel!</p>
+                                                </>
+                                                :
+                                                <>
+                                                    <h3>Submit Here!</h3>
+                                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdegknY-MX1mi7bH16CoMjwwCwzmw6lSYwMNl1Ml81UAyJlaw/viewform?embedded=true" width="100%" height="1903" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                                </>
+                                            }
+                                        </div>
                                         <hr />
                                         <h5>Full Disclosure:</h5>
                                         <h5>{currContest.disclosure}</h5>

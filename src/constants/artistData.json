@@ -356,11 +356,11 @@
 	},
 	{
 		"id": 8,
-		"name": "ofoot",
-		"local_path": "ofoot",
+		"name": "1s2",
+		"local_path": "1s2",
 		"show_on_artist_page": true,
 		"photos": [
-			"/images/artists/profiles/ofoot_4x6.png",
+			"/images/artists/profiles/1s2_4x6.png",
 			"/images/artists/ofoot_rabbit.jpg"
 		],
 		"email": "ofoot@hotmail.com",
@@ -463,21 +463,24 @@
 		"id": 10,
 		"name": "DJ Yunomi",
 		"local_path": "DJ-Yunomi",
-		"show_on_artist_page": false,
+		"show_on_artist_page": true,
 		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
+			"/images/artists/profiles/dj_yunomi.jpg"
 		],
-		"email": "",
+		"email": "castrj25@gmail.com",
 		"location": {
-			"city": "",
+			"city": "Troy",
 			"country": "USA"
 		},
-		"quote": "\"\"",
+		"quote": "\"You Know Me\"",	
 		"body_paragraphs": [
-			""
+			"DJ Yunomi is a hardcore dance artist and DJ from the NYC area. He specializes in the combination of Psycore and Japanese Hardcore music with influences from hardstyle, techno, and trance."
 		],
 		"roles": [
-			""
+			"Producer",
+			"Songwriter",
+			"Sound Designer",
+			"DJ"
 		],
 		"social_platforms": {
 			"tw": "",
@@ -485,10 +488,10 @@
 			"fb": ""
 		},
 		"music_platforms": {
-			"sc": "https://soundcloud.com/djmeniacle",
-			"bc": "",
+			"sc": "https://soundcloud.com/djyunomi",
+			"yt": "https://www.youtube.com/channel/UCAkIjA8Y9U0zsstsPRo6poQ",
 			"sp": "https://open.spotify.com/artist/7hD6edlYR4wFEHRzSYvYng",
-			"ap": ""
+			"ap": "https://music.apple.com/us/artist/dj-yunomi/1435537883"
 		}
 	},
 	{
@@ -826,8 +829,8 @@
 		"music_platforms": {
 			"sc": "https://soundcloud.com/shellartist",
 			"bc": "https://shellartist.bandcamp.com/",
-			"sp":"https://open.spotify.com/artist/5Y7v1MsJbX5MP8le7MH19r",
-			"ap":"https://music.apple.com/us/artist/shell-artist/1565787166"
+			"sp": "https://open.spotify.com/artist/5Y7v1MsJbX5MP8le7MH19r",
+			"ap": "https://music.apple.com/us/artist/shell-artist/1565787166"
 		}
 	},
 	{
@@ -853,9 +856,9 @@
 		"social_platforms": {},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/washandfoldlaundryservice",
-			"bc":"",
-			"sp":"https://open.spotify.com/artist/3usGSeJ4AaR62XxmL0RFME",
-			"ap":"https://music.apple.com/us/artist/wash-and-fold-laundry-service/1547650742"
+			"bc": "",
+			"sp": "https://open.spotify.com/artist/3usGSeJ4AaR62XxmL0RFME",
+			"ap": "https://music.apple.com/us/artist/wash-and-fold-laundry-service/1547650742"
 		}
 	},
 	{
@@ -1257,7 +1260,9 @@
 			"I'm a producer from The Bahamas. I usually make avant garde, hip-hop, and Caribbean music."
 		],
 		"roles": [
-			"Producer", "Mix Engineer", "Mastering Engineer"
+			"Producer",
+			"Mix Engineer",
+			"Mastering Engineer"
 		],
 		"social_platforms": {
 			"tw": "https://twitter.com/AllanPower242",
@@ -1265,11 +1270,11 @@
 			"ig": "https://www.instagram.com/_allanpower_/"
 		},
 		"music_platforms": {
-			"sc":"https://soundcloud.com/user-470643955",
+			"sc": "https://soundcloud.com/user-470643955",
 			"yt": "https://www.youtube.com/channel/UCA0ReeB5-9q2raGpuaJvhRA",
-			"sp":"",
-			"ap":"",
-			"hn":"https://allanpower.hearnow.com/"
+			"sp": "",
+			"ap": "",
+			"hn": "https://allanpower.hearnow.com/"
 		}
 	},
 	{
@@ -1293,11 +1298,39 @@
 			"Producer"
 		],
 		"social_platforms": {
-			"ig":""
+			"ig": ""
 		},
 		"music_platforms": {
-			"sp":"",
-			"ap":""
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"id": 42,
+		"name": "Mitch Rocket",
+		"local_path": "mitch-rocket",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/releases/WRC.jpg"
+		],
+		"email": "",
+		"location": {
+			"city": "",
+			"country": "USA"
+		},
+		"quote": "\"\"",
+		"body_paragraphs": [
+			""
+		],
+		"roles": [
+			"Producer"
+		],
+		"social_platforms": {
+			"ig": ""
+		},
+		"music_platforms": {
+			"sp": "",
+			"ap": ""
 		}
 	}
 ]

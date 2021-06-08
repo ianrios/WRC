@@ -12,9 +12,7 @@ const Seo = props => {
 	const keywords = data.keywords;
 
 	return (
-		<Helmet
-			encodeSpecialCharacters={true}
-		>
+		<Helmet encodeSpecialCharacters={true}>
 			{/* General tags */}
 			<title>{title}</title>
 			<meta name="description" content={description} />
@@ -31,6 +29,9 @@ const Seo = props => {
 			<meta name="twitter:image" content={image} />
 			<meta name="twitter:card" content="summary" />
 			<meta name="twitter:creator" content={"whyrecord"} />
+
+			{/* Facebook Pages tags */}
+			<meta property="fb:pages" content="108517283862837" />
 		</Helmet>
 	);
 };

@@ -1,5 +1,35 @@
 [
 	{
+		"name": "the leaves grew heavy under the weight of the water (Weeping Sun Remix)",
+		"local_path": "tlghutwotwwsr",
+		"id": 86,
+		"label_number": "WHY084",
+		"release_type": "WRC",
+		"album_art": "/images/releases/tlghutwotwwsr-min.png",
+		"release_date": "2021-06-25T18:25:43.511Z",
+		"genre": "experimental",
+		"release_bio": [
+			"The 84th release from WHY Record Company (WRC) - WHY084",
+			"the leaves grew heavy under the weight of the water (Weeping Sun Remix)",
+			"Remixes Recorded, Produced, Mixed, and Mastered by Weeping Sun",
+			"Original song by shell artist",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			25
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [
+			9
+		],
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
 		"name": "ZAYO",
 		"local_path": "zayo",
 		"id": 85,
@@ -24,6 +54,39 @@
 			"sc": "",
 			"sp": "",
 			"ap": ""
+		}
+	},
+	{
+		"name": "WHYCOMP008: spring",
+		"local_path": "WHYCOMP008",
+		"id": 84,
+		"label_number": "WHY083",
+		"release_type": "WHYCOMP",
+		"album_art": "/images/releases/whycomp008.png",
+		"release_date": "2021-06-11T18:25:43.511Z",
+		
+		"genre": "Electronica",
+		"release_bio": [
+			"The 83rd release from WHY Record Company (WRC) - WHY083",
+			"\"WHYCOMP008: spring\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Mitch Rocket, DJ Yunomi, AllanPower!!!, Weeping Sun, and Quantopix",
+			"Featuring Ambient, Dubstep, Experimental, and more! All songs feature the inclusion of \"spring\", which means the use of metallic spring samples, flowers growing outdoors, a spring reverb, etc.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			42,
+			10,
+			40,
+			9,
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/why-record-company-remixes-vol-1",
+			"bc": "https://whyrecordcompany.bandcamp.com/album/remix-vol-1",
+			"sp": "https://open.spotify.com/album/3PnJP7JCEWjUx4q0XVBQ54",
+			"ap": "https://music.apple.com/us/album/wrc-remixes-volume-1/1565791897"
 		}
 	},
 	{
@@ -102,10 +165,12 @@
 			"Artwork by Mitch Rocket"
 		],
 		"primary_artist_ids": [
-			2
+			42
 		],
 		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
+		"remix_artist_ids": [
+			2
+		],
 		"links": {
 			"sc": "",
 			"bc": "",
@@ -180,8 +245,8 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc":"",
-			"bc":"",
+			"sc": "",
+			"bc": "",
 			"sp": "https://open.spotify.com/album/0jr32xr18gnANkmIIr8Cv1",
 			"ap": "https://music.apple.com/album/1562131913"
 		}
@@ -429,7 +494,7 @@
 		],
 		"remix_artist_ids": [],
 		"links": {
-			"sc":"",
+			"sc": "",
 			"bc": "https://whythough.bandcamp.com/album/cycle001-grief-club-mixes",
 			"sp": "https://open.spotify.com/album/6yZ01aD1FKJnJ4gYHt7ORZ?si=jk8NfyZWQy28nMC29Eul3w",
 			"ap": "https://music.apple.com/us/album/cycle001-club-mixes-ep/1515601290"
@@ -517,7 +582,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc":"",
+			"bc": "",
 			"sp": "https://open.spotify.com/album/62RAq3LoauedT4uFcU6toJ?si=fLvRkMB5TIGnpmLO51Wu0w",
 			"ap": "https://music.apple.com/us/album/art-brut/1551359635"
 		}
@@ -1120,8 +1185,8 @@
 		"genre": "IDM",
 		"release_bio": [
 			"The 47th release from WHY Record Company (WRC) - WHY047",
-			"IDM Boy in an EDM World Volume 1 by ofoot",
-			"Artwork by ofoot",
+			"IDM Boy in an EDM World Volume 1 by 1s2",
+			"Artwork by 1s2",
 			"\"A collection of remixes I have done to my serious capacity\"",
 			"Vega By LoM __BREAK__ SMCP by SPLM __BREAK__ Namibas by dyl_pykl __BREAK__ Look Into Your Eyes by whythough? and dear evergreen __BREAK__ He Called Me Beautiful by Katie Hoffstatter, dyl_pykl, and MatyB"
 		],
