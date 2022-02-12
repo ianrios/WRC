@@ -1,13 +1,15 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import releaseData from "../../constants/releaseData.json";
+import mixData from "../../constants/mixData.json";
+import recData from "../../constants/recData.json";
 import './Releases.scss';
 
 export default function Releases() {
 	let artistsObj = {};
-	const ReleaseMap = releaseData
+	const ReleaseMap = [...releaseData, ...mixData, ...recData]
 		.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
-		.filter(i => i.label_number.slice(0, 3) === "WHY")
+		// .filter(i => i.label_number.slice(0, 3) === "WHY")
 		.map((item, idx) => {
 			const firstArtist = item.primary_artist_ids[0];
 			// console.log(item)

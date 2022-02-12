@@ -140,11 +140,11 @@ export default function Nexus() {
     })
   }
 
-  const mappedCW = ALink(collabsWith)
-  const mappedFB = ALink(hasFeaturesBy)
-  const mappedIF = ALink(isFeaturedBy)
-  const mappedRM = ALink(remixed)
-  const mappedRB = ALink(remixedBy)
+  // const mappedCW = ALink(collabsWith)
+  // const mappedFB = ALink(hasFeaturesBy)
+  // const mappedIF = ALink(isFeaturedBy)
+  // const mappedRM = ALink(remixed)
+  // const mappedRB = ALink(remixedBy)
 
   // console.log({
   //   mappedCW,

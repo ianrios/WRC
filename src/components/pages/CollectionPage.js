@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
+import recData from "../../constants/recData.json";
 import mixData from "../../constants/mixData.json";
 import playlistData from "../../constants/playlistData.json";
 import contestData from "../../constants/contestData.json";
@@ -17,6 +18,7 @@ export default function CollectionPage() {
   let allData = [
     ...releaseData,
     ...independentReleaseData,
+    ...recData,
     ...mixData,
     ...playlistData,
     ...contestData

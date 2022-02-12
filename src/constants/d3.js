@@ -1,4 +1,4 @@
-import { filter } from "lodash"
+// import { filter } from "lodash"
 import artistData from "./artistData.json"
 import releaseData from "./releaseData.json"
 import independentReleaseData from "./independentReleaseData.json"
@@ -23,7 +23,7 @@ for (let r of combinedData) {
 			for (let j of r.primary_artist_ids) {
 				const a1 = artistData.find(k => k.id === i)
 				const a2 = artistData.find(k => k.id === j)
-				if (a1.name != a2.name) {
+				if (a1.name !== a2.name) {
 					const link = { source: a1.name, target: a2.name }
 					const str = JSON.stringify(link)
 					if (str in linkObj) {
@@ -44,7 +44,7 @@ for (let r of combinedData) {
 		for (let j of r.primary_artist_ids) {
 			const a1 = artistData.find(k => k.id === i)
 			const a2 = artistData.find(k => k.id === j)
-			if (a1.name != a2.name) {
+			if (a1.name !== a2.name) {
 				const link = { source: a1.name, target: a2.name }
 				const str = JSON.stringify(link)
 				if (str in linkObj) {
@@ -64,7 +64,7 @@ for (let r of combinedData) {
 		for (let j of r.primary_artist_ids) {
 			const a1 = artistData.find(k => k.id === i)
 			const a2 = artistData.find(k => k.id === j)
-			if (a1.name != a2.name) {
+			if (a1.name !== a2.name) {
 				const link = { source: a1.name, target: a2.name }
 				const str = JSON.stringify(link)
 				if (str in linkObj) {
@@ -85,6 +85,7 @@ const links = Object.keys(linkObj).map(i => JSON.parse(i))
 
 
 // if nodes do not appear in links, remove them
+// eslint-disable-next-line
 const filteredNodes = nodes.filter(item => {
 	const foundSource = links.find(l => l.source === item.id)
 	const foundTarget = links.find(l => l.target === item.id)

@@ -1,9 +1,9 @@
 [
     {
         "name": "Pulse Artist Collective",
-        "local_path": "WHYPLAY003",
+        "local_path": "Pulse-Artist-Collective",
         "id": 71,
-        "label_number": "WHYPLAY003",
+        "label_number": "Pulse Artist Collective",
         "release_type": "PLAYLIST",
         "album_art": "/images/releases/pulse-playlist-min.png",
         "release_date": "2017-09-24T18:25:44.511Z",
@@ -11,7 +11,30 @@
         "release_bio": [
             "Artwork by Ian Rios"
         ],
-        "primary_artist_ids": [],
+        "primary_artist_ids": [
+            1
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/5bSYx7bGVVNEWWHA9SehKT?si=964cf852e43447f8"
+        }
+    },
+    {
+        "name": "WRC Ambient",
+        "local_path": "WRC-Ambient",
+        "id": -3,
+        "label_number": "WRC Ambient",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2018-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {
@@ -19,13 +42,139 @@
         }
     },
     {
+        "name": "WRC Noise",
+        "local_path": "WRC-Noise",
+        "id": -3,
+        "label_number": "WRC Noise",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2018-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": ""
+        }
+    },
+    {
+        "name": "WRC Hip Hop",
+        "local_path": "WRC-Hip-Hop",
+        "id": -3,
+        "label_number": "WRC Hip Hop",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2018-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": ""
+        }
+    },
+    {
+        "name": "WRC 4xFloor",
+        "local_path": "WRC-4xFloor",
+        "id": -3,
+        "label_number": "WRC4xFloor",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2018-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": ""
+        }
+    },
+    {
+        "name": "WRC Underground",
+        "local_path": "WRC-Underground",
+        "id": -3,
+        "label_number": "WRC Underground",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2018-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": ""
+        }
+    },
+    {
+        "name": "WRC Drum & Bass Favorites",
+        "local_path": "WRC-dnbFavs",
+        "id": -3,
+        "label_number": "WRC Drum & Bass Favorites",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2018-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": ""
+        }
+    },
+    {
+        "name": "All WRC Releases",
+        "local_path": "why-record-company",
+        "id": -3,
+        "label_number": "All WRC Releases",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC.jpg",
+        "release_date": "2018-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=466a10041e834417"
+        }
+    },
+    {
         "name": "WRC Blue Label",
         "local_path": "play002",
         "id": -2,
-        "label_number": "WHYPLAY002",
+        "label_number": "WRC Blue Label",
         "release_type": "PLAYLIST",
         "album_art": "/images/releases/BlueLabel.jpg",
-        "release_date": "2020-01-02T18:25:43.511Z",
+        "release_date": "2019-08-02T18:25:43.511Z",
         "genre": "Techno",
         "release_bio": [
             ""
@@ -40,34 +189,13 @@
         }
     },
     {
-        "name": "WHY? Record Company",
-        "local_path": "play001",
-        "id": -3,
-        "label_number": "WHYPLAY001",
-        "release_type": "PLAYLIST",
-        "album_art": "/images/releases/WRC.jpg",
-        "release_date": "2016-01-01T18:25:43.511Z",
-        "genre": "Electronic Music",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            22
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
-        }
-    },
-    {
         "name": "WRC Pink Label",
         "local_path": "play00?",
         "id": -3,
-        "label_number": "WHYPLAY001",
+        "label_number": "WRC Pink Label",
         "release_type": "PLAYLIST",
-        "album_art": "/images/releases/WRC.jpg",
-        "release_date": "2016-01-01T18:25:43.511Z",
+        "album_art": "/images/releases/WRCPink.jpg",
+        "release_date": "2020-12-01T18:25:43.511Z",
         "genre": "Electronic Music",
         "release_bio": [
             ""
@@ -78,20 +206,20 @@
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {
-            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+            "sp": "https://open.spotify.com/playlist/5EiaG6K6lyq24Z5QWgdaVl?si=539c3b7a3e104d63"
         }
     },
     {
-        "name": "WRC 2019 Releases",
-        "local_path": "play001",
-        "id": -3,
-        "label_number": "WHYPLAY001",
+        "name": "WHYCOMPS",
+        "local_path": "WHY-COMPS",
+        "id": 71,
+        "label_number": "WHYCOMPS",
         "release_type": "PLAYLIST",
-        "album_art": "/images/releases/WRC.jpg",
-        "release_date": "2016-01-01T18:25:43.511Z",
+        "album_art": "/images/releases/whycomps.png",
+        "release_date": "2020-10-24T18:25:44.511Z",
         "genre": "Electronic Music",
         "release_bio": [
-            ""
+            "Artwork by Ian Rios"
         ],
         "primary_artist_ids": [
             22
@@ -99,20 +227,20 @@
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {
-            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+            "sp": "https://open.spotify.com/playlist/2vCpWRk0rk2QKczF5VmmJZ?si=0b59e739925343a8"
         }
     },
     {
-        "name": "WRC 2020 Releases",
-        "local_path": "play001",
-        "id": -3,
-        "label_number": "WHYPLAY001",
+        "name": "WRC Selects",
+        "local_path": "WRC-Selects",
+        "id": 71,
+        "label_number": "WRC Selects",
         "release_type": "PLAYLIST",
-        "album_art": "/images/releases/WRC.jpg",
-        "release_date": "2016-01-01T18:25:43.511Z",
+        "album_art": "/images/releases/WRCSelects.png",
+        "release_date": "2020-09-24T18:25:44.511Z",
         "genre": "Electronic Music",
         "release_bio": [
-            ""
+            "Artwork by Ian Rios"
         ],
         "primary_artist_ids": [
             22
@@ -120,17 +248,38 @@
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {
-            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+            "sp": "https://open.spotify.com/playlist/2nDESbMBd6QGPDkrB8knhQ?si=87557c5282164f40"
+        }
+    },
+    {
+        "name": "WRC Family",
+        "local_path": "WRC-Family",
+        "id": 71,
+        "label_number": "WRC Family",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC-Family.png",
+        "release_date": "2019-05-24T18:25:44.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            "Artwork by Ian Rios"
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/1UqCEpXkHjdcpYEeeXDN6w?si=c3b5218f81d34680"
         }
     },
     {
         "name": "WRC 2021 Releases",
         "local_path": "play001",
-        "id": -3,
-        "label_number": "WHYPLAY001",
+        "id": 3,
+        "label_number": "WRC 2021 Releases",
         "release_type": "PLAYLIST",
-        "album_art": "/images/releases/WRC.jpg",
-        "release_date": "2016-01-01T18:25:43.511Z",
+        "album_art": "/images/releases/WRC2021Releases.jpg",
+        "release_date": "2021-01-01T18:25:43.511Z",
         "genre": "Electronic Music",
         "release_bio": [
             ""
@@ -141,7 +290,49 @@
         "secondary_artist_ids": [],
         "remix_artist_ids": [],
         "links": {
-            "sp": "https://open.spotify.com/playlist/3J0Fctbni0Ebvbe1SBJhfT?si=NcPD6Kf-SN6d5ijRW_WX_g"
+            "sp": "https://open.spotify.com/playlist/4CsxnkZVCixDk2TlxfhDV9?si=7889d0da0d2d4e7a"
+        }
+    },
+    {
+        "name": "WRC 2020 Releases",
+        "local_path": "play001",
+        "id": 2,
+        "label_number": "WRC 2020 Releases",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC2020Releases.jpg",
+        "release_date": "2020-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/7jW4PqtNXGqwBCfnEdn4iP?si=4a7601e339d04c09"
+        }
+    },
+    {
+        "name": "WRC 2019 Releases",
+        "local_path": "WRC-2019-Releases",
+        "id": 1,
+        "label_number": "WRC 2019 Releases",
+        "release_type": "PLAYLIST",
+        "album_art": "/images/releases/WRC2019Releases.jpg",
+        "release_date": "2019-01-01T18:25:43.511Z",
+        "genre": "Electronic Music",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            22
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sp": "https://open.spotify.com/playlist/0gndIArOHVGsbaDNuKu3ju?si=99ae732b71fb47ac"
         }
     }
 ]

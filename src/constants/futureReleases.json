@@ -6,13 +6,13 @@
 		"name": "Ezra Parker EP",
 		"local_path": "ezra-parker-ep",
 		"id": ,
-		"label_number": "WHY086",
+		"label_number": "WHY0",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/bl09.png",
 		"release_date": "2021-06-25T18:25:43.511Z",
 		"genre": "Techno",
 		"release_bio": [
-			"The 86th release from WHY Record Company (WRC) - WHY086",
+			"The th release from WHY Record Company (WRC) - WHY0",
 			"The 11th release from the Blue Label Imprint - BL011",
 			"\"EP\" by Ezra Parker",
 			"Original songs Recorded, Produced, Mixed, and Mastered by Ezra Parker",
@@ -27,6 +27,35 @@
 		"links": {}
 	},
 	
+	
+	{
+		"name": "WHYCOMP009: heat",
+		"local_path": "WHYCOMP009",
+		"id": 87,
+		"label_number": "WHY086",
+		"release_type": "WHYCOMP",
+		"album_art": "/images/releases/whycomp009.png",
+		"release_date": "2021-07-09T18:25:43.511Z",
+		"genre": "Electronica",
+		"release_bio": [
+			"The 86th release from WHY Record Company (WRC) - WHY086",
+			"\"WHYCOMP009: heat\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Mitch Rocket, DJ Yunomi, AllanPower!!!, Weeping Sun, and Quantopix",
+			"Featuring Ambient, Dubstep, Experimental, and more! All songs feature the inclusion of \"spring\", which means the use of metallic spring samples, flowers growing outdoors, a spring reverb, etc.",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "",
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
 	
 	
 ]

@@ -3,12 +3,14 @@ import { TwitchEmbed } from 'react-twitch-embed';
 
 
 function LivePage() {
-    const twitchUsers = ["lom564", "lom564", "quantopix", "lom564", "lom564", "lom564", "of00t"]
     const [weekday, setWeekday] = useState(new Date().getDay())
     useEffect(() => setInterval(() => setWeekday(new Date().getDay(), 1000)), [])
     // TODO: add this to sidebar
-
-    const scheduledTwitchUser = useMemo(() => twitchUsers[weekday], [weekday])
+    
+    const scheduledTwitchUser = useMemo(() => {
+        
+        const twitchUsers = ["lom564", "lom564", "quantopix", "lom564", "lom564", "unostwo", "unostwo"]
+        return twitchUsers[weekday]}, [weekday])
     const hardcodedTwitch = "quantopix"
     const currentTwitchUser = false ? hardcodedTwitch : scheduledTwitchUser
     return (

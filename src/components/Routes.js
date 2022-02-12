@@ -24,6 +24,8 @@ import ComingSoon from "./pages/ComingSoon";
 import Software from "./pages/Software";
 import ThankYou from "./pages/ThankYou";
 import LivePage from "./pages/LivePage";
+import DiscordInvite from './pages/DiscordInvite';
+import Landing from './pages/Landing';
 
 export default function Routes() {
 
@@ -36,7 +38,7 @@ export default function Routes() {
 			<Route path="/artists">
 				<Artists />
 			</Route>
-			<Route path="/artist/:name">
+			<Route path="/artist">
 				<ArtistPage />
 			</Route>
 			<Route path="/releases">
@@ -88,6 +90,12 @@ export default function Routes() {
 			</Route>
 			<Route path="/live">
 				<LivePage />
+			</Route>
+			<Route path="/welcome">
+				<Landing />
+			</Route>
+			<Route path="/discord">
+				<DiscordInvite />
 			</Route>
 			<Route path="/thanks/2020">
 				<ThankYou />

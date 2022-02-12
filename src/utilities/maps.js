@@ -1,6 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import _ from 'lodash'
+import { GrFacebook, GrSpotify, GrYoutube, GrTwitter, GrInstagram, GrGithub, GrAmazon, GrSoundcloud, GrGooglePlay, GrDocumentZip } from "react-icons/gr"
+import { SiApplemusic, SiTwitch, SiDiscord, SiBandcamp, SiDeezer, SiTidal, SiDropbox, SiGumroad, SiPandora, SiMixcloud } from "react-icons/si";
+import { CgPlayList } from "react-icons/cg";
+import { BiPurchaseTagAlt, BiMagnet } from "react-icons/bi";
 
 export const mappedPTag = (arr, className) => {
     return arr.map((item, idx) => {
@@ -47,9 +51,6 @@ export const mappedObjArr = (arr, className) => (
     </dl>
 )
 
-
-
-
 export const mappedATag = (props) => {
     const keys = Object.keys(props);
     return keys.map((item, idx) => props[item].length > 0 &&
@@ -70,4 +71,77 @@ export const mappedD3ArtistTags = (props) => {
     const keys = Object.keys(props);
     const mappedData = keys.map((item, idx) => <span key={idx}>{item}{idx < keys.length - 1 ? ', ' : ''}</span>);
     return mappedData
+}
+
+export const mappedIcon = (iconShorthand) => {
+    // https://react-icons.github.io/react-icons
+    switch (iconShorthand) {
+        case 'fb':
+            return <GrFacebook />
+        case 'yt':
+            return <GrYoutube />
+        case 'sp':
+            return <GrSpotify />
+        case 'pl':
+            return <CgPlayList />
+        case 'tw':
+            return <GrTwitter />
+        case 'ig':
+            return <GrInstagram />
+        case 'gh':
+            return <GrGithub />
+        case 'az':
+            return <GrAmazon />
+        case 'sc':
+            return <GrSoundcloud />
+        case 'gp':
+            return <GrGooglePlay />
+        case 'zip':
+            return <GrDocumentZip />
+        case 'ap':
+            return <SiApplemusic />
+        case 'tc':
+            return <SiTwitch />
+        case 'ds':
+            return <SiDiscord />
+        case 'bc':
+            return <SiBandcamp />
+        case 'td':
+            return <SiTidal />
+        case 'dz':
+            return <SiDeezer />
+        case 'pd':
+            return <SiPandora />
+        case 'db':
+            return <SiDropbox />
+        case 'gr':
+            return <SiGumroad />
+        case 'mc':
+            return <SiMixcloud />
+        case 'sl':
+            return <BiPurchaseTagAlt />
+        case 'to':
+            return <BiMagnet />
+        case 'au':
+            return <img src="/images/icons/audius.png" className="image-icon" alt='audius' />
+        default:
+            return
+    }
+}
+
+export const styledIconLink = (link, icon) => {
+    return <a href={link} className="icon-link" target="_blank" rel="noopener noreferrer" >{icon}</a>
+}
+
+export const mappedLinks = (props) => {
+    const keys = Object.keys(props);
+
+    return keys.map((item, idx) => {
+        const icon = mappedIcon(item)
+        return props[item].length > 0 &&
+            <React.Fragment key={idx}>
+                {styledIconLink(props[item], icon)}
+                {idx < keys.length - 1 && " - "}
+            </React.Fragment>
+    })
 }

@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useLocation, useHistory } from 'react-router-dom'
-import { chooseIcon, titleCase } from './Link'
+import { chooseIcon, 
+    // titleCase
+ } from './Link'
 import './Link.scss'
 
 function Sidebar() {

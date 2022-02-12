@@ -1,5 +1,27 @@
 [
     {
+        "name": "WRC MIX 005",
+        "local_path": "MIX005",
+        "id": 5,
+        "label_number": "WHYMIX005",
+        "release_type": "MIX",
+        "album_art": "/images/releases/MIX005.png",
+        "release_date": "2021-06-05T18:25:44.511Z",
+        "genre": "Techno",
+        "release_bio": [
+            "First Mix of 2021!",
+            "Artwork by Dylan Smock"
+        ],
+        "primary_artist_ids": [
+            2
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "mc": "https://www.mixcloud.com/whyrecordcompany/wrc-mix-005-dyl_pykl/"
+        }
+    },
+    {
         "name": "WRC MIX 004",
         "local_path": "MIX004",
         "id": 4,

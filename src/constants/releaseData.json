@@ -1,15 +1,182 @@
 [
 	{
+		"name": "Spank Bank Management",
+		"local_path": "spank-bank-management",
+		"id": 91,
+		"label_number": "WHY091",
+		"release_type": "Blue Label",
+		"album_art": "/images/releases/bl011-small.png",
+		"release_date": "2022-02-11T18:25:43.511Z",
+		"genre": "Techno",
+		"release_bio": [
+			"The 91st release from WHY Record Company (WRC) - WHY091",
+			"The 11th release from the Blue Label Imprint - BL011",
+			"\"Spank Bank Management\" - debut album by 1s2",
+			"Original songs Recorded, Produced, Mixed, and Mastered by 1s2",
+			"Artwork by Ian Rios",
+			"A WRC Blue Label Release"
+		],
+		"primary_artist_ids": [
+			8
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "Myers Mountain",
+		"local_path": "myers-mountain",
+		"id": 90,
+		"label_number": "WHY090",
+		"release_type": "WRC",
+		"album_art": "/images/releases/myersmountain.png",
+		"release_date": "2021-10-01T18:25:43.511Z",
+		"genre": "Folk Rock",
+		"release_bio": [
+			"Myers Mountain presents their self-titled debut album: \"Myers Mountain\"",
+			"The 90th release from WHY Record Company (WRC) - WHY090",
+			"Original songs Recorded, Produced, and Mixed by Ian and Jay Warner",
+			"Original artwork by Jay Warner; prepared for release by Ian Rios"
+		],
+		"primary_artist_ids": [
+			43
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"sc": "",
+			"sp": "https://open.spotify.com/album/4IylYSe2o7eCv4vAU8GERX",
+			"ap": "https://music.apple.com/us/album/myers-mountain/1587119398"
+		}
+	},
+	{
+		"name": "Nonsense V2",
+		"local_path": "nonsense-v2",
+		"id": 90,
+		"label_number": "WHY089",
+		"release_type": "WRC",
+		"album_art": "/images/releases/NonsenseV2.png",
+		"release_date": "2021-09-17T18:25:43.511Z",
+		"genre": "IDM",
+		"release_bio": [
+			"1s2 presents: \"Nonsense V2\"",
+			"The 89th release from WHY Record Company (WRC) - WHY089",
+			"Original songs Recorded, Produced and Mixed by 1s2",
+			"Original artwork by 1s2"
+		],
+		"primary_artist_ids": [
+			8
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "",
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "Home, Lost",
+		"local_path": "homelost",
+		"id": 89,
+		"label_number": "WHY088",
+		"release_type": "WRC",
+		"album_art": "/images/releases/homelost.png",
+		"release_date": "2021-07-16T18:25:43.511Z",
+		"genre": "Ambient",
+		"release_bio": [
+			"StratosFear presents: \"Home, Lost\"",
+			"The 88th release from WHY Record Company (WRC) - WHY088",
+			"Original songs Recorded, Produced and Mixed by StratosFear (Reilly Owen Cooper)",
+			"Mastered by Ian Rios",
+			"Original Photo by Alexandre Lallemand on Unsplash. Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sp": "",
+			"ap": ""
+		}
+	},
+	{
+		"name": "BEES",
+		"local_path": "BEES",
+		"id": 88,
+		"label_number": "WHY087",
+		"release_type": "WRC",
+		"album_art": "/images/releases/BEES.png",
+		"release_date": "2021-07-16T18:25:43.511Z",
+		"genre": "avant garde",
+		"release_bio": [
+			"Quantopix presents: \"BEES\"",
+			"The 87th release from WHY Record Company (WRC) - WHY087",
+			"Original songs Recorded, Produced and Mixed by Quantopix (J)",
+			"Mastered by Ian Rios",
+			"Original Artwork for release by Akrilix (J), WRC Logo and Release Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [
+			34
+		],
+		"remix_artist_ids": [],
+		"links": {
+			"au": "",
+			"bc": "https://quantopix.bandcamp.com/album/bees",
+			"sp": "https://open.spotify.com/album/1bsx5Q6kGMH58IfgfD41ny",
+			"ap": ""
+		}
+	},
+	{
+		"name": "WHYCOMP009: heat",
+		"local_path": "WHYCOMP009",
+		"id": 87,
+		"label_number": "WHY086",
+		"release_type": "WHYCOMP",
+		"album_art": "/images/releases/whycomp009.png",
+		"release_date": "2021-07-09T18:25:43.511Z",
+		"genre": "Electronica",
+		"release_bio": [
+			"The 86th release from WHY Record Company (WRC) - WHY086",
+			"\"WHYCOMP009: heat\"",
+			"Original songs Recorded, Produced, Mixed, and Mastered by Robert Fohrenbach, Robert Dylan Smock, & Matt Benjamin",
+			"Featuring Ambient, Dubstep, Experimental, and more! All songs are themed around \"heat\", which could mean the artist used fire crackling samples, had lyrics about spicy food, or something else!",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			4,
+			2,
+			11
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp009-heat",
+			"sp": "https://open.spotify.com/album/4739TS5m1HChyTGHOXnY0e?si=115a72426dd245e7",
+			"ap": "https://music.apple.com/us/album/heat-single/1575633909"
+		}
+	},
+	{
 		"name": "the leaves grew heavy under the weight of the water (Weeping Sun Remix)",
 		"local_path": "tlghutwotwwsr",
 		"id": 86,
-		"label_number": "WHY084",
+		"label_number": "WHY085",
 		"release_type": "WRC",
 		"album_art": "/images/releases/tlghutwotwwsr-min.png",
 		"release_date": "2021-06-25T18:25:43.511Z",
-		"genre": "experimental",
+		"genre": "ambient",
 		"release_bio": [
-			"The 84th release from WHY Record Company (WRC) - WHY084",
+			"The 85th release from WHY Record Company (WRC) - WHY085",
 			"the leaves grew heavy under the weight of the water (Weeping Sun Remix)",
 			"Remixes Recorded, Produced, Mixed, and Mastered by Weeping Sun",
 			"Original song by shell artist",
@@ -23,23 +190,21 @@
 			9
 		],
 		"links": {
-			"bc": "",
-			"sc": "",
-			"sp": "",
-			"ap": ""
+			"sp": "https://open.spotify.com/album/7oEYOzJxCkM4hI2hngOgZL?si=d3d8d5e3eddd4361",
+			"ap": "https://music.apple.com/us/album/leaves-grew-heavy-under-weight-water-weeping-sun-remix/1571308699"
 		}
 	},
 	{
 		"name": "ZAYO",
 		"local_path": "zayo",
 		"id": 85,
-		"label_number": "WHY085",
+		"label_number": "WHY084",
 		"release_type": "WRC",
 		"album_art": "/images/releases/zayo-mini.png",
 		"release_date": "2021-06-18T18:25:43.511Z",
 		"genre": "experimental",
 		"release_bio": [
-			"The 85th release from WHY Record Company (WRC) - WHY085",
+			"The 84th release from WHY Record Company (WRC) - WHY084",
 			"Part four of four - \"ZAYO\" by whythough?",
 			"Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
 			"Artwork by Ian Rios"
@@ -50,10 +215,11 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
-			"sc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://whythough.bandcamp.com/album/zayo-ep",
+			"sc": "https://soundcloud.com/whythough/sets/zayo",
+			"au": "https://audius.co/whythough/album/zayo-ep-52856",
+			"sp": "https://open.spotify.com/album/7HzsLN2ssdgf71ojiPr6NU?si=f3296de6b3c94740",
+			"ap": "https://music.apple.com/us/album/zayo-ep/1559935844"
 		}
 	},
 	{
@@ -64,7 +230,6 @@
 		"release_type": "WHYCOMP",
 		"album_art": "/images/releases/whycomp008.png",
 		"release_date": "2021-06-11T18:25:43.511Z",
-		
 		"genre": "Electronica",
 		"release_bio": [
 			"The 83rd release from WHY Record Company (WRC) - WHY083",
@@ -83,10 +248,10 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "https://soundcloud.com/whyrecordcompany/sets/why-record-company-remixes-vol-1",
-			"bc": "https://whyrecordcompany.bandcamp.com/album/remix-vol-1",
-			"sp": "https://open.spotify.com/album/3PnJP7JCEWjUx4q0XVBQ54",
-			"ap": "https://music.apple.com/us/album/wrc-remixes-volume-1/1565791897"
+			"sc": "https://soundcloud.com/whyrecordcompany/sets/whycomp008-spring",
+			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp008-spring",
+			"sp": "https://open.spotify.com/album/5apXrr9AOdACNndG9NMKuZ?si=HLrPEAwcTkOHGLIGYGGsSw&dl_branch=1",
+			"ap": "https://music.apple.com/us/album/spring-ep/1570789585"
 		}
 	},
 	{
@@ -111,17 +276,16 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
 			"au": "https://audius.co/quantopix_music/album/so-high-in-the-sky-44456",
-			"sc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://quantopix.bandcamp.com/album/so-high-in-the-sky-2",
+			"sp": "https://open.spotify.com/album/5hVvkWn2rQl3DxwhXQeCA6?si=777be1341d42417e",
+			"ap": "https://music.apple.com/us/album/so-high-in-the-sky-single/1565921441"
 		}
 	},
 	{
 		"name": "Vacation Home (Remixes)",
 		"local_path": "Vacation-Home",
-		"id": 41,
+		"id": 82,
 		"label_number": "WHY081",
 		"release_type": "WRC",
 		"album_art": "/images/releases/vacation-remixes.png",
@@ -137,15 +301,26 @@
 			"Artwork by Molly Kerwick"
 		],
 		"primary_artist_ids": [
-			2
+			2,
+			11
 		],
 		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
+		"remix_artist_ids": [
+			1,
+			2,
+			16,
+			5,
+			26,
+			25,
+			8,
+			7,
+			18,
+			23
+		],
 		"links": {
-			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"bc": "https://dylpykl.bandcamp.com/album/vacation-home-remixes",
+			"sp": "https://open.spotify.com/album/0c68PWU5uCMptpqkKcBUQ1?si=69af2d8223da4bb9",
+			"ap": "https://music.apple.com/us/album/vacation-home-remixes/1565786430"
 		}
 	},
 	{
@@ -172,10 +347,10 @@
 			2
 		],
 		"links": {
-			"sc": "",
-			"bc": "",
-			"sp": "",
-			"ap": ""
+			"sc": "https://soundcloud.com/dyl_pykl/mitch-rocket-street-walking-dyl_pykl-remix",
+			"bc": "https://dylpykl.bandcamp.com/album/street-walking-dyl-pykl-remix",
+			"sp": "https://open.spotify.com/track/6tiBspDAjfinKOmC5m7keh?si=270577ed091d4576",
+			"ap": "https://music.apple.com/us/album/street-walking-dyl-pykl-remix-single/1565784861"
 		}
 	},
 	{
@@ -219,6 +394,7 @@
 			"sc": "https://soundcloud.com/whyrecordcompany/sets/why-record-company-remixes-vol-1",
 			"bc": "https://whyrecordcompany.bandcamp.com/album/remix-vol-1",
 			"sp": "https://open.spotify.com/album/3PnJP7JCEWjUx4q0XVBQ54",
+			"pl": "https://open.spotify.com/playlist/3PQTBYhvSC6bJUpB3peiLC?si=def25ae818ea48f4",
 			"ap": "https://music.apple.com/us/album/wrc-remixes-volume-1/1565791897"
 		}
 	},
@@ -242,11 +418,12 @@
 		"primary_artist_ids": [
 			1
 		],
-		"secondary_artist_ids": [],
+		"secondary_artist_ids": [
+			18
+		],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "",
+			"bc": "https://whythough.bandcamp.com/album/dream-journal",
 			"sp": "https://open.spotify.com/album/0jr32xr18gnANkmIIr8Cv1",
 			"ap": "https://music.apple.com/album/1562131913"
 		}
@@ -274,8 +451,6 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
-			"sc": "",
 			"sp": "https://open.spotify.com/track/0uh9rKCNrvNfLlCWHI5wwD",
 			"ap": "https://music.apple.com/us/album/radiation-club-mix/1556050898?i=1556050899"
 		}
@@ -302,23 +477,21 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "",
 			"sp": "https://open.spotify.com/track/2BVP0vbEyU06KnDcyxqxuj",
 			"ap": "https://music.apple.com/us/album/mint/1563720620?i=1563720621"
 		}
 	},
 	{
-		"name": "WITK",
+		"name": "CYCLE004: WITK",
 		"local_path": "witk",
 		"id": 76,
 		"label_number": "WHY075",
-		"release_type": "WRC",
+		"release_type": "CYCLE",
 		"album_art": "/images/releases/WITK.png",
 		"release_date": "2021-04-19T18:25:43.511Z",
 		"genre": "dubstep",
 		"release_bio": [
-			"Quantopix presents \"CYCLE003 - WITK\"",
+			"Quantopix presents \"CYCLE004: WITK\"",
 			"The 75th release from WHY Record Company (WRC) - WHY075",
 			"Original songs Recorded and Produced by Quantopix (J)",
 			"Mixed by dyl_pykl (Robert Dylan Smock)",
@@ -332,17 +505,45 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "",
 			"au": "https://audius.co/quantopix_music/album/witk-43510",
+			"bc": "https://quantopix.bandcamp.com/album/witk",
 			"sp": "https://open.spotify.com/album/5EA7I8nx4Xnlln4Vc6UioV",
 			"ap": "https://music.apple.com/us/album/witk-ep/1561155988"
 		}
 	},
 	{
+		"name": "Woken",
+		"local_path": "woken",
+		"id": 75,
+		"label_number": "WHY075-A",
+		"release_type": "WRC",
+		"album_art": "/images/releases/woken.png",
+		"release_date": "2021-04-09T18:25:43.511Z",
+		"genre": "dubstep",
+		"release_bio": [
+			"Quantopix presents \"Woken\", taken from the forthcoming WITK EP",
+			"The 75.5th release from WHY Record Company (WRC) - WHY075-A",
+			"Original song Recorded, Produced, and Mixed by Quantopix (J)",
+			"Mastered by whythough? (Ian Rios)",
+			"Original Artwork for release by Akrilix (J), WRC Logo and Release artwork by Ian Rios",
+			"A WRC CYCLE Release"
+		],
+		"primary_artist_ids": [
+			18
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://quantopix.bandcamp.com/track/woken-alternate-mix",
+			"au": "https://audius.co/quantopix_music/woken-original-mix-336614",
+			"sp": "https://open.spotify.com/track/2A0qz55S6Vlh8Z06B23dtb?si=m-M-RcGdQ5yNEUMEimNoBw",
+			"ap": "https://music.apple.com/us/album/woken-single-version/1560799037"
+		}
+	},
+	{
 		"name": "Unwashed",
 		"local_path": "unwashed",
-		"id": 75,
+		"id": 74,
 		"label_number": "WHY074",
 		"release_type": "WRC",
 		"album_art": "/images/releases/unwashed-min.png",
@@ -361,7 +562,6 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
 			"bc": "https://dylpykl.bandcamp.com/album/unwashed-single",
 			"sp": "https://open.spotify.com/album/2T6qC2knYx4XaSxuOl3Unu?si=AnlLwGZWRsuhxocNi-sstg",
 			"ap": "https://music.apple.com/us/album/unwashed-single/1561931862"
@@ -370,7 +570,7 @@
 	{
 		"name": "collab",
 		"local_path": "WHYCOMP006",
-		"id": 74,
+		"id": 73,
 		"label_number": "WHY073",
 		"release_type": "WHYCOMP",
 		"album_art": "/images/releases/collab.png",
@@ -400,37 +600,7 @@
 			"bc": "https://whyrecordcompany.bandcamp.com/album/whycomp006-collab",
 			"sp": "https://open.spotify.com/album/4hLBfvp5mlj4railbeWz1K",
 			"ap": "https://music.apple.com/us/album/collab-ep/1561737244",
-			"ad": "https://audius.co/sweet_hunna/pyramid-scheming-move-it-move-it-mix-feat.-quantopix-352536"
-		}
-	},
-	{
-		"name": "Woken",
-		"local_path": "woken",
-		"id": 73,
-		"label_number": "WHY075-A",
-		"release_type": "WRC",
-		"album_art": "/images/releases/woken.png",
-		"release_date": "2021-04-09T18:25:43.511Z",
-		"genre": "dubstep",
-		"release_bio": [
-			"Quantopix presents \"Woken\", taken from the forthcoming WITK EP",
-			"The 75.5th release from WHY Record Company (WRC) - WHY075-A",
-			"Original song Recorded, Produced, and Mixed by Quantopix (J)",
-			"Mastered by whythough? (Ian Rios)",
-			"Original Artwork for release by Akrilix (J), WRC Logo and Release artwork by Ian Rios",
-			"A WRC CYCLE Release"
-		],
-		"primary_artist_ids": [
-			18
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "",
-			"bc": "",
-			"au": "https://audius.co/quantopix_music/woken-original-mix-336614",
-			"sp": "https://open.spotify.com/track/2A0qz55S6Vlh8Z06B23dtb?si=m-M-RcGdQ5yNEUMEimNoBw",
-			"ap": "https://music.apple.com/us/album/woken-single-version/1560799037"
+			"au": "https://audius.co/sweet_hunna/pyramid-scheming-move-it-move-it-mix-feat.-quantopix-352536"
 		}
 	},
 	{
@@ -463,9 +633,8 @@
 		"links": {
 			"sc": "https://soundcloud.com/whythough/sets/duo-remixes",
 			"bc": "https://whythough.bandcamp.com/album/duo-remixes",
-			"sp": "",
-			"ap": "",
-			"yt": ""
+			"sp": "https://open.spotify.com/album/1tZ60z0yGMXoLtRwGk7Ebu?si=d84a04a61b154d40",
+			"ap": "https://music.apple.com/us/album/duo-remixes-ep/1559933564"
 		}
 	},
 	{
@@ -494,10 +663,9 @@
 		],
 		"remix_artist_ids": [],
 		"links": {
-			"sc": "",
-			"bc": "https://whythough.bandcamp.com/album/cycle001-grief-club-mixes",
-			"sp": "https://open.spotify.com/album/6yZ01aD1FKJnJ4gYHt7ORZ?si=jk8NfyZWQy28nMC29Eul3w",
-			"ap": "https://music.apple.com/us/album/cycle001-club-mixes-ep/1515601290"
+			"bc": "",
+			"sp": "https://open.spotify.com/album/0ATXqZiZIR04DVQCwfhY1F?si=FwIdWfXjRfayQbw3KDI5iw&dl_branch=1",
+			"ap": "https://music.apple.com/us/album/the-revival-ep/1556606728"
 		}
 	},
 	{
@@ -582,7 +750,7 @@
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "",
+			"bc": "https://gintask.bandcamp.com/album/art-brut-wrc-2021",
 			"sp": "https://open.spotify.com/album/62RAq3LoauedT4uFcU6toJ?si=fLvRkMB5TIGnpmLO51Wu0w",
 			"ap": "https://music.apple.com/us/album/art-brut/1551359635"
 		}
@@ -688,14 +856,14 @@
 	{
 		"name": "Northern Exposure VIP",
 		"local_path": "northern-exposure-vip",
-		"id": 64,
-		"label_number": "WHY064",
+		"id": 62,
+		"label_number": "WHY062",
 		"release_type": "WRC",
 		"album_art": "/images/releases/northernexposurevip.png",
 		"release_date": "2021-02-05T18:25:43.511Z",
 		"genre": "dnb",
 		"release_bio": [
-			"The 64th release from WHY Record Company (WRC) - WHY064",
+			"The 62nd release from WHY Record Company (WRC) - WHY062",
 			"\"Northern Exposure VIP\" by dyl_pykl (Robert Dylan Smock)",
 			"Original song Recorded, Produced, and Mixed by Robert Dylan Smock",
 			"Mastered by Ian Rios",
@@ -716,14 +884,14 @@
 	{
 		"name": "Northern Exposure",
 		"local_path": "northern-exposure",
-		"id": 63,
-		"label_number": "WHY062",
+		"id": 61,
+		"label_number": "WHY061",
 		"release_type": "WRC",
 		"album_art": "/images/releases/northern-exposure.png",
 		"release_date": "2021-01-29T18:25:43.511Z",
 		"genre": "lo-fi hip-hop",
 		"release_bio": [
-			"The 62nd release from WHY Record Company (WRC) - WHY062",
+			"The 61st release from WHY Record Company (WRC) - WHY061",
 			"\"Northern Exposure\" by dyl_pykl (Robert Dylan Smock)",
 			"Original song Recorded, Produced, and Mixed by Robert Dylan Smock",
 			"Mastered by Ian Rios",
@@ -742,33 +910,9 @@
 		}
 	},
 	{
-		"name": "RECORDINGS003: balsamic",
-		"local_path": "rec003",
-		"id": 62,
-		"label_number": "WHY063",
-		"release_type": "RECORDINGS",
-		"album_art": "/images/releases/rec003.png",
-		"release_date": "2021-01-22T18:25:43.511Z",
-		"genre": "Samples",
-		"release_bio": [
-			"The third release from the RECORDINGS WRC imprint.",
-			"Sample pack of field recordings taken across the world.",
-			"Recorded, Mixed, and Mastered by Robert Dylan Smock (dyl_pykl)",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"bc": "https://dylpykl.bandcamp.com/album/rec003-balsamic"
-		}
-	},
-	{
 		"name": "breaks",
 		"local_path": "WHYCOMP003",
-		"id": 61,
+		"id": 60,
 		"label_number": "WHY060",
 		"release_type": "WHYCOMP",
 		"album_art": "/images/releases/breaks.png",
@@ -801,7 +945,7 @@
 	{
 		"name": "ode22020",
 		"local_path": "ode22020",
-		"id": 60,
+		"id": 59,
 		"label_number": "WHY059",
 		"release_type": "Pink Label",
 		"album_art": "/images/releases/ode22020.png",
@@ -822,34 +966,6 @@
 		"links": {
 			"sp": "https://open.spotify.com/album/6sA67FY7FH9iW4XITlZ7tI?si=B0JvOQ6iT5GZconGxzkghQ",
 			"ap": "https://music.apple.com/us/album/a-quick-and-effective-implementation/1547500805?i=1547500931"
-		}
-	},
-	{
-		"name": "\"is, as far as I know, not the name of any other album\" is, as far as i know, not the name of any other album",
-		"local_path": "shell-artist-x-quantopix",
-		"id": 59,
-		"label_number": "WHY057",
-		"release_type": "WRC",
-		"album_art": "/images/releases/saxq.png",
-		"release_date": "2020-12-30T18:25:43.511Z",
-		"genre": "ambient",
-		"release_bio": [
-			"shell artist and Quantopix present, '\"is, as far as i know, not the name of any other album\" is, as far as i know, not the name of any other album'",
-			"The 57th release from WHY Record Company (WRC) - WHY057",
-			"Original songs Recorded and Produced by shell artist (Ian Rios) and Quantopix (J)",
-			"Original songs Mixed and Mastered by Ian Rios",
-			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
-		],
-		"primary_artist_ids": [
-			25,
-			18
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"bc": "https://shellartist.bandcamp.com/album/is-as-far-as-i-know-not-the-name-of-any-other-album-is-as-far-as-i-know-not-the-name-of-any-other-album",
-			"sc": "https://soundcloud.com/shellartist/sets/shell-artist-album-1",
-			"sp": "https://open.spotify.com/album/30zVShDLzIh0Bl28iHxAhi?si=bOLy73JoQ3eTaqy2pwa33A"
 		}
 	},
 	{
@@ -878,27 +994,31 @@
 		}
 	},
 	{
-		"name": "RECORDINGS002: ranch",
-		"local_path": "rec002",
+		"name": "\"is, as far as i know, not the name of any other album\" is, as far as i know, not the name of any other album",
+		"local_path": "shell-artist-x-quantopix",
 		"id": 57,
-		"label_number": "WHY061",
-		"release_type": "RECORDINGS",
-		"album_art": "/images/releases/rec002.png",
-		"release_date": "2020-12-23T18:25:43.511Z",
-		"genre": "Sample Pack",
+		"label_number": "WHY057",
+		"release_type": "WRC",
+		"album_art": "/images/releases/saxq.png",
+		"release_date": "2020-12-30T18:25:43.511Z",
+		"genre": "ambient",
 		"release_bio": [
-			"WHYREC002: ranch",
-			"Sample pack of one shots, techno pounders, drones and more taken from the LYRA-8 synthesizer.",
-			"Recorded, Produced, Mixed, and Mastered by ofoot",
-			"Artwork by Ian Rios"
+			"shell artist and Quantopix present, '\"is, as far as i know, not the name of any other album\" is, as far as i know, not the name of any other album'",
+			"The 57th release from WHY Record Company (WRC) - WHY057",
+			"Original songs Recorded and Produced by shell artist (Ian Rios) and Quantopix (J)",
+			"Original songs Mixed and Mastered by Ian Rios",
+			"Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
 		],
 		"primary_artist_ids": [
-			8
+			25,
+			18
 		],
 		"secondary_artist_ids": [],
 		"remix_artist_ids": [],
 		"links": {
-			"bc": "https://ofoot.bandcamp.com/album/ranch"
+			"bc": "https://shellartist.bandcamp.com/album/is-as-far-as-i-know-not-the-name-of-any-other-album-is-as-far-as-i-know-not-the-name-of-any-other-album",
+			"sc": "https://soundcloud.com/shellartist/sets/shell-artist-album-1",
+			"sp": "https://open.spotify.com/album/30zVShDLzIh0Bl28iHxAhi?si=bOLy73JoQ3eTaqy2pwa33A"
 		}
 	},
 	{
@@ -1353,9 +1473,36 @@
 		}
 	},
 	{
+		"name": "Venice Bitch (whythough? x dyl_pykl Remix)",
+		"local_path": "Venice-Bitch",
+		"id": 41,
+		"label_number": "WHY041",
+		"release_type": "WRC",
+		"album_art": "/images/releases/venice-bitch.png",
+		"release_date": "2020-05-15T18:25:43.511Z",
+		"genre": "trap",
+		"release_bio": [
+			"The 41st release from WHY? Record Company (WRC) - WHY041",
+			"Remix of Lana Del Rey - \"Venice Bitch\" by dyl_pykl (Robert Dylan Smock) & whythough? (Ian Rios)",
+			"Vocals and Original Production by Lana Del Rey",
+			"Remix Produced and Mixed by Robert Dylan Smock & Ian Rios",
+			"Mastered by Ian Rios",
+			"Artwork originally by Lana Del Rey, modified by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1,
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/produceronline/venice-bitch"
+		}
+	},
+	{
 		"name": "Vacation Home",
 		"local_path": "Vacation-Home",
-		"id": 41,
+		"id": 40,
 		"label_number": "WHY040",
 		"release_type": "WRC",
 		"album_art": "/images/releases/vacationhome.png",
@@ -1380,33 +1527,6 @@
 			"sp": "https://open.spotify.com/album/5bad7aEVb5TSWnrCKIjfvf?si=4ElHJMp5R-26-7fo5bI1wg",
 			"ap": "https://music.apple.com/ca/album/vacation-home/1511804903",
 			"az": "https://www.amazon.com/gp/product/B0885973ZF/ref=dm_ws_sp_ps_dp"
-		}
-	},
-	{
-		"name": "Venice Bitch (whythough? x dyl_pykl Remix)",
-		"local_path": "Venice-Bitch",
-		"id": 40,
-		"label_number": "WHY041",
-		"release_type": "WRC",
-		"album_art": "/images/releases/venice-bitch.png",
-		"release_date": "2020-05-15T18:25:43.511Z",
-		"genre": "trap",
-		"release_bio": [
-			"The 41st release from WHY? Record Company (WRC) - WHY041",
-			"Remix of Lana Del Rey - \"Venice Bitch\" by dyl_pykl (Robert Dylan Smock) & whythough? (Ian Rios)",
-			"Vocals and Original Production by Lana Del Rey",
-			"Remix Produced and Mixed by Robert Dylan Smock & Ian Rios",
-			"Mastered by Ian Rios",
-			"Artwork originally by Lana Del Rey, modified by Ian Rios"
-		],
-		"primary_artist_ids": [
-			1,
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "https://soundcloud.com/produceronline/venice-bitch"
 		}
 	},
 	{
@@ -1467,63 +1587,9 @@
 		}
 	},
 	{
-		"name": "Cure",
-		"local_path": "cure",
-		"id": 37,
-		"label_number": "WHY036",
-		"release_type": "WRC",
-		"album_art": "/images/releases/cure.png",
-		"release_date": "2020-04-17T18:25:43.511Z",
-		"genre": "Drum and Bass",
-		"release_bio": [
-			"The 36th release from WHY? Record Company (WRC) - WHY036",
-			"\"Cure\" by dyl_pykl (Robert Dylan Smock) is the second single from his debut album, Vacation Home",
-			"Recorded, Produced, and Mixed by Robert Dylan Smock",
-			"Mastered by Ian Rios (whythough?)",
-			"Artwork by Molly Kerwick"
-		],
-		"primary_artist_ids": [
-			2
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"sc": "https://soundcloud.com/dyl_pykl/cure-1",
-			"sp": "https://open.spotify.com/track/7gfhB74nR1Ke5eFBc99NYV",
-			"ap": "https://music.apple.com/ca/album/cure-single/1502118061",
-			"gp": "https://play.google.com/store/music/album?id=Bowvjwhks6du6u2mgs6z2thcfde&tid=song-Tv7g6xwq5tqus7kzdi7qlzkynea&hl=en_IE",
-			"yt": "https://www.youtube.com/watch?v=jsjkppagz98"
-		}
-	},
-	{
-		"name": "RECORDINGS001: honey",
-		"local_path": "rec001",
-		"id": 36,
-		"label_number": "WHY036.5",
-		"release_type": "RECORDINGS",
-		"album_art": "/images/releases/rec001.png",
-		"release_date": "2020-07-10T18:25:43.511Z",
-		"genre": "Sample Pack",
-		"release_bio": [
-			"The first release from the RECORDINGS WRC imprint.",
-			"Sample pack of basses, drums, leads, textures, and of course, field recordings.",
-			"Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
-			"Artwork by Ian Rios"
-		],
-		"primary_artist_ids": [
-			1
-		],
-		"secondary_artist_ids": [],
-		"remix_artist_ids": [],
-		"links": {
-			"gr": "https://gumroad.com/l/kxqcF",
-			"zip": "https://www.dropbox.com/s/bsrhbwtwjpjgsmu/RECORDINGS001.zip?dl=0"
-		}
-	},
-	{
 		"name": "True Colors",
 		"local_path": "true-colors",
-		"id": 35,
+		"id": 37,
 		"label_number": "WHY037",
 		"release_type": "WRC",
 		"album_art": "/images/releases/truecolors.jpg",
@@ -1551,9 +1617,38 @@
 		}
 	},
 	{
+		"name": "Cure",
+		"local_path": "cure",
+		"id": 36,
+		"label_number": "WHY036",
+		"release_type": "WRC",
+		"album_art": "/images/releases/cure.png",
+		"release_date": "2020-04-17T18:25:43.511Z",
+		"genre": "Drum and Bass",
+		"release_bio": [
+			"The 36th release from WHY? Record Company (WRC) - WHY036",
+			"\"Cure\" by dyl_pykl (Robert Dylan Smock) is the second single from his debut album, Vacation Home",
+			"Recorded, Produced, and Mixed by Robert Dylan Smock",
+			"Mastered by Ian Rios (whythough?)",
+			"Artwork by Molly Kerwick"
+		],
+		"primary_artist_ids": [
+			2
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"sc": "https://soundcloud.com/dyl_pykl/cure-1",
+			"sp": "https://open.spotify.com/track/7gfhB74nR1Ke5eFBc99NYV",
+			"ap": "https://music.apple.com/ca/album/cure-single/1502118061",
+			"gp": "https://play.google.com/store/music/album?id=Bowvjwhks6du6u2mgs6z2thcfde&tid=song-Tv7g6xwq5tqus7kzdi7qlzkynea&hl=en_IE",
+			"yt": "https://www.youtube.com/watch?v=jsjkppagz98"
+		}
+	},
+	{
 		"name": "Beans",
 		"local_path": "beans",
-		"id": 34,
+		"id": 35,
 		"label_number": "WHY035",
 		"release_type": "WRC",
 		"album_art": "/images/releases/beans.png",
@@ -1582,7 +1677,7 @@
 	{
 		"name": "He Called Me Beautiful",
 		"local_path": "HCMB",
-		"id": 33,
+		"id": 34,
 		"label_number": "WHY034",
 		"release_type": "WRC",
 		"album_art": "/images/releases/hcmb.jpg",
@@ -1616,7 +1711,7 @@
 	{
 		"name": "A12A2",
 		"local_path": "BL-A12A2",
-		"id": 32,
+		"id": 33,
 		"label_number": "WHY033",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/A12A2.png",
@@ -1645,7 +1740,7 @@
 	{
 		"name": "CYCLE003: The Stems",
 		"local_path": "CYCLE003TS",
-		"id": 31,
+		"id": 32,
 		"label_number": "WHY032",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/CYCLE003_Stems.png",
@@ -1667,7 +1762,7 @@
 	{
 		"name": "CYCLE003: Because I said so",
 		"local_path": "CYCLE003",
-		"id": 30,
+		"id": 31,
 		"label_number": "WHY031",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/CYCLE003.jpg",
@@ -1689,7 +1784,7 @@
 	{
 		"name": "The Last Judgement EP",
 		"local_path": "BL-TLJ",
-		"id": 29,
+		"id": 30,
 		"label_number": "WHY030",
 		"release_type": "Blue Label",
 		"album_art": "/images/releases/Fohrenbach_WHY030.png",
@@ -1715,7 +1810,7 @@
 	{
 		"name": "NITRO EP",
 		"local_path": "NITRO",
-		"id": 28,
+		"id": 29,
 		"label_number": "WHY029",
 		"release_type": "WRC",
 		"album_art": "/images/releases/nitro.jpg",
@@ -1737,7 +1832,7 @@
 	{
 		"name": "About Them",
 		"local_path": "About-Them",
-		"id": 27,
+		"id": 28,
 		"label_number": "WHY028",
 		"release_type": "WRC",
 		"album_art": "/images/releases/about_them.jpg",
@@ -1759,7 +1854,7 @@
 	{
 		"name": "Catapult",
 		"local_path": "Catapult",
-		"id": 26,
+		"id": 27,
 		"label_number": "WHY027",
 		"release_type": "WRC",
 		"album_art": "/images/releases/catapult.jpg",
@@ -1789,7 +1884,7 @@
 	{
 		"name": "CYCLE002: sleep",
 		"local_path": "CYCLE002",
-		"id": 25,
+		"id": 26,
 		"label_number": "WHY026",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/cycle002.jpg",
@@ -1811,7 +1906,7 @@
 	{
 		"name": "H A D E S",
 		"local_path": "HADES",
-		"id": 24,
+		"id": 25,
 		"label_number": "WHY025",
 		"release_type": "WRC",
 		"album_art": "/images/releases/hades.jpg",
@@ -1833,7 +1928,7 @@
 	{
 		"name": "CYCLE001: GRIEF",
 		"local_path": "CYCLE001",
-		"id": 23,
+		"id": 24,
 		"label_number": "WHY024",
 		"release_type": "CYCLE",
 		"album_art": "/images/releases/cycle001.jpg",
@@ -1856,7 +1951,7 @@
 	{
 		"name": "Daegu Acid",
 		"local_path": "Daegu-Acid",
-		"id": 22,
+		"id": 23,
 		"label_number": "WHY023",
 		"release_type": "WRC",
 		"album_art": "/images/releases/daegu_acid.jpg",
@@ -1880,7 +1975,7 @@
 	{
 		"name": "EXCO (Remixes)",
 		"local_path": "EXCO-Remixes",
-		"id": 21,
+		"id": 22,
 		"label_number": "WHY022",
 		"release_type": "WRC",
 		"album_art": "/images/releases/exco_remixes.jpg",
@@ -1907,7 +2002,7 @@
 	{
 		"name": "Blurs - Deluxe Edition",
 		"local_path": "Blurs-DE",
-		"id": 20,
+		"id": 21,
 		"label_number": "WHY021",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blurs_deluxe.jpg",
@@ -1943,7 +2038,7 @@
 	{
 		"name": "Trash Beats For Trash People",
 		"local_path": "TB4TP",
-		"id": 19,
+		"id": 20,
 		"label_number": "WHY020",
 		"release_type": "WRC",
 		"album_art": "/images/releases/tb4tp.jpg",
@@ -1966,7 +2061,7 @@
 	{
 		"name": "trial + error",
 		"local_path": "trial-error",
-		"id": 18,
+		"id": 19,
 		"label_number": "WHY019",
 		"release_type": "WRC",
 		"album_art": "/images/releases/trial_error.jpg",
@@ -1988,7 +2083,7 @@
 	{
 		"name": "Jamie XX Sleep Sound (dyl_pykl x whythough? 2018 \"Up All Night\" Remix)",
 		"local_path": "Jamie-XX-Sleep-Sound-Remix",
-		"id": 17,
+		"id": 18,
 		"label_number": "WHY018",
 		"release_type": "WRC",
 		"album_art": "/images/releases/jamie_xx_2018.jpg",
@@ -2010,7 +2105,7 @@
 	{
 		"name": "Ganymede & The Late Heavy Bombardment",
 		"local_path": "Ganymede",
-		"id": 16,
+		"id": 17,
 		"label_number": "WHY017",
 		"release_type": "WRC",
 		"album_art": "/images/releases/ganymede.png",
@@ -2033,7 +2128,7 @@
 	{
 		"name": "Uhhhhhhh",
 		"local_path": "Uhhhhhhh",
-		"id": 15,
+		"id": 16,
 		"label_number": "WHY016",
 		"release_type": "WRC",
 		"album_art": "/images/releases/uhhhhhhh.jpg",
@@ -2055,7 +2150,7 @@
 	{
 		"name": "Harmonious Interaction of Patterns (Remixes)",
 		"local_path": "HIOP-Remixes",
-		"id": 14,
+		"id": 15,
 		"label_number": "WHY015",
 		"release_type": "WRC",
 		"album_art": "/images/releases/hiop_remixes.jpg",
@@ -2080,7 +2175,7 @@
 	{
 		"name": "EXCO EP",
 		"local_path": "EXCO",
-		"id": 13,
+		"id": 14,
 		"label_number": "WHY014",
 		"release_type": "WRC",
 		"album_art": "/images/releases/exco.jpg",
@@ -2102,7 +2197,7 @@
 	{
 		"name": "HEAVEN",
 		"local_path": "HEAVEN",
-		"id": 12,
+		"id": 13,
 		"label_number": "WHY013",
 		"release_type": "WRC",
 		"album_art": "/images/releases/heaven.jpg",
@@ -2123,7 +2218,7 @@
 	{
 		"name": "Harður ˈTeknō",
 		"local_path": "Hardur-Tekno",
-		"id": 11,
+		"id": 12,
 		"label_number": "WHY012",
 		"release_type": "WRC",
 		"album_art": "/images/releases/htwt.jpg",
@@ -2148,7 +2243,7 @@
 	{
 		"name": "Cigarette Smoke",
 		"local_path": "Cigarette-Smoke",
-		"id": 10,
+		"id": 11,
 		"label_number": "WHY011",
 		"release_type": "WRC",
 		"album_art": "/images/releases/csdp.jpg",
@@ -2176,7 +2271,7 @@
 	{
 		"name": "The Lobster EP",
 		"local_path": "The-Lobster",
-		"id": 9,
+		"id": 10,
 		"label_number": "WHY010",
 		"release_type": "WRC",
 		"album_art": "/images/releases/dptl.jpg",
@@ -2199,7 +2294,7 @@
 	{
 		"name": "Blurs (Remixes)",
 		"local_path": "Blurs-Remixes",
-		"id": 8,
+		"id": 9,
 		"label_number": "WHY009",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blurs_remix.jpg",
@@ -2234,7 +2329,7 @@
 	{
 		"name": "Blurs",
 		"local_path": "Blurs",
-		"id": 7,
+		"id": 8,
 		"label_number": "WHY008",
 		"release_type": "WRC",
 		"album_art": "/images/releases/blurs.jpg",
@@ -2261,7 +2356,7 @@
 	{
 		"name": "JUST CALL EP",
 		"local_path": "JUST-CALL",
-		"id": 6,
+		"id": 7,
 		"label_number": "WHY007",
 		"release_type": "WRC",
 		"album_art": "/images/releases/just_call.jpg",
@@ -2284,7 +2379,7 @@
 	{
 		"name": "probably an album but who am i to judge honestly",
 		"local_path": "paabwaitjh",
-		"id": 5,
+		"id": 6,
 		"label_number": "WHY006",
 		"release_type": "WRC",
 		"album_art": "/images/releases/paabwaitjh.jpg",
@@ -2306,7 +2401,7 @@
 	{
 		"name": "grains of Blurs",
 		"local_path": "grains",
-		"id": 4,
+		"id": 5,
 		"label_number": "WHY005",
 		"release_type": "WRC",
 		"album_art": "/images/releases/grains.jpg",
@@ -2328,7 +2423,7 @@
 	{
 		"name": "RAAPT",
 		"local_path": "RAAPT",
-		"id": 3,
+		"id": 4,
 		"label_number": "WHY004",
 		"release_type": "WRC",
 		"album_art": "/images/releases/raapt.jpg",
@@ -2350,7 +2445,7 @@
 	{
 		"name": "paranoimia",
 		"local_path": "paranoimia",
-		"id": 2,
+		"id": 3,
 		"label_number": "WHY003",
 		"release_type": "WRC",
 		"album_art": "/images/releases/paranoimia.jpg",
@@ -2372,7 +2467,7 @@
 	{
 		"name": "C 2 0 H 2 5 N 3 O",
 		"local_path": "acid-house",
-		"id": 1,
+		"id": 2,
 		"label_number": "WHY002",
 		"release_type": "WRC",
 		"album_art": "/images/releases/acid.jpg",
@@ -2394,7 +2489,7 @@
 	{
 		"name": "serving suggestions",
 		"local_path": "serving-suggestions",
-		"id": 0,
+		"id": 1,
 		"label_number": "WHY001",
 		"release_type": "WRC",
 		"album_art": "/images/releases/servsug.jpg",

@@ -3,16 +3,18 @@ import { useParams, Link, Redirect } from 'react-router-dom';
 import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
+import recData from "../../constants/recData.json";
 import mixData from "../../constants/mixData.json";
+import playlistData from "../../constants/playlistData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
-import { mappedPTag, mappedATag } from '../../utilities/maps'
+import { mappedPTag, mappedLinks } from '../../utilities/maps'
 
 export default function ReleasePage() {
 
   const { name } = useParams();
 
-  const currRelease = [...releaseData, ...mixData, ...independentReleaseData].find(i => i.local_path.toLowerCase() === name.toLowerCase());
+  const currRelease = [...releaseData, ...mixData, ...playlistData, ...recData, ...independentReleaseData].find(i => i.local_path.toLowerCase() === name.toLowerCase());
   const foundRelease = currRelease === undefined ? false : true;
   if (!foundRelease) {
     if (name.includes("WHYCOMP")) {
@@ -153,7 +155,7 @@ export default function ReleasePage() {
                       <div className="col">
                         Music Platforms
 												<div>
-                          {mappedATag(currRelease.links)}
+                          {mappedLinks(currRelease.links)}
                         </div>
                       </div>
                     </div>

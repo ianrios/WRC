@@ -89,6 +89,28 @@ a,
   color: #ffbf00 !important;
 }
 
+.icon-link{
+  color: #ffffff !important;
+}
+.icon-link svg path{
+  stroke: #ffffff !important;
+}
+
+.icon-link:hover{
+  color: #de3c4b !important;
+}
+.icon-link svg path:hover{
+  stroke: #de3c4b !important;
+}
+
+.icon-link:active{
+  color: #ffbf00 !important;
+}
+.icon-link svg path:active{
+  stroke: #ffbf00 !important;
+}
+
+
 .ml9{
   margin-left:10px;
   margin-bottom:-10px;

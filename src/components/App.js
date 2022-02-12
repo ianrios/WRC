@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import Q from './Q';
 import Seo from './Seo';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Route from './Routes';
 import TopLogo from "./TopLogo";
@@ -30,6 +30,8 @@ function Wrapper() {
 			pathArr[1] === "errors" ||
 			pathArr[1] === "hard-reload" ||
 			pathArr[1] === "nexus" ||
+			pathArr[1] === "discord" ||
+			pathArr[1] === "welcome" ||
 			(pathArr.length > 2 && (
 				pathArr[1] === "artist" ||
 				pathArr[1] === "collection" ||

@@ -1,0 +1,100 @@
+[
+	{
+		"name": "RECORDINGS004: maple syrup",
+		"local_path": "rec004",
+		"id": 4,
+		"label_number": "REC004",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/REC004.png",
+		"release_date": "2021-07-02T18:25:43.511Z",
+		"genre": "Samples",
+		"release_bio": [
+			"The fourth release from the RECORDINGS WRC imprint.",
+			"Featuring hot basses, warm leads, buttery textures and hearty recordings from Wash And Fold Laundry Service",
+			"Recorded, Mixed, and Mastered by Ian Rios",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			26
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"gr": "https://gum.co/rec004",
+			"db": "https://www.dropbox.com/s/9y816tibthokgp7/RECORDINGS004.zip?dl=0"
+		}
+	},
+	{
+		"name": "RECORDINGS003: balsamic",
+		"local_path": "rec003",
+		"id": 3,
+		"label_number": "REC003",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/rec003.png",
+		"release_date": "2021-01-22T18:25:43.511Z",
+		"genre": "Samples",
+		"release_bio": [
+			"The third release from the RECORDINGS WRC imprint.",
+			"Sample pack of field recordings taken across the world.",
+			"Recorded, Mixed, and Mastered by Robert Dylan Smock (dyl_pykl)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://dylpykl.bandcamp.com/album/rec003-balsamic"
+		}
+	},
+	{
+		"name": "RECORDINGS002: ranch",
+		"local_path": "rec002",
+		"id": 2,
+		"label_number": "REC002",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/rec002.png",
+		"release_date": "2020-12-23T18:25:43.511Z",
+		"genre": "Sample Pack",
+		"release_bio": [
+			"WHYREC002: ranch",
+			"Sample pack of one shots, techno pounders, drones and more taken from the LYRA-8 synthesizer.",
+			"Recorded, Produced, Mixed, and Mastered by ofoot",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			8
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"bc": "https://ofoot.bandcamp.com/album/ranch"
+		}
+	},
+	{
+		"name": "RECORDINGS001: honey",
+		"local_path": "rec001",
+		"id": 1,
+		"label_number": "REC001",
+		"release_type": "RECORDINGS",
+		"album_art": "/images/releases/rec001.png",
+		"release_date": "2020-07-10T18:25:43.511Z",
+		"genre": "Sample Pack",
+		"release_bio": [
+			"The first release from the RECORDINGS WRC imprint.",
+			"Sample pack of basses, drums, leads, textures, and of course, field recordings.",
+			"Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
+			"Artwork by Ian Rios"
+		],
+		"primary_artist_ids": [
+			1
+		],
+		"secondary_artist_ids": [],
+		"remix_artist_ids": [],
+		"links": {
+			"gr": "https://gum.co/rec001",
+			"db": "https://www.dropbox.com/s/bsrhbwtwjpjgsmu/RECORDINGS001.zip?dl=0"
+		}
+	}
+]

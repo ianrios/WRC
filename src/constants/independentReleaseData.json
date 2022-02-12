@@ -18,7 +18,6 @@
             38,
             39,
             2
-
         ],
         "remix_artist_ids": [],
         "links": {
@@ -276,6 +275,29 @@
         "remix_artist_ids": [],
         "links": {
             "sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
+        }
+    },
+    {
+        "name": "Diamond",
+        "local_path": "diamond",
+        "id": 11.5,
+        "label_number": "Independent",
+        "release_type": "Independent",
+        "album_art": "/images/releases/diamond.png",
+        "release_date": "2019-10-28T18:25:43.511Z",
+        "genre": "Garage",
+        "release_bio": [
+            ""
+        ],
+        "primary_artist_ids": [
+            9
+        ],
+        "secondary_artist_ids": [],
+        "remix_artist_ids": [],
+        "links": {
+            "sc": "https://soundcloud.com/weeping-sun/diamond",
+            "sp": "https://open.spotify.com/track/1jbeDfEw1YBbFixIDEQniT?si=f54921296da14e82",
+            "sl": "https://song.link/s/1jbeDfEw1YBbFixIDEQniT"
         }
     },
     {

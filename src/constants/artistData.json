@@ -31,9 +31,7 @@
 			"Mastering Engineer",
 			"Web Developer",
 			"Graphic Designer",
-			"DJ",
-			"Promoter",
-			"Label Boss"
+			"DJ"
 		],
 		"social_platforms": {
 			"tw": "https://twitter.com/whythough000",
@@ -45,7 +43,9 @@
 			"bc": "https://whythough.bandcamp.com/",
 			"sp": "https://open.spotify.com/artist/5bExMpC1oAwRNKC1Uam7h3",
 			"ap": "https://music.apple.com/us/artist/whythough/1331746031",
-			"yt": "https://www.youtube.com/channel/UCw3TmavxJ-9ZYZBGCUzT2Eg"
+			"yt": "https://www.youtube.com/channel/UCw3TmavxJ-9ZYZBGCUzT2Eg",
+			"tw": "https://www.twitch.tv/whythough000",
+			"mc": "https://www.mixcloud.com/whythough000/"
 		}
 	},
 	{
@@ -168,8 +168,8 @@
 			"bc": "https://fohrenbach.bandcamp.com/releases",
 			"sp": "https://open.spotify.com/artist/6oThJNc7S13BdyAf5GCJCh",
 			"ap": "https://music.apple.com/us/artist/fohrenbach/1407573462",
-			"dz": "https://www.deezer.com/us/artist/15282653",
-			"yt": "https://www.youtube.com/channel/UC1DbZbwVKpfhdmqOxxymu3Q"
+			"yt": "https://www.youtube.com/channel/UC1DbZbwVKpfhdmqOxxymu3Q",
+			"dz": "https://www.deezer.com/us/artist/15282653"
 		}
 	},
 	{
@@ -259,8 +259,8 @@
 		"quote": "\"we were homeschooled\"",
 		"body_paragraphs": [
 			"svnteen is a Producer/DJ duo consisting of StratosFear and whythough?. Originating from Troy, NY, svnteen began with a desire to play mashups and remixes of popular songs at frat parties and on the radio, but quickly turned into a love of creating original music.",
-			"Ranging from such generes as trap, dubstep, wave, lofi, and more, svnteen finds a way to blend all sorts of music to create electronic music fit for listening at home and crying yourself to sleep, to bashing your entire face in on the rail.",
-			"Since graduating college, svnteen has made music all across the country, currently finding residency in Seattle. Their music has been played worldwide and at festivals such as Tomorrowland and Ultra Music Festival."
+			"Ranging from such genres as trap, dubstep, wave, lo-fi, and more, svnteen finds a way to blend all sorts of music to create electronic music fit for listening at home and crying yourself to sleep, to bashing your entire face in on the rail.",
+			"Since graduating college, the duo has made music all across the country, currently finding residency working remote in Brooklyn and Lexington respectively. Their music has been played worldwide, online in virtual concerts, and at festivals such as Tomorrowland and Ultra Music Festival."
 		],
 		"roles": [
 			"Songwriter",
@@ -363,14 +363,15 @@
 			"/images/artists/profiles/1s2_4x6.png",
 			"/images/artists/ofoot_rabbit.jpg"
 		],
-		"email": "ofoot@hotmail.com",
+		"email": "1s2@whyrecord.com",
 		"location": {
-			"city": "NJ",
+			"city": "NH",
 			"country": "USA"
 		},
 		"quote": "\"In my infinite quest for Wub, all I found was DSP.\"",
 		"body_paragraphs": [
-			"I make music sometimes"
+			"So by some fluke of wondering how dubstep works, I found myself making VST plugins. I very much enjoy generative music and making devices that make music like custom MIDI controllers, DIY synths, and pushing the available gear that I have to the limit.",
+			"I also don't take myself too seriously and went to school for engineering, so expect more utilitarian assets from me rather than releases of phat beats."
 		],
 		"roles": [
 			"Producer",
@@ -378,10 +379,11 @@
 		],
 		"social_platforms": {},
 		"music_platforms": {
-			"sc": "https://soundcloud.com/ofoot",
-			"bc": "https://ofoot.bandcamp.com/",
-			"sp": "https://open.spotify.com/artist/4jUrxpOeTRkPAjTVMQamc9",
-			"ap": "https://music.apple.com/us/artist/ofoot/1438669839"
+			"sc": "",
+			"bc": "https://one-s-two.bandcamp.com//",
+			"sp": "https://open.spotify.com/artist/4VIy5WMPqmwHaqlAVatNLe?si=m5oO1LcKSQOPApSizkGM_w&dl_branch=1",
+			"ap": "",
+			"tw": "https://twitch.tv/unostwo"
 		}
 	},
 	{
@@ -472,7 +474,7 @@
 			"city": "Troy",
 			"country": "USA"
 		},
-		"quote": "\"You Know Me\"",	
+		"quote": "\"You Know Me\"",
 		"body_paragraphs": [
 			"DJ Yunomi is a hardcore dance artist and DJ from the NYC area. He specializes in the combination of Psycore and Japanese Hardcore music with influences from hardstyle, techno, and trance."
 		],
@@ -796,7 +798,7 @@
 			"an ian rios and dylan smock project"
 		],
 		"roles": [
-			"producer"
+			"Producer"
 		],
 		"social_platforms": {},
 		"music_platforms": {
@@ -820,12 +822,16 @@
 		"body_paragraphs": [
 			"shell artist is a persona that takes on many meanings. From the countless shells on beaches that amount to more stars than in the galaxy, to the miniscule size of a shell each being unique when you look closely, shell artist's music exists as a thought practice to push the boundaries of ambient music by packaging it differently. Each song is as long as it needs to be, each different enough to entice the listener to continue to the next.",
 			"A shell musician is an artist that's created to generate funds and farm listeners through different streaming services. Unlike traditional artists, shell musicians don't have shows and aren't interested in publicity. Shell artists do not provide listeners with music of any substantial length of time to enjoy in order to milk streaming algorithms for profits.",
+			"Even though each shell is miniscule, and when looking at a beach, they blend into their environment, when you pick one up and examine it carefully, each is unique and has a beauty of its own.",
 			"an ian rios project"
 		],
 		"roles": [
-			"producer"
+			"Producer",
+			"Artist"
 		],
-		"social_platforms": {},
+		"social_platforms": {
+			"ig": "https://www.instagram.com/shell-person"
+		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/shellartist",
 			"bc": "https://shellartist.bandcamp.com/",
@@ -851,12 +857,15 @@
 			""
 		],
 		"roles": [
-			"producer"
+			"Producer"
 		],
-		"social_platforms": {},
+		"social_platforms": {
+			"ig": "https://www.instagram.com/washandfoldlaundryservice"
+		},
 		"music_platforms": {
 			"sc": "https://soundcloud.com/washandfoldlaundryservice",
 			"bc": "",
+			"mc": "https://www.mixcloud.com/wafls/",
 			"sp": "https://open.spotify.com/artist/3usGSeJ4AaR62XxmL0RFME",
 			"ap": "https://music.apple.com/us/artist/wash-and-fold-laundry-service/1547650742"
 		}
@@ -879,7 +888,7 @@
 			""
 		],
 		"roles": [
-			"producer"
+			"Producer"
 		],
 		"social_platforms": {},
 		"music_platforms": {
@@ -904,7 +913,7 @@
 			""
 		],
 		"roles": [
-			"producer"
+			"Producer"
 		],
 		"social_platforms": {},
 		"music_platforms": {
@@ -929,7 +938,7 @@
 			""
 		],
 		"roles": [
-			"producer"
+			"Producer"
 		],
 		"social_platforms": {},
 		"music_platforms": {
@@ -954,7 +963,7 @@
 			""
 		],
 		"roles": [
-			"producer"
+			"Producer"
 		],
 		"social_platforms": {},
 		"music_platforms": {
@@ -979,7 +988,7 @@
 			"The Sharks!"
 		],
 		"roles": [
-			"band"
+			"Band"
 		],
 		"social_platforms": {},
 		"music_platforms": {
@@ -1311,26 +1320,84 @@
 		"local_path": "mitch-rocket",
 		"show_on_artist_page": false,
 		"photos": [
-			"/images/releases/WRC.jpg"
+			"/images/artists/profiles/mitch_rocket_4x6.jpg",
+			"/images/artists/mr2.PNG",
+			"/images/artists/mr1.jpg"
+		],
+		"email": "mitchrocketmusic@gmail.com",
+		"location": {
+			"city": "San Francisco",
+			"country": "USA"
+		},
+		"quote": "\"Hello is this thing on?\"",
+		"body_paragraphs": [
+			"Mitch Rocket is a singer-songwriter and multi-instrumentalist from San Francisco, CA. Drawing from a background in jazz saxophone and a deep appreciation for the broad canon of rock music 1960s-present, his songs run the gamut from folk-rock to electronic jazz fusion. In addition to his solo career, he has contributed to groups like Unscrewable Pooch, Cotton Rocket, Roxy Rawson and the Rounded Sound, d.mith, and Via Villa.",
+			"His debut LP Petting Zoo is slated for release in August 2021."
+		],
+		"roles": [
+			"Producer",
+			"Songwriter",
+			"Singer",
+			"Live Musician"
+		],
+		"social_platforms": {
+			"tw": "https://twitter.com/MitchRocketSF",
+			"fb": "https://www.facebook.com/mitchrocketsf/",
+			"ig": "https://www.instagram.com/mitchrocket/",
+			"tt": "https://www.tiktok.com/@mitchrocketsf",
+			"wb": "https://mitchrocket.com"
+		},
+		"music_platforms": {
+			"bc": "https://mitchrocket.bandcamp.com/",
+			"sc": "https://soundcloud.com/mitchrocket",
+			"sp": "https://open.spotify.com/artist/40fDBsFHEySabDYL0ais6j?si=IwuddNnWSmmcX_cRkFftKw",
+			"ap": "https://music.apple.com/us/artist/mitch-rocket/1455432806",
+			"yt": "https://www.youtube.com/channel/UCUAkQyK8ScjYWaCEAxd6V3Q"
+		}
+	},
+	{
+		"id": 43,
+		"name": "Myers Mountain",
+		"local_path": "myers-mountain",
+		"show_on_artist_page": false,
+		"photos": [
+			"/images/artists/Ian_Warner.jpg"
 		],
 		"email": "",
 		"location": {
-			"city": "",
-			"country": "USA"
+			"city": "Hughesville",
+			"country": "United States"
 		},
-		"quote": "\"\"",
+		"quote": "\"It will all work out in Boomland.\"",
 		"body_paragraphs": [
-			""
+			"We're Myers Mountain. We make music that we enjoy, and we make music that we hope others enjoy too.",
+			"Jay Warner - drums, percussion, bass, production",
+			"Ian Warner - guitar, keyboard, production",
+			"Phil Clark - guitar, banjo"
 		],
 		"roles": [
-			"Producer"
+			"Producer",
+			"Mix Engineer",
+			"Mastering Engineer",
+			"Recording Engineer",
+			"Songwriter",
+			"Singer",
+			"Live Musician",
+			"Band"
 		],
 		"social_platforms": {
-			"ig": ""
+			"tw": "",
+			"fb": "",
+			"ig": "",
+			"tt": "",
+			"wb": ""
 		},
 		"music_platforms": {
-			"sp": "",
-			"ap": ""
+			"bc": "",
+			"sc": "https://soundcloud.com/myers-mountain-2",
+			"sp": "https://open.spotify.com/artist/2kHHh8A93EtiDavmx0zvNR",
+			"ap": "https://music.apple.com/us/artist/myers-mountain/1587119368",
+			"yt": ""
 		}
 	}
 ]
