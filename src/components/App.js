@@ -7,7 +7,7 @@ import Q from './Q';
 import Seo from './Seo';
 // import Navbar from './Navbar';
 import Sidebar from './Sidebar';
-import Route from './Routes';
+import Routes from './Routes';
 import TopLogo from "./TopLogo";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
@@ -86,7 +86,7 @@ function Wrapper() {
 					<Sidebar />
 					<div className="container">
 						<TopLogo />
-						<Route />
+						<Routes />
 						<Footer viewMain={viewMain} setViewMain={setViewMain} />
 					</div>
 				</div>

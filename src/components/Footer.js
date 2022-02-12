@@ -5,7 +5,7 @@ import Question from './icons/Question';
 
 export default function Footer(props) {
 	return (
-		<footer className="container py-5">
+		<footer className="container py-5" style={{marginTop:'100vh'}}>
 			<CookieConsent>
 				This website uses cookies to enhance the user experience.{" "}
 				<span style={{ fontSize: "10px" }}>
