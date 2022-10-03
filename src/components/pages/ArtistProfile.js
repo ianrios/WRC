@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { mappedPTag, mappedLinks } from '../../utilities/maps'
 import Seo from "../Seo"
 
-import mixData from "../../constants/mixData.json";
+import setData from "../../constants/setData.json";
 import recData from "../../constants/recData.json";
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
@@ -23,7 +23,7 @@ export default function ArtistProfile() {
         ...releaseData,
         ...independentReleaseData,
         ...recData,
-        ...mixData
+        ...setData
     ]
         .sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 

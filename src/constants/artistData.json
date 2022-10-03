@@ -212,8 +212,8 @@
 	},
 	{
 		"id": 11,
-		"name": "Matyb",
-		"local_path": "Matyb",
+		"name": "M.A.T.Y.B.",
+		"local_path": "M.A.T.Y.B.",
 		"show_on_artist_page": true,
 		"photos": [
 			"/images/artists/profiles/matyb_4x6.jpg"
@@ -238,7 +238,8 @@
 		"music_platforms": {
 			"sc": "https://soundcloud.com/matybeats",
 			"sp": "https://open.spotify.com/artist/5yBx3XPszXBZLxy3e5Rp9y?si=yT1LVowBRbiVooL91NkA0g",
-			"ap": "https://music.apple.com/us/artist/matyb/1450856293"
+			"ap": "https://music.apple.com/us/artist/matyb/1450856293",
+			"ls": "https://livesets.com/matyb/live" 
 		}
 	},
 	{

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 import releaseData from '../../constants/releaseData.json'
 import recData from '../../constants/recData.json'
-import mixData from '../../constants/mixData.json'
+import setData from '../../constants/setData.json'
 
 export default function ThankYou() {
     let startDate = new Date("2020-01-01");
     let endDate = new Date("2020-12-31");
 
-    const renderReleases = [...releaseData, ...mixData, ...recData]
+    const renderReleases = [...releaseData, ...setData, ...recData]
         .filter(i => {
             let date = new Date(i.release_date);
             return date >= startDate && date <= endDate

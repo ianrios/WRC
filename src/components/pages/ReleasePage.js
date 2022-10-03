@@ -4,7 +4,7 @@ import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import recData from "../../constants/recData.json";
-import mixData from "../../constants/mixData.json";
+import setData from "../../constants/setData.json";
 import playlistData from "../../constants/playlistData.json";
 import artistData from "../../constants/artistData.json";
 import "./ReleasePage.scss"
@@ -14,7 +14,7 @@ export default function ReleasePage() {
 
   const { name } = useParams();
 
-  const currRelease = [...releaseData, ...mixData, ...playlistData, ...recData, ...independentReleaseData].find(i => i.local_path.toLowerCase() === name.toLowerCase());
+  const currRelease = [...releaseData, ...setData, ...playlistData, ...recData, ...independentReleaseData].find(i => i.local_path.toLowerCase() === name.toLowerCase());
   const foundRelease = currRelease === undefined ? false : true;
   if (!foundRelease) {
     if (name.includes("WHYCOMP")) {

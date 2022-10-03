@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import { AutoSizer, List } from 'react-virtualized';
 
 import releaseData from "../../constants/releaseData.json";
-import mixData from "../../constants/mixData.json";
+import setData from "../../constants/setData.json";
 import recData from "../../constants/recData.json";
 import './Releases.scss';
 
-const sortedReleases = [...releaseData, ...mixData, ...recData].sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
+const sortedReleases = [...releaseData, ...setData, ...recData].sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 
 function rowRenderer({
 	key, // Unique key within array of rows
@@ -51,7 +51,7 @@ function rowRenderer({
 
 export default function Releases() {
 	// let artistsObj = {};
-	// const ReleaseMap = [...releaseData, ...mixData, ...recData]
+	// const ReleaseMap = [...releaseData, ...setData, ...recData]
 	// 	.sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 	// 	// .filter(i => i.label_number.slice(0, 3) === "WHY")
 	// 	.map((item, idx) => {

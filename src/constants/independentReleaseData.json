@@ -1,573 +1,506 @@
 [
-    {
-        "name": "Wounds",
-        "local_path": "wounds",
-        "id": 14,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/wounds-ares.jpeg",
-        "release_date": "2020-02-01T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            "Featuring dyl_pykl on Keys"
-        ],
-        "primary_artist_ids": [
-            37
-        ],
-        "secondary_artist_ids": [
-            38,
-            39,
-            2
-        ],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/track/3wO5JZbtf87zW4fITDamzS?si=2iH_KvoxRCGPucStXRC5eA"
-        }
-    },
-    {
-        "name": "Fohren Bap",
-        "local_path": "fohren-bap",
-        "id": 17,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/fohrenbap.jpeg",
-        "release_date": "2021-03-19T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/69GOqeVTYSWsDnabeTknDu?si=Ey3DWjBkRnCjZy0JKWcMpg"
-        }
-    },
-    {
-        "name": "SHARK TREATMENT",
-        "local_path": "shark-treatment",
-        "id": 16,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/st.png",
-        "release_date": "2020-11-17T18:25:43.511Z",
-        "genre": "Blues Rock",
-        "release_bio": [
-            "SHARK TREATMENT – 1983 (LP)",
-            "Originally Released on Blotto Records – 1983 – SLP – 12",
-            "Re-release on WHY? Record Company - 2020 - digital",
-            "I’ll Follow You (3:24) – Jerry Yarro__BREAK__Baby Don’t Know It (3:47) – Michael Kelley__BREAK__Please Say Yes (3:45) – Michael Kelley__BREAK__I won’t Be Happy (4:32) – Bob Button",
-            "Produced by Broadway Blotto",
-            "Engineered by Mark Ernst",
-            "Recorded/Mixed at MCE Studios, Schenectady, NY – 1983",
-            "Mastered by Howie Weinberg at Masterdisk, NYC",
-            "Photography by Martin Benjamin",
-            "Digital Transfer – Paul Pesco – Paul Pesco Music",
-            "The Sharks:",
-            "Michael Kelley – Vocals, Keyboards__BREAK__Jerry Yarro – Vocals, Guitars__BREAK__Bob Button – Vocals, Trumpet__BREAK__Steve Gilhooley – Bass__BREAK__Bob Assini – Drums__BREAK__Tom D’Ambrose – Saxophones",
-            "1983  - Sharkbeat Music (BMI)"
-        ],
-        "primary_artist_ids": [
-            31
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "spotify": "https://open.spotify.com/album/2hfYHY8iJX3LPRyua9fnQa?si=8TI-sNeBRp-zeRPbB2xEVA",
-            "apple music / itunes": "https://music.apple.com/us/album/shark-treatment-ep/1540116168",
-            "pandora": "https://www.pandora.com/artist/the-sharks/shark-treatment/ALkprmghdcKrJg2?part=ug-desktop&corr=452133847",
-            "amazon": "https://www.amazon.com/SHARK-TREATMENT-Sharks/dp/B08NCDJD1Q/ref=sr_1_2?dchild=1&keywords=the+sharks+shark+treatment&qid=1605732533&sr=8-2",
-            "deezer": "https://www.deezer.com/us/album/185946282"
-        }
-    },
-    {
-        "name": "Seven Deadly Fins",
-        "local_path": "seven-deadly-fins",
-        "id": 15,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/sdf.png",
-        "release_date": "2020-11-10T18:25:43.511Z",
-        "genre": "Blues Rock",
-        "release_bio": [
-            "Seven Deadly Fins – 1985 (LP)",
-            "Originally Released on Blotto Records – 1985 – SLP – 12",
-            "Re-release on WHY? Record Company - 2020 - digital",
-            "Arm in Arm (4:00) – Michael Kelley__BREAK__1000 Reasons Why (3:14) – Jerry Yarro__BREAK__Too Good for Words (3:43) – Bob Button/Joe Gorman__BREAK__Tough Guy (3:27) - Jerry Yarro__BREAK__Madman (3:28) – Michael Kelley__BREAK__One Track Mind (4:05) – Michael Kelley__BREAK__How Can I Give You (What You Want) (3:21) – Michael Kelley__BREAK__I’ll Be Better (3:39) - Jerry Yarro__BREAK__Take a Look at Yourself (3:57) – Michael Kelley/Bob Button__BREAK__When Things Go Wrong (3:51) – Michael Kelley__BREAK__Rehabilitation Blues (3:59) – Michael Kelley__BREAK__Drivin’ Me Wild (4:33) – Drivin’ Me Wild",
-            "Produced by Broadway Blotto",
-            "Engineered by Mark Ernst",
-            "2nd Engineer – Pat Norris",
-            "Recorded/Mixed at MCE Studios, Schenectady, NY",
-            "Mastered by Howie Weinberg at Masterdisk, NYC",
-            "Photography by Martin Benjamin",
-            "Cover Design and Collge – Donna Fitzgerald",
-            "Digital Transfer – Paul Pesco – Paul Pesco Music",
-            "String Arrangement on “How Can I Give You” – Bob Button and Broadway Blotto",
-            "The Sharks:__BREAK__Michael Kelley – Vocals, Piano, Organ, Clavinet, Synthesizer, Harmonica__BREAK__Jerry Yarro – Vocals, Electric and Acoustic Guitars__BREAK__Bob Button – Vocals, Trumpet__BREAK__Steve Gilhooley – Bass__BREAK__Bob Assini – Drums, Percussion__BREAK__Tom D’Ambrose – Soprano, Alto, Tenor, Baritone Saxophones and Flute",
-            "Additional Musicians:__BREAK__James Montgomery – Harmonica on “Take a Look at Yourself”__BREAK__Bowtie Blotto – Banjo__BREAK__D. Willie Slezak – Accordian__BREAK__Michael Emory – Violin__BREAK__Michael Raspovic – Cello__BREAK__Jack Nailor – Harley Davidson__BREAK__Marshall Strange – Sound Effects/Scratches__BREAK__",
-            "1985  - Sharkbeat Music (BMI)"
-        ],
-        "primary_artist_ids": [
-            31
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "spotify": "https://open.spotify.com/album/7xhJT8GabQTQ345zTv7Iu7?si=8n-5kKh3RbO7wM7A-IdyZg",
-            "apple music / itunes": "https://music.apple.com/us/album/too-good-for-words/1540122543?i=1540123296",
-            "pandora": "https://www.pandora.com/artist/the-sharks/7-deadly-fins/ALfgknq7Vk2bZcX?part=ug-desktop&corr=396272212",
-            "amazon": "https://www.amazon.com/Seven-Deadly-Fins-Sharks/dp/B08NGWCLTP/ref=sr_1_2?dchild=1&keywords=the+sharks+seven+deadly+fins&qid=1605732432&sr=8-2",
-            "deezer": "https://www.deezer.com/us/album/185950582"
-        }
-    },
-    {
-        "name": "cottagecore gf",
-        "local_path": "",
-        "id": 14,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/ccgf.jpeg",
-        "release_date": "2020-07-28T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sc": ""
-        }
-    },
-    {
-        "name": "Freight Transport Solutions",
-        "local_path": "freight-transport-solutions",
-        "id": 14,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/fts.jpeg",
-        "release_date": "2020-05-22T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sc": ""
-        }
-    },
-    {
-        "name": "雪崩",
-        "local_path": "Avalanche",
-        "id": 14,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/Avalanche.jpeg",
-        "release_date": "2020-04-23T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/4fPmYqKv9iIDguQzcuUto6?si=87gwuOXoQHWEafPXV1Nfkw"
-        }
-    },
-    {
-        "name": "Bach One",
-        "local_path": "bach-one",
-        "id": 14,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/bach-one.jpeg",
-        "release_date": "2020-04-22T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sc": ""
-        }
-    },
-    {
-        "name": "The Time Has Come",
-        "local_path": "TTHC",
-        "id": 14,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/the_time_has_come.jpg",
-        "release_date": "2020-02-01T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sc": ""
-        }
-    },
-    {
-        "name": "Andamp",
-        "local_path": "Andamp",
-        "id": 13,
-        "label_number": "GEAR004",
-        "release_type": "Independent",
-        "album_art": "/images/releases/Andamp.png",
-        "release_date": "2020-04-18T18:25:43.511Z",
-        "genre": "Techno",
-        "release_bio": [
-            "The 4th release from GEAR Techno Collective.",
-            "\"Andamp\" by whythough? (Ian Rios) is his debut single on GEAR and his first original release of the year.",
-            "Recorded, Produced, Mixed, and Mastered by whythough?.",
-            "Artwork by Rafael Khan"
-        ],
-        "primary_artist_ids": [
-            1
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/1hhBWnpvWRJemsULPNO9n5",
-            "ap": "https://music.apple.com/us/album/andamp-single/1506523982",
-            "az": "https://www.amazon.com/gp/product/B086SKL82P",
-            "yt": "",
-            "dk": "https://distrokid.com/hyperfollow/whythough/andamp"
-        }
-    },
-    {
-        "name": "wttp (svnteen deep fried bootleg)",
-        "local_path": "WTTP",
-        "id": 12,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/wttp.png",
-        "release_date": "2020-01-26T18:25:43.511Z",
-        "genre": "Dubstep",
-        "release_bio": [
-            "",
-            "Artwork by Ian Rios"
-        ],
-        "primary_artist_ids": [
-            5
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
-        }
-    },
-    {
-        "name": "Diamond",
-        "local_path": "diamond",
-        "id": 11.5,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/diamond.png",
-        "release_date": "2019-10-28T18:25:43.511Z",
-        "genre": "Garage",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            9
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sc": "https://soundcloud.com/weeping-sun/diamond",
-            "sp": "https://open.spotify.com/track/1jbeDfEw1YBbFixIDEQniT?si=f54921296da14e82",
-            "sl": "https://song.link/s/1jbeDfEw1YBbFixIDEQniT"
-        }
-    },
-    {
-        "name": "Free Fall (The Remixes)",
-        "local_path": "FFTR",
-        "id": 11,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/retiredorphanremix.jpeg",
-        "release_date": "2019-10-28T18:25:43.511Z",
-        "genre": "Garage",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            13
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [
-            1
-        ],
-        "links": {
-            "sp": "https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
-        }
-    },
-    {
-        "name": "Vega (Remixes)",
-        "local_path": "Vega-Remixes",
-        "id": 10,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/vega_remix.jpg",
-        "release_date": "2019-02-22T18:25:43.511Z",
-        "genre": "Mid Tempo",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            7
-        ],
-        "secondary_artist_ids": [
-            2,
-            10
-        ],
-        "remix_artist_ids": [
-            1,
-            2,
-            7,
-            10,
-            9,
-            8
-        ],
-        "links": {
-            "sp": "https://open.spotify.com/album/5AncwNuZvP15SgTrT7cmM0?si=wwFhqsYlSA2gui85nYfYpw"
-        }
-    },
-    {
-        "name": "Gashadokuro (Remixes)",
-        "local_path": "Gashadokuro-Remixes",
-        "id": 9,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/gdkwtr.jpg",
-        "release_date": "2018-10-31T18:25:43.511Z",
-        "genre": "Hard Style",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            10,
-            1
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [
-            7
-        ],
-        "links": {
-            "sc": "https://soundcloud.com/whythough/sets/gashadokuro-remixes"
-        }
-    },
-    {
-        "name": "Gashadokuro",
-        "local_path": "Gashadokuro",
-        "id": 8,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/gdkwt.jpg",
-        "release_date": "2018-10-13T18:25:43.511Z",
-        "genre": "Dubstep",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            10,
-            1
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/5sRQj33m7MwGOJ6YmgNLo0?si=o3SXR-X9SkiDw1mxlF3PTg"
-        }
-    },
-    {
-        "name": "Glancing Memories",
-        "local_path": "Glancing-Memories",
-        "id": 7,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/gmmb.jpg",
-        "release_date": "2019-11-18T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            11
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/5Jau59HBTBSfcjrQoIz90r?si=yD90GqxgQCKZza3kqVGmBg"
-        }
-    },
-    {
-        "name": "Harmonious Interactions of Patterns",
-        "local_path": "HIOP",
-        "id": 6,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/hiopf.jpeg",
-        "release_date": "2018-07-05T18:25:43.511Z",
-        "genre": "Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/4wvjxE2JcyqUhCb0kiigLY?si=-R5snQrYTnq0Gpa0HbSN3w"
-        }
-    },
-    {
-        "name": "Sapphire Sky",
-        "local_path": "Sapphire-Sky",
-        "id": 5,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/ssf.jpg",
-        "release_date": "2019-08-29T18:25:43.511Z",
-        "genre": "Lo-Fi Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/20NdJB5onAVhwB9USvUlSu?si=wSnSPg0CSXevf3VC1M6DSQ"
-        }
-    },
-    {
-        "name": "Saturday Morning",
-        "local_path": "Saturday-Morning",
-        "id": 4,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/smf.png",
-        "release_date": "2019-08-21T18:25:43.511Z",
-        "genre": "Lo-Fi Hip-Hop Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/4xtliDZcrhgAQaB9hBNWXt?si=M_ezLtUrSdKXAfX5AI8RLg"
-        }
-    },
-    {
-        "name": "Floating Like a Feather",
-        "local_path": "FLAF",
-        "id": 3,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/flaff.jpg",
-        "release_date": "2019-02-22T18:25:43.511Z",
-        "genre": "Beats",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            4
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/6qFNQFqg98DaTyAB7PLjz3?si=rzN6oSGMRFCa81tktFgnJQ"
-        }
-    },
-    {
-        "name": "The Beginning",
-        "local_path": "The-Beginning",
-        "id": 2,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/the_beginning.jpg",
-        "release_date": "2017-04-21T18:25:43.511Z",
-        "genre": "Trap",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            5
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sp": "https://open.spotify.com/album/6AORqUaCbnGUPUlyHDbabE?si=KALsu1q-SAStMzyQGzzFdQ"
-        }
-    },
-    {
-        "name": "MURDA EP",
-        "local_path": "MURDA",
-        "id": 1,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/murda.jpg",
-        "release_date": "2017-03-06T18:25:43.511Z",
-        "genre": "House",
-        "release_bio": [
-            ""
-        ],
-        "primary_artist_ids": [
-            2
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [
-            1
-        ],
-        "links": {
-            "sc": "https://soundcloud.com/dyl_pykl/sets/murda-ep"
-        }
-    },
-    {
-        "name": "The Above/Below EP",
-        "local_path": "Above-Below",
-        "id": 0,
-        "label_number": "Independent",
-        "release_type": "Independent",
-        "album_art": "/images/releases/abovebelow.jpg",
-        "release_date": "2017-02-15T18:25:43.511Z",
-        "genre": "Drum and Bass",
-        "release_bio": [
-            "Drum and Bass EP from dyl_pykl"
-        ],
-        "primary_artist_ids": [
-            2
-        ],
-        "secondary_artist_ids": [],
-        "remix_artist_ids": [],
-        "links": {
-            "sc": "https://soundcloud.com/dyl_pykl/sets/the-above-below-ep"
-        }
+  {
+    "name": "Orbital - Halcyon (Ezra Parker Remix)",
+    "local_path": "halcyon-remix",
+    "id": 19,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/halcyon-remix.png",
+    "release_date": "2022-10-03T18:25:43.511Z",
+    "genre": "Techno Trance",
+    "release_bio": [
+      "\"Halcyon\" by Orbital (Ezra Parker Remix)",
+      "Remix Recorded, Produced, Mixed, and Mastered by Ezra Parker",
+      "Free Download for Mean Girls Day"
+    ],
+    "primary_artist_ids": [6],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": "https://soundcloud.com/ezraparker/orbital-halcyon-ezra-parker-remix",
+      "db": "https://www.dropbox.com/s/xuppd8madsuov6t/Orbital%20-%20Halcyon%20%28Ezra%20Parker%20Remix%29%20-%2011A%20-%20138%20%5Bfinal%5D.wav?dl=0"
     }
+  },
+  {
+    "name": "Dense Brief",
+    "local_path": "dense-brief",
+    "id": 18,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/dense-brief.png",
+    "release_date": "2022-04-29T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"Dense Brief\" by M.A.T.Y.B.",
+      "Original song Recorded, Produced, Mixed, and Mastered by M.A.T.Y.B."
+    ],
+    "primary_artist_ids": [11],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "https://open.spotify.com/album/0Zgav9xwoQIuwQMBJDZ5Dg?si=e25eb64c3f234278",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Wounds",
+    "local_path": "wounds",
+    "id": 14,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/wounds-ares.jpeg",
+    "release_date": "2020-02-01T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": ["Featuring dyl_pykl on Keys"],
+    "primary_artist_ids": [37],
+    "secondary_artist_ids": [38, 39, 2],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/track/3wO5JZbtf87zW4fITDamzS?si=2iH_KvoxRCGPucStXRC5eA"
+    }
+  },
+  {
+    "name": "Fohren Bap",
+    "local_path": "fohren-bap",
+    "id": 17,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/fohrenbap.jpeg",
+    "release_date": "2021-03-19T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/69GOqeVTYSWsDnabeTknDu?si=Ey3DWjBkRnCjZy0JKWcMpg"
+    }
+  },
+  {
+    "name": "SHARK TREATMENT",
+    "local_path": "shark-treatment",
+    "id": 16,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/st.png",
+    "release_date": "2020-11-17T18:25:43.511Z",
+    "genre": "Blues Rock",
+    "release_bio": [
+      "SHARK TREATMENT – 1983 (LP)",
+      "Originally Released on Blotto Records – 1983 – SLP – 12",
+      "Re-release on WHY? Record Company - 2020 - digital",
+      "I’ll Follow You (3:24) – Jerry Yarro__BREAK__Baby Don’t Know It (3:47) – Michael Kelley__BREAK__Please Say Yes (3:45) – Michael Kelley__BREAK__I won’t Be Happy (4:32) – Bob Button",
+      "Produced by Broadway Blotto",
+      "Engineered by Mark Ernst",
+      "Recorded/Mixed at MCE Studios, Schenectady, NY – 1983",
+      "Mastered by Howie Weinberg at Masterdisk, NYC",
+      "Photography by Martin Benjamin",
+      "Digital Transfer – Paul Pesco – Paul Pesco Music",
+      "The Sharks:",
+      "Michael Kelley – Vocals, Keyboards__BREAK__Jerry Yarro – Vocals, Guitars__BREAK__Bob Button – Vocals, Trumpet__BREAK__Steve Gilhooley – Bass__BREAK__Bob Assini – Drums__BREAK__Tom D’Ambrose – Saxophones",
+      "1983  - Sharkbeat Music (BMI)"
+    ],
+    "primary_artist_ids": [31],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "spotify": "https://open.spotify.com/album/2hfYHY8iJX3LPRyua9fnQa?si=8TI-sNeBRp-zeRPbB2xEVA",
+      "apple music / itunes": "https://music.apple.com/us/album/shark-treatment-ep/1540116168",
+      "pandora": "https://www.pandora.com/artist/the-sharks/shark-treatment/ALkprmghdcKrJg2?part=ug-desktop&corr=452133847",
+      "amazon": "https://www.amazon.com/SHARK-TREATMENT-Sharks/dp/B08NCDJD1Q/ref=sr_1_2?dchild=1&keywords=the+sharks+shark+treatment&qid=1605732533&sr=8-2",
+      "deezer": "https://www.deezer.com/us/album/185946282"
+    }
+  },
+  {
+    "name": "Seven Deadly Fins",
+    "local_path": "seven-deadly-fins",
+    "id": 15,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/sdf.png",
+    "release_date": "2020-11-10T18:25:43.511Z",
+    "genre": "Blues Rock",
+    "release_bio": [
+      "Seven Deadly Fins – 1985 (LP)",
+      "Originally Released on Blotto Records – 1985 – SLP – 12",
+      "Re-release on WHY? Record Company - 2020 - digital",
+      "Arm in Arm (4:00) – Michael Kelley__BREAK__1000 Reasons Why (3:14) – Jerry Yarro__BREAK__Too Good for Words (3:43) – Bob Button/Joe Gorman__BREAK__Tough Guy (3:27) - Jerry Yarro__BREAK__Madman (3:28) – Michael Kelley__BREAK__One Track Mind (4:05) – Michael Kelley__BREAK__How Can I Give You (What You Want) (3:21) – Michael Kelley__BREAK__I’ll Be Better (3:39) - Jerry Yarro__BREAK__Take a Look at Yourself (3:57) – Michael Kelley/Bob Button__BREAK__When Things Go Wrong (3:51) – Michael Kelley__BREAK__Rehabilitation Blues (3:59) – Michael Kelley__BREAK__Drivin’ Me Wild (4:33) – Drivin’ Me Wild",
+      "Produced by Broadway Blotto",
+      "Engineered by Mark Ernst",
+      "2nd Engineer – Pat Norris",
+      "Recorded/Mixed at MCE Studios, Schenectady, NY",
+      "Mastered by Howie Weinberg at Masterdisk, NYC",
+      "Photography by Martin Benjamin",
+      "Cover Design and Collge – Donna Fitzgerald",
+      "Digital Transfer – Paul Pesco – Paul Pesco Music",
+      "String Arrangement on “How Can I Give You” – Bob Button and Broadway Blotto",
+      "The Sharks:__BREAK__Michael Kelley – Vocals, Piano, Organ, Clavinet, Synthesizer, Harmonica__BREAK__Jerry Yarro – Vocals, Electric and Acoustic Guitars__BREAK__Bob Button – Vocals, Trumpet__BREAK__Steve Gilhooley – Bass__BREAK__Bob Assini – Drums, Percussion__BREAK__Tom D’Ambrose – Soprano, Alto, Tenor, Baritone Saxophones and Flute",
+      "Additional Musicians:__BREAK__James Montgomery – Harmonica on “Take a Look at Yourself”__BREAK__Bowtie Blotto – Banjo__BREAK__D. Willie Slezak – Accordian__BREAK__Michael Emory – Violin__BREAK__Michael Raspovic – Cello__BREAK__Jack Nailor – Harley Davidson__BREAK__Marshall Strange – Sound Effects/Scratches__BREAK__",
+      "1985  - Sharkbeat Music (BMI)"
+    ],
+    "primary_artist_ids": [31],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "spotify": "https://open.spotify.com/album/7xhJT8GabQTQ345zTv7Iu7?si=8n-5kKh3RbO7wM7A-IdyZg",
+      "apple music / itunes": "https://music.apple.com/us/album/too-good-for-words/1540122543?i=1540123296",
+      "pandora": "https://www.pandora.com/artist/the-sharks/7-deadly-fins/ALfgknq7Vk2bZcX?part=ug-desktop&corr=396272212",
+      "amazon": "https://www.amazon.com/Seven-Deadly-Fins-Sharks/dp/B08NGWCLTP/ref=sr_1_2?dchild=1&keywords=the+sharks+seven+deadly+fins&qid=1605732432&sr=8-2",
+      "deezer": "https://www.deezer.com/us/album/185950582"
+    }
+  },
+  {
+    "name": "cottagecore gf",
+    "local_path": "",
+    "id": 14,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/ccgf.jpeg",
+    "release_date": "2020-07-28T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": ""
+    }
+  },
+  {
+    "name": "Freight Transport Solutions",
+    "local_path": "freight-transport-solutions",
+    "id": 14,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/fts.jpeg",
+    "release_date": "2020-05-22T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": ""
+    }
+  },
+  {
+    "name": "雪崩",
+    "local_path": "Avalanche",
+    "id": 14,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/Avalanche.jpeg",
+    "release_date": "2020-04-23T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/4fPmYqKv9iIDguQzcuUto6?si=87gwuOXoQHWEafPXV1Nfkw"
+    }
+  },
+  {
+    "name": "Bach One",
+    "local_path": "bach-one",
+    "id": 14,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/bach-one.jpeg",
+    "release_date": "2020-04-22T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": ""
+    }
+  },
+  {
+    "name": "The Time Has Come",
+    "local_path": "TTHC",
+    "id": 14,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/the_time_has_come.jpg",
+    "release_date": "2020-02-01T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": ""
+    }
+  },
+  {
+    "name": "Andamp",
+    "local_path": "Andamp",
+    "id": 13,
+    "label_number": "GEAR004",
+    "release_type": "Independent",
+    "album_art": "/images/releases/Andamp.png",
+    "release_date": "2020-04-18T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "The 4th release from GEAR Techno Collective.",
+      "\"Andamp\" by whythough? (Ian Rios) is his debut single on GEAR and his first original release of the year.",
+      "Recorded, Produced, Mixed, and Mastered by whythough?.",
+      "Artwork by Rafael Khan"
+    ],
+    "primary_artist_ids": [1],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/1hhBWnpvWRJemsULPNO9n5",
+      "ap": "https://music.apple.com/us/album/andamp-single/1506523982",
+      "az": "https://www.amazon.com/gp/product/B086SKL82P",
+      "yt": "",
+      "dk": "https://distrokid.com/hyperfollow/whythough/andamp"
+    }
+  },
+  {
+    "name": "wttp (svnteen deep fried bootleg)",
+    "local_path": "WTTP",
+    "id": 12,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/wttp.png",
+    "release_date": "2020-01-26T18:25:43.511Z",
+    "genre": "Dubstep",
+    "release_bio": ["", "Artwork by Ian Rios"],
+    "primary_artist_ids": [5],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": "https://soundcloud.com/svnteen-goodie-bag/wttp"
+    }
+  },
+  {
+    "name": "Diamond",
+    "local_path": "diamond",
+    "id": 11.5,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/diamond.png",
+    "release_date": "2019-10-28T18:25:43.511Z",
+    "genre": "Garage",
+    "release_bio": [""],
+    "primary_artist_ids": [9],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": "https://soundcloud.com/weeping-sun/diamond",
+      "sp": "https://open.spotify.com/track/1jbeDfEw1YBbFixIDEQniT?si=f54921296da14e82",
+      "sl": "https://song.link/s/1jbeDfEw1YBbFixIDEQniT"
+    }
+  },
+  {
+    "name": "Free Fall (The Remixes)",
+    "local_path": "FFTR",
+    "id": 11,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/retiredorphanremix.jpeg",
+    "release_date": "2019-10-28T18:25:43.511Z",
+    "genre": "Garage",
+    "release_bio": [""],
+    "primary_artist_ids": [13],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [1],
+    "links": {
+      "sp": "https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
+    }
+  },
+  {
+    "name": "Vega (Remixes)",
+    "local_path": "Vega-Remixes",
+    "id": 10,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/vega_remix.jpg",
+    "release_date": "2019-02-22T18:25:43.511Z",
+    "genre": "Mid Tempo",
+    "release_bio": [""],
+    "primary_artist_ids": [7],
+    "secondary_artist_ids": [2, 10],
+    "remix_artist_ids": [1, 2, 7, 10, 9, 8],
+    "links": {
+      "sp": "https://open.spotify.com/album/5AncwNuZvP15SgTrT7cmM0?si=wwFhqsYlSA2gui85nYfYpw"
+    }
+  },
+  {
+    "name": "Gashadokuro (Remixes)",
+    "local_path": "Gashadokuro-Remixes",
+    "id": 9,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/gdkwtr.jpg",
+    "release_date": "2018-10-31T18:25:43.511Z",
+    "genre": "Hard Style",
+    "release_bio": [""],
+    "primary_artist_ids": [10, 1],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [7],
+    "links": {
+      "sc": "https://soundcloud.com/whythough/sets/gashadokuro-remixes"
+    }
+  },
+  {
+    "name": "Gashadokuro",
+    "local_path": "Gashadokuro",
+    "id": 8,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/gdkwt.jpg",
+    "release_date": "2018-10-13T18:25:43.511Z",
+    "genre": "Dubstep",
+    "release_bio": [""],
+    "primary_artist_ids": [10, 1],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/5sRQj33m7MwGOJ6YmgNLo0?si=o3SXR-X9SkiDw1mxlF3PTg"
+    }
+  },
+  {
+    "name": "Glancing Memories",
+    "local_path": "Glancing-Memories",
+    "id": 7,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/gmmb.jpg",
+    "release_date": "2019-11-18T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [11],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/5Jau59HBTBSfcjrQoIz90r?si=yD90GqxgQCKZza3kqVGmBg"
+    }
+  },
+  {
+    "name": "Harmonious Interactions of Patterns",
+    "local_path": "HIOP",
+    "id": 6,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/hiopf.jpeg",
+    "release_date": "2018-07-05T18:25:43.511Z",
+    "genre": "Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/4wvjxE2JcyqUhCb0kiigLY?si=-R5snQrYTnq0Gpa0HbSN3w"
+    }
+  },
+  {
+    "name": "Sapphire Sky",
+    "local_path": "Sapphire-Sky",
+    "id": 5,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/ssf.jpg",
+    "release_date": "2019-08-29T18:25:43.511Z",
+    "genre": "Lo-Fi Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/20NdJB5onAVhwB9USvUlSu?si=wSnSPg0CSXevf3VC1M6DSQ"
+    }
+  },
+  {
+    "name": "Saturday Morning",
+    "local_path": "Saturday-Morning",
+    "id": 4,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/smf.png",
+    "release_date": "2019-08-21T18:25:43.511Z",
+    "genre": "Lo-Fi Hip-Hop Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/4xtliDZcrhgAQaB9hBNWXt?si=M_ezLtUrSdKXAfX5AI8RLg"
+    }
+  },
+  {
+    "name": "Floating Like a Feather",
+    "local_path": "FLAF",
+    "id": 3,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/flaff.jpg",
+    "release_date": "2019-02-22T18:25:43.511Z",
+    "genre": "Beats",
+    "release_bio": [""],
+    "primary_artist_ids": [4],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/6qFNQFqg98DaTyAB7PLjz3?si=rzN6oSGMRFCa81tktFgnJQ"
+    }
+  },
+  {
+    "name": "The Beginning",
+    "local_path": "The-Beginning",
+    "id": 2,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/the_beginning.jpg",
+    "release_date": "2017-04-21T18:25:43.511Z",
+    "genre": "Trap",
+    "release_bio": [""],
+    "primary_artist_ids": [5],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sp": "https://open.spotify.com/album/6AORqUaCbnGUPUlyHDbabE?si=KALsu1q-SAStMzyQGzzFdQ"
+    }
+  },
+  {
+    "name": "MURDA EP",
+    "local_path": "MURDA",
+    "id": 1,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/murda.jpg",
+    "release_date": "2017-03-06T18:25:43.511Z",
+    "genre": "House",
+    "release_bio": [""],
+    "primary_artist_ids": [2],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [1],
+    "links": {
+      "sc": "https://soundcloud.com/dyl_pykl/sets/murda-ep"
+    }
+  },
+  {
+    "name": "The Above/Below EP",
+    "local_path": "Above-Below",
+    "id": 0,
+    "label_number": "Independent",
+    "release_type": "Independent",
+    "album_art": "/images/releases/abovebelow.jpg",
+    "release_date": "2017-02-15T18:25:43.511Z",
+    "genre": "Drum and Bass",
+    "release_bio": ["Drum and Bass EP from dyl_pykl"],
+    "primary_artist_ids": [2],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "sc": "https://soundcloud.com/dyl_pykl/sets/the-above-below-ep"
+    }
+  }
 ]

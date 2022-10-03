@@ -91,7 +91,7 @@ export default function ArtistLinktree() {
                         </div>
                         <div className="col-10 offset-1">
                             <h3 className="text-center">
-                                Newest Mix
+                                Newest Set
                             </h3>
                             <div className="row">
                                 content

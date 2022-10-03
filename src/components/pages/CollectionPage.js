@@ -4,7 +4,7 @@ import Seo from "../Seo"
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import recData from "../../constants/recData.json";
-import mixData from "../../constants/mixData.json";
+import setData from "../../constants/setData.json";
 import playlistData from "../../constants/playlistData.json";
 import contestData from "../../constants/contestData.json";
 import collectionData from "../../constants/collectionData.json";
@@ -19,7 +19,7 @@ export default function CollectionPage() {
     ...releaseData,
     ...independentReleaseData,
     ...recData,
-    ...mixData,
+    ...setData,
     ...playlistData,
     ...contestData
   ]

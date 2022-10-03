@@ -45,7 +45,7 @@ export default function Landing() {
                                 </div>
                             </div>
                             <div className="col-12">
-                                <h2>Newest Mix</h2>
+                                <h2>Newest Set</h2>
                                 <div className="text-border row">
                                     
                                 </div>

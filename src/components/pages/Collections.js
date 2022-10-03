@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import recData from "../../constants/recData.json";
-import mixData from "../../constants/mixData.json";
+import setData from "../../constants/setData.json";
 import playlistData from "../../constants/playlistData.json";
 // import futureReleases from "../../constants/futureReleases.json";
 import collectionData from "../../constants/collectionData.json"
@@ -15,7 +15,7 @@ export default function Collections() {
 		...releaseData,
 		...independentReleaseData,
 		...recData,
-		...mixData,
+		...setData,
 		...playlistData,
 		...contestData,
 		// futureReleases[0]

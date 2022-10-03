@@ -56,12 +56,12 @@
 		"local_path": "RECORDINGS"
 	},
 	{
-		"short_title": "MIX",
-		"title": "DJ Mixes",
+		"short_title": "SET",
+		"title": "DJ Mixes and Live Sets",
 		"paragraphs": [
-			"Most of our artists are DJs as well as producers, so we occasionally record their performances and post them here. If a certain mix features WRC artists, we note that fact on the front cover of the artwork for the mix. Usually, these mixes contain unreleased exclusives, possibly never to be released..."
+			"Most of our artists are DJs as well as producers, so we occasionally record their performances and post them here. Usually, these mixes contain unreleased exclusives, possibly never to be released..."
 		],
-		"local_path": "MIX"
+		"local_path": "SET"
 	},
 	{
 		"short_title": "PLAYLIST",
