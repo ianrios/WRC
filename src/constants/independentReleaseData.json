@@ -13,12 +13,14 @@
       "Remix Recorded, Produced, Mixed, and Mastered by Ezra Parker",
       "Free Download for Mean Girls Day"
     ],
-    "primary_artist_ids": [6],
+    "primary_artist_ids": [
+      6
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
       "sc": "https://soundcloud.com/ezraparker/orbital-halcyon-ezra-parker-remix",
-      "db": "https://www.dropbox.com/s/xuppd8madsuov6t/Orbital%20-%20Halcyon%20%28Ezra%20Parker%20Remix%29%20-%2011A%20-%20138%20%5Bfinal%5D.wav?dl=0"
+      "dr": "https://drive.google.com/open?id=15kSNxAgwAZHIgU64UIMYjFewXJ1qW8tb&usp=drive_fs"
     }
   },
   {
@@ -34,7 +36,9 @@
       "\"Dense Brief\" by M.A.T.Y.B.",
       "Original song Recorded, Produced, Mixed, and Mastered by M.A.T.Y.B."
     ],
-    "primary_artist_ids": [11],
+    "primary_artist_ids": [
+      11
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -54,9 +58,17 @@
     "album_art": "/images/releases/wounds-ares.jpeg",
     "release_date": "2020-02-01T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": ["Featuring dyl_pykl on Keys"],
-    "primary_artist_ids": [37],
-    "secondary_artist_ids": [38, 39, 2],
+    "release_bio": [
+      "Featuring dyl_pykl on Keys"
+    ],
+    "primary_artist_ids": [
+      37
+    ],
+    "secondary_artist_ids": [
+      38,
+      39,
+      2
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/track/3wO5JZbtf87zW4fITDamzS?si=2iH_KvoxRCGPucStXRC5eA"
@@ -71,8 +83,12 @@
     "album_art": "/images/releases/fohrenbap.jpeg",
     "release_date": "2021-03-19T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -103,7 +119,9 @@
       "Michael Kelley – Vocals, Keyboards__BREAK__Jerry Yarro – Vocals, Guitars__BREAK__Bob Button – Vocals, Trumpet__BREAK__Steve Gilhooley – Bass__BREAK__Bob Assini – Drums__BREAK__Tom D’Ambrose – Saxophones",
       "1983  - Sharkbeat Music (BMI)"
     ],
-    "primary_artist_ids": [31],
+    "primary_artist_ids": [
+      31
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -141,7 +159,9 @@
       "Additional Musicians:__BREAK__James Montgomery – Harmonica on “Take a Look at Yourself”__BREAK__Bowtie Blotto – Banjo__BREAK__D. Willie Slezak – Accordian__BREAK__Michael Emory – Violin__BREAK__Michael Raspovic – Cello__BREAK__Jack Nailor – Harley Davidson__BREAK__Marshall Strange – Sound Effects/Scratches__BREAK__",
       "1985  - Sharkbeat Music (BMI)"
     ],
-    "primary_artist_ids": [31],
+    "primary_artist_ids": [
+      31
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -161,8 +181,12 @@
     "album_art": "/images/releases/ccgf.jpeg",
     "release_date": "2020-07-28T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -178,8 +202,12 @@
     "album_art": "/images/releases/fts.jpeg",
     "release_date": "2020-05-22T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -195,8 +223,12 @@
     "album_art": "/images/releases/Avalanche.jpeg",
     "release_date": "2020-04-23T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -212,8 +244,12 @@
     "album_art": "/images/releases/bach-one.jpeg",
     "release_date": "2020-04-22T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -229,8 +265,12 @@
     "album_art": "/images/releases/the_time_has_come.jpg",
     "release_date": "2020-02-01T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -252,7 +292,9 @@
       "Recorded, Produced, Mixed, and Mastered by whythough?.",
       "Artwork by Rafael Khan"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -272,8 +314,13 @@
     "album_art": "/images/releases/wttp.png",
     "release_date": "2020-01-26T18:25:43.511Z",
     "genre": "Dubstep",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [5],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -289,8 +336,12 @@
     "album_art": "/images/releases/diamond.png",
     "release_date": "2019-10-28T18:25:43.511Z",
     "genre": "Garage",
-    "release_bio": [""],
-    "primary_artist_ids": [9],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      9
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -308,10 +359,16 @@
     "album_art": "/images/releases/retiredorphanremix.jpeg",
     "release_date": "2019-10-28T18:25:43.511Z",
     "genre": "Garage",
-    "release_bio": [""],
-    "primary_artist_ids": [13],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      13
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [1],
+    "remix_artist_ids": [
+      1
+    ],
     "links": {
       "sp": "https://open.spotify.com/album/4JCowE6aEIQ51N6pAqeJ6d?si=RcK0iFykQ4yulnrTWEhYpw"
     }
@@ -325,10 +382,24 @@
     "album_art": "/images/releases/vega_remix.jpg",
     "release_date": "2019-02-22T18:25:43.511Z",
     "genre": "Mid Tempo",
-    "release_bio": [""],
-    "primary_artist_ids": [7],
-    "secondary_artist_ids": [2, 10],
-    "remix_artist_ids": [1, 2, 7, 10, 9, 8],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      7
+    ],
+    "secondary_artist_ids": [
+      2,
+      10
+    ],
+    "remix_artist_ids": [
+      1,
+      2,
+      7,
+      10,
+      9,
+      8
+    ],
     "links": {
       "sp": "https://open.spotify.com/album/5AncwNuZvP15SgTrT7cmM0?si=wwFhqsYlSA2gui85nYfYpw"
     }
@@ -342,10 +413,17 @@
     "album_art": "/images/releases/gdkwtr.jpg",
     "release_date": "2018-10-31T18:25:43.511Z",
     "genre": "Hard Style",
-    "release_bio": [""],
-    "primary_artist_ids": [10, 1],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      10,
+      1
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [7],
+    "remix_artist_ids": [
+      7
+    ],
     "links": {
       "sc": "https://soundcloud.com/whythough/sets/gashadokuro-remixes"
     }
@@ -359,8 +437,13 @@
     "album_art": "/images/releases/gdkwt.jpg",
     "release_date": "2018-10-13T18:25:43.511Z",
     "genre": "Dubstep",
-    "release_bio": [""],
-    "primary_artist_ids": [10, 1],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      10,
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -376,8 +459,12 @@
     "album_art": "/images/releases/gmmb.jpg",
     "release_date": "2019-11-18T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [11],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      11
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -393,8 +480,12 @@
     "album_art": "/images/releases/hiopf.jpeg",
     "release_date": "2018-07-05T18:25:43.511Z",
     "genre": "Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -410,8 +501,12 @@
     "album_art": "/images/releases/ssf.jpg",
     "release_date": "2019-08-29T18:25:43.511Z",
     "genre": "Lo-Fi Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -427,8 +522,12 @@
     "album_art": "/images/releases/smf.png",
     "release_date": "2019-08-21T18:25:43.511Z",
     "genre": "Lo-Fi Hip-Hop Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -444,8 +543,12 @@
     "album_art": "/images/releases/flaff.jpg",
     "release_date": "2019-02-22T18:25:43.511Z",
     "genre": "Beats",
-    "release_bio": [""],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -461,8 +564,12 @@
     "album_art": "/images/releases/the_beginning.jpg",
     "release_date": "2017-04-21T18:25:43.511Z",
     "genre": "Trap",
-    "release_bio": [""],
-    "primary_artist_ids": [5],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -478,10 +585,16 @@
     "album_art": "/images/releases/murda.jpg",
     "release_date": "2017-03-06T18:25:43.511Z",
     "genre": "House",
-    "release_bio": [""],
-    "primary_artist_ids": [2],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [1],
+    "remix_artist_ids": [
+      1
+    ],
     "links": {
       "sc": "https://soundcloud.com/dyl_pykl/sets/murda-ep"
     }
@@ -495,8 +608,12 @@
     "album_art": "/images/releases/abovebelow.jpg",
     "release_date": "2017-02-15T18:25:43.511Z",
     "genre": "Drum and Bass",
-    "release_bio": ["Drum and Bass EP from dyl_pykl"],
-    "primary_artist_ids": [2],
+    "release_bio": [
+      "Drum and Bass EP from dyl_pykl"
+    ],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {

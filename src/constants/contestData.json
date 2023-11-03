@@ -1,69 +1,18 @@
 [
-    
-    {
-        "local_path": "WHYCOMP011",
-        "name": "WHYCOMP011: graphical score",
-        "label_number": "WHYCOMP011",
-        "release_type": "Contests",
-        "deadline": "2021-07-31T00:00:00.511Z",
-        "description": "Graphical Score Interpretation Compilation",
-        "h4": "Winning tracks will be featured on \"WHYCOMP011 - graphical score\"",
-        "rules": [
-            "1. Video Graphical Score Deadline: Midnight, July 30th, 2021",
-            "2. Audio Interpretation Deadline: Midnight, August 31st, 2021",
-            "3. Theme: __b__graphical score interpretation__b__",
-            "4. If you use samples, they must be royalty free.",
-            "5. __b__graphical score__b__: pick and use one of the provided graphical scores to write your song around. You can create any genre of music, as long as the music sounds like what the score looks like; see the examples for more information.",
-            "6. The video and audio portion both must last at least 30 seconds. The video score must not last longer than 5 minutes. The audio interpretation must not last longer than 8 minutes.",
-            "7. INFO: We will be creating spotify canvases and instagram reels for each song based on the score you choose. You will have access to these after submissions close. When we upload your score to YouTube as a music video, we will time warp (speed up or slow down) the video to match the length of time of your audio file, so feel free to use a different playback speed for the video as long as you do not change the timing of the piece.",
-            "8. You cannot use \"graph\", \"graphical\", or \"score\" in your track title, as it is the album name.",
-            "9. Only one submission per person. If you collaborate with someone, you can submit another song on your own or in another collab, but you cannot submit more than one song made by just yourself or with the same collab members.",
-            "10. Please render your file properly. It should be a downloadable __b__16 bit 44.1Khz wav file__b__.",
-            "11. Submit your final track mixed and mastered below!",
-            "12. Anyone who submits and gets selected to be on the release has a chance to win a piece of merch! Will be announced on stream."
-        ],
-        "recommendations": [
-            "Collabs are great ways to make new friends and cool sounds. Visit our discord to chat with other artists!",
-            "See the resources below to understand how to compose music with a video file in ableton, and please google to figure out how to import video into your daw"
-        ],
-        "resources": [
-            {
-                "Info": "Visit this link to view or download the score as a PDF or SVG.",
-                "Score to Use": "https://www.dropbox.com/sh/xav7bvdxab8tbtb/AAALW-THohoVaQzYBY36pjxQa?dl=0"
-            },
-            {
-                "Resources": "Visit these links to see more information about graphical scores.",
-                "Iannis Xenakis - Metastasis (youtube)": "https://www.youtube.com/watch?v=SZazYFchLRI",
-                "Ligeti - Artikulation (youtube)": "https://www.youtube.com/watch?v=71hNl_skTZQ",
-                "Graphical Scores - YouTube Playlist":"https://www.youtube.com/watch?v=RIz3klPET3o&list=PLZcE3jfmmHrZKdQcMTQ_4RsclPQ5fBjgx",
-                "What is a Music Graphic score and how can you make one? (MYP Music)":"https://www.youtube.com/watch?v=d93QexVChIQ",
-                "Wikipedia": "https://en.wikipedia.org/wiki/Graphic_notation_(music)#:~:text=Graphic%20notation%20(or%20graphic%20score,instead%20of%20traditional%20music%20notation.",
-                "Importing video into Ableton":"https://www.ableton.com/en/manual/working-with-video/",
-                "How to import video into a DAW":"https://www.google.com/search?client=firefox-b-1-d&q=how+to+import+video+into+a+daw"
-            },
-            {
-                "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
-            }
-        ],
-        "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
-        "album_art": "/images/releases/cp-11.png",
-        "releasePage": false
-    },
     {
         "local_path": "WHYCOMP010",
-        "name": "WHYCOMP010: sample",
+        "name": "WHYCOMP010: WHY100",
         "label_number": "WHYCOMP010",
         "release_type": "Contests",
-        "deadline": "2021-06-30T00:00:00.511Z",
-        "description": "Sample Flipping Compilation",
-        "h4": "Winning tracks will be featured on \"WHYCOMP010 - sample\"",
+        "deadline": "2023-11-09T00:00:00.511Z",
+        "description": "Compilation",
+        "h4": "Winning tracks will be featured on \"WHYCOMP010 - WHY100\"",
         "rules": [
-            "1. Deadline: Midnight, July 30th, 2021",
-            "2. Theme: __b__samples__b__",
-            "3. If you use additional samples, they must be royalty free.",
-            "4. __b__samples__b__: use one or more of the provided samples to create a song in your style!",
-            "5. You cannot use \"sample\", \"sampling\", or \"samples\" in your track title, as it is the album name.",
+            "1. Deadline: Midnight, November 9th, 2023",
+            "2. If you use samples, they must be royalty free.",
+            "3. Theme: __b__anything goes__b__",
+            "4. __b__anything goes__b__: Submit an original work of your own, or as a collaboration! Get creative!",
+            "5. You cannot use \"100\" in your track title, as it is the album name.",
             "6. Only one submission per person. If you collaborate with someone, you can submit another song on your own or in another collab, but you cannot submit more than one song made by just yourself or with the same collab members.",
             "7. Please render your file properly. It should be a downloadable __b__16 bit 44.1Khz wav file__b__.",
             "8. Submit your final track mixed and mastered below!",
@@ -74,21 +23,17 @@
         ],
         "resources": [
             {
-                "Info": "Find all three samples here",
-                "dropbox link": "https://www.dropbox.com/sh/g3qpqbmg1hfyrns/AACWcCk6ccHpZNb5bxOM3KzAa?dl=0"
-            },
-            {
                 "Info": "Find links to all of our releases from WRC here on on our website!",
                 "website link": "/releases"
             },
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+                "drive link": "https://drive.google.com/open?id=1hlDKT4tpI6H7UmBcs3D6T45TiUQNgAZf&usp=drive_fs"
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
-        "album_art": "/images/releases/contest-promo-minified.png",
-        "releasePage": false
+        "album_art": "/images/releases/whycomp010.png",
+        "releasePage": true
     },
     {
         "local_path": "WHYCOMP009",
@@ -119,7 +64,7 @@
             },
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+                "drive link": "DRIVE_LINK_HERE/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
@@ -154,7 +99,7 @@
             },
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+                "drive link": "DRIVE_LINK_HERE/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
@@ -195,7 +140,7 @@
             },
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+                "drive link": "DRIVE_LINK_HERE/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
@@ -227,11 +172,11 @@
         "resources": [
             {
                 "Sample": "Feel free to use this sample for the challenge. It is not a requirement, just an inspiration.",
-                "dropbox link for sample": "https://www.dropbox.com/s/go1i3lt3g75omrs/modular%20noise.wav?dl=0"
+                "drive link for sample": "DRIVE_LINK_HERE/s/go1i3lt3g75omrs/modular%20noise.wav?dl=0"
             },
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+                "drive link": "DRIVE_LINK_HERE/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
@@ -261,11 +206,11 @@
         "resources": [
             {
                 "Sample": "Use this sample for the challenge",
-                "dropbox link for sample": "https://www.dropbox.com/s/2unim71gq479veq/010%20-%20Snare%20Rolling%20-%20128.wav?dl=0"
+                "drive link for sample": "DRIVE_LINK_HERE/s/2unim71gq479veq/010%20-%20Snare%20Rolling%20-%20128.wav?dl=0"
             },
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+                "drive link": "DRIVE_LINK_HERE/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",
@@ -297,7 +242,7 @@
         "resources": [
             {
                 "Info": "Use these assets for promo to invite others to join the contest!",
-                "dropbox link": "https://www.dropbox.com/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
+                "drive link": "DRIVE_LINK_HERE/sh/pzjc5axxwsyb414/AACrnrfKgCpP54X1EWY2uCPza?dl=0"
             }
         ],
         "disclosure": "Members of WRC will be participating in the competition, as well as judging the tracks submitted. Our goal is to include as many tracks as possible, so we will probably not turn away a track unless it does not follow the rules or fit the criteria for the album. All proceeds made on this album go to the record label and are put towards promotion of the album and other releases.",

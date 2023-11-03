@@ -1,0 +1,19 @@
+[
+  {
+    "name": "1x8NPN Buddy",
+    "local_path": "1x8npn-buddy",
+    "id": 1,
+    "product_image": "/images/products/1x8npn_buddy.jpg",
+    "product_bio": [
+      "1x8NPN Buddy by bkpk_rvr",
+      "This is a eurorack module designed to externally trigger the Lyra-8 Synthesizer by Soma Laboratory",
+      "It is entirely passive and only takes up 8 HP! Also comes with design included for switches for mutes and 2 ways to mount it to your L8. (Please read full documentation for quirks surrounding this, please do not hesitate to contact me) I also have 10HP working prototypes available of various states of assembly/Jankiness if anyone wants them for cheap. Feel free to message me about them!",
+      "email: __b__bkpkrvr.contact@gmail.com__b__"
+    ],
+    "primary_artist_ids": [44],
+    "links": {
+      "gh": "https://github.com/yakovo-school/1x8NPN-Buddy",
+      "tn": "https://www.tindie.com/products/bkpk_rvr/1x8npn-buddy/"
+    }
+  }
+]

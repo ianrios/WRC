@@ -1,5 +1,217 @@
 [
   {
+    "name": "WHYCOMP010: heat",
+    "local_path": "WHYCOMP010",
+    "id": 87,
+    "label_number": "WHY100",
+    "release_type": "WHYCOMP",
+    "album_art": "/images/releases/whycomp010.png",
+    "release_date": "2023-11-17T18:25:43.511Z",
+    "genre": "Electronic",
+    "release_bio": [
+      "The 100th release from WHY Record Company (WRC) - WHY100",
+      "\"WHYCOMP010: WHY100\"",
+      "Original songs Recorded, Produced, Mixed, and Mastered by ",
+      "Featuring Ambient, Dubstep, Experimental, and more! All songs are made to showcase our wonderful artists and their unique creative aspects!",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "yt": "",
+      "sc": "",
+      "sp": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Eight Ball (dyl_pykl & LoM Remix)",
+    "local_path": "eight-ball-remix",
+    "id": 99,
+    "label_number": "WHY099",
+    "release_type": "WRC",
+    "album_art": "/images/releases/8-ball-remix.png",
+    "release_date": "2023-11-03T18:25:43.511Z",
+    "genre": "Drum and Bass",
+    "release_bio": [
+      "The 99th release from WHY Record Company (WRC) - WHY099",
+      "\"Eight Ball (dyl_pykl & LoM Remix)\" by svnteen",
+      "Original single Recorded, Produced, Mixed, & Mastered by svnteen",
+      "Remix Recorded, Produced, Mixed, & Mastered by dyl_pykl & LoM",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      5
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [
+      2,
+      7
+    ],
+    "links": {
+      "sp": "https://open.spotify.com/album/701WAHStMVcN9Hpd2wtnNm?si=Aoa9OnnMQYeDru4lgsOX-A",
+      "ap": "https://music.apple.com/us/album/eight-ball-dyl-pykl-lom-remix-single/1714464837"
+    }
+  },
+  {
+    "name": "ZAYO (Remixes)",
+    "local_path": "ZAYO-Remixes",
+    "id": 98,
+    "label_number": "WHY098",
+    "release_type": "WRC",
+    "album_art": "/images/releases/zayo-remix-min.png",
+    "release_date": "2023-05-12T18:25:43.511Z",
+    "genre": "Dubstep",
+    "release_bio": [
+      "The 98th release from WHY Record Company (WRC) - WHY098",
+      "\"ZAYO (Remixes)\" by whythough? (Ian Rios)",
+      "Original EP Recorded and Produced by and Ian Rios",
+      "Remix Recorded, Produced, Mixed, & Mastered by Tilt Shift",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [
+      32
+    ],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Acid Trash",
+    "local_path": "acid-trash",
+    "id": 97,
+    "label_number": "WHY097",
+    "release_type": "Blue Label",
+    "album_art": "/images/releases/bl015.png",
+    "release_date": "2022-03-10T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"Acid Trash\" by Wash And Fold Laundry Service & dyl_pykl",
+      "The 97th release from WHY Record Company (WRC) - WHY097",
+      "The 15th release from the Blue Label Imprint - BL015",
+      "Original song Recorded, Produced, Mixed, and Mastered by Wash And Fold Laundry Service (Ian Rios) & dyl_pykl (Robert Dylan Smock)",
+      "Artwork by Ian Rios",
+      "A WRC Blue Label Release"
+    ],
+    "primary_artist_ids": [
+      26,
+      2
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Moonlight Stickup",
+    "local_path": "moonlight-stickup",
+    "id": 96,
+    "label_number": "WHY096",
+    "release_type": "Blue Label",
+    "album_art": "/images/releases/bl014.png",
+    "release_date": "2022-03-10T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"Moonlight Stickup\" by Benjamin Lange",
+      "The 96th release from WHY Record Company (WRC) - WHY096",
+      "The 14th release from the Blue Label Imprint - BL014",
+      "Original song Recorded, Produced, Mixed, and Mastered by Benjamin Lange",
+      "Artwork by Ian Rios",
+      "A WRC Blue Label Release"
+    ],
+    "primary_artist_ids": [
+      11
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "CYCLE005: Laundry",
+    "local_path": "cycle005-laundry",
+    "id": 95,
+    "label_number": "WHY095",
+    "release_type": "CYCLE",
+    "album_art": "/images/releases/laundry.png",
+    "release_date": "2023-03-03T18:25:43.511Z",
+    "genre": "techno",
+    "release_bio": [
+      "Wash And Fold Laundry Service presents \"CYCLE005: Laundry\"",
+      "The 95th release from WHY Record Company (WRC) - WHY095",
+      "Original songs Recorded, Produced, Mixed, & Mastered by Wash And Fold Laundry Service (Ian Rios)",
+      "No Snoozing also Recorded, Produced, & Mixed by stratosfear (Reilly Cooper)",
+      "Acid Trash also Recorded, Produced, & Mixed by dyl_pykl (Robert Dylan Smock)",
+      "Original Artwork for release by Ian Rios",
+      "A WRC CYCLE Release"
+    ],
+    "primary_artist_ids": [
+      26
+    ],
+    "secondary_artist_ids": [
+      18,
+      2
+    ],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "MON (Original Motion Picture Soundtrack)",
+    "local_path": "mon",
+    "id": 94,
+    "label_number": "WHY094",
+    "release_type": "WRC",
+    "album_art": "/images/releases/mon.png",
+    "release_date": "2022-12-16T18:25:43.511Z",
+    "genre": "Dark Ambient",
+    "release_bio": [
+      "\"MON (Original Motion Picture Soundtrack)\" by Ian Rios",
+      "The 94th release from WHY Record Company (WRC) - WHY094",
+      "Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios",
+      "Drums for Full Tilt Recorded and Processed by Max Sansalone",
+      "Artwork by Ian Rios",
+      "A WRC Release"
+    ],
+    "primary_artist_ids": [
+      45
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
     "name": "Club Laser",
     "local_path": "club-laser",
     "id": 93,
@@ -16,7 +228,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [11],
+    "primary_artist_ids": [
+      11
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -44,7 +258,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [11],
+    "primary_artist_ids": [
+      11
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -72,7 +288,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [8],
+    "primary_artist_ids": [
+      8
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -98,7 +316,9 @@
       "Original songs Recorded, Produced, and Mixed by Ian and Jay Warner",
       "Original artwork by Jay Warner; prepared for release by Ian Rios"
     ],
-    "primary_artist_ids": [43],
+    "primary_artist_ids": [
+      43
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -123,7 +343,9 @@
       "Original songs Recorded, Produced and Mixed by 1s2",
       "Original artwork by 1s2"
     ],
-    "primary_artist_ids": [8],
+    "primary_artist_ids": [
+      8
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -148,7 +370,9 @@
       "Mastered by Ian Rios",
       "Original Photo by Alexandre Lallemand on Unsplash. Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -172,8 +396,12 @@
       "Mastered by Ian Rios",
       "Original Artwork for release by Akrilix (J), WRC Logo and Release Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [18],
-    "secondary_artist_ids": [34],
+    "primary_artist_ids": [
+      18
+    ],
+    "secondary_artist_ids": [
+      34
+    ],
     "remix_artist_ids": [],
     "links": {
       "au": "",
@@ -198,7 +426,11 @@
       "Featuring Ambient, Dubstep, Experimental, and more! All songs are themed around \"heat\", which could mean the artist used fire crackling samples, had lyrics about spicy food, or something else!",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [4, 2, 11],
+    "primary_artist_ids": [
+      4,
+      2,
+      11
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -223,9 +455,13 @@
       "Original song by shell artist",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [25],
+    "primary_artist_ids": [
+      25
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [9],
+    "remix_artist_ids": [
+      9
+    ],
     "links": {
       "sp": "https://open.spotify.com/album/7oEYOzJxCkM4hI2hngOgZL?si=d3d8d5e3eddd4361",
       "ap": "https://music.apple.com/us/album/leaves-grew-heavy-under-weight-water-weeping-sun-remix/1571308699"
@@ -246,7 +482,9 @@
       "Original songs Recorded, Produced, Mixed, and Mastered by Ian Rios (whythough?)",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -273,7 +511,13 @@
       "Featuring Ambient, Dubstep, Experimental, and more! All songs feature the inclusion of \"spring\", which means the use of metallic spring samples, flowers growing outdoors, a spring reverb, etc.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [42, 10, 40, 9, 18],
+    "primary_artist_ids": [
+      42,
+      10,
+      40,
+      9,
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -299,7 +543,9 @@
       "Mastered by whythough? (Ian Rios)",
       "Original Artwork for release by Akrilix (J), WRC Logo and Release Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -327,9 +573,23 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Molly Kerwick"
     ],
-    "primary_artist_ids": [2, 11],
+    "primary_artist_ids": [
+      2,
+      11
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [1, 2, 16, 5, 26, 25, 8, 7, 18, 23],
+    "remix_artist_ids": [
+      1,
+      2,
+      16,
+      5,
+      26,
+      25,
+      8,
+      7,
+      18,
+      23
+    ],
     "links": {
       "bc": "https://dylpykl.bandcamp.com/album/vacation-home-remixes",
       "sp": "https://open.spotify.com/album/0c68PWU5uCMptpqkKcBUQ1?si=69af2d8223da4bb9",
@@ -352,9 +612,13 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Mitch Rocket"
     ],
-    "primary_artist_ids": [42],
+    "primary_artist_ids": [
+      42
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [2],
+    "remix_artist_ids": [
+      2
+    ],
     "links": {
       "sc": "https://soundcloud.com/dyl_pykl/mitch-rocket-street-walking-dyl_pykl-remix",
       "bc": "https://dylpykl.bandcamp.com/album/street-walking-dyl-pykl-remix",
@@ -379,9 +643,26 @@
       "Featuring Techno, Dubstep, and more! All songs are remixes of originally released WRC songs.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [1, 2, 4, 14, 11, 23, 18, 25],
+    "primary_artist_ids": [
+      1,
+      2,
+      4,
+      14,
+      11,
+      23,
+      18,
+      25
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [2, 9, 32, 40, 41, 18, 26],
+    "remix_artist_ids": [
+      2,
+      9,
+      32,
+      40,
+      41,
+      18,
+      26
+    ],
     "links": {
       "sc": "https://soundcloud.com/whyrecordcompany/sets/why-record-company-remixes-vol-1",
       "bc": "https://whyrecordcompany.bandcamp.com/album/remix-vol-1",
@@ -407,8 +688,12 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [1],
-    "secondary_artist_ids": [18],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [
+      18
+    ],
     "remix_artist_ids": [],
     "links": {
       "bc": "https://whythough.bandcamp.com/album/dream-journal",
@@ -433,7 +718,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [6],
+    "primary_artist_ids": [
+      6
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -457,7 +744,9 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [23],
+    "primary_artist_ids": [
+      23
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -483,7 +772,9 @@
       "Original Artwork for release by Akrilix (J), WRC Logo and Release artwork by Ian Rios",
       "A WRC CYCLE Release"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -510,7 +801,9 @@
       "Original Artwork for release by Akrilix (J), WRC Logo and Release artwork by Ian Rios",
       "A WRC CYCLE Release"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -536,7 +829,9 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Molly Kerwick"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -561,7 +856,16 @@
       "Featuring Techno, Dubstep, and more! All songs are collabs.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [26, 36, 35, 18, 34, 2, 7, 8],
+    "primary_artist_ids": [
+      26,
+      36,
+      35,
+      18,
+      34,
+      2,
+      7,
+      8
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -582,16 +886,23 @@
     "release_date": "2021-04-02T18:25:43.511Z",
     "genre": "Dubstep",
     "release_bio": [
-      "The 46th release from WHY Record Company (WRC) - WHY046",
+      "The 72nd release from WHY Record Company (WRC) - WHY072",
       "\"DUO (Remixes)\" by whythough? (Ian Rios)",
       "Original EP Recorded and Produced by and Ian Rios",
       "Remixes Recorded, Produced, and Mixed by dyl_pykl, produceronline, Quantopix, and shell artist.",
       "All songs Mastered by Ian Rios",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [25, 18, 23, 2],
+    "remix_artist_ids": [
+      25,
+      18,
+      23,
+      2
+    ],
     "links": {
       "sc": "https://soundcloud.com/whythough/sets/duo-remixes",
       "bc": "https://whythough.bandcamp.com/album/duo-remixes",
@@ -616,8 +927,13 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [26],
-    "secondary_artist_ids": [2, 24],
+    "primary_artist_ids": [
+      26
+    ],
+    "secondary_artist_ids": [
+      2,
+      24
+    ],
     "remix_artist_ids": [],
     "links": {
       "bc": "",
@@ -640,7 +956,9 @@
       "Original songs Recorded, Produced, Mixed and Mastered by Quantopix (J)",
       "Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -667,7 +985,13 @@
       "Featuring Techno, Dubstep, and more! All incorporating the same marching 909 snare sample.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [18, 34, 7, 2, 1],
+    "primary_artist_ids": [
+      18,
+      34,
+      7,
+      2,
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -693,7 +1017,9 @@
       "Original Artwork by Ian Rios",
       "A WRC Pink Label Release"
     ],
-    "primary_artist_ids": [33],
+    "primary_artist_ids": [
+      33
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -721,9 +1047,18 @@
       "Mastered by Ian Rios",
       "Artwork originally by Katie Hoffstatter and prepared for release by Ian Rios"
     ],
-    "primary_artist_ids": [14, 2, 11],
+    "primary_artist_ids": [
+      14,
+      2,
+      11
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [1, 2, 3, 8],
+    "remix_artist_ids": [
+      1,
+      2,
+      3,
+      8
+    ],
     "links": {
       "sc": "",
       "bc": "https://dylpykl.bandcamp.com/album/he-called-me-beautiful-remixes",
@@ -747,7 +1082,11 @@
       "Featuring IDM all incorporating using some form of random element or generative sound.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [9, 18, 8],
+    "primary_artist_ids": [
+      9,
+      18,
+      8
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -772,7 +1111,9 @@
       "Original songs Recorded, Produced, Mixed and Mastered by Quantopix (J)",
       "Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -783,6 +1124,35 @@
       "yt": "https://youtube.com/playlist?list=OLAK5uy_nzKXG5tCzt1imrtNxPQm1AzqA4GMxmmrI",
       "sp": "https://open.spotify.com/album/5XV7Sqdr0oxlc3BEKOnem3",
       "ap": "https://music.apple.com/us/album/heirloom-herbs-ep/1549882596"
+    }
+  },
+  {
+    "name": "Depersonalize",
+    "local_path": "Depersonalize",
+    "id": 63,
+    "label_number": "WHY063",
+    "release_type": "WRC",
+    "album_art": "/images/releases/depersonalize-min.png",
+    "release_date": "2020-10-02T18:25:43.511Z",
+    "genre": "Wave",
+    "release_bio": [
+      "The 63rd release from WHY Record Company (WRC) - WHY063",
+      "\"Depersonalize\" by svnteen",
+      "Original single Recorded and Produced by svnteen",
+      "Mixed and Mastered by whythough? (Ian Rios)",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      5
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
     }
   },
   {
@@ -801,7 +1171,9 @@
       "Mastered by Ian Rios",
       "Artwork taken by Robert Dylan Smock and prepared for release by Ian Rios"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -827,7 +1199,9 @@
       "Mastered by Ian Rios",
       "Artwork taken by Robert Dylan Smock and prepared for release by Ian Rios"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -853,7 +1227,14 @@
       "Featuring jungle, breakbeats, and IDM all incorporating break samples.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [32, 26, 2, 9, 3, 18],
+    "primary_artist_ids": [
+      32,
+      26,
+      2,
+      9,
+      3,
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -879,7 +1260,9 @@
       "Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios",
       "A WRC Pink Label Release"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -902,7 +1285,9 @@
       "Original songs Recorded, Produced, Mixed and Mastered by Quantopix (J)",
       "Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
     ],
-    "primary_artist_ids": [18],
+    "primary_artist_ids": [
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -926,7 +1311,10 @@
       "Original songs Mixed and Mastered by Ian Rios",
       "Original Artwork by Akrilix (J), WRC Logo and Prepared for Release by Ian Rios"
     ],
-    "primary_artist_ids": [25, 18],
+    "primary_artist_ids": [
+      25,
+      18
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -951,7 +1339,12 @@
       "Featuring live modular, piano, and hip-hop beats all inspired or recorded from winter holiday bells.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [4, 8, 24, 9],
+    "primary_artist_ids": [
+      4,
+      8,
+      24,
+      9
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -978,7 +1371,10 @@
       "Mastering by Ian Rios",
       "Photograph for Artwork by Olivia Rios, Logo by \"tiimonn\" on Fiverr, Release Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [2, 1],
+    "primary_artist_ids": [
+      2,
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1008,8 +1404,13 @@
       "Featuring M.A.T.Y.B. on \"Song for Tom\"",
       "The second installment of the trash beats catalogue."
     ],
-    "primary_artist_ids": [2, 1],
-    "secondary_artist_ids": [11],
+    "primary_artist_ids": [
+      2,
+      1
+    ],
+    "secondary_artist_ids": [
+      11
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/album/02NYkDhwz3991cmMHisKbb?si=csKhUD-URUOeRbCQ1k5yMw",
@@ -1037,7 +1438,14 @@
       "Featuring field recordings, ambient music, and peaceful noises all inspired or recorded from rain",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [3, 18, 24, 2, 25, 9],
+    "primary_artist_ids": [
+      3,
+      18,
+      24,
+      2,
+      25,
+      9
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1064,7 +1472,9 @@
       "Featuring field recordings from rural Indiana and keyboards from metropolitan Phoenix.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1090,8 +1500,12 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [11],
-    "secondary_artist_ids": [2],
+    "primary_artist_ids": [
+      11
+    ],
+    "secondary_artist_ids": [
+      2
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/album/5FJLhMKYTpn5HSJUO7pUyn",
@@ -1114,7 +1528,9 @@
       "Lyrics Written and Sung by Ian Rios",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1140,7 +1556,9 @@
       "Mixed and Mastered by whythough? (Ian Rios)",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [5],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1166,7 +1584,9 @@
       "Mixed and Mastered by whythough? (Ian Rios)",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [5],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1192,7 +1612,9 @@
       "\"A collection of remixes I have done to my serious capacity\"",
       "Vega By LoM __BREAK__ SMCP by SPLM __BREAK__ Namibas by dyl_pykl __BREAK__ Look Into Your Eyes by whythough? and dear evergreen __BREAK__ He Called Me Beautiful by Katie Hoffstatter, dyl_pykl, and M.A.T.Y.B."
     ],
-    "primary_artist_ids": [8],
+    "primary_artist_ids": [
+      8
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1217,9 +1639,15 @@
       "All other songs Mastered by Ian Rios",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [2, 13, 24],
+    "remix_artist_ids": [
+      2,
+      13,
+      24
+    ],
     "links": {
       "sc": "https://soundcloud.com/whythough/sets/nitro-remixes",
       "bc": "https://whythough.bandcamp.com/album/nitro-remixes",
@@ -1246,7 +1674,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1272,7 +1702,10 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [1, 2],
+    "primary_artist_ids": [
+      1,
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1297,7 +1730,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1323,9 +1758,15 @@
       "Remixes by dyl_pykl, DJ Yunomi, & ofoot",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [2, 10, 8],
+    "remix_artist_ids": [
+      2,
+      10,
+      8
+    ],
     "links": {
       "sc": "https://soundcloud.com/whythough/sets/look-in-your-eyes",
       "bc": "https://whythough.bandcamp.com/album/look-in-your-eyes",
@@ -1350,7 +1791,10 @@
       "Mastered by Ian Rios",
       "Artwork originally by Lana Del Rey, modified by Ian Rios"
     ],
-    "primary_artist_ids": [1, 2],
+    "primary_artist_ids": [
+      1,
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1374,7 +1818,9 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Molly Kerwick"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1401,7 +1847,9 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Molly Kerwick"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1427,7 +1875,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1453,8 +1903,12 @@
       "Features light, uplifting instrumentals that take the listener across a nine track journey of emotions and sound. Guest artist dyl_pykl playing keyboard on Track 7 \"Ceiling Fan\".",
       "Artwork by Robert Fohrenbach"
     ],
-    "primary_artist_ids": [4],
-    "secondary_artist_ids": [2],
+    "primary_artist_ids": [
+      4
+    ],
+    "secondary_artist_ids": [
+      2
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/album/28kg42qxUMcQNJEumBssoH?si=IlQG_F7bT_Cf8CWFKkNnvw",
@@ -1480,7 +1934,9 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Molly Kerwick"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1507,7 +1963,9 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Molly Kerwick"
     ],
-    "primary_artist_ids": [2],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1536,7 +1994,11 @@
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Katie Hoffstatter"
     ],
-    "primary_artist_ids": [14, 2, 11],
+    "primary_artist_ids": [
+      14,
+      2,
+      11
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1563,9 +2025,13 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [15],
+    "primary_artist_ids": [
+      15
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [1],
+    "remix_artist_ids": [
+      1
+    ],
     "links": {
       "sp": "https://open.spotify.com/album/7smliGkBXBzPDPOGasyTVC",
       "ap": "https://music.apple.com/us/album/a12a2-single/1499149248",
@@ -1582,8 +2048,13 @@
     "album_art": "/images/releases/CYCLE003_Stems.png",
     "release_date": "2019-12-29T18:25:43.511Z",
     "genre": "IDM",
-    "release_bio": ["", "Artwork by ofoot and Ian Rios"],
-    "primary_artist_ids": [8],
+    "release_bio": [
+      "",
+      "Artwork by ofoot and Ian Rios"
+    ],
+    "primary_artist_ids": [
+      8
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1599,8 +2070,13 @@
     "album_art": "/images/releases/CYCLE003.jpg",
     "release_date": "2019-12-29T18:25:43.511Z",
     "genre": "IDM",
-    "release_bio": ["", "Artwork by ofoot and Ian Rios"],
-    "primary_artist_ids": [8],
+    "release_bio": [
+      "",
+      "Artwork by ofoot and Ian Rios"
+    ],
+    "primary_artist_ids": [
+      8
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1623,7 +2099,9 @@
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
-    "primary_artist_ids": [4],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1640,8 +2118,13 @@
     "album_art": "/images/releases/nitro.jpg",
     "release_date": "2019-10-29T18:25:43.511Z",
     "genre": "IDM",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1657,8 +2140,13 @@
     "album_art": "/images/releases/about_them.jpg",
     "release_date": "2019-09-23T18:25:43.511Z",
     "genre": "Wave",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [5],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1683,8 +2171,13 @@
       "Mastered by Dan Gresham (Nu:Tone)",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [2, 1],
-    "secondary_artist_ids": [14],
+    "primary_artist_ids": [
+      2,
+      1
+    ],
+    "secondary_artist_ids": [
+      14
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/album/4ly3vcAsWxeBDhYeIJKN83?si=wZcKFx_nQOmepGJ8CcVqfA"
@@ -1699,8 +2192,13 @@
     "album_art": "/images/releases/cycle002.jpg",
     "release_date": "2019-06-28T18:25:43.511Z",
     "genre": "lo-fi hip-hop beats to study/chill to 24/7",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [5],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1716,8 +2214,13 @@
     "album_art": "/images/releases/hades.jpg",
     "release_date": "2019-06-14T18:25:43.511Z",
     "genre": "Wave",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [5],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1738,7 +2241,9 @@
       "With raw synths, intense samples, and highly syncopated drums, cycle001: 'grief' is a 16 song, hour long sonic soundscape journey.",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [1],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1754,10 +2259,17 @@
     "album_art": "/images/releases/daegu_acid.jpg",
     "release_date": "2019-04-26T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [2],
+    "remix_artist_ids": [
+      2
+    ],
     "links": {
       "sp": "https://open.spotify.com/album/1u0vwVwuVTU6onicZ9nGGa?si=__sLVfUpQKKngvZB_cqKdA"
     }
@@ -1771,10 +2283,20 @@
     "album_art": "/images/releases/exco_remixes.jpg",
     "release_date": "2019-03-08T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [3, 4, 17, 21],
+    "remix_artist_ids": [
+      3,
+      4,
+      17,
+      21
+    ],
     "links": {
       "sc": "https://soundcloud.com/whythough/sets/exco-remixes"
     }
@@ -1788,10 +2310,28 @@
     "album_art": "/images/releases/blurs_deluxe.jpg",
     "release_date": "2018-12-27T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
-    "secondary_artist_ids": [2, 3, 9, 17],
-    "remix_artist_ids": [2, 5, 8, 10, 16, 18, 20],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [
+      2,
+      3,
+      9,
+      17
+    ],
+    "remix_artist_ids": [
+      2,
+      5,
+      8,
+      10,
+      16,
+      18,
+      20
+    ],
     "links": {
       "bc": "https://whythough.bandcamp.com/album/blurs-deluxe-edition",
       "sp": "https://open.spotify.com/playlist/2fQ2jqpQTNaZmf9Smt1YNf?si=nAOTYVIzQOStHs6dLimXCQ"
@@ -1806,8 +2346,14 @@
     "album_art": "/images/releases/tb4tp.jpg",
     "release_date": "2018-11-23T18:25:43.511Z",
     "genre": "Hip-Hop",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [2, 1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      2,
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1823,8 +2369,13 @@
     "album_art": "/images/releases/trial_error.jpg",
     "release_date": "2018-11-09T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Molly Kerwick and Ian Rios"],
-    "primary_artist_ids": [6],
+    "release_bio": [
+      "",
+      "Artwork by Molly Kerwick and Ian Rios"
+    ],
+    "primary_artist_ids": [
+      6
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1840,8 +2391,13 @@
     "album_art": "/images/releases/jamie_xx_2018.jpg",
     "release_date": "2018-11-04T18:25:43.511Z",
     "genre": "Melodic Techno",
-    "release_bio": [""],
-    "primary_artist_ids": [2, 1],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      2,
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1857,10 +2413,16 @@
     "album_art": "/images/releases/ganymede.png",
     "release_date": "2018-10-26T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": [""],
-    "primary_artist_ids": [2],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [1],
+    "remix_artist_ids": [
+      1
+    ],
     "links": {
       "sc": "https://soundcloud.com/dyl_pykl/sets/ganymede-the-late-heavy-bombardment"
     }
@@ -1874,8 +2436,13 @@
     "album_art": "/images/releases/uhhhhhhh.jpg",
     "release_date": "2018-10-19T18:25:43.511Z",
     "genre": "Trap",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [5],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      5
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1891,10 +2458,18 @@
     "album_art": "/images/releases/hiop_remixes.jpg",
     "release_date": "2018-10-19T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Robert Fohrenbach"],
-    "primary_artist_ids": [4],
+    "release_bio": [
+      "",
+      "Artwork by Robert Fohrenbach"
+    ],
+    "primary_artist_ids": [
+      4
+    ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [1, 2],
+    "remix_artist_ids": [
+      1,
+      2
+    ],
     "links": {
       "sp": "https://open.spotify.com/album/2VHSIFiEu20L0KNiVzeLJI?si=8zYljDw4ReOyKtoSdHBemQ"
     }
@@ -1908,8 +2483,13 @@
     "album_art": "/images/releases/exco.jpg",
     "release_date": "2018-10-05T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1925,8 +2505,12 @@
     "album_art": "/images/releases/heaven.jpg",
     "release_date": "2018-08-03T18:25:43.511Z",
     "genre": "Hip-Hop",
-    "release_bio": [""],
-    "primary_artist_ids": [2],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      2
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -1942,9 +2526,17 @@
     "album_art": "/images/releases/htwt.jpg",
     "release_date": "2018-07-31T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
-    "secondary_artist_ids": [2, 3],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [
+      2,
+      3
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/album/7tzFHjNrgCfXcNRnu8R5Jh?si=o7zbIGo8Q5mrWuLarTWMIQ"
@@ -1967,8 +2559,12 @@
       "Mixed by Robert Dylan Smock",
       "Mastered by Ian Rios (whythough?)"
     ],
-    "primary_artist_ids": [14],
-    "secondary_artist_ids": [2],
+    "primary_artist_ids": [
+      14
+    ],
+    "secondary_artist_ids": [
+      2
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/album/38wPM7PITg60MxBJE85FI2?si=CksW_0RERwSaiaRb--LKBw"
@@ -1983,9 +2579,15 @@
     "album_art": "/images/releases/dptl.jpg",
     "release_date": "2018-05-30T18:25:43.511Z",
     "genre": "Downtempo",
-    "release_bio": [""],
-    "primary_artist_ids": [2],
-    "secondary_artist_ids": [11],
+    "release_bio": [
+      ""
+    ],
+    "primary_artist_ids": [
+      2
+    ],
+    "secondary_artist_ids": [
+      11
+    ],
     "remix_artist_ids": [],
     "links": {
       "sc": "https://soundcloud.com/dyl_pykl/sets/the-lobster-ep"
@@ -2000,10 +2602,28 @@
     "album_art": "/images/releases/blurs_remix.jpg",
     "release_date": "2018-02-22T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
-    "secondary_artist_ids": [2, 3, 9, 17],
-    "remix_artist_ids": [2, 5, 8, 10, 16, 18, 20],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [
+      2,
+      3,
+      9,
+      17
+    ],
+    "remix_artist_ids": [
+      2,
+      5,
+      8,
+      10,
+      16,
+      18,
+      20
+    ],
     "links": {
       "sp": "https://open.spotify.com/album/48PmHVDJ67ZLRbTjFko4fv?si=wniKvh_vS_mc2ON3l1zBew"
     }
@@ -2017,9 +2637,19 @@
     "album_art": "/images/releases/blurs.jpg",
     "release_date": "2018-01-03T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
-    "secondary_artist_ids": [2, 3, 9, 17],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [
+      2,
+      3,
+      9,
+      17
+    ],
     "remix_artist_ids": [],
     "links": {
       "sp": "https://open.spotify.com/album/77mKBDaAkANu4yVGfE4cMa?si=3si6Z7BqQKicWOtCyai-hw"
@@ -2034,8 +2664,14 @@
     "album_art": "/images/releases/just_call.jpg",
     "release_date": "2018-02-23T18:25:43.511Z",
     "genre": "Tech House",
-    "release_bio": ["", "Artwork by Robert Dylan Smock"],
-    "primary_artist_ids": [2, 1],
+    "release_bio": [
+      "",
+      "Artwork by Robert Dylan Smock"
+    ],
+    "primary_artist_ids": [
+      2,
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -2051,8 +2687,13 @@
     "album_art": "/images/releases/paabwaitjh.jpg",
     "release_date": "2017-03-15T18:25:43.511Z",
     "genre": "IDM",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -2068,8 +2709,13 @@
     "album_art": "/images/releases/grains.jpg",
     "release_date": "2017-11-03T18:25:43.511Z",
     "genre": "IDM",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -2085,8 +2731,13 @@
     "album_art": "/images/releases/raapt.jpg",
     "release_date": "2017-11-23T18:25:43.511Z",
     "genre": "IDM",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -2102,8 +2753,13 @@
     "album_art": "/images/releases/paranoimia.jpg",
     "release_date": "2018-03-15T18:25:43.511Z",
     "genre": "House",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -2119,8 +2775,13 @@
     "album_art": "/images/releases/acid.jpg",
     "release_date": "2017-11-23T18:25:43.511Z",
     "genre": "Acid House",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
@@ -2136,8 +2797,13 @@
     "album_art": "/images/releases/servsug.jpg",
     "release_date": "2016-12-28T18:25:43.511Z",
     "genre": "Techno",
-    "release_bio": ["", "Artwork by Ian Rios"],
-    "primary_artist_ids": [1],
+    "release_bio": [
+      "",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {

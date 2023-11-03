@@ -1,1404 +1,1497 @@
 [
-	{
-		"id": 1,
-		"name": "whythough?",
-		"local_path": "whythough",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/whythough_4x6.jpg",
-			"/images/artists/whythough_ray.jpg",
-			"/images/artists/whythough_looking.JPG",
-			"/images/artists/whythough_sitting.jpg"
-		],
-		"email": "whythough000@gmail.com",
-		"location": {
-			"city": "Lexington",
-			"country": "USA"
-		},
-		"quote": "\"I make a lot of music, most of which is bad, but some of its ok, and the stuff that's ok is techno, which none of my friends like\"",
-		"body_paragraphs": [
-			"whythough? is an electronic music producer who specializes in techno and club music. Originating from New Jersey, Ian Rios was exposed to electronic music from an early age. With roots in peruvian flutes and puerto rican rhythm, the Jersey Club scene is what initially brought Ian to more experimental genre bending music. ",
-			"Growing up, he listened to every style of music he could find including death metal, classical, 80s pop, ambient drones, jazz, salsa, germanic chants, progressive rock, rap, hip-hop, and of course, electronic dance music and all of its sub-generes. Fascinated with the interesting, new sounds of synthesizers, he began to dig deeper and find more artists that made music he enjoyed, building his library with 90s house and tech, all the way to mainstream edm and avant-garde machine noises. It wasn’t until going to college in Troy, NY, where Ian learned to DJ in a producer club for shows and parties. His love for crate digging is directly translated into his enjoyment of creating playlists to expose people to new music.",
-			"While initially starting out as a DJ, he quickly picked up mashups, then remixes, and finally, original tracks. Leading into 2018, he became interested in more experimental sounds, harder basses, and more technical rhythm patterns, taking inspiration from the music he grew up and loved. By taking ideas from other genres, Ian has attempted to blend all kinds of techniques to create new ways of imagining modern club and techno music in his own style."
-		],
-		"roles": [
-			"Songwriter",
-			"Sound Designer",
-			"Producer",
-			"Recording Engineer",
-			"Audio Engineer",
-			"Mix Engineer",
-			"Mastering Engineer",
-			"Web Developer",
-			"Graphic Designer",
-			"DJ"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/whythough000",
-			"ig": "https://www.instagram.com/whythough000/",
-			"fb": "https://www.facebook.com/whythough000/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/whythough",
-			"bc": "https://whythough.bandcamp.com/",
-			"sp": "https://open.spotify.com/artist/5bExMpC1oAwRNKC1Uam7h3",
-			"ap": "https://music.apple.com/us/artist/whythough/1331746031",
-			"yt": "https://www.youtube.com/channel/UCw3TmavxJ-9ZYZBGCUzT2Eg",
-			"tw": "https://www.twitch.tv/whythough000",
-			"mc": "https://www.mixcloud.com/whythough000/"
-		}
-	},
-	{
-		"id": 2,
-		"name": "dyl_pykl",
-		"local_path": "dyl_pykl",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/dyl_pykl_4x6.jpg",
-			"/images/artists/dyl_looking.jpg",
-			"/images/artists/dyl_dj.jpg",
-			"/images/artists/dyl_bathroom.jpg",
-			"/images/artists/dyl_asdf.jpg"
-		],
-		"email": "dylpyklmusic@gmail.com",
-		"location": {
-			"city": "Phoenix",
-			"country": "USA"
-		},
-		"quote": "\"Everybody makes art.\"",
-		"body_paragraphs": [
-			"Famed, fabled, and frequently berated, dyl_pykl began his lifelong downhill musical tumble at the age of 5, when he picked up the piano at the suggestion of his parents, and threw it across the room with incredible strength. Their insistence that he pursue bodybuilding, however, conflicted with the song in his soul, and he vowed never to destroy another musical instrument, with the exception of any viola. It's just a violin.",
-			"He came of age in Alaska where he was first exposed to electronic music, expanding his mind to include fake and terrible music as well as REAL music played on REAL instruments. That's when he became a \"multi-instrumentalist\" and acted like a huge dick just because he bought a garbage Jackson bass and learned the line to \"Just An Old Fashioned Love Song\" by Three Dog Night, a song that no one even listens to anymore. (shoutout Three Dog Night though)",
-			"dyl_pykl attended college in New York and started producing music while part of a club at his university known as PULSE, sometimes called \"People Using Live Software And Electronics\" but more often referred to as \"Pinheads Unmaking Lighting and Sound Equipment\" and twice a year publicly as \"People Undergoing Loud Sound Euthanasia.\" He developed a taste for music that people usually only listen to at three in the morning on drugs, even though it was 1:30 in the afternoon on a Tuesday in the library. He perfected his skills at Youtube University because only idiots go to music school. He now lives in Phoenix, Arizona."
-		],
-		"roles": [
-			"Producer",
-			"Mix Engineer",
-			"Mastering Engineer",
-			"Recording Engineer",
-			"Songwriter",
-			"Sound Designer",
-			"Audio Engineer",
-			"DJ",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/dyl_pyklmusic",
-			"ig": "https://www.instagram.com/dyl_pyklmusic/",
-			"fb": "https://www.facebook.com/dylpykl/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/dyl_pykl",
-			"bc": "https://dylpykl.bandcamp.com/",
-			"sp": "https://open.spotify.com/artist/04B8aI0pYyogRu2RQECr6T",
-			"ap": "https://music.apple.com/us/artist/dyl-pykl/1331746053"
-		}
-	},
-	{
-		"id": 3,
-		"name": "StratosFear",
-		"local_path": "StratosFear",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/stratosfear_4x6.jpg"
-		],
-		"email": "stratosfear007@gmail.com",
-		"location": {
-			"city": "Lincoln",
-			"country": "USA"
-		},
-		"quote": "\"💧︎⧫︎❒︎♋︎⧫︎□︎⬧︎☞︎♏︎♋︎❒︎\"",
-		"body_paragraphs": [
-			"Currently based in Lincoln, Nebraska, StratosFear is a chillout and ambient musician who focuses on meditative soundscapes and melodic journeys."
-		],
-		"roles": [
-			"Producer",
-			"Songwriter",
-			"Sound Designer",
-			"Audio Engineer",
-			"DJ",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/Stratos_Fear",
-			"ig": "https://www.instagram.com/stratosfearmusic/",
-			"fb": "https://gate.sc/?url=https%3A%2F%2Fwww.facebook.com%2FStratosFearMusic&token=b3b2d4-1-1581532272724"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/stratosfear-music",
-			"sp": "https://open.spotify.com/artist/0ushPuHrDj0nasOiGCTp6v?si=ad1jmkx7TfKV2kwS65USEA",
-			"ap": "https://music.apple.com/us/artist/stratosfear/1331746048"
-		}
-	},
-	{
-		"id": 4,
-		"name": "Fohrenbach",
-		"local_path": "Fohrenbach",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/fohrenbach_4x6.png"
-		],
-		"email": "robertfohrenbach@gmail.com",
-		"location": {
-			"city": "Miami",
-			"country": "USA"
-		},
-		"quote": "\" हरे कृष्ण \"",
-		"body_paragraphs": [
-			"Unexplored frontiers of sound in electronic and instrumental hip-hop ||"
-		],
-		"roles": [
-			"Producer",
-			"Mix Engineer",
-			"Mastering Engineer",
-			"Songwriter",
-			"Sound Designer",
-			"Audio Engineer",
-			"DJ",
-			"Live Musician",
-			"Yogi"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/Fohrenbach",
-			"ig": "https://www.instagram.com/bobbyfohrenbach/",
-			"fb": "https://www.facebook.com/Fohrenbach/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/fohrenbach",
-			"bc": "https://fohrenbach.bandcamp.com/releases",
-			"sp": "https://open.spotify.com/artist/6oThJNc7S13BdyAf5GCJCh",
-			"ap": "https://music.apple.com/us/artist/fohrenbach/1407573462",
-			"yt": "https://www.youtube.com/channel/UC1DbZbwVKpfhdmqOxxymu3Q",
-			"dz": "https://www.deezer.com/us/artist/15282653"
-		}
-	},
-	{
-		"id": 14,
-		"name": "Katie Hoffstatter",
-		"local_path": "Katie-Hoffstatter",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/katie_4x6.png",
-			"/images/artists/katie_in_concert.jpg",
-			"/images/artists/katie_hand_on_head.jpg",
-			"/images/artists/katie_in_nature.jpg"
-		],
-		"email": "khsongwriter@gmail.com",
-		"location": {
-			"city": "Troy",
-			"country": "USA"
-		},
-		"quote": "\"What if we loved more?\"",
-		"body_paragraphs": [
-			"Raised in a small town in New York, Katie is inspired most by nature, good people, and the little things in life. A singer and a songwriter since age 11, Katie's musical style has gone through a transformation many times throughout her life. She has landed in the lofi, R and B, and acoustic scene most recently. But sticking to her upbringing, she continues to play and write in genres such as jazz, rock, and blues.",
-			"After returning recently from a jaunt around various countries outside of the US, Katie's career as an artist has become much more exploratory. Her small town life was turned upside-down and this shows itself in her new music.",
-			"Katie feels best in intimate venues where she can truly share the emotion of her songs with her fans. But she is also a big festival performer and has performed in such venues as the famous Bearsville Theater in Woodstock, NY."
-		],
-		"roles": [
-			"Songwriter",
-			"Singer",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/khsongwriter/",
-			"fb": "https://www.facebook.com/katiehoffstattermusic/",
-			"wb": "https://khsongwriter.com/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/katieeeee98",
-			"sp": "https://open.spotify.com/artist/1HkcbJw1bsMfePhdhqwODC?si=t4TNNU7hTLmUCcxHyg6hOA",
-			"ap": "https://music.apple.com/us/artist/katie-hoffstatter/1251762119"
-		}
-	},
-	{
-		"id": 11,
-		"name": "M.A.T.Y.B.",
-		"local_path": "M.A.T.Y.B.",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/matyb_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/matybeats",
-			"sp": "https://open.spotify.com/artist/5yBx3XPszXBZLxy3e5Rp9y?si=yT1LVowBRbiVooL91NkA0g",
-			"ap": "https://music.apple.com/us/artist/matyb/1450856293",
-			"ls": "https://livesets.com/matyb/live" 
-		}
-	},
-	{
-		"id": 5,
-		"name": "svnteen",
-		"local_path": "svnteen",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/svnteen_4x6.jpg",
-			"/images/artists/svnteen_in_staircase.jpg",
-			"/images/artists/svnteen_into_sunset.jpg"
-		],
-		"email": " svnteenmusic@gmail.com",
-		"location": {
-			"city": "Seattle",
-			"country": "USA"
-		},
-		"quote": "\"we were homeschooled\"",
-		"body_paragraphs": [
-			"svnteen is a Producer/DJ duo consisting of StratosFear and whythough?. Originating from Troy, NY, svnteen began with a desire to play mashups and remixes of popular songs at frat parties and on the radio, but quickly turned into a love of creating original music.",
-			"Ranging from such genres as trap, dubstep, wave, lo-fi, and more, svnteen finds a way to blend all sorts of music to create electronic music fit for listening at home and crying yourself to sleep, to bashing your entire face in on the rail.",
-			"Since graduating college, the duo has made music all across the country, currently finding residency working remote in Brooklyn and Lexington respectively. Their music has been played worldwide, online in virtual concerts, and at festivals such as Tomorrowland and Ultra Music Festival."
-		],
-		"roles": [
-			"Songwriter",
-			"Sound Designer",
-			"Producer",
-			"Recording Engineer",
-			"Audio Engineer",
-			"Mix Engineer",
-			"Mastering Engineer",
-			"DJ"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/svnteenmusic",
-			"ig": "https://www.instagram.com/svnteenmusic",
-			"fb": "https://www.facebook.com/svnteenmusic"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/svnteen",
-			"s2": "https://soundcloud.com/svnteen-goodie-bag",
-			"bc": "https://svnteen.bandcamp.com/releases",
-			"sp": "https://open.spotify.com/artist/6AuqPKirtUQMekQeKswZ8q",
-			"ap": "https://music.apple.com/us/artist/svnteen/id1431320753",
-			"au": "https://audius.co/svnteen"
-		}
-	},
-	{
-		"id": 6,
-		"name": "Ezra Parker",
-		"local_path": "Ezra-Parker",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/ezra_parker_4x6.png",
-			"/images/artists/ezra_parker_room.jpg",
-			"/images/artists/ezra_parker_show.jpg"
-		],
-		"email": "ezraparkermusic@gmail.com",
-		"location": {
-			"city": "Ibiza",
-			"country": "Spain"
-		},
-		"quote": "listen to the dj",
-		"body_paragraphs": [
-			"Ezra Parker is a trust fund baby from Bosnia and Herzegovina who spends most of his time producing from his island villa in Ibiza."
-		],
-		"roles": [
-			"DJ",
-			"Producer"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/ezraparkermusic",
-			"fb": "https://www.facebook.com/ezraparkermusic",
-			"ig": "https://www.instagram.com/ezra_parker_music"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/ezraparker",
-			"sp": "https://open.spotify.com/artist/0KbkuP7WAlWkklmlFM3CgK",
-			"ap": "https://music.apple.com/us/artist/ezra-parker/1438758430"
-		}
-	},
-	{
-		"id": 7,
-		"name": "LoM",
-		"local_path": "LoM",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/lom_4x6.png"
-		],
-		"email": "",
-		"location": {
-			"city": "Oneonta",
-			"country": "USA"
-		},
-		"quote": "\"Hi, do you have a moment to talk about our Lord and Savior, Megamix?\"",
-		"body_paragraphs": [
-			"LoM is a electronic music mashup artist who also dabbles in production.  He is most known for his Megamix series of mixtapes blending pop, rap, rock, edm and more into seamless albums.  He runs his twitch channel where he hosts artist interviews, WRC release parties, tutorials and more."
-		],
-		"roles": [
-			"Producer",
-			"DJ",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/thisislom",
-			"fb": "https://www.facebook.com/LoM.Music",
-			"ig": "https://www.instagram.com/eric_of_lom/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/lom_music",
-			"tw": "https://twitch.tv/lom564",
-			"sp": "https://open.spotify.com/artist/4TtwSpUTK7KAvDbOZuN4HP",
-			"ap": "https://music.apple.com/us/artist/lom/1435537881"
-		}
-	},
-	{
-		"id": 8,
-		"name": "1s2",
-		"local_path": "1s2",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/1s2_4x6.png",
-			"/images/artists/ofoot_rabbit.jpg"
-		],
-		"email": "1s2@whyrecord.com",
-		"location": {
-			"city": "NH",
-			"country": "USA"
-		},
-		"quote": "\"In my infinite quest for Wub, all I found was DSP.\"",
-		"body_paragraphs": [
-			"So by some fluke of wondering how dubstep works, I found myself making VST plugins. I very much enjoy generative music and making devices that make music like custom MIDI controllers, DIY synths, and pushing the available gear that I have to the limit.",
-			"I also don't take myself too seriously and went to school for engineering, so expect more utilitarian assets from me rather than releases of phat beats."
-		],
-		"roles": [
-			"Producer",
-			"Live Musician"
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": "",
-			"bc": "https://one-s-two.bandcamp.com//",
-			"sp": "https://open.spotify.com/artist/4VIy5WMPqmwHaqlAVatNLe?si=m5oO1LcKSQOPApSizkGM_w&dl_branch=1",
-			"ap": "",
-			"tw": "https://twitch.tv/unostwo"
-		}
-	},
-	{
-		"id": 24,
-		"name": "robbiegay",
-		"local_path": "robbiegay",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/robbiegay_lights.jpg"
-		],
-		"email": "robbiegaymedia@gmail.com",
-		"location": {
-			"city": "KY",
-			"country": "USA"
-		},
-		"quote": "\"🌳🌳🌳🌳\"",
-		"body_paragraphs": [
-			"robbiegay thinks he might be a music producer, but he's not entirely sure. Sometimes he likes to make music on his laptop, sometimes he fiddles around on an old, out of tune piano, and sometimes he'd rather just skip the whole music thing and have a snack.",
-			"He first got interested in making music in college. He was into EDM and thought, \"hey, I could make that!\" With a determined spirit, he traveled down to the school's music studio (located in a far corner of the sub-basement), and sat himself down at one of the workstations. With Cubase open, he prepared to make the greatest EDM banger every heard. After countless hours of work, he still had no idea how to work Cubase and decided it was time to go home and get some sleep.",
-			"After a few music electives and some poking around on the internet, robbiegay eventually learned how to make sounds on a computer. At first he thought he was an EDM producer, but then he heard San Holo, and decided he was a future bass producer. He then got into playing the piano, and now thinks most of his music fits in the neo-classical genre.",
-			"Not that anyone asked, but his favorite books on creativity, art, music, and such are:",
-			"- The Alchemist (Paulo Coelho)",
-			"- The Artist's Way (Julia Cameron)",
-			"- On Writing (Stephen King)",
-			"- A Year With Swollen Appendices (Brian Eno)",
-			"- Tonal Harmony (Stefan Kostka)"
-		],
-		"roles": [
-			"Producer",
-			"Artist"
-		],
-		"social_platforms": {
-			"ra": "https://www.robbiegay.art/music",
-			"ig": "https://www.instagram.com/robbiegay/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/robbiegay",
-			"bc": "https://robbiegay.bandcamp.com/",
-			"sp": "https://open.spotify.com/artist/3qNg01UJiLcqaPPWVlsdwc",
-			"yt": "https://www.youtube.com/robbiegay"
-		}
-	},
-	{
-		"id": 9,
-		"name": "Weeping Sun",
-		"local_path": "Weeping-Sun",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/weeping-sun.png"
-		],
-		"email": "tearsoftheweepingsun@gmail.com",
-		"location": {
-			"city": "New Haven",
-			"country": "USA"
-		},
-		"quote": "\"Sadness is beautiful\"",
-		"body_paragraphs": [
-			"I make music sometimes"
-		],
-		"roles": [
-			"Producer",
-			"Rapper",
-			"Sound Designer",
-			"DJ"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/TheWeepingSun",
-			"ig": "https://www.instagram.com/theweepingsun/",
-			"fb": "https://www.facebook.com/TheWeepingSun"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/weeping-sun",
-			"bc": "https://bandcamp.com/weepingsun",
-			"sp": "https://open.spotify.com/artist/56mF4NaRrP5QQo82Ynxupv",
-			"ap": "https://music.apple.com/us/artist/weeping-sun/1331746037"
-		}
-	},
-	{
-		"id": 10,
-		"name": "DJ Yunomi",
-		"local_path": "DJ-Yunomi",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/profiles/dj_yunomi.jpg"
-		],
-		"email": "castrj25@gmail.com",
-		"location": {
-			"city": "Troy",
-			"country": "USA"
-		},
-		"quote": "\"You Know Me\"",
-		"body_paragraphs": [
-			"DJ Yunomi is a hardcore dance artist and DJ from the NYC area. He specializes in the combination of Psycore and Japanese Hardcore music with influences from hardstyle, techno, and trance."
-		],
-		"roles": [
-			"Producer",
-			"Songwriter",
-			"Sound Designer",
-			"DJ"
-		],
-		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/djyunomi",
-			"yt": "https://www.youtube.com/channel/UCAkIjA8Y9U0zsstsPRo6poQ",
-			"sp": "https://open.spotify.com/artist/7hD6edlYR4wFEHRzSYvYng",
-			"ap": "https://music.apple.com/us/artist/dj-yunomi/1435537883"
-		}
-	},
-	{
-		"id": 12,
-		"name": "KILL 9",
-		"local_path": "KILL-9",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": "Canada"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {
-			"tw": "",
-			"ig": "",
-			"fb": ""
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/kill9music",
-			"bc": "",
-			"sp": "",
-			"ap": ""
-		}
-	},
-	{
-		"id": 13,
-		"name": "RetiredOrphan",
-		"local_path": "RetiredOrphan",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/RetiredOrphan.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "Simi Valley",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			"Based in Simi Valley, California, RetiredOrphan is an electronic music project centered around heavy bass music genres like midtempo. The music producer continues to create the dark music he thrives for and presenting a new take on aggressive music."
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/RetiredOrphan",
-			"ig": "https://www.instagram.com/retiredorphan/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/retiredorphan",
-			"sp": "https://open.spotify.com/artist/6V3nQK9DukU16erRknwTUK",
-			"ap": "https://itunes.apple.com/us/artist/retiredorphan/1438972862",
-			"yt": "https://www.youtube.com/c/retiredorphan"
-		}
-	},
-	{
-		"id": 15,
-		"name": "Mova",
-		"local_path": "Mova",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "Tbilisi",
-			"country": "Georgia"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/movasctr/",
-			"fb": "https://www.facebook.com/Mova97/",
-			"ra": "https://www.residentadvisor.net/profile/mova97"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/mova97",
-			"bc": "https://bandcamp.com/search?q=mova",
-			"sp": "",
-			"ap": ""
-		}
-	},
-	{
-		"id": 16,
-		"name": "eraserMice",
-		"local_path": "eraserMice",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": ""
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {},
-		"music_platforms": {}
-	},
-	{
-		"id": 17,
-		"name": "Eugene Umlor",
-		"local_path": "Eugene-Umlor",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": ""
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {},
-		"music_platforms": {}
-	},
-	{
-		"id": 18,
-		"name": "Quantopix",
-		"local_path": "Quantopix",
-		"show_on_artist_page": true,
-		"photos": [
-			"/images/artists/qtemplogo.png"
-		],
-		"email": "quantop.x@gmail.com",
-		"location": {
-			"city": "Chicago",
-			"country": "USA"
-		},
-		"quote": "\"I make music I like, maybe you'll like it too\"",
-		"body_paragraphs": [
-			"Quantopix is a music project by J. Jacobson, ranging in sound from ambient music to meditate to, to heavy dubstep.",
-			"Hailing from Chicago, J has been making electronic music since soon after xe discovered the genre in highschool.",
-			"Since then, xe has been incorporating elements from different sources to create music that xe likes to listen to."
-		],
-		"roles": [
-			"Producer",
-			"Sound Designer",
-			"DJ",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/quantopix.music",
-			"tw": "https://twitter.com/Quantopix_music",
-			"fb": "https://www.facebook.com/quantopix.official"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/quantopix",
-			"bc": "https://quantopix.bandcamp.com/",
-			"sp": "https://open.spotify.com/artist/2kPTZJmjcVUxCaZiH5e9SS?si=foOMntXMQo23g7i-I-TRaQ",
-			"ap": "https://music.apple.com/us/artist/quantopix/1054418855",
-			"yt": "https://www.youtube.com/channel/UCOel_Bn-bNrDuqBinEor9Cw"
-		}
-	},
-	{
-		"id": 19,
-		"name": "tofukkers",
-		"local_path": "tofukkers",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": ""
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {
-			"fb": "https://www.facebook.com/tofukkers",
-			"ig": "https://www.instagram.com/tofuckers/",
-			"tw": "https://twitter.com/tofukkers"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/tofukkers"
-		}
-	},
-	{
-		"id": 20,
-		"name": "Area Control",
-		"local_path": "Area-Control",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": ""
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/areacontrol"
-		}
-	},
-	{
-		"id": 21,
-		"name": "stft",
-		"local_path": "stft",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/profile_4x6.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": ""
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/stft-productions"
-		}
-	},
-	{
-		"id": 22,
-		"name": "WHY? Record Company",
-		"local_path": "wrc",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": ""
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			""
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/why-record-company"
-		}
-	},
-	{
-		"id": 23,
-		"name": "produceronline",
-		"local_path": "produceronline",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "produceronline@gmail.com || produceronline@whyrecord.com",
-		"location": {
-			"city": "producer",
-			"country": "online"
-		},
-		"quote": "\"online now\"",
-		"body_paragraphs": [
-			"producer, online",
-			"an ian rios and dylan smock project"
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/produceronline"
-		}
-	},
-	{
-		"id": 25,
-		"name": "shell artist",
-		"local_path": "shell-artist",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "shellartist@whyrecord.com",
-		"location": {
-			"city": "Lexington",
-			"country": "USA"
-		},
-		"quote": "\"Music? What's that?\"",
-		"body_paragraphs": [
-			"shell artist is a persona that takes on many meanings. From the countless shells on beaches that amount to more stars than in the galaxy, to the miniscule size of a shell each being unique when you look closely, shell artist's music exists as a thought practice to push the boundaries of ambient music by packaging it differently. Each song is as long as it needs to be, each different enough to entice the listener to continue to the next.",
-			"A shell musician is an artist that's created to generate funds and farm listeners through different streaming services. Unlike traditional artists, shell musicians don't have shows and aren't interested in publicity. Shell artists do not provide listeners with music of any substantial length of time to enjoy in order to milk streaming algorithms for profits.",
-			"Even though each shell is miniscule, and when looking at a beach, they blend into their environment, when you pick one up and examine it carefully, each is unique and has a beauty of its own.",
-			"an ian rios project"
-		],
-		"roles": [
-			"Producer",
-			"Artist"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/shell-person"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/shellartist",
-			"bc": "https://shellartist.bandcamp.com/",
-			"sp": "https://open.spotify.com/artist/5Y7v1MsJbX5MP8le7MH19r",
-			"ap": "https://music.apple.com/us/artist/shell-artist/1565787166"
-		}
-	},
-	{
-		"id": 26,
-		"name": "Wash And Fold Laundry Service",
-		"local_path": "wash-and-fold-laundry-service",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "washandfoldlaundryservice@whyrecord.com",
-		"location": {
-			"city": "Lexington",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/washandfoldlaundryservice"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/washandfoldlaundryservice",
-			"bc": "",
-			"mc": "https://www.mixcloud.com/wafls/",
-			"sp": "https://open.spotify.com/artist/3usGSeJ4AaR62XxmL0RFME",
-			"ap": "https://music.apple.com/us/artist/wash-and-fold-laundry-service/1547650742"
-		}
-	},
-	{
-		"id": 27,
-		"name": "Sub Pump",
-		"local_path": "subpump",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "subpump@whyrecord.com",
-		"location": {
-			"city": "Lexington",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/subpump"
-		}
-	},
-	{
-		"id": 28,
-		"name": "new1",
-		"local_path": "new1",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "Lexington",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": ""
-		}
-	},
-	{
-		"id": 29,
-		"name": "new2",
-		"local_path": "new2",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "Lexington",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": ""
-		}
-	},
-	{
-		"id": 30,
-		"name": "No",
-		"local_path": "No",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "Phoenix",
-			"country": "USA"
-		},
-		"quote": "\"No\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"sc": ""
-		}
-	},
-	{
-		"id": 31,
-		"name": "The Sharks",
-		"local_path": "the-sharks",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/thesharks.png"
-		],
-		"email": "",
-		"location": {
-			"city": "Albany",
-			"country": "USA"
-		},
-		"quote": "\"The Sharks\"",
-		"body_paragraphs": [
-			"The Sharks!"
-		],
-		"roles": [
-			"Band"
-		],
-		"social_platforms": {},
-		"music_platforms": {
-			"spotify": "https://open.spotify.com/artist/3ZQZlZ5ZhQZxhsm6mh1Goq?si=3ZNPF12JTyuJX2xQotOweQ",
-			"apple music / itunes": "https://music.apple.com/us/artist/the-sharks/45449240",
-			"pandora": "https://www.pandora.com/artist/the-sharks/ARK3kkcvzhw6z3V",
-			"deezer": "https://www.deezer.com/us/artist/259184"
-		}
-	},
-	{
-		"id": 32,
-		"name": "Tilt Shift",
-		"local_path": "tilt-shift",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/tilt_shift_4x6.jpg"
-		],
-		"email": "tiltshiftbooking@gmail.com",
-		"location": {
-			"city": "Madison",
-			"country": "USA"
-		},
-		"quote": "\"Schrödinger's hoes... I just wanna know...\"",
-		"body_paragraphs": [
-			"Tilt Shift is a glitch pop project from Wisconsin-based producer and singer Jeremy Wisbey 💕"
-		],
-		"roles": [
-			"Producer",
-			"Graphic Designer",
-			"Mix Engineer",
-			"Mastering Engineer",
-			"Recording Engineer",
-			"Songwriter",
-			"Singer",
-			"Sound Designer",
-			"Audio Engineer",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/tiltshiftmusic/",
-			"tw": "https://www.twitter.com/tiltshiftband"
-		},
-		"music_platforms": {
-			"sc": "https://www.soundcloud.com/tilt-shift",
-			"sp": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w",
-			"ap": "https://music.apple.com/us/artist/tilt-shift/1399652919"
-		}
-	},
-	{
-		"id": 33,
-		"name": "Gintas K",
-		"local_path": "gintask",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/gintask.png"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": "Lithuania"
-		},
-		"quote": "\"the way of life\"",
-		"body_paragraphs": [
-			"Gintas K (born Gintas Kraptavicius, 1969) is a sound artist born in Lithuania in 1969. He was the core member of the first Lithuanian industrial music group \"Modus\". Performances, actions, even short films shape the activities of \"Modus\".",
-			"Later Gintas Kraptavicius was active as a performer and interdisciplinary artist, known for his actions, happenings, written instructions in a post-fluxus manner.",
-			"In 1999 Gintas turned his scenery name into Gintas K and started exploring experimental, electroacoustic, electronic, computer music, granular synthesis, live electronic music aesthetics. Since 2011 member of Lithuanian Composers Union. He has released over 30 albums, took part in various international festivals, conferences, and symposiums.",
-			"Sourced from Wikipedia"
-		],
-		"roles": [
-			"Producer",
-			"Songwriter",
-			"Sound Designer",
-			"Software Developer"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/gintask",
-			"tw": "",
-			"fb": "",
-			"wk": "https://en.wikipedia.org/wiki/Gintas_K"
-		},
-		"music_platforms": {
-			"bc": "https://gintask.bandcamp.com/",
-			"sc": "",
-			"sp": "https://open.spotify.com/artist/2sUaUghIUIdsDo2TCQKvJW?si=98kRPVdCQSy32Bl1uSIc8A",
-			"ap": "https://music.apple.com/us/artist/gintas-k/265380256"
-		}
-	},
-	{
-		"id": 34,
-		"name": "sweet hunna",
-		"local_path": "sweet-hunna",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/sweet-hunna.png"
-		],
-		"email": "sweethunna@whyrecord.com",
-		"location": {
-			"city": "Chicago",
-			"country": "USA"
-		},
-		"quote": "\"have you heard?\"",
-		"body_paragraphs": [
-			"sweet hunna is a producer who makes music on Earth and someday hopes to make music elsewhere"
-		],
-		"roles": [
-			"Producer",
-			"Sound Designer"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/sweet.hunna/",
-			"tw": "https://twitter.com/sweet_hunna",
-			"fb": ""
-		},
-		"music_platforms": {
-			"bc": "",
-			"sc": "https://soundcloud.com/sweet-hunna",
-			"sp": "",
-			"ap": ""
-		}
-	},
-	{
-		"id": 35,
-		"name": "SUPREME",
-		"local_path": "SUPREME",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/SUPREME.jpeg"
-		],
-		"email": "makedujo@gmail.com",
-		"location": {
-			"city": "San Francisco",
-			"country": "USA"
-		},
-		"quote": "\"spoiler alert we like to break beats\"",
-		"body_paragraphs": [
-			"SUPREME is an artist from Chicago dabbling with weird time signatures and trite bio copy.",
-			"Catch them outside with them sick trippy energies of nihilism and nonchalance.",
-			"@Suprem.us on IG"
-		],
-		"roles": [
-			"Producer",
-			"Graphic Designer"
-		],
-		"social_platforms": {
-			"ig": "https://instagram.com/suprem.us",
-			"tw": "https://twitter.com/supremehint",
-			"fb": "https://Facebook.com/glitchsociety"
-		},
-		"music_platforms": {
-			"bc": "",
-			"sc": "https://soundcloud.com/hyper_pop",
-			"sp": "",
-			"ap": ""
-		}
-	},
-	{
-		"id": 36,
-		"name": "Rafael Khan",
-		"local_path": "rafael-khan",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/RAF.jpg"
-		],
-		"email": "rafael@rafkhan.me",
-		"location": {
-			"city": "Toronto",
-			"country": "Canada"
-		},
-		"quote": "\"WILL DO LATER\"",
-		"body_paragraphs": [
-			"WILL DO LATER"
-		],
-		"roles": [
-			"Producer",
-			"Mix Engineer",
-			"Songwriter",
-			"Sound Designer",
-			"Audio Engineer",
-			"DJ",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"ig": "https://www.instagram.com/rafaelkhan/",
-			"tw": "https://twitter.com/_rafaelkhan_",
-			"fb": ""
-		},
-		"music_platforms": {
-			"bc": "https://rafaelkhan.bandcamp.com/",
-			"sc": "https://soundcloud.com/rafaelkhan",
-			"sp": "https://open.spotify.com/artist/3BofWJI2AYM7FL4TCWoOJO",
-			"ap": "https://music.apple.com/us/artist/rafael-khan/1536599545"
-		}
-	},
-	{
-		"id": 37,
-		"name": "Ares Silver",
-		"local_path": "ares-silver",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {},
-		"music_platforms": {}
-	},
-	{
-		"id": 38,
-		"name": "Nateral Legend",
-		"local_path": "nateral-legend",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Rapper"
-		],
-		"social_platforms": {},
-		"music_platforms": {}
-	},
-	{
-		"id": 39,
-		"name": "Young Dee",
-		"local_path": "young-dee",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Rapper"
-		],
-		"social_platforms": {},
-		"music_platforms": {}
-	},
-	{
-		"id": 40,
-		"name": "AllanPower!!!",
-		"local_path": "AllanPower",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/allanpower_ginpic.jpg"
-		],
-		"email": "allanpower242@gmail.com",
-		"location": {
-			"city": "Freeport",
-			"country": "Bahamas"
-		},
-		"quote": "\"Keep It Potent\"",
-		"body_paragraphs": [
-			"I'm a producer from The Bahamas. I usually make avant garde, hip-hop, and Caribbean music."
-		],
-		"roles": [
-			"Producer",
-			"Mix Engineer",
-			"Mastering Engineer"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/AllanPower242",
-			"fb": "https://www.facebook.com/AllanPower242",
-			"ig": "https://www.instagram.com/_allanpower_/"
-		},
-		"music_platforms": {
-			"sc": "https://soundcloud.com/user-470643955",
-			"yt": "https://www.youtube.com/channel/UCA0ReeB5-9q2raGpuaJvhRA",
-			"sp": "",
-			"ap": "",
-			"hn": "https://allanpower.hearnow.com/"
-		}
-	},
-	{
-		"id": 41,
-		"name": "HmGreen",
-		"local_path": "HmGreen",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/releases/WRC.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "Lexington",
-			"country": "USA"
-		},
-		"quote": "\"\"",
-		"body_paragraphs": [
-			""
-		],
-		"roles": [
-			"Producer"
-		],
-		"social_platforms": {
-			"ig": ""
-		},
-		"music_platforms": {
-			"sp": "",
-			"ap": ""
-		}
-	},
-	{
-		"id": 42,
-		"name": "Mitch Rocket",
-		"local_path": "mitch-rocket",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/profiles/mitch_rocket_4x6.jpg",
-			"/images/artists/mr2.PNG",
-			"/images/artists/mr1.jpg"
-		],
-		"email": "mitchrocketmusic@gmail.com",
-		"location": {
-			"city": "San Francisco",
-			"country": "USA"
-		},
-		"quote": "\"Hello is this thing on?\"",
-		"body_paragraphs": [
-			"Mitch Rocket is a singer-songwriter and multi-instrumentalist from San Francisco, CA. Drawing from a background in jazz saxophone and a deep appreciation for the broad canon of rock music 1960s-present, his songs run the gamut from folk-rock to electronic jazz fusion. In addition to his solo career, he has contributed to groups like Unscrewable Pooch, Cotton Rocket, Roxy Rawson and the Rounded Sound, d.mith, and Via Villa.",
-			"His debut LP Petting Zoo is slated for release in August 2021."
-		],
-		"roles": [
-			"Producer",
-			"Songwriter",
-			"Singer",
-			"Live Musician"
-		],
-		"social_platforms": {
-			"tw": "https://twitter.com/MitchRocketSF",
-			"fb": "https://www.facebook.com/mitchrocketsf/",
-			"ig": "https://www.instagram.com/mitchrocket/",
-			"tt": "https://www.tiktok.com/@mitchrocketsf",
-			"wb": "https://mitchrocket.com"
-		},
-		"music_platforms": {
-			"bc": "https://mitchrocket.bandcamp.com/",
-			"sc": "https://soundcloud.com/mitchrocket",
-			"sp": "https://open.spotify.com/artist/40fDBsFHEySabDYL0ais6j?si=IwuddNnWSmmcX_cRkFftKw",
-			"ap": "https://music.apple.com/us/artist/mitch-rocket/1455432806",
-			"yt": "https://www.youtube.com/channel/UCUAkQyK8ScjYWaCEAxd6V3Q"
-		}
-	},
-	{
-		"id": 43,
-		"name": "Myers Mountain",
-		"local_path": "myers-mountain",
-		"show_on_artist_page": false,
-		"photos": [
-			"/images/artists/Ian_Warner.jpg"
-		],
-		"email": "",
-		"location": {
-			"city": "Hughesville",
-			"country": "United States"
-		},
-		"quote": "\"It will all work out in Boomland.\"",
-		"body_paragraphs": [
-			"We're Myers Mountain. We make music that we enjoy, and we make music that we hope others enjoy too.",
-			"Jay Warner - drums, percussion, bass, production",
-			"Ian Warner - guitar, keyboard, production",
-			"Phil Clark - guitar, banjo"
-		],
-		"roles": [
-			"Producer",
-			"Mix Engineer",
-			"Mastering Engineer",
-			"Recording Engineer",
-			"Songwriter",
-			"Singer",
-			"Live Musician",
-			"Band"
-		],
-		"social_platforms": {
-			"tw": "",
-			"fb": "",
-			"ig": "",
-			"tt": "",
-			"wb": ""
-		},
-		"music_platforms": {
-			"bc": "",
-			"sc": "https://soundcloud.com/myers-mountain-2",
-			"sp": "https://open.spotify.com/artist/2kHHh8A93EtiDavmx0zvNR",
-			"ap": "https://music.apple.com/us/artist/myers-mountain/1587119368",
-			"yt": ""
-		}
-	}
+  {
+    "id": 1,
+    "name": "whythough?",
+    "local_path": "whythough",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/whythough_4x6.jpg",
+      "/images/artists/whythough_ray.jpg",
+      "/images/artists/whythough_looking.JPG",
+      "/images/artists/whythough_sitting.jpg"
+    ],
+    "email": "whythough000@gmail.com",
+    "location": {
+      "city": "Lexington",
+      "country": "USA"
+    },
+    "quote": "\"I make a lot of music, most of which is bad, but some of its ok, and the stuff that's ok is techno, which none of my friends like\"",
+    "body_paragraphs": [
+      "whythough? is an electronic music producer who specializes in techno and club music. Originating from New Jersey, Ian Rios was exposed to electronic music from an early age. With roots in peruvian flutes and puerto rican rhythm, the Jersey Club scene is what initially brought Ian to more experimental genre bending music. ",
+      "Growing up, he listened to every style of music he could find including death metal, classical, 80s pop, ambient drones, jazz, salsa, germanic chants, progressive rock, rap, hip-hop, and of course, electronic dance music and all of its sub-generes. Fascinated with the interesting, new sounds of synthesizers, he began to dig deeper and find more artists that made music he enjoyed, building his library with 90s house and tech, all the way to mainstream edm and avant-garde machine noises. It wasn’t until going to college in Troy, NY, where Ian learned to DJ in a producer club for shows and parties. His love for crate digging is directly translated into his enjoyment of creating playlists to expose people to new music.",
+      "While initially starting out as a DJ, he quickly picked up mashups, then remixes, and finally, original tracks. Leading into 2018, he became interested in more experimental sounds, harder basses, and more technical rhythm patterns, taking inspiration from the music he grew up and loved. By taking ideas from other genres, Ian has attempted to blend all kinds of techniques to create new ways of imagining modern club and techno music in his own style."
+    ],
+    "roles": [
+      "Songwriter",
+      "Sound Designer",
+      "Producer",
+      "Recording Engineer",
+      "Audio Engineer",
+      "Mix Engineer",
+      "Mastering Engineer",
+      "Web Developer",
+      "Graphic Designer",
+      "DJ"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/whythough000",
+      "ig": "https://www.instagram.com/whythough000/",
+      "fb": "https://www.facebook.com/whythough000/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/whythough",
+      "bc": "https://whythough.bandcamp.com/",
+      "sp": "https://open.spotify.com/artist/5bExMpC1oAwRNKC1Uam7h3",
+      "ap": "https://music.apple.com/us/artist/whythough/1331746031",
+      "yt": "https://www.youtube.com/channel/UCw3TmavxJ-9ZYZBGCUzT2Eg",
+      "tw": "https://www.twitch.tv/whythough000",
+      "mc": "https://www.mixcloud.com/whythough000/"
+    }
+  },
+  {
+    "id": 2,
+    "name": "dyl_pykl",
+    "local_path": "dyl_pykl",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/dyl_pykl_4x6.jpg",
+      "/images/artists/dyl_looking.jpg",
+      "/images/artists/dyl_dj.jpg",
+      "/images/artists/dyl_bathroom.jpg",
+      "/images/artists/dyl_asdf.jpg"
+    ],
+    "email": "dylpyklmusic@gmail.com",
+    "location": {
+      "city": "Phoenix",
+      "country": "USA"
+    },
+    "quote": "\"Everybody makes art.\"",
+    "body_paragraphs": [
+      "Famed, fabled, and frequently berated, dyl_pykl began his lifelong downhill musical tumble at the age of 5, when he picked up the piano at the suggestion of his parents, and threw it across the room with incredible strength. Their insistence that he pursue bodybuilding, however, conflicted with the song in his soul, and he vowed never to destroy another musical instrument, with the exception of any viola. It's just a violin.",
+      "He came of age in Alaska where he was first exposed to electronic music, expanding his mind to include fake and terrible music as well as REAL music played on REAL instruments. That's when he became a \"multi-instrumentalist\" and acted like a huge dick just because he bought a garbage Jackson bass and learned the line to \"Just An Old Fashioned Love Song\" by Three Dog Night, a song that no one even listens to anymore. (shoutout Three Dog Night though)",
+      "dyl_pykl attended college in New York and started producing music while part of a club at his university known as PULSE, sometimes called \"People Using Live Software And Electronics\" but more often referred to as \"Pinheads Unmaking Lighting and Sound Equipment\" and twice a year publicly as \"People Undergoing Loud Sound Euthanasia.\" He developed a taste for music that people usually only listen to at three in the morning on drugs, even though it was 1:30 in the afternoon on a Tuesday in the library. He perfected his skills at Youtube University because only idiots go to music school. He now lives in Phoenix, Arizona."
+    ],
+    "roles": [
+      "Producer",
+      "Mix Engineer",
+      "Mastering Engineer",
+      "Recording Engineer",
+      "Songwriter",
+      "Sound Designer",
+      "Audio Engineer",
+      "DJ",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/dyl_pyklmusic",
+      "ig": "https://www.instagram.com/dyl_pyklmusic/",
+      "fb": "https://www.facebook.com/dylpykl/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/dyl_pykl",
+      "bc": "https://dylpykl.bandcamp.com/",
+      "sp": "https://open.spotify.com/artist/04B8aI0pYyogRu2RQECr6T",
+      "ap": "https://music.apple.com/us/artist/dyl-pykl/1331746053"
+    }
+  },
+  {
+    "id": 3,
+    "name": "StratosFear",
+    "local_path": "StratosFear",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/stratosfear_4x6.jpg"
+    ],
+    "email": "stratosfear007@gmail.com",
+    "location": {
+      "city": "Lincoln",
+      "country": "USA"
+    },
+    "quote": "\"💧︎⧫︎❒︎♋︎⧫︎□︎⬧︎☞︎♏︎♋︎❒︎\"",
+    "body_paragraphs": [
+      "Currently based in Lincoln, Nebraska, StratosFear is a chillout and ambient musician who focuses on meditative soundscapes and melodic journeys."
+    ],
+    "roles": [
+      "Producer",
+      "Songwriter",
+      "Sound Designer",
+      "Audio Engineer",
+      "DJ",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/Stratos_Fear",
+      "ig": "https://www.instagram.com/stratosfearmusic/",
+      "fb": "https://gate.sc/?url=https%3A%2F%2Fwww.facebook.com%2FStratosFearMusic&token=b3b2d4-1-1581532272724"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/stratosfear-music",
+      "sp": "https://open.spotify.com/artist/0ushPuHrDj0nasOiGCTp6v?si=ad1jmkx7TfKV2kwS65USEA",
+      "ap": "https://music.apple.com/us/artist/stratosfear/1331746048"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Fohrenbach",
+    "local_path": "Fohrenbach",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/fohrenbach_4x6.png"
+    ],
+    "email": "robertfohrenbach@gmail.com",
+    "location": {
+      "city": "Miami",
+      "country": "USA"
+    },
+    "quote": "\" हरे कृष्ण \"",
+    "body_paragraphs": [
+      "Unexplored frontiers of sound in electronic and instrumental hip-hop ||"
+    ],
+    "roles": [
+      "Producer",
+      "Mix Engineer",
+      "Mastering Engineer",
+      "Songwriter",
+      "Sound Designer",
+      "Audio Engineer",
+      "DJ",
+      "Live Musician",
+      "Yogi"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/Fohrenbach",
+      "ig": "https://www.instagram.com/bobbyfohrenbach/",
+      "fb": "https://www.facebook.com/Fohrenbach/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/fohrenbach",
+      "bc": "https://fohrenbach.bandcamp.com/releases",
+      "sp": "https://open.spotify.com/artist/6oThJNc7S13BdyAf5GCJCh",
+      "ap": "https://music.apple.com/us/artist/fohrenbach/1407573462",
+      "yt": "https://www.youtube.com/channel/UC1DbZbwVKpfhdmqOxxymu3Q",
+      "dz": "https://www.deezer.com/us/artist/15282653"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Katie Hoffstatter",
+    "local_path": "Katie-Hoffstatter",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/katie_4x6.png",
+      "/images/artists/katie_in_concert.jpg",
+      "/images/artists/katie_hand_on_head.jpg",
+      "/images/artists/katie_in_nature.jpg"
+    ],
+    "email": "khsongwriter@gmail.com",
+    "location": {
+      "city": "Troy",
+      "country": "USA"
+    },
+    "quote": "\"What if we loved more?\"",
+    "body_paragraphs": [
+      "Raised in a small town in New York, Katie is inspired most by nature, good people, and the little things in life. A singer and a songwriter since age 11, Katie's musical style has gone through a transformation many times throughout her life. She has landed in the lofi, R and B, and acoustic scene most recently. But sticking to her upbringing, she continues to play and write in genres such as jazz, rock, and blues.",
+      "After returning recently from a jaunt around various countries outside of the US, Katie's career as an artist has become much more exploratory. Her small town life was turned upside-down and this shows itself in her new music.",
+      "Katie feels best in intimate venues where she can truly share the emotion of her songs with her fans. But she is also a big festival performer and has performed in such venues as the famous Bearsville Theater in Woodstock, NY."
+    ],
+    "roles": [
+      "Songwriter",
+      "Singer",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/khsongwriter/",
+      "fb": "https://www.facebook.com/katiehoffstattermusic/",
+      "wb": "https://khsongwriter.com/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/katieeeee98",
+      "sp": "https://open.spotify.com/artist/1HkcbJw1bsMfePhdhqwODC?si=t4TNNU7hTLmUCcxHyg6hOA",
+      "ap": "https://music.apple.com/us/artist/katie-hoffstatter/1251762119"
+    }
+  },
+  {
+    "id": 11,
+    "name": "M.A.T.Y.B.",
+    "local_path": "M.A.T.Y.B.",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/matyb_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {
+      "tw": "",
+      "ig": "",
+      "fb": ""
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/matybeats",
+      "sp": "https://open.spotify.com/artist/5yBx3XPszXBZLxy3e5Rp9y?si=yT1LVowBRbiVooL91NkA0g",
+      "ap": "https://music.apple.com/us/artist/matyb/1450856293",
+      "ls": "https://livesets.com/matyb/live"
+    }
+  },
+  {
+    "id": 5,
+    "name": "svnteen",
+    "local_path": "svnteen",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/svnteen_4x6.jpg",
+      "/images/artists/svnteen_in_staircase.jpg",
+      "/images/artists/svnteen_into_sunset.jpg"
+    ],
+    "email": " svnteenmusic@gmail.com",
+    "location": {
+      "city": "Seattle",
+      "country": "USA"
+    },
+    "quote": "\"we were homeschooled\"",
+    "body_paragraphs": [
+      "svnteen is a Producer/DJ duo consisting of StratosFear and whythough?. Originating from Troy, NY, svnteen began with a desire to play mashups and remixes of popular songs at frat parties and on the radio, but quickly turned into a love of creating original music.",
+      "Ranging from such genres as trap, dubstep, wave, lo-fi, and more, svnteen finds a way to blend all sorts of music to create electronic music fit for listening at home and crying yourself to sleep, to bashing your entire face in on the rail.",
+      "Since graduating college, the duo has made music all across the country, currently finding residency working remote in Brooklyn and Lexington respectively. Their music has been played worldwide, online in virtual concerts, and at festivals such as Tomorrowland and Ultra Music Festival."
+    ],
+    "roles": [
+      "Songwriter",
+      "Sound Designer",
+      "Producer",
+      "Recording Engineer",
+      "Audio Engineer",
+      "Mix Engineer",
+      "Mastering Engineer",
+      "DJ"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/svnteenmusic",
+      "ig": "https://www.instagram.com/svnteenmusic",
+      "fb": "https://www.facebook.com/svnteenmusic"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/svnteen",
+      "s2": "https://soundcloud.com/svnteen-goodie-bag",
+      "bc": "https://svnteen.bandcamp.com/releases",
+      "sp": "https://open.spotify.com/artist/6AuqPKirtUQMekQeKswZ8q",
+      "ap": "https://music.apple.com/us/artist/svnteen/id1431320753",
+      "au": "https://audius.co/svnteen"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Ezra Parker",
+    "local_path": "Ezra-Parker",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/ezra_parker_4x6.png",
+      "/images/artists/ezra_parker_room.jpg",
+      "/images/artists/ezra_parker_show.jpg"
+    ],
+    "email": "ezraparkermusic@gmail.com",
+    "location": {
+      "city": "Ibiza",
+      "country": "Spain"
+    },
+    "quote": "listen to the dj",
+    "body_paragraphs": [
+      "Ezra Parker is a trust fund baby from Bosnia and Herzegovina who spends most of his time producing from his island villa in Ibiza."
+    ],
+    "roles": [
+      "DJ",
+      "Producer"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/ezraparkermusic",
+      "fb": "https://www.facebook.com/ezraparkermusic",
+      "ig": "https://www.instagram.com/ezra_parker_music"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/ezraparker",
+      "sp": "https://open.spotify.com/artist/0KbkuP7WAlWkklmlFM3CgK",
+      "ap": "https://music.apple.com/us/artist/ezra-parker/1438758430"
+    }
+  },
+  {
+    "id": 7,
+    "name": "LoM",
+    "local_path": "LoM",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/lom_4x6.png"
+    ],
+    "email": "",
+    "location": {
+      "city": "Oneonta",
+      "country": "USA"
+    },
+    "quote": "\"Hi, do you have a moment to talk about our Lord and Savior, Megamix?\"",
+    "body_paragraphs": [
+      "LoM is a electronic music mashup artist who also dabbles in production.  He is most known for his Megamix series of mixtapes blending pop, rap, rock, edm and more into seamless albums.  He runs his twitch channel where he hosts artist interviews, WRC release parties, tutorials and more."
+    ],
+    "roles": [
+      "Producer",
+      "DJ",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/thisislom",
+      "fb": "https://www.facebook.com/LoM.Music",
+      "ig": "https://www.instagram.com/eric_of_lom/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/lom_music",
+      "tw": "https://twitch.tv/lom564",
+      "sp": "https://open.spotify.com/artist/4TtwSpUTK7KAvDbOZuN4HP",
+      "ap": "https://music.apple.com/us/artist/lom/1435537881"
+    }
+  },
+  {
+    "id": 8,
+    "name": "1s2",
+    "local_path": "1s2",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/1s2_4x6.png",
+      "/images/artists/ofoot_rabbit.jpg"
+    ],
+    "email": "1s2@whyrecord.com",
+    "location": {
+      "city": "NH",
+      "country": "USA"
+    },
+    "quote": "\"In my infinite quest for Wub, all I found was DSP.\"",
+    "body_paragraphs": [
+      "So by some fluke of wondering how dubstep works, I found myself making VST plugins. I very much enjoy generative music and making devices that make music like custom MIDI controllers, DIY synths, and pushing the available gear that I have to the limit.",
+      "I also don't take myself too seriously and went to school for engineering, so expect more utilitarian assets from me rather than releases of phat beats."
+    ],
+    "roles": [
+      "Producer",
+      "Live Musician"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": "",
+      "bc": "https://one-s-two.bandcamp.com//",
+      "sp": "https://open.spotify.com/artist/4VIy5WMPqmwHaqlAVatNLe?si=m5oO1LcKSQOPApSizkGM_w&dl_branch=1",
+      "ap": "",
+      "tw": "https://twitch.tv/unostwo"
+    }
+  },
+  {
+    "id": 24,
+    "name": "robbiegay",
+    "local_path": "robbiegay",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/robbiegay_lights.jpg"
+    ],
+    "email": "robbiegaymedia@gmail.com",
+    "location": {
+      "city": "KY",
+      "country": "USA"
+    },
+    "quote": "\"🌳🌳🌳🌳\"",
+    "body_paragraphs": [
+      "robbiegay thinks he might be a music producer, but he's not entirely sure. Sometimes he likes to make music on his laptop, sometimes he fiddles around on an old, out of tune piano, and sometimes he'd rather just skip the whole music thing and have a snack.",
+      "He first got interested in making music in college. He was into EDM and thought, \"hey, I could make that!\" With a determined spirit, he traveled down to the school's music studio (located in a far corner of the sub-basement), and sat himself down at one of the workstations. With Cubase open, he prepared to make the greatest EDM banger every heard. After countless hours of work, he still had no idea how to work Cubase and decided it was time to go home and get some sleep.",
+      "After a few music electives and some poking around on the internet, robbiegay eventually learned how to make sounds on a computer. At first he thought he was an EDM producer, but then he heard San Holo, and decided he was a future bass producer. He then got into playing the piano, and now thinks most of his music fits in the neo-classical genre.",
+      "Not that anyone asked, but his favorite books on creativity, art, music, and such are:",
+      "- The Alchemist (Paulo Coelho)",
+      "- The Artist's Way (Julia Cameron)",
+      "- On Writing (Stephen King)",
+      "- A Year With Swollen Appendices (Brian Eno)",
+      "- Tonal Harmony (Stefan Kostka)"
+    ],
+    "roles": [
+      "Producer",
+      "Artist"
+    ],
+    "social_platforms": {
+      "ra": "https://www.robbiegay.art/music",
+      "ig": "https://www.instagram.com/robbiegay/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/robbiegay",
+      "bc": "https://robbiegay.bandcamp.com/",
+      "sp": "https://open.spotify.com/artist/3qNg01UJiLcqaPPWVlsdwc",
+      "yt": "https://www.youtube.com/robbiegay"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Weeping Sun",
+    "local_path": "Weeping-Sun",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/weeping-sun.png"
+    ],
+    "email": "tearsoftheweepingsun@gmail.com",
+    "location": {
+      "city": "New Haven",
+      "country": "USA"
+    },
+    "quote": "\"Sadness is beautiful\"",
+    "body_paragraphs": [
+      "I make music sometimes"
+    ],
+    "roles": [
+      "Producer",
+      "Rapper",
+      "Sound Designer",
+      "DJ"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/TheWeepingSun",
+      "ig": "https://www.instagram.com/theweepingsun/",
+      "fb": "https://www.facebook.com/TheWeepingSun"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/weeping-sun",
+      "bc": "https://bandcamp.com/weepingsun",
+      "sp": "https://open.spotify.com/artist/56mF4NaRrP5QQo82Ynxupv",
+      "ap": "https://music.apple.com/us/artist/weeping-sun/1331746037"
+    }
+  },
+  {
+    "id": 10,
+    "name": "DJ Yunomi",
+    "local_path": "DJ-Yunomi",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/dj_yunomi.jpg"
+    ],
+    "email": "castrj25@gmail.com",
+    "location": {
+      "city": "Troy",
+      "country": "USA"
+    },
+    "quote": "\"You Know Me\"",
+    "body_paragraphs": [
+      "DJ Yunomi is a hardcore dance artist and DJ from the NYC area. He specializes in the combination of Psycore and Japanese Hardcore music with influences from hardstyle, techno, and trance."
+    ],
+    "roles": [
+      "Producer",
+      "Songwriter",
+      "Sound Designer",
+      "DJ"
+    ],
+    "social_platforms": {
+      "tw": "",
+      "ig": "",
+      "fb": ""
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/djyunomi",
+      "yt": "https://www.youtube.com/channel/UCAkIjA8Y9U0zsstsPRo6poQ",
+      "sp": "https://open.spotify.com/artist/7hD6edlYR4wFEHRzSYvYng",
+      "ap": "https://music.apple.com/us/artist/dj-yunomi/1435537883"
+    }
+  },
+  {
+    "id": 12,
+    "name": "KILL 9",
+    "local_path": "KILL-9",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/profile_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": "Canada"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {
+      "tw": "",
+      "ig": "",
+      "fb": ""
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/kill9music",
+      "bc": "",
+      "sp": "",
+      "ap": ""
+    }
+  },
+  {
+    "id": 13,
+    "name": "RetiredOrphan",
+    "local_path": "RetiredOrphan",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/RetiredOrphan.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "Simi Valley",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      "Based in Simi Valley, California, RetiredOrphan is an electronic music project centered around heavy bass music genres like midtempo. The music producer continues to create the dark music he thrives for and presenting a new take on aggressive music."
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/RetiredOrphan",
+      "ig": "https://www.instagram.com/retiredorphan/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/retiredorphan",
+      "sp": "https://open.spotify.com/artist/6V3nQK9DukU16erRknwTUK",
+      "ap": "https://itunes.apple.com/us/artist/retiredorphan/1438972862",
+      "yt": "https://www.youtube.com/c/retiredorphan"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Mova",
+    "local_path": "Mova",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/profile_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "Tbilisi",
+      "country": "Georgia"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/movasctr/",
+      "fb": "https://www.facebook.com/Mova97/",
+      "ra": "https://www.residentadvisor.net/profile/mova97"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/mova97",
+      "bc": "https://bandcamp.com/search?q=mova",
+      "sp": "",
+      "ap": ""
+    }
+  },
+  {
+    "id": 16,
+    "name": "eraserMice",
+    "local_path": "eraserMice",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/profile_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": ""
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {}
+  },
+  {
+    "id": 17,
+    "name": "Eugene Umlor",
+    "local_path": "Eugene-Umlor",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/profile_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": ""
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {}
+  },
+  {
+    "id": 18,
+    "name": "Quantopix",
+    "local_path": "Quantopix",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/qtemplogo.png"
+    ],
+    "email": "quantop.x@gmail.com",
+    "location": {
+      "city": "Chicago",
+      "country": "USA"
+    },
+    "quote": "\"I make music I like, maybe you'll like it too\"",
+    "body_paragraphs": [
+      "Quantopix is a music project by J. Jacobson, ranging in sound from ambient music to meditate to, to heavy dubstep.",
+      "Hailing from Chicago, J has been making electronic music since soon after xe discovered the genre in highschool.",
+      "Since then, xe has been incorporating elements from different sources to create music that xe likes to listen to."
+    ],
+    "roles": [
+      "Producer",
+      "Sound Designer",
+      "DJ",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/quantopix.music",
+      "tw": "https://twitter.com/Quantopix_music",
+      "fb": "https://www.facebook.com/quantopix.official"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/quantopix",
+      "bc": "https://quantopix.bandcamp.com/",
+      "sp": "https://open.spotify.com/artist/2kPTZJmjcVUxCaZiH5e9SS?si=foOMntXMQo23g7i-I-TRaQ",
+      "ap": "https://music.apple.com/us/artist/quantopix/1054418855",
+      "yt": "https://www.youtube.com/channel/UCOel_Bn-bNrDuqBinEor9Cw"
+    }
+  },
+  {
+    "id": 19,
+    "name": "tofukkers",
+    "local_path": "tofukkers",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/profile_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": ""
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {
+      "fb": "https://www.facebook.com/tofukkers",
+      "ig": "https://www.instagram.com/tofuckers/",
+      "tw": "https://twitter.com/tofukkers"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/tofukkers"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Area Control",
+    "local_path": "Area-Control",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/profile_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": ""
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": "https://soundcloud.com/areacontrol"
+    }
+  },
+  {
+    "id": 21,
+    "name": "stft",
+    "local_path": "stft",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/profile_4x6.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": ""
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": "https://soundcloud.com/stft-productions"
+    }
+  },
+  {
+    "id": 22,
+    "name": "WHY? Record Company",
+    "local_path": "wrc",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": ""
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": "https://soundcloud.com/why-record-company"
+    }
+  },
+  {
+    "id": 23,
+    "name": "produceronline",
+    "local_path": "produceronline",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "produceronline@gmail.com || produceronline@whyrecord.com",
+    "location": {
+      "city": "producer",
+      "country": "online"
+    },
+    "quote": "\"online now\"",
+    "body_paragraphs": [
+      "producer, online",
+      "an ian rios and dylan smock project"
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": "https://soundcloud.com/produceronline"
+    }
+  },
+  {
+    "id": 25,
+    "name": "shell artist",
+    "local_path": "shell-artist",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "shellartist@whyrecord.com",
+    "location": {
+      "city": "Lexington",
+      "country": "USA"
+    },
+    "quote": "\"Music? What's that?\"",
+    "body_paragraphs": [
+      "shell artist is a persona that takes on many meanings. From the countless shells on beaches that amount to more stars than in the galaxy, to the miniscule size of a shell each being unique when you look closely, shell artist's music exists as a thought practice to push the boundaries of ambient music by packaging it differently. Each song is as long as it needs to be, each different enough to entice the listener to continue to the next.",
+      "A shell musician is an artist that's created to generate funds and farm listeners through different streaming services. Unlike traditional artists, shell musicians don't have shows and aren't interested in publicity. Shell artists do not provide listeners with music of any substantial length of time to enjoy in order to milk streaming algorithms for profits.",
+      "Even though each shell is miniscule, and when looking at a beach, they blend into their environment, when you pick one up and examine it carefully, each is unique and has a beauty of its own.",
+      "an ian rios project"
+    ],
+    "roles": [
+      "Producer",
+      "Artist"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/shell-person"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/shellartist",
+      "bc": "https://shellartist.bandcamp.com/",
+      "sp": "https://open.spotify.com/artist/5Y7v1MsJbX5MP8le7MH19r",
+      "ap": "https://music.apple.com/us/artist/shell-artist/1565787166"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Wash And Fold Laundry Service",
+    "local_path": "wash-and-fold-laundry-service",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/profiles/wafls_4x6.jpg",
+      "/images/artists/wafls_industrial.jpg",
+      "/images/artists/wafls_garage.jpg",
+      "/images/artists/wafls_escalator.jpg",
+      "/images/artists/wafls_street.jpg",
+      "/images/artists/wafls_ambient.jpg",
+      "/images/artists/wafls_toronto_mall.jpg",
+      "/images/artists/wafls_nail_salon.jpg"
+    ],
+    "email": "washandfoldlaundryservice@whyrecord.com",
+    "location": {
+      "city": "Lexington",
+      "country": "USA"
+    },
+    "quote": "In the fast-paced world of business techno, there's always room for innovation.",
+    "body_paragraphs": [
+      "Introducing \"Wash And Fold Laundry Service\", a new project from the mind of Ian Rios.",
+      "Ian Rios, a New Jersey native and current resident of Kentucky, is a DJ and producer with a lifelong passion for electronic music. His love for synthesizers led him to discover more electronic based artists, building an expansive song library that spans genres such as jazz, 80's pop, ambient, death metal, and more. He has collected everything from 90s house and tech to mainstream EDM and avant-garde machine noises, which inspire his own unique sound.",
+      "Ian eventually learned to DJ in college for on-campus shows and off-campus parties through a music production club. His passion for crate digging and creating playlists to expose people to new music led him to start experimenting with mashups, remixes, and eventually, original tracks.",
+      "As he built out his catalog of music through his various other personas (whythough?, shell artist, svnteen), Ian became interested in more experimental sounds, harder basses, and more technical rhythm patterns. He drew inspiration from the music he grew up with and loved, and attempted to blend all kinds of techniques to create new ways of imagining modern club and techno music in his own style.",
+      "In addition to his music production skills, Ian also picked up some graphic design skills to help out the other artists releasing music on the label. He is passionate about creating a complete experience for his listeners, not just in terms of sound but also in visual aesthetics.",
+      "Ian Rios realized the importance of mastering his own tracks and perfecting his mixing skills to achieve the sound he was striving for. He devoted himself to learning everything he could about the technical aspects of music production, taking courses and attending workshops to refine his craft. By combining his technical expertise with his creative talents, he coined \"Wash And Fold Laundry Service\" as a new persona that allows him to express his true self while producing music he is proud of."
+    ],
+    "roles": [
+      "Producer",
+      "DJ"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/washandfoldlaundryservice"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/washandfoldlaundryservice",
+      "bc": "",
+      "mc": "https://www.mixcloud.com/wafls/",
+      "sp": "https://open.spotify.com/artist/3usGSeJ4AaR62XxmL0RFME",
+      "ap": "https://music.apple.com/us/artist/wash-and-fold-laundry-service/1547650742"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sub Pump",
+    "local_path": "subpump",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "subpump@whyrecord.com",
+    "location": {
+      "city": "Lexington",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": "https://soundcloud.com/subpump"
+    }
+  },
+  {
+    "id": 28,
+    "name": "new1",
+    "local_path": "new1",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "Lexington",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": ""
+    }
+  },
+  {
+    "id": 29,
+    "name": "new2",
+    "local_path": "new2",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "Lexington",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": ""
+    }
+  },
+  {
+    "id": 30,
+    "name": "No",
+    "local_path": "No",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "Phoenix",
+      "country": "USA"
+    },
+    "quote": "\"No\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sc": ""
+    }
+  },
+  {
+    "id": 31,
+    "name": "The Sharks",
+    "local_path": "the-sharks",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/thesharks.png"
+    ],
+    "email": "",
+    "location": {
+      "city": "Albany",
+      "country": "USA"
+    },
+    "quote": "\"The Sharks\"",
+    "body_paragraphs": [
+      "The Sharks!"
+    ],
+    "roles": [
+      "Band"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "spotify": "https://open.spotify.com/artist/3ZQZlZ5ZhQZxhsm6mh1Goq?si=3ZNPF12JTyuJX2xQotOweQ",
+      "apple music / itunes": "https://music.apple.com/us/artist/the-sharks/45449240",
+      "pandora": "https://www.pandora.com/artist/the-sharks/ARK3kkcvzhw6z3V",
+      "deezer": "https://www.deezer.com/us/artist/259184"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Tilt Shift",
+    "local_path": "tilt-shift",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/tilt_shift_4x6.jpg"
+    ],
+    "email": "tiltshiftbooking@gmail.com",
+    "location": {
+      "city": "Madison",
+      "country": "USA"
+    },
+    "quote": "\"Schrödinger's hoes... I just wanna know...\"",
+    "body_paragraphs": [
+      "Tilt Shift is a glitch pop project from Wisconsin-based producer and singer Jeremy Wisbey 💕"
+    ],
+    "roles": [
+      "Producer",
+      "Graphic Designer",
+      "Mix Engineer",
+      "Mastering Engineer",
+      "Recording Engineer",
+      "Songwriter",
+      "Singer",
+      "Sound Designer",
+      "Audio Engineer",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/tiltshiftmusic/",
+      "tw": "https://www.twitter.com/tiltshiftband"
+    },
+    "music_platforms": {
+      "sc": "https://www.soundcloud.com/tilt-shift",
+      "sp": "https://open.spotify.com/artist/59oEsrWV6MmcNZ1HpcNcRU?si=sYnemwxhT1mDyguoXjl_3w",
+      "ap": "https://music.apple.com/us/artist/tilt-shift/1399652919"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Gintas K",
+    "local_path": "gintask",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/gintask.png"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": "Lithuania"
+    },
+    "quote": "\"the way of life\"",
+    "body_paragraphs": [
+      "Gintas K (born Gintas Kraptavicius, 1969) is a sound artist born in Lithuania in 1969. He was the core member of the first Lithuanian industrial music group \"Modus\". Performances, actions, even short films shape the activities of \"Modus\".",
+      "Later Gintas Kraptavicius was active as a performer and interdisciplinary artist, known for his actions, happenings, written instructions in a post-fluxus manner.",
+      "In 1999 Gintas turned his scenery name into Gintas K and started exploring experimental, electroacoustic, electronic, computer music, granular synthesis, live electronic music aesthetics. Since 2011 member of Lithuanian Composers Union. He has released over 30 albums, took part in various international festivals, conferences, and symposiums.",
+      "Sourced from Wikipedia"
+    ],
+    "roles": [
+      "Producer",
+      "Songwriter",
+      "Sound Designer",
+      "Software Developer"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/gintask",
+      "tw": "",
+      "fb": "",
+      "wk": "https://en.wikipedia.org/wiki/Gintas_K"
+    },
+    "music_platforms": {
+      "bc": "https://gintask.bandcamp.com/",
+      "sc": "",
+      "sp": "https://open.spotify.com/artist/2sUaUghIUIdsDo2TCQKvJW?si=98kRPVdCQSy32Bl1uSIc8A",
+      "ap": "https://music.apple.com/us/artist/gintas-k/265380256"
+    }
+  },
+  {
+    "id": 34,
+    "name": "sweet hunna",
+    "local_path": "sweet-hunna",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/sweet-hunna.png"
+    ],
+    "email": "sweethunna@whyrecord.com",
+    "location": {
+      "city": "Chicago",
+      "country": "USA"
+    },
+    "quote": "\"have you heard?\"",
+    "body_paragraphs": [
+      "sweet hunna is a producer who makes music on Earth and someday hopes to make music elsewhere"
+    ],
+    "roles": [
+      "Producer",
+      "Sound Designer"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/sweet.hunna/",
+      "tw": "https://twitter.com/sweet_hunna",
+      "fb": ""
+    },
+    "music_platforms": {
+      "bc": "",
+      "sc": "https://soundcloud.com/sweet-hunna",
+      "sp": "",
+      "ap": ""
+    }
+  },
+  {
+    "id": 35,
+    "name": "SUPREME",
+    "local_path": "SUPREME",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/SUPREME.jpeg"
+    ],
+    "email": "makedujo@gmail.com",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "quote": "\"spoiler alert we like to break beats\"",
+    "body_paragraphs": [
+      "SUPREME is an artist from Chicago dabbling with weird time signatures and trite bio copy.",
+      "Catch them outside with them sick trippy energies of nihilism and nonchalance.",
+      "@Suprem.us on IG"
+    ],
+    "roles": [
+      "Producer",
+      "Graphic Designer"
+    ],
+    "social_platforms": {
+      "ig": "https://instagram.com/suprem.us",
+      "tw": "https://twitter.com/supremehint",
+      "fb": "https://Facebook.com/glitchsociety"
+    },
+    "music_platforms": {
+      "bc": "",
+      "sc": "https://soundcloud.com/hyper_pop",
+      "sp": "",
+      "ap": ""
+    }
+  },
+  {
+    "id": 36,
+    "name": "Rafael Khan",
+    "local_path": "rafael-khan",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/RAF.jpg"
+    ],
+    "email": "rafael@rafkhan.me",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    "quote": "\"WILL DO LATER\"",
+    "body_paragraphs": [
+      "WILL DO LATER"
+    ],
+    "roles": [
+      "Producer",
+      "Mix Engineer",
+      "Songwriter",
+      "Sound Designer",
+      "Audio Engineer",
+      "DJ",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "ig": "https://www.instagram.com/rafaelkhan/",
+      "tw": "https://twitter.com/_rafaelkhan_",
+      "fb": ""
+    },
+    "music_platforms": {
+      "bc": "https://rafaelkhan.bandcamp.com/",
+      "sc": "https://soundcloud.com/rafaelkhan",
+      "sp": "https://open.spotify.com/artist/3BofWJI2AYM7FL4TCWoOJO",
+      "ap": "https://music.apple.com/us/artist/rafael-khan/1536599545"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Ares Silver",
+    "local_path": "ares-silver",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {},
+    "music_platforms": {}
+  },
+  {
+    "id": 38,
+    "name": "Nateral Legend",
+    "local_path": "nateral-legend",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Rapper"
+    ],
+    "social_platforms": {},
+    "music_platforms": {}
+  },
+  {
+    "id": 39,
+    "name": "Young Dee",
+    "local_path": "young-dee",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Rapper"
+    ],
+    "social_platforms": {},
+    "music_platforms": {}
+  },
+  {
+    "id": 40,
+    "name": "AllanPower!!!",
+    "local_path": "AllanPower",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/allanpower_ginpic.jpg"
+    ],
+    "email": "allanpower242@gmail.com",
+    "location": {
+      "city": "Freeport",
+      "country": "Bahamas"
+    },
+    "quote": "\"Keep It Potent\"",
+    "body_paragraphs": [
+      "I'm a producer from The Bahamas. I usually make avant garde, hip-hop, and Caribbean music."
+    ],
+    "roles": [
+      "Producer",
+      "Mix Engineer",
+      "Mastering Engineer"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/AllanPower242",
+      "fb": "https://www.facebook.com/AllanPower242",
+      "ig": "https://www.instagram.com/_allanpower_/"
+    },
+    "music_platforms": {
+      "sc": "https://soundcloud.com/user-470643955",
+      "yt": "https://www.youtube.com/channel/UCA0ReeB5-9q2raGpuaJvhRA",
+      "sp": "",
+      "ap": "",
+      "hn": "https://allanpower.hearnow.com/"
+    }
+  },
+  {
+    "id": 41,
+    "name": "HmGreen",
+    "local_path": "HmGreen",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/releases/WRC.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "Lexington",
+      "country": "USA"
+    },
+    "quote": "\"\"",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      "Producer"
+    ],
+    "social_platforms": {
+      "ig": ""
+    },
+    "music_platforms": {
+      "sp": "",
+      "ap": ""
+    }
+  },
+  {
+    "id": 42,
+    "name": "Mitch Rocket",
+    "local_path": "mitch-rocket",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/profiles/mitch_rocket_4x6.jpg",
+      "/images/artists/mr2.PNG",
+      "/images/artists/mr1.jpg"
+    ],
+    "email": "mitchrocketmusic@gmail.com",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA"
+    },
+    "quote": "\"Hello is this thing on?\"",
+    "body_paragraphs": [
+      "Mitch Rocket is a singer-songwriter and multi-instrumentalist from San Francisco, CA. Drawing from a background in jazz saxophone and a deep appreciation for the broad canon of rock music 1960s-present, his songs run the gamut from folk-rock to electronic jazz fusion. In addition to his solo career, he has contributed to groups like Unscrewable Pooch, Cotton Rocket, Roxy Rawson and the Rounded Sound, d.mith, and Via Villa.",
+      "His debut LP Petting Zoo is slated for release in August 2021."
+    ],
+    "roles": [
+      "Producer",
+      "Songwriter",
+      "Singer",
+      "Live Musician"
+    ],
+    "social_platforms": {
+      "tw": "https://twitter.com/MitchRocketSF",
+      "fb": "https://www.facebook.com/mitchrocketsf/",
+      "ig": "https://www.instagram.com/mitchrocket/",
+      "tt": "https://www.tiktok.com/@mitchrocketsf",
+      "wb": "https://mitchrocket.com"
+    },
+    "music_platforms": {
+      "bc": "https://mitchrocket.bandcamp.com/",
+      "sc": "https://soundcloud.com/mitchrocket",
+      "sp": "https://open.spotify.com/artist/40fDBsFHEySabDYL0ais6j?si=IwuddNnWSmmcX_cRkFftKw",
+      "ap": "https://music.apple.com/us/artist/mitch-rocket/1455432806",
+      "yt": "https://www.youtube.com/channel/UCUAkQyK8ScjYWaCEAxd6V3Q"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Myers Mountain",
+    "local_path": "myers-mountain",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/Ian_Warner.jpg"
+    ],
+    "email": "",
+    "location": {
+      "city": "Hughesville",
+      "country": "United States"
+    },
+    "quote": "\"It will all work out in Boomland.\"",
+    "body_paragraphs": [
+      "We're Myers Mountain. We make music that we enjoy, and we make music that we hope others enjoy too.",
+      "Jay Warner - drums, percussion, bass, production",
+      "Ian Warner - guitar, keyboard, production",
+      "Phil Clark - guitar, banjo"
+    ],
+    "roles": [
+      "Producer",
+      "Mix Engineer",
+      "Mastering Engineer",
+      "Recording Engineer",
+      "Songwriter",
+      "Singer",
+      "Live Musician",
+      "Band"
+    ],
+    "social_platforms": {
+      "tw": "",
+      "fb": "",
+      "ig": "",
+      "tt": "",
+      "wb": ""
+    },
+    "music_platforms": {
+      "bc": "",
+      "sc": "https://soundcloud.com/myers-mountain-2",
+      "sp": "https://open.spotify.com/artist/2kHHh8A93EtiDavmx0zvNR",
+      "ap": "https://music.apple.com/us/artist/myers-mountain/1587119368",
+      "yt": ""
+    }
+  },
+  {
+    "id": 44,
+    "name": "bkpk_rvr",
+    "local_path": "bkpk_rvr",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/bkpk_rvr.png"
+    ],
+    "email": "bkpkrvr.contact@gmail.com",
+    "location": {
+      "city": "Rochester",
+      "country": "United States"
+    },
+    "quote": "",
+    "body_paragraphs": [
+      "(pronounced backpack raver) is a project created to delve into music tools. He has made some fun MIDI VSTs that barely compile and wants to get more into hardware. His first project with WRC is the 1x8NPN Buddy and hopes to release more tools that scratch an itch, either utilitarian or creative. The name comes from trying to design a hardware synth setup that can fit into a backpack and have a cute jam at a park with a battery bank.",
+      "Pros: very good at beating his face into a problem.",
+      "Cons: is very bad at presentation and is known to ramble.",
+      "//end bio",
+      "bkpkrvr.contact@gmail.com"
+    ],
+    "roles": [
+      "Engineer"
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "td": "https://www.tindie.com/stores/bkpk_rvr",
+      "gh": "https://github.com/yakovo-school"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Ian Rios",
+    "local_path": "ian-rios",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/ianrios.png"
+    ],
+    "email": "ian.rios1a@gmail.com",
+    "location": {
+      "city": "Lexington",
+      "country": "United States"
+    },
+    "quote": "",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sp": ""
+    }
+  },
+  {
+    "id": 45,
+    "name": "teamwrc",
+    "local_path": "teamwrc",
+    "show_on_artist_page": true,
+    "photos": [
+      "/images/artists/teamwrc.png"
+    ],
+    "email": "whyrecordcompany@gmail.com",
+    "location": {
+      "city": "everywhere",
+      "country": "United States"
+    },
+    "quote": "",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sp": ""
+    }
+  }
 ]

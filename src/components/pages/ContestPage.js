@@ -48,7 +48,7 @@ export default function ContestPage() {
                                     <div className="col text-center questrial">
                                         <h2>{currContest.description}</h2>
                                         <h4>{currContest.h4}</h4>
-                                        {contestEnded &&
+                                        {!contestEnded &&
                                             <h5><a href="#submit_form">Click here to jump to the submission form.</a></h5>}
                                         {currContest.releasePage && <Link to={`/release/${currContest.local_path}`}>Visit Release Page</Link>}
                                         <hr />
