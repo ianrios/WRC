@@ -1,6 +1,6 @@
 [
   {
-    "name": "WHYCOMP010: heat",
+    "name": "WHYCOMP010: WHY100",
     "local_path": "WHYCOMP010",
     "id": 87,
     "label_number": "WHY100",
@@ -11,11 +11,24 @@
     "release_bio": [
       "The 100th release from WHY Record Company (WRC) - WHY100",
       "\"WHYCOMP010: WHY100\"",
-      "Original songs Recorded, Produced, Mixed, and Mastered by ",
+      "Original songs Recorded, Produced, Mixed, and Mastered by all members.",
       "Featuring Ambient, Dubstep, Experimental, and more! All songs are made to showcase our wonderful artists and their unique creative aspects!",
       "Artwork by Ian Rios"
     ],
-    "primary_artist_ids": [],
+    "primary_artist_ids": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      9,
+      10,
+      18,
+      26,
+      32,
+      42,
+      45
+    ],
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
