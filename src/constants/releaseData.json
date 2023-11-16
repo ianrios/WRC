@@ -30,9 +30,11 @@
       45
     ],
     "secondary_artist_ids": [],
-    "remix_artist_ids": [],
+    "remix_artist_ids": [
+      5
+    ],
     "links": {
-      "bc": "",
+      "bc": "https://whyrecordcompany.bandcamp.com/album/whycomp010-why100",
       "yt": "",
       "sc": "",
       "sp": "",
@@ -64,8 +66,11 @@
       7
     ],
     "links": {
+      "bc": "",
       "sp": "https://open.spotify.com/album/701WAHStMVcN9Hpd2wtnNm?si=Aoa9OnnMQYeDru4lgsOX-A",
-      "ap": "https://music.apple.com/us/album/eight-ball-dyl-pykl-lom-remix-single/1714464837"
+      "ap": "https://music.apple.com/us/album/eight-ball-dyl-pykl-lom-remix-single/1714464837",
+      "sc": "",
+      "yt": ""
     }
   },
   {
