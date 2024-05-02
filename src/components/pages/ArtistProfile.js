@@ -11,7 +11,7 @@ import independentReleaseData from "../../constants/independentReleaseData.json"
 import artistData from "../../constants/artistData.json";
 
 import { MdSaveAlt } from "react-icons/md";
-
+import { FaDownload } from "react-icons/fa";
 // TODO: add upcoming projects list
 // TODO: add
 // TODO: add
@@ -150,7 +150,7 @@ export default function ArtistProfile({ epk = false }) {
                 <div className="col-6">
                   {epk && <div className="row">
 
-                    {currArtist.photos.map((img, i) => <div className="questrial border flex space-between" key={i} onClick={() => setPhotoI(i)}>
+                    {currArtist.photos.map((img, i) => <div className="questrial border flex space-between mb-15 pointer" key={i} onClick={() => setPhotoI(i)}>
                       {img.split('/images/artists/')}
                       <a href={img} download className="no-style-link">
                         <MdSaveAlt />
@@ -169,6 +169,7 @@ export default function ArtistProfile({ epk = false }) {
                 </div>
                 <div className="col-6">
                   <p>{currArtist.quote}</p>
+                  {currArtist.epk && epk && <a href={currArtist.epk} target="_blank" rel="noopener noreferrer" className="flex border mb-15 center no-style-link">get music drive<span><FaDownload className="download-style" /></span></a>}
 
                   {currArtist.body_paragraphs.length > 0 &&
 
@@ -178,6 +179,10 @@ export default function ArtistProfile({ epk = false }) {
                           [currArtist.body_paragraphs[0]],
                           "artist-bio-paragraphs mappedPTag"
                         )}
+                        {epk &&
+                          <div className="border flex center mb-15 help-cursor" onClick={() => setSeeMoreBio(!seeMoreBio)}>
+                            {seeMoreBio ? "see less" : "see more"}
+                          </div>}
                       </div>
                       :
                       <div className="text-border d-none d-lg-block">
@@ -185,14 +190,15 @@ export default function ArtistProfile({ epk = false }) {
                           currArtist.body_paragraphs,
                           "artist-bio-paragraphs mappedPTag"
                         )}
+                        {epk &&
+                          <div className="border flex center mb-15 help-cursor" onClick={() => setSeeMoreBio(!seeMoreBio)}>
+                            {seeMoreBio ? "see less" : "see more"}
+                          </div>}
                       </div>
                     )
 
                   }
-                  {epk &&
-                    <div className="border flex center" onClick={() => setSeeMoreBio(!seeMoreBio)}>
-                      {seeMoreBio ? "see less" : "see more"}
-                    </div>}
+
 
                   <div className="row">
                     {Object.keys(currArtist.social_platforms).length > 0 && (

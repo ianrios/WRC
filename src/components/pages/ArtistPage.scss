@@ -51,7 +51,7 @@
   flex: auto;
 }
 
-.no-style-link {
+.pointer {
   cursor: pointer;
 }
 
@@ -61,4 +61,14 @@
 
 .space-between {
   justify-content: space-between;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.download-style {
+  padding-bottom: 10px;
+  margin-left: 16px;
+  padding-top: 2px;
 }
