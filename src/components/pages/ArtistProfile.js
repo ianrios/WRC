@@ -150,7 +150,7 @@ export default function ArtistProfile({ epk = false }) {
                 <div className="col-6">
                   {epk && <div className="row">
 
-                    {currArtist.photos.map((img, i) => <div className="questrial border flex space-between mb-15 pointer" key={i} onClick={() => setPhotoI(i)}>
+                    {currArtist.photos.map((img, i) => <div className="col-12 questrial border flex space-between mb-2 pointer code-text" key={i} onClick={() => setPhotoI(i)}>
                       {img.split('/images/artists/')}
                       <a href={img} download className="no-style-link">
                         <MdSaveAlt />
@@ -169,7 +169,7 @@ export default function ArtistProfile({ epk = false }) {
                 </div>
                 <div className="col-6">
                   <p>{currArtist.quote}</p>
-                  {currArtist.epk && epk && <a href={currArtist.epk} target="_blank" rel="noopener noreferrer" className="flex border mb-15 center no-style-link">get music drive<span><FaDownload className="download-style" /></span></a>}
+                  {currArtist.epk && epk && <a href={currArtist.epk} target="_blank" rel="noopener noreferrer" className="flex border mb-3 center no-style-link">get music drive<span><FaDownload className="download-style" /></span></a>}
 
                   {currArtist.body_paragraphs.length > 0 &&
 
@@ -180,7 +180,7 @@ export default function ArtistProfile({ epk = false }) {
                           "artist-bio-paragraphs mappedPTag"
                         )}
                         {epk &&
-                          <div className="border flex center mb-15 help-cursor" onClick={() => setSeeMoreBio(!seeMoreBio)}>
+                          <div className="border flex center mb-2 help-cursor" onClick={() => setSeeMoreBio(!seeMoreBio)}>
                             {seeMoreBio ? "see less" : "see more"}
                           </div>}
                       </div>
@@ -191,7 +191,7 @@ export default function ArtistProfile({ epk = false }) {
                           "artist-bio-paragraphs mappedPTag"
                         )}
                         {epk &&
-                          <div className="border flex center mb-15 help-cursor" onClick={() => setSeeMoreBio(!seeMoreBio)}>
+                          <div className="border flex center mb-2 help-cursor" onClick={() => setSeeMoreBio(!seeMoreBio)}>
                             {seeMoreBio ? "see less" : "see more"}
                           </div>}
                       </div>
