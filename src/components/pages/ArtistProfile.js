@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { mappedPTag, mappedLinks } from "../../utilities/maps";
 import Seo from "../Seo";
@@ -10,7 +10,15 @@ import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import artistData from "../../constants/artistData.json";
 
-export default function ArtistProfile() {
+import { MdSaveAlt } from "react-icons/md";
+
+// TODO: add upcoming projects list
+// TODO: add
+// TODO: add
+// TODO: add
+// TODO: add
+
+export default function ArtistProfile({ epk = false }) {
   const { artist_name } = useParams();
 
   const currArtist = artistData.find(
@@ -27,8 +35,8 @@ export default function ArtistProfile() {
     a.release_date > b.release_date
       ? -1
       : a.release_date < b.release_date
-      ? 1
-      : 0
+        ? 1
+        : 0
   );
 
   const artistReleases = sortedData.filter((r) => {
@@ -84,28 +92,35 @@ export default function ArtistProfile() {
     });
   };
 
+  const [seeMoreBio, setSeeMoreBio] = useState(false)
+  useEffect(() => {
+    if (!epk) {
+      setSeeMoreBio(true)
+    }
+  }, [epk])
+
   const [photoI, setPhotoI] = useState(0);
   const headData = foundArtist
     ? {
-        title: currArtist.name + " - WRC",
-        shortSiteTitle: `${currArtist.name} Artist Page - WRC`,
-        siteTitle: "WHY? Record Company",
-        url: artist_name,
-        imgSrc: currArtist.photos[0],
-        description: currArtist.quote,
-        keywords:
-          "why, record, company, music, edm, techno, idm, experimental, label, artist, " +
-          currArtist.name,
-      }
+      title: currArtist.name + " - WRC",
+      shortSiteTitle: `${currArtist.name} Artist Page - WRC`,
+      siteTitle: "WHY? Record Company",
+      url: artist_name,
+      imgSrc: currArtist.photos[0],
+      description: currArtist.quote,
+      keywords:
+        "why, record, company, music, edm, techno, idm, experimental, label, artist, " +
+        currArtist.name,
+    }
     : {
-        title: "Error Page not found - WRC",
-        shortSiteTitle: `Collection page not found - WRC`,
-        siteTitle: "WHY? Record Company",
-        url: artist_name,
-        imgSrc: "error.jpg",
-        description: "",
-        keywords: "why, record, company, page not found",
-      };
+      title: "Error Page not found - WRC",
+      shortSiteTitle: `Collection page not found - WRC`,
+      siteTitle: "WHY? Record Company",
+      url: artist_name,
+      imgSrc: "error.jpg",
+      description: "",
+      keywords: "why, record, company, page not found",
+    };
   return (
     <>
       <div className="row main-header">
@@ -133,23 +148,52 @@ export default function ArtistProfile() {
             <div className="col-10 offset-1">
               <div className="row main-body">
                 <div className="col-6">
-                  <img
-                    onClick={() => setPhotoI(photoI + 1)}
-                    className="artist-page-image img-fluid help-cursor"
-                    alt={currArtist.name}
-                    src={currArtist.photos[photoI % currArtist.photos.length]}
-                  />
+                  {epk && <div className="row">
+
+                    {currArtist.photos.map((img, i) => <div className="questrial border flex space-between" key={i} onClick={() => setPhotoI(i)}>
+                      {img.split('/images/artists/')}
+                      <a href={img} download className="no-style-link">
+                        <MdSaveAlt />
+                      </a>
+                    </div>)}
+
+                  </div>}
+                  <div className="row">
+                    <img
+                      onClick={() => setPhotoI(photoI + 1)}
+                      className="artist-page-image img-fluid help-cursor"
+                      alt={currArtist.name}
+                      src={currArtist.photos[photoI % currArtist.photos.length]}
+                    />
+                  </div>
                 </div>
                 <div className="col-6">
                   <p>{currArtist.quote}</p>
-                  {currArtist.body_paragraphs.length > 0 && (
-                    <div className="text-border d-none d-lg-block">
-                      {mappedPTag(
-                        currArtist.body_paragraphs,
-                        "artist-bio-paragraphs mappedPTag"
-                      )}
-                    </div>
-                  )}
+
+                  {currArtist.body_paragraphs.length > 0 &&
+
+                    (!seeMoreBio ?
+                      <div className="text-border d-none d-lg-block">
+                        {mappedPTag(
+                          [currArtist.body_paragraphs[0]],
+                          "artist-bio-paragraphs mappedPTag"
+                        )}
+                      </div>
+                      :
+                      <div className="text-border d-none d-lg-block">
+                        {mappedPTag(
+                          currArtist.body_paragraphs,
+                          "artist-bio-paragraphs mappedPTag"
+                        )}
+                      </div>
+                    )
+
+                  }
+                  {epk &&
+                    <div className="border flex center" onClick={() => setSeeMoreBio(!seeMoreBio)}>
+                      {seeMoreBio ? "see less" : "see more"}
+                    </div>}
+
                   <div className="row">
                     {Object.keys(currArtist.social_platforms).length > 0 && (
                       <div
@@ -172,7 +216,7 @@ export default function ArtistProfile() {
                         }
                       >
                         {artistReleases.length === 0 &&
-                        artistProducts.length > 0
+                          artistProducts.length > 0
                           ? ""
                           : "Music "}
                         Platforms

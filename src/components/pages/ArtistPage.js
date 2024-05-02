@@ -16,10 +16,10 @@ export default function ArtistPage() {
         <Route path={`${path}/:artist_name/landing`}>
           <ArtistLanding />
         </Route>
-        {/* TODO: create EPK path */}
-        {/* <Route path={`${path}/:artist_name/epk`}>
-			<ArtistEPK />
-		  </Route> */}
+
+        <Route path={`${path}/:artist_name/epk`}>
+          <ArtistProfile epk />
+        </Route>
         <Route
           exact
           path={[

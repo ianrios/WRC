@@ -45,3 +45,20 @@
     filter: blur(4px);
   }
 }
+
+.flex {
+  display: flex;
+  flex: auto;
+}
+
+.no-style-link {
+  cursor: pointer;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}

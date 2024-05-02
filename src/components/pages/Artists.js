@@ -46,13 +46,13 @@ export default function Artists() {
   let rowHeight = 700;
 
   if (x >= 1000) {
-    console.log("large");
+    // console.log("large");
     rowHeight = 800;
   } else if (x < 1000 && x >= 766) {
-    console.log("large");
+    // console.log("large");
     rowHeight = 700;
   } else if (x < 766) {
-    console.log("medium");
+    // console.log("medium");
     rowHeight = 630;
   }
   //   else {

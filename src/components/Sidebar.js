@@ -36,7 +36,6 @@ function Sidebar() {
   };
   const navItems = linkKeys.map((item, idx) => {
     const to = `/${item}`.toLowerCase();
-    console.log({ item });
     return (
       <li
         key={idx}
@@ -67,10 +66,9 @@ function Sidebar() {
           })}
         </span>
         <span
-          className={`questrial h3 ${
-            location.pathname.toLowerCase() === `/${item}`.toLowerCase() &&
+          className={`questrial h3 ${location.pathname.toLowerCase() === `/${item}`.toLowerCase() &&
             "nav-link-active"
-          }`}
+            }`}
         >
           {item.toLowerCase()}
         </span>

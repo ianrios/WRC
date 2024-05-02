@@ -1,8 +1,129 @@
 [
   {
+    "name": "EXCO",
+    "local_path": "exco",
+    "id": 104,
+    "label_number": "WHY104",
+    "release_type": "WRC",
+    "album_art": "/images/releases/exco.png",
+    "release_date": "2024-05-17T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"EXCO\" by whythough?",
+      "The 104th release from WHY? Record Company (WRC) - WHY104",
+      "Original song Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
+      "Artwork by Ian Rios",
+      "This is the first single taken from Ian's forthcoming album, EXPLORE"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Time For Grooving",
+    "local_path": "time-for-grooving",
+    "id": 103,
+    "label_number": "WHY103",
+    "release_type": "Blue Label",
+    "album_art": "/images/releases/bl018.png",
+    "release_date": "2024-05-03T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"Time For Grooving\" by Wash And Fold Laundry Service & StratosFear",
+      "The 103rd release from WHY? Record Company (WRC) - WHY103",
+      "The 18th release from the Blue Label Imprint - BL018",
+      "Original songs Recorded, Produced, Mixed, and Mastered by Wash And Fold Laundry Service (Ian Rios) & StratosFear (Reilly Cooper)",
+      "Artwork by Ian Rios",
+      "A WRC Blue Label Release"
+    ],
+    "primary_artist_ids": [
+      26,
+      3
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "No Snoozing",
+    "local_path": "no-snoozing",
+    "id": 102,
+    "label_number": "WHY102",
+    "release_type": "Blue Label",
+    "album_art": "/images/releases/bl017.png",
+    "release_date": "2023-12-15T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"No Snoozing\" by Wash And Fold Laundry Service & StratosFear",
+      "The 102nd release from WHY? Record Company (WRC) - WHY102",
+      "The 17th release from the Blue Label Imprint - BL017",
+      "Original songs Recorded, Produced, Mixed, and Mastered by Wash And Fold Laundry Service (Ian Rios) & StratosFear (Reilly Cooper)",
+      "Artwork by Ian Rios",
+      "A WRC Blue Label Release"
+    ],
+    "primary_artist_ids": [
+      26,
+      3
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "https://open.spotify.com/album/7MUWOyWJp3Jq42uqowMUkf?si=4314926b6ff246b0",
+      "yt": "",
+      "ap": "https://music.apple.com/us/album/no-snoozing-single/1719272777"
+    }
+  },
+  {
+    "name": "Mesh",
+    "local_path": "mesh",
+    "id": 101,
+    "label_number": "WHY101",
+    "release_type": "Blue Label",
+    "album_art": "/images/releases/bl016.png",
+    "release_date": "2022-12-01T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"Mesh\" by Wash And Fold Laundry Service",
+      "The 101st release from WHY Record Company (WRC) - WHY101",
+      "The 16th release from the Blue Label Imprint - BL016",
+      "Original songs Recorded, Produced, Mixed, and Mastered by Wash And Fold Laundry Service (Ian Rios)",
+      "Artwork by Ian Rios",
+      "A WRC Blue Label Release"
+    ],
+    "primary_artist_ids": [
+      26
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "https://open.spotify.com/album/1NRSKFApxPlZQ4yQqhnrT6?si=1728de65c165497f",
+      "yt": "",
+      "ap": "https://music.apple.com/us/album/mesh-single/1714464397"
+    }
+  },
+  {
     "name": "WHYCOMP010: WHY100",
     "local_path": "WHYCOMP010",
-    "id": 87,
+    "id": 100,
     "label_number": "WHY100",
     "release_type": "WHYCOMP",
     "album_art": "/images/releases/whycomp010.png",
@@ -35,7 +156,7 @@
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/whycomp010-why100",
       "sp": "https://open.spotify.com/album/4Jx9gLpYiOcNTgafaLdH9w?si=VpTaS_0-QVaw81ES2NUuIg",
-      "ap": ""
+      "ap": "https://music.apple.com/us/album/why100/1715874579"
     }
   },
   {
@@ -2491,11 +2612,11 @@
   },
   {
     "name": "EXCO EP",
-    "local_path": "EXCO",
+    "local_path": "EXCO-ep",
     "id": 14,
     "label_number": "WHY014",
     "release_type": "WRC",
-    "album_art": "/images/releases/exco.jpg",
+    "album_art": "/images/releases/exco-ep.jpg",
     "release_date": "2018-10-05T18:25:43.511Z",
     "genre": "Techno",
     "release_bio": [
