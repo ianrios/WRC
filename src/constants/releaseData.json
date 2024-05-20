@@ -1,5 +1,64 @@
 [
   {
+    "name": "Microtonal 808 Music Volume 1",
+    "local_path": "m808m-v1",
+    "id": 106,
+    "label_number": "WHY106",
+    "release_type": "WRC",
+    "album_art": "/images/releases/m808m-v1.jpg",
+    "release_date": "2024-06-14T18:25:43.511Z",
+    "genre": "trap",
+    "release_bio": [
+      "\"Microtonal 808 Music Volume 1\" by produceronline",
+      "The 106th release from WHY? Record Company (WRC) - WHY106",
+      "Recorded, Produced, and Mixed by produceronline",
+      "Mastered by Ian Rios (Wash And Fold Laundry Service)",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      23
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/microtonal-808-music-volume-1",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Spanish Moss",
+    "local_path": "spanish-moss",
+    "id": 105,
+    "label_number": "WHY105",
+    "release_type": "Blue Label",
+    "album_art": "/images/releases/bl019.png",
+    "release_date": "2024-05-31T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"Spanish Moss\" by Wash And Fold Laundry Service",
+      "The 105th release from WHY? Record Company (WRC) - WHY105",
+      "The 19th release from the Blue Label Imprint - BL019",
+      "Original song Recorded, Produced, Mixed, and Mastered by Wash And Fold Laundry Service (Ian Rios)",
+      "Artwork by Ian Rios",
+      "A WRC Blue Label Release"
+    ],
+    "primary_artist_ids": [
+      26
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/spanish-moss",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
     "name": "EXCO",
     "local_path": "exco",
     "id": 104,
@@ -21,11 +80,10 @@
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
-      "bc": "",
-      "sc": "",
-      "sp": "",
-      "yt": "",
-      "ap": ""
+      "bc": "https://whyrecordcompany.bandcamp.com/album/exco",
+      "sp": "https://open.spotify.com/track/64zbL5lB85piv7VqaZV8mV?si=221f061436a94493",
+      "yt": "https://www.youtube.com/watch?v=XBzfFLlx3PY",
+      "ap": "https://music.apple.com/us/album/exco/1744961781?i=1744961782"
     }
   },
   {
@@ -41,7 +99,7 @@
       "\"Time For Grooving\" by Wash And Fold Laundry Service & StratosFear",
       "The 103rd release from WHY? Record Company (WRC) - WHY103",
       "The 18th release from the Blue Label Imprint - BL018",
-      "Original songs Recorded, Produced, Mixed, and Mastered by Wash And Fold Laundry Service (Ian Rios) & StratosFear (Reilly Cooper)",
+      "Original song Recorded, Produced, Mixed, and Mastered by Wash And Fold Laundry Service (Ian Rios) & StratosFear (Reilly Cooper)",
       "Artwork by Ian Rios",
       "A WRC Blue Label Release"
     ],
@@ -52,11 +110,11 @@
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
-      "bc": "",
-      "sc": "",
-      "sp": "",
-      "yt": "",
-      "ap": ""
+      "bc": "https://whyrecordcompany.bandcamp.com/album/time-for-grooving",
+      "bp": "https://www.beatport.com/release/time-for-grooving/4548678",
+      "sp": "https://open.spotify.com/track/1yupFBvTjpVmLv4IvZLSIS?si=7afd305ffd1e4faa",
+      "yt": "https://www.youtube.com/watch?v=kM_pCXan39g",
+      "ap": "https://music.apple.com/us/album/time-for-grooving-single/1743144403"
     }
   },
   {
@@ -875,8 +933,8 @@
     "genre": "trap",
     "release_bio": [
       "The 76th release from WHY? Record Company (WRC) - WHY076",
-      "\"mint\" by produceronline (Robert Dylan Smock and Ian Rios)",
-      "Recorded, Produced, and Mixed by Robert Dylan Smock and Ian Rios",
+      "\"mint\" by produceronline",
+      "Recorded, Produced, and Mixed by produceronline",
       "Mastered by Ian Rios (whythough?)",
       "Artwork by Ian Rios"
     ],
@@ -1921,11 +1979,11 @@
     "genre": "trap",
     "release_bio": [
       "The 41st release from WHY? Record Company (WRC) - WHY041",
-      "Remix of Lana Del Rey - \"Venice Bitch\" by dyl_pykl (Robert Dylan Smock) & whythough? (Ian Rios)",
+      "Remix of Lana Del Rey - \"Venice Bitch\" by produceronline",
       "Vocals and Original Production by Lana Del Rey",
-      "Remix Produced and Mixed by Robert Dylan Smock & Ian Rios",
-      "Mastered by Ian Rios",
-      "Artwork originally by Lana Del Rey, modified by Ian Rios"
+      "Remix Produced and Mixed by produceronline",
+      "Mastered by Ian Rios (whythough?)",
+      "Artwork originally by Lana Del Rey"
     ],
     "primary_artist_ids": [
       1,

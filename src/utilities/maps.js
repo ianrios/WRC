@@ -24,6 +24,7 @@ import {
   SiGumroad,
   SiPandora,
   SiMixcloud,
+  SiBeatport,
   SiGoogledrive,
 } from "react-icons/si";
 import { CgPlayList } from "react-icons/cg";
@@ -145,6 +146,8 @@ export const mappedIcon = (iconShorthand) => {
       return <GrGithub />;
     case "az":
       return <GrAmazon />;
+    case "bp":
+      return <SiBeatport />;
     case "sc":
       return <GrSoundcloud />;
     case "gp":

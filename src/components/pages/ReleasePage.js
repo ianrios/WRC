@@ -33,14 +33,16 @@ export default function ReleasePage() {
     description: currRelease.release_bio.length > 0 ? currRelease.release_bio[0] : "",
     keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, " + currRelease.name
   } : {
-      title: "Error Page not found - WRC",
-      shortSiteTitle: `Collection page not found - WRC`,
-      siteTitle: "WHY? Record Company",
-      url: name,
-      imgSrc: "error.jpg",
-      description: "",
-      keywords: "why, record, company, page not found"
-    }
+    title: "Error Page not found - WRC",
+    shortSiteTitle: `Collection page not found - WRC`,
+    siteTitle: "WHY? Record Company",
+    url: name,
+    imgSrc: "error.jpg",
+    description: "",
+    keywords: "why, record, company, page not found"
+  }
+
+  // TODO: add a next release / previous release button
   return (
     <>
       <div className="row main-header">
@@ -154,7 +156,7 @@ export default function ReleasePage() {
                     <div className="row">
                       <div className="col">
                         Music Platforms
-												<div>
+                        <div>
                           {mappedLinks(currRelease.links)}
                         </div>
                       </div>
