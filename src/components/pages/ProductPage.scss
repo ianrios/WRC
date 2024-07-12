@@ -1,15 +1,21 @@
 .product-bio-paragraphs {
-    font-size: 0.65em;
-  }
+  font-size: 0.65em;
+}
 .product-page-h4 {
-    margin-bottom: 0px !important;
-    font-size: 0.8em;
+  margin-bottom: 0px !important;
+  font-size: 0.8em;
 }
 .product-page-text-container {
-	line-height: 30px;
-	margin-bottom: 20px;
-	font-size: 1.25em;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-size: 1.25em;
 }
-.primary-artist-product{
-	font-size: 2em;
+.primary-artist-product {
+  font-size: 2em;
+}
+
+.remove-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  line-height: 0.5 !important;
 }

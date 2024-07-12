@@ -29,9 +29,9 @@ export default function Collections() {
   );
   Object.keys(releaseTypes).map(
     (i) =>
-      (releaseTypes[i]["collection"] = collectionData.find(
-        (j) => j.short_title === i
-      ))
+    (releaseTypes[i]["collection"] = collectionData.find(
+      (j) => j.short_title === i
+    ))
   );
   const mappedReleaseTypes = Object.keys(releaseTypes)
     .sort((a, b) => {
@@ -48,16 +48,15 @@ export default function Collections() {
           to={`/collection/${releaseTypes[i].collection.local_path}`}
         >
           <div
-            className={`help-cursor artist-page-album-art-link ${
-              -1 === i ? "description-large" : null
-            }`}
+            className={`help-cursor artist-page-album-art-link ${-1 === i ? "description-large" : null
+              }`}
           >
             <img
               alt={releaseTypes[i].name}
               src={releaseTypes[i].album_art}
-              className="img-fluid artist-page-album-art"
+              className="img-fluid"
             />
-            <span className="artist-page-album-art-text colored-link white-text">
+            <span className=" colored-link white-text">
               {i}
             </span>
           </div>

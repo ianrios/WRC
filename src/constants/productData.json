@@ -1,5 +1,24 @@
 [
   {
+    "name": "Stereo 2399",
+    "local_path": "stereo-2399",
+    "id": 2,
+    "product_image": "/images/products/stereo_2399.jpg",
+    "product_bio": [
+      "Stereo 2399 by bkpk_rvr",
+      "This is a stereo delay.",
+      "More info soon",
+      "email: __b__bkpkrvr.contact@gmail.com__b__"
+    ],
+    "primary_artist_ids": [
+      44
+    ],
+    "links": {
+      "gh": "https://github.com/yakovo-school/Stereo2399",
+      "tn": ""
+    }
+  },
+  {
     "name": "1x8NPN Buddy",
     "local_path": "1x8npn-buddy",
     "id": 1,
@@ -10,7 +29,9 @@
       "It is entirely passive and only takes up 8 HP! Also comes with design included for switches for mutes and 2 ways to mount it to your L8. (Please read full documentation for quirks surrounding this, please do not hesitate to contact me) I also have 10HP working prototypes available of various states of assembly/Jankiness if anyone wants them for cheap. Feel free to message me about them!",
       "email: __b__bkpkrvr.contact@gmail.com__b__"
     ],
-    "primary_artist_ids": [44],
+    "primary_artist_ids": [
+      44
+    ],
     "links": {
       "gh": "https://github.com/yakovo-school/1x8NPN-Buddy",
       "tn": "https://www.tindie.com/products/bkpk_rvr/1x8npn-buddy/"

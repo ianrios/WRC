@@ -23,16 +23,16 @@ function rowRenderer({
 
 
 	// const firstArtist = item.primary_artist_ids[0];
-			// console.log(item)
-			// const currArtistName = firstArtist.name;
-			// if (currArtistName in artistsObj) {
-			// 	artistsObj[currArtistName]++;
-			// }
-			// else {
-			// 	artistsObj[currArtistName] = 1;
-			// }
-			const color = Math.floor(Math.random() * (Math.floor(12) - Math.ceil(1))) + Math.ceil(1);
-			
+	// console.log(item)
+	// const currArtistName = firstArtist.name;
+	// if (currArtistName in artistsObj) {
+	// 	artistsObj[currArtistName]++;
+	// }
+	// else {
+	// 	artistsObj[currArtistName] = 1;
+	// }
+	const color = Math.floor(Math.random() * (Math.floor(12) - Math.ceil(1))) + Math.ceil(1);
+
 
 	return (
 		<div key={key} className="row release-image-row text-center mb-last-child" style={style}>
@@ -81,14 +81,14 @@ export default function Releases() {
 	// 	});
 
 	const ReleaseMap = <AutoSizer>
-    {({height, width}) => (<List
-		width={width}
-		height={height}
-		rowCount={sortedReleases.length}
-		rowHeight={550}
-		rowRenderer={rowRenderer}
-		overscanRowCount={1}
-	/> )}
+		{({ height, width }) => (<List
+			width={width}
+			height={height}
+			rowCount={sortedReleases.length}
+			rowHeight={550}
+			rowRenderer={rowRenderer}
+			overscanRowCount={1}
+		/>)}
 	</AutoSizer>
 	return (
 		<>

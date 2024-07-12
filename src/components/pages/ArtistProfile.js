@@ -81,9 +81,9 @@ export default function ArtistProfile({ epk = false }) {
             <img
               alt={a.name}
               src={url === "release" ? a.album_art : a.product_image}
-              className="img-fluid artist-page-album-art"
+              className="img-fluid"
             />
-            <span className="artist-page-album-art-text colored-link white-text">
+            <span className=" colored-link white-text">
               {url === "release" ? a.label_number : a.name}
             </span>
           </Link>

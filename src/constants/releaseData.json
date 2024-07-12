@@ -1,5 +1,125 @@
 [
   {
+    "name": "DUO",
+    "local_path": "duo",
+    "id": 110,
+    "label_number": "WHY110",
+    "release_type": "WRC",
+    "album_art": "/images/releases/duo-single-min.png",
+    "release_date": "2024-08-09T18:25:43.511Z",
+    "genre": "UK Garage",
+    "release_bio": [
+      "\"DUO\" by whythough?",
+      "The 110th release from WHY? Record Company (WRC) - WHY110",
+      "Original song Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
+      "Artwork by Ian Rios",
+      "This is the third and final single taken from Ian's forthcoming album, \"EXPLORE\""
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/duo",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Please Please Please (Add This To Your Playlist)",
+    "local_path": "please-please-please-add-this-to-your-playlist",
+    "id": 109,
+    "label_number": "WHY109",
+    "release_type": "WRC",
+    "album_art": "/images/releases/ppp-min.png",
+    "release_date": "2024-07-26T18:25:43.511Z",
+    "genre": "Drum and Bass",
+    "release_bio": [
+      "The 109th release from WHY? Record Company (WRC) - WHY109",
+      "\"Please Please Please (Add This To Your Playlist)\" by dyl_pykl (Robert Dylan Smock), Wash And Fold Laundry Service (Ian Rios), & Tilt Shift (Jeremy Wisbey)",
+      "Song Recorded, Produced, & Mixed by Robert Dylan Smock, Ian Rios, & Jeremy Wisbey",
+      "Lyrics Written and Performed by Jeremy Wisbey",
+      "Mastered by Ian Rios",
+      "Artwork by Alexis Rainery (Instagram @blurryseaglass)",
+      "This is the first single taken from Ian & Dylan's forthcoming album, \"The Six Year Summer\""
+    ],
+    "primary_artist_ids": [
+      2,
+      26,
+      32
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/please-please-please-add-this-to-your-playlist",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "outsider's",
+    "local_path": "outsiders",
+    "id": 108,
+    "label_number": "WHY108",
+    "release_type": "Pink Label",
+    "album_art": "/images/releases/outsiders-min.png",
+    "release_date": "2024-07-12T11:11:11.511Z",
+    "genre": "experimental",
+    "release_bio": [
+      "Gintas K presents, \"outsider's\"",
+      "The 108th release from WHY Record Company (WRC) - WHY108",
+      "Original songs Recorded, Produced, Mixed and Mastered Gintas K (Gintas Kraptavicius)",
+      "Original Artwork by Ian Rios",
+      "A WRC Pink Label Release"
+    ],
+    "primary_artist_ids": [
+      33
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://gintask.bandcamp.com/album/outsiders-wrc-2024",
+      "bp": "",
+      "sp": "https://open.spotify.com/album/2UDztIeBSNL63T4lC2StOT?si=yeKsjvtFTKG521IGB1bGww",
+      "yt": "https://www.youtube.com/playlist?list=OLAK5uy_k4pNAjiw9mh766S7C1kU8_kHwwfP82OuE",
+      "ap": "https://music.apple.com/us/album/outsiders/1750862144"
+    }
+  },
+  {
+    "name": "NITRO",
+    "local_path": "nitro",
+    "id": 107,
+    "label_number": "WHY107",
+    "release_type": "WRC",
+    "album_art": "/images/releases/nitro-min.png",
+    "release_date": "2024-06-28T18:25:43.511Z",
+    "genre": "Tech House",
+    "release_bio": [
+      "\"NITRO\" by whythough?",
+      "The 107th release from WHY? Record Company (WRC) - WHY107",
+      "Original song Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
+      "Artwork by Ian Rios",
+      "This is the second single taken from Ian's forthcoming album, EXPLORE"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/nitro",
+      "bp": "",
+      "sp": "https://open.spotify.com/album/5kOcJLh5JfUobQLivJS2Sn?si=N8ApYDjdRvm6sSCXtfymSQ",
+      "yt": "https://www.youtube.com/watch?v=w_s0P5-rscY",
+      "ap": "https://music.apple.com/us/album/nitro-single/1747533355"
+    }
+  },
+  {
     "name": "Microtonal 808 Music Volume 1",
     "local_path": "m808m-v1",
     "id": 106,
@@ -23,9 +143,9 @@
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/microtonal-808-music-volume-1",
       "bp": "",
-      "sp": "",
-      "yt": "",
-      "ap": ""
+      "sp": "https://open.spotify.com/album/7h6qKC0MU3VXWxLuDNfc93?si=L12R5PCYRd2K4lQmauBHxQ",
+      "yt": "https://www.youtube.com/playlist?list=OLAK5uy_n3mS0RUSep9-VOnwdDNi4DrfREZIv4KRo",
+      "ap": "https://music.apple.com/us/album/microtonal-808-music-volume-1/1747313115"
     }
   },
   {
@@ -53,9 +173,9 @@
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/spanish-moss",
       "bp": "",
-      "sp": "",
+      "sp": "https://open.spotify.com/track/15bkw17J9yv0lKz4f9SHR8?si=694b171471a649c8",
       "yt": "",
-      "ap": ""
+      "ap": "https://music.apple.com/us/album/spanish-moss-single/1747532690"
     }
   },
   {
@@ -1218,8 +1338,10 @@
     "remix_artist_ids": [],
     "links": {
       "bc": "https://gintask.bandcamp.com/album/art-brut-wrc-2021",
+      "bp": "",
       "sp": "https://open.spotify.com/album/62RAq3LoauedT4uFcU6toJ?si=fLvRkMB5TIGnpmLO51Wu0w",
-      "ap": "https://music.apple.com/us/album/art-brut/1551359635"
+      "ap": "https://music.apple.com/us/album/art-brut/1551359635",
+      "yt": "https://www.youtube.com/playlist?list=OLAK5uy_mwBNE9AjYSCov9TPAuwf2TdPtyWjwkGzA"
     }
   },
   {
@@ -1708,7 +1830,7 @@
   },
   {
     "name": "DUO EP",
-    "local_path": "DUO",
+    "local_path": "DUO-ep",
     "id": 50,
     "label_number": "WHY050",
     "release_type": "WRC",
@@ -2305,7 +2427,7 @@
   },
   {
     "name": "NITRO EP",
-    "local_path": "NITRO",
+    "local_path": "NITRO-EP",
     "id": 29,
     "label_number": "WHY029",
     "release_type": "WRC",
@@ -2313,7 +2435,9 @@
     "release_date": "2019-10-29T18:25:43.511Z",
     "genre": "IDM",
     "release_bio": [
-      "",
+      "The 29th release from WHY Record Company (WRC) - WHY029",
+      "\"NITRO\" by whythough? (Ian Rios)",
+      "Original EP Recorded, Produced, Mixed, & Mastered by and Ian Rios",
       "Artwork by Ian Rios"
     ],
     "primary_artist_ids": [
@@ -2478,7 +2602,10 @@
     "release_date": "2019-03-08T18:25:43.511Z",
     "genre": "Techno",
     "release_bio": [
-      "",
+      "The 22nd release from WHY Record Company (WRC) - WHY022",
+      "\"EXCO (Remixes)\" by whythough? (Ian Rios)",
+      "Original EP Recorded, Produced, Mixed, & Mastered by and Ian Rios",
+      "Remixes by Eugene Umlor, StratosFear, Fohrenbach, & stft",
       "Artwork by Ian Rios"
     ],
     "primary_artist_ids": [
@@ -2678,7 +2805,9 @@
     "release_date": "2018-10-05T18:25:43.511Z",
     "genre": "Techno",
     "release_bio": [
-      "",
+      "The 14th release from WHY Record Company (WRC) - WHY014",
+      "\"EXCO\" by whythough? (Ian Rios)",
+      "Original EP Recorded, Produced, Mixed, & Mastered by and Ian Rios",
       "Artwork by Ian Rios"
     ],
     "primary_artist_ids": [

@@ -24,9 +24,9 @@ export default function ThankYou() {
           <img
             alt={r.name}
             src={r.album_art}
-            className="img-fluid artist-page-album-art"
+            className="img-fluid"
           />
-          <span className="artist-page-album-art-text colored-link white-text">
+          <span className="colored-link white-text">
             {r.label_number}
           </span>
         </Link>

@@ -32,6 +32,7 @@ function Wrapper() {
       pathArr[1] === "welcome" ||
       (pathArr.length > 2 &&
         (pathArr[1] === "artist" ||
+          pathArr[1] === "releases" ||
           pathArr[1] === "collection" ||
           pathArr[1] === "contest" ||
           pathArr[1] === "product" ||
@@ -70,9 +71,8 @@ function Wrapper() {
           <div
             className="main-image"
             style={{
-              backgroundImage: `url("/images/textures/${
-                Math.floor(Math.random() * 7) + 1
-              }.jpg")`,
+              backgroundImage: `url("/images/textures/${Math.floor(Math.random() * 7) + 1
+                }.jpg")`,
             }}
             onClick={() => setViewMain(!viewMain)}
           >

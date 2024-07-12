@@ -37,14 +37,14 @@ export default function CollectionPage() {
     description: currCollection.paragraphs.length > 0 ? currCollection.paragraphs[0] : null,
     keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, " + currCollection.title
   } : {
-      title: "Collection Page - WRC",
-      shortSiteTitle: `Collection page not found - WRC`,
-      siteTitle: "WHY? Record Company",
-      url: name,
-      imgSrc: "error.jpg",
-      description: "",
-      keywords: "why, record, company, page not found"
-    }
+    title: "Collection Page - WRC",
+    shortSiteTitle: `Collection page not found - WRC`,
+    siteTitle: "WHY? Record Company",
+    url: name,
+    imgSrc: "error.jpg",
+    description: "",
+    keywords: "why, record, company, page not found"
+  }
 
   const mappedImgCol = (props) => {
 
@@ -52,8 +52,8 @@ export default function CollectionPage() {
       return (
         <div className="col-4 col-md-3 text-center artist-page-album-art-container" key={i} >
           <Link to={`/release/${c.local_path}`} className="artist-page-album-art-link">
-            <img alt={c.name} src={c.album_art} className="img-fluid artist-page-album-art" />
-            <span className="artist-page-album-art-text colored-link white-text">
+            <img alt={c.name} src={c.album_art} className="img-fluid" />
+            <span className=" colored-link white-text">
               {c.label_number}
             </span>
           </Link>

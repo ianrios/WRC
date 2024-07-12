@@ -39,6 +39,9 @@ export default function Routes() {
       <Route path="/artist">
         <ArtistPage />
       </Route>
+      <Route path="/releases/grid">
+        <ReleaseGrid />
+      </Route>
       <Route path="/releases">
         <Releases />
       </Route>
@@ -83,9 +86,7 @@ export default function Routes() {
       <Route path="/coming-soon">
         <ComingSoon />
       </Route>
-      <Route path="/grid">
-        <ReleaseGrid />
-      </Route>
+
       <Route path="/services">
         <Services />
       </Route>
