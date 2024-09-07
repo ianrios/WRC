@@ -1,5 +1,38 @@
 [
   {
+    "name": "EXPLORE",
+    "local_path": "explore",
+    "id": 111,
+    "label_number": "WHY111",
+    "release_type": "WRC",
+    "album_art": "/images/releases/explore-min.png",
+    "release_date": "2024-09-12T18:25:43.511Z",
+    "genre": "House",
+    "release_bio": [
+      "\"EXPLORE\" by whythough?",
+      "The 111th release from WHY? Record Company (WRC) - WHY111",
+      "Original album Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
+      "Vocals sung, recorded and produced by Ian Rios",
+      "ENDZ song also Produced by StratosFear (Reilly Cooper)",
+      "Artwork by Ian Rios",
+      "Photo by Olivia Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [
+      3
+    ],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/explore",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
     "name": "DUO",
     "local_path": "duo",
     "id": 110,
@@ -12,6 +45,7 @@
       "\"DUO\" by whythough?",
       "The 110th release from WHY? Record Company (WRC) - WHY110",
       "Original song Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
+      "Vocals sung, recorded and produced by Ian Rios",
       "Artwork by Ian Rios",
       "This is the third and final single taken from Ian's forthcoming album, \"EXPLORE\""
     ],
@@ -23,9 +57,9 @@
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/duo",
       "bp": "",
-      "sp": "",
-      "yt": "",
-      "ap": ""
+      "sp": "https://open.spotify.com/track/1vfohgDISeUXkqSwIz17pK?si=b833d94c96744f49",
+      "yt": "https://www.youtube.com/watch?v=ti5lAeX_v3k",
+      "ap": "https://music.apple.com/us/album/duo-single/1755420923"
     }
   },
   {
@@ -43,7 +77,7 @@
       "Song Recorded, Produced, & Mixed by Robert Dylan Smock, Ian Rios, & Jeremy Wisbey",
       "Lyrics Written and Performed by Jeremy Wisbey",
       "Mastered by Ian Rios",
-      "Artwork by Alexis Rainery (Instagram @blurryseaglass)",
+      "Artwork by Alexis (Instagram @blurryseaglass)",
       "This is the first single taken from Ian & Dylan's forthcoming album, \"The Six Year Summer\""
     ],
     "primary_artist_ids": [
@@ -56,9 +90,9 @@
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/please-please-please-add-this-to-your-playlist",
       "bp": "",
-      "sp": "",
-      "yt": "",
-      "ap": ""
+      "sp": "https://open.spotify.com/track/5CRqnjqR5aLonxWhhxiYIH?si=887a53cd19f241a6",
+      "yt": "https://www.youtube.com/watch?v=U_DlMPdCzkg",
+      "ap": "https://music.apple.com/us/album/please-please-please-add-this-to-your-playlist-single/1756462890"
     }
   },
   {
@@ -982,7 +1016,8 @@
       "bc": "https://whyrecordcompany.bandcamp.com/album/remix-vol-1",
       "sp": "https://open.spotify.com/album/3PnJP7JCEWjUx4q0XVBQ54",
       "pl": "https://open.spotify.com/playlist/3PQTBYhvSC6bJUpB3peiLC?si=def25ae818ea48f4",
-      "ap": "https://music.apple.com/us/album/wrc-remixes-volume-1/1565791897"
+      "ap": "https://music.apple.com/us/album/wrc-remixes-volume-1/1565791897",
+      "yt": "https://www.youtube.com/playlist?list=OLAK5uy_l689yfMTwlg2NJtocNZ6Q8mBNuA0GDcYE"
     }
   },
   {
@@ -2473,7 +2508,7 @@
   },
   {
     "name": "Catapult",
-    "local_path": "Catapult",
+    "local_path": "catapult",
     "id": 27,
     "label_number": "WHY027",
     "release_type": "WRC",
@@ -2498,7 +2533,12 @@
     ],
     "remix_artist_ids": [],
     "links": {
-      "sp": "https://open.spotify.com/album/4ly3vcAsWxeBDhYeIJKN83?si=wZcKFx_nQOmepGJ8CcVqfA"
+      "bc": "https://whyrecordcompany.bandcamp.com/album/catapult",
+      "bp": "https://www.beatport.com/es/release/catapult-feat-katie-hoffstatter/3122590",
+      "sp": "https://open.spotify.com/album/4ly3vcAsWxeBDhYeIJKN83?si=wZcKFx_nQOmepGJ8CcVqfA",
+      "yt": "https://www.youtube.com/watch?v=MiA_yVK63Uc&pp=ygURY2F0YXB1bHQgZHlsX3B5a2w%3D",
+      "ap": "https://music.apple.com/us/album/catapult-feat-katie-hoffstatter-single/1467100988",
+      "az": "https://www.amazon.com/Catapult-feat-Hoffstatter-whythough-dyl_pykl/dp/B07SR5WW9X"
     }
   },
   {
