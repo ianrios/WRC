@@ -27,9 +27,9 @@
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/explore",
       "bp": "",
-      "sp": "",
-      "yt": "",
-      "ap": ""
+      "sp": "https://open.spotify.com/album/7s1jYq5D9yUpYq1ZJzaxCo?si=HzqA0eGqRw-ipg3ons_GUg",
+      "yt": "https://www.youtube.com/playlist?list=OLAK5uy_nK3R_7kkGsn19dwu6PyvVwZ7aM3J_uuEU",
+      "ap": "https://music.apple.com/us/album/explore/1768000032"
     }
   },
   {
@@ -56,7 +56,7 @@
     "remix_artist_ids": [],
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/duo",
-      "bp": "",
+      "bp": "https://www.beatport.com/release/duo/4650112",
       "sp": "https://open.spotify.com/track/1vfohgDISeUXkqSwIz17pK?si=b833d94c96744f49",
       "yt": "https://www.youtube.com/watch?v=ti5lAeX_v3k",
       "ap": "https://music.apple.com/us/album/duo-single/1755420923"
@@ -89,7 +89,7 @@
     "remix_artist_ids": [],
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/please-please-please-add-this-to-your-playlist",
-      "bp": "",
+      "bp": "https://www.beatport.com/release/please-please-please-add-this-to-your-playlist/4650118",
       "sp": "https://open.spotify.com/track/5CRqnjqR5aLonxWhhxiYIH?si=887a53cd19f241a6",
       "yt": "https://www.youtube.com/watch?v=U_DlMPdCzkg",
       "ap": "https://music.apple.com/us/album/please-please-please-add-this-to-your-playlist-single/1756462890"
@@ -118,7 +118,7 @@
     "remix_artist_ids": [],
     "links": {
       "bc": "https://gintask.bandcamp.com/album/outsiders-wrc-2024",
-      "bp": "",
+      "bp": "https://www.beatport.com/release/outsiders/4606686",
       "sp": "https://open.spotify.com/album/2UDztIeBSNL63T4lC2StOT?si=yeKsjvtFTKG521IGB1bGww",
       "yt": "https://www.youtube.com/playlist?list=OLAK5uy_k4pNAjiw9mh766S7C1kU8_kHwwfP82OuE",
       "ap": "https://music.apple.com/us/album/outsiders/1750862144"
@@ -147,7 +147,7 @@
     "remix_artist_ids": [],
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/nitro",
-      "bp": "",
+      "bp": "https://www.beatport.com/release/nitro/4650123",
       "sp": "https://open.spotify.com/album/5kOcJLh5JfUobQLivJS2Sn?si=N8ApYDjdRvm6sSCXtfymSQ",
       "yt": "https://www.youtube.com/watch?v=w_s0P5-rscY",
       "ap": "https://music.apple.com/us/album/nitro-single/1747533355"
@@ -176,7 +176,7 @@
     "remix_artist_ids": [],
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/microtonal-808-music-volume-1",
-      "bp": "",
+      "bp": "https://www.beatport.com/release/microtonal-808-music-volume-1/4650117",
       "sp": "https://open.spotify.com/album/7h6qKC0MU3VXWxLuDNfc93?si=L12R5PCYRd2K4lQmauBHxQ",
       "yt": "https://www.youtube.com/playlist?list=OLAK5uy_n3mS0RUSep9-VOnwdDNi4DrfREZIv4KRo",
       "ap": "https://music.apple.com/us/album/microtonal-808-music-volume-1/1747313115"
@@ -206,7 +206,7 @@
     "remix_artist_ids": [],
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/spanish-moss",
-      "bp": "",
+      "bp": "https://www.beatport.com/release/spanish-moss/4650131",
       "sp": "https://open.spotify.com/track/15bkw17J9yv0lKz4f9SHR8?si=694b171471a649c8",
       "yt": "",
       "ap": "https://music.apple.com/us/album/spanish-moss-single/1747532690"
