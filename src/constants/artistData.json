@@ -213,8 +213,8 @@
   },
   {
     "id": 11,
-    "name": "M.A.T.Y.B.",
-    "local_path": "M.A.T.Y.B.",
+    "name": "Benjamin Lange",
+    "local_path": "Benjamin-Lange",
     "show_on_artist_page": true,
     "photos": [
       "/images/artists/profiles/matyb_4x6.jpg"
@@ -643,7 +643,7 @@
     "id": 18,
     "name": "Quantopix",
     "local_path": "Quantopix",
-    "show_on_artist_page": true,
+    "show_on_artist_page": false,
     "photos": [
       "/images/artists/qtemplogo.png"
     ],
@@ -1415,7 +1415,7 @@
     "id": 44,
     "name": "bkpk_rvr",
     "local_path": "bkpk_rvr",
-    "show_on_artist_page": true,
+    "show_on_artist_page": false,
     "photos": [
       "/images/artists/bkpk_rvr.png"
     ],
@@ -1445,7 +1445,7 @@
     "id": 45,
     "name": "Ian Rios",
     "local_path": "ian-rios",
-    "show_on_artist_page": true,
+    "show_on_artist_page": false,
     "photos": [
       "/images/artists/ianrios.png"
     ],
@@ -1470,7 +1470,7 @@
     "id": 45,
     "name": "teamwrc",
     "local_path": "teamwrc",
-    "show_on_artist_page": true,
+    "show_on_artist_page": false,
     "photos": [
       "/images/artists/teamwrc.png"
     ],
