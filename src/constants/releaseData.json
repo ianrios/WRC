@@ -1,5 +1,198 @@
 [
   {
+    "name": "The Six Year Summer",
+    "local_path": "the-six-year-summer",
+    "id": 117,
+    "label_number": "WHY117",
+    "release_type": "WRC",
+    "album_art": "/images/releases/the-six-year-summer.png",
+    "release_date": "2025-05-23T18:25:43.511Z",
+    "genre": "Drum and Bass",
+    "release_bio": [
+      "The 117th release from WHY? Record Company (WRC) - WHY117",
+      "\"The Six Year Summer\" by dyl_pykl (Robert Dylan Smock) & Wash And Fold Laundry Service (Ian Rios)",
+      "Songs Recorded, Produced, & Mixed by Robert Dylan Smock & Ian Rios",
+      "Featuring Tilt Shift (Jeremy Wisbey), StratosFear (Reilly Cooper), & 1s2",
+      "Vocals from Jeremy Wisbey, Ian Rios, & Robert Dylan Smock",
+      "Mastered by Ian Rios",
+      "Artwork by Alexis (Instagram @blurryseaglass)"
+    ],
+    "primary_artist_ids": [
+      2,
+      26
+    ],
+    "secondary_artist_ids": [
+      32,
+      3,
+      8
+    ],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Let Me Out",
+    "local_path": "let-me-out",
+    "id": 116,
+    "label_number": "WHY116",
+    "release_type": "WRC",
+    "album_art": "/images/releases/let-me-out.png",
+    "release_date": "2025-05-23T18:25:43.511Z",
+    "genre": "Drum and Bass",
+    "release_bio": [
+      "The 116th release from WHY? Record Company (WRC) - WHY116",
+      "\"Let Me Out\" by dyl_pykl (Robert Dylan Smock) & Wash And Fold Laundry Service (Ian Rios)",
+      "Songs Recorded, Produced, & Mixed by Robert Dylan Smock & Ian Rios",
+      "Mastered by Ian Rios",
+      "Artwork by Alexis (Instagram @blurryseaglass)",
+      "This is the final single taken from Ian & Dylan's forthcoming album, \"The Six Year Summer\""
+    ],
+    "primary_artist_ids": [
+      2,
+      26
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "What U Want",
+    "local_path": "what-u-want",
+    "id": 115,
+    "label_number": "WHY115",
+    "release_type": "WRC",
+    "album_art": "/images/releases/what-u-want-min.png",
+    "release_date": "2025-05-09T18:25:43.511Z",
+    "genre": "Drum and Bass",
+    "release_bio": [
+      "The 115th release from WHY? Record Company (WRC) - WHY115",
+      "\"What U Want\" by dyl_pykl (Robert Dylan Smock) & Wash And Fold Laundry Service (Ian Rios)",
+      "\"That's Not The Way It Feels\" by dyl_pykl (Robert Dylan Smock) & Wash And Fold Laundry Service (Ian Rios)",
+      "Songs Recorded, Produced, & Mixed by Robert Dylan Smock & Ian Rios",
+      "Lyrics Written, Performed, Recorded, Arranged, & Mixed by Ian & Dylan",
+      "Mastered by Ian Rios",
+      "Artwork by Alexis (Instagram @blurryseaglass)",
+      "These are the second and third singles taken from Ian & Dylan's forthcoming album, \"The Six Year Summer\""
+    ],
+    "primary_artist_ids": [
+      2,
+      26
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/what-u-want-thats-not-the-way-it-feels",
+      "bp": "",
+      "sp": "https://open.spotify.com/album/1fwvB9tzzMBjWP4xiXe5iN?si=-i_HCQ60Smyv8sjTHwhbAQ",
+      "yt": "https://www.youtube.com/playlist?list=OLAK5uy_lYpgzqNDQxYBott7zCtSEPmeY7x14iARI",
+      "ap": "https://music.apple.com/us/album/what-u-want-single/1811129069"
+    }
+  },
+  {
+    "name": "GIL",
+    "local_path": "gil",
+    "id": 114,
+    "label_number": "WHY114",
+    "release_type": "Blue Label",
+    "album_art": "/images/releases/bl020.png",
+    "release_date": "2025-04-25T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"GIL\" by Benjamin Lange",
+      "The 114th release from WHY Record Company (WRC) - WHY114",
+      "The 20th release from the Blue Label Imprint - BL020",
+      "Original song Recorded, Produced, Mixed, and Mastered by Benjamin Lange",
+      "Artwork by Benjamin Lange",
+      "A WRC Blue Label Release"
+    ],
+    "primary_artist_ids": [
+      11
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "The Waveshape of Dubstep to Come",
+    "local_path": "the-waveshape-of-dubstep-to-come",
+    "id": 113,
+    "label_number": "WHY113",
+    "release_type": "WRC",
+    "album_art": "/images/releases/twodtc.png",
+    "release_date": "2025-04-12T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"The Waveshape of Dubstep to Come\" by Sub Pump",
+      "The 113th release from WHY Record Company (WRC) - WHY113",
+      "Original songs Recorded, Produced, Mixed, and Mastered by Sub Pump (Ian Rios)",
+      "Featuring Robert Dylan Smock (dyl_pykl) & Reilly Cooper (StratosFear)",
+      "Vocals from Lo Mayne & Lil Prawn",
+      "Artwork by Ian Rios"
+    ],
+    "primary_artist_ids": [
+      27
+    ],
+    "secondary_artist_ids": [
+      2,
+      3,
+      47,
+      48
+    ],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
+    "name": "Always Love Now",
+    "local_path": "always-love-now",
+    "id": 112,
+    "label_number": "WHY112",
+    "release_type": "WRC",
+    "album_art": "/images/releases/always-love-now.png",
+    "release_date": "2025-01-10T18:25:43.511Z",
+    "genre": "Techno",
+    "release_bio": [
+      "\"Always Love Now\" by Benjamin Lange",
+      "The 112th release from WHY Record Company (WRC) - WHY112",
+      "Original song Recorded, Produced, Mixed, and Mastered by Benjamin Lange",
+      "Artwork by Benjamin Lange"
+    ],
+    "primary_artist_ids": [
+      11
+    ],
+    "secondary_artist_ids": [],
+    "remix_artist_ids": [],
+    "links": {
+      "bc": "",
+      "sc": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
     "name": "EXPLORE",
     "local_path": "explore",
     "id": 111,
@@ -167,12 +360,18 @@
       "The 106th release from WHY? Record Company (WRC) - WHY106",
       "Recorded, Produced, and Mixed by produceronline",
       "Mastered by Ian Rios (Wash And Fold Laundry Service)",
+      "Vocals from KNG, Lo Mayne, Skrrt Reynolds, & Lil Prawn",
       "Artwork by Ian Rios"
     ],
     "primary_artist_ids": [
       23
     ],
-    "secondary_artist_ids": [],
+    "secondary_artist_ids": [
+      46,
+      47,
+      48,
+      49
+    ],
     "remix_artist_ids": [],
     "links": {
       "bc": "https://whyrecordcompany.bandcamp.com/album/microtonal-808-music-volume-1",

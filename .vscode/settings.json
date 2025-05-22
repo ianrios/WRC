@@ -4,5 +4,10 @@
 		"Lovelyn",
 		"Merch",
 		"whythough"
-	]
+	],
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#5A083C",
+		"titleBar.activeBackground": "#7D0C54",
+		"titleBar.activeForeground": "#FFFBFD"
+	}
 }
