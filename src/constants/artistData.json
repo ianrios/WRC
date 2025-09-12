@@ -1590,5 +1590,30 @@
     "music_platforms": {
       "sp": ""
     }
+  },
+  {
+    "id": 50,
+    "name": "222",
+    "local_path": "222",
+    "show_on_artist_page": false,
+    "photos": [
+      "/images/artists/222.png"
+    ],
+    "email": "whyrecordcompany@gmail.com",
+    "location": {
+      "city": "everywhere",
+      "country": "United States"
+    },
+    "quote": "",
+    "body_paragraphs": [
+      ""
+    ],
+    "roles": [
+      ""
+    ],
+    "social_platforms": {},
+    "music_platforms": {
+      "sp": ""
+    }
   }
 ]

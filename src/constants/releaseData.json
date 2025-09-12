@@ -1,5 +1,50 @@
 [
   {
+    "name": "EXPLORE (Remixes)",
+    "local_path": "explore-remixes",
+    "id": 117,
+    "label_number": "WHY117",
+    "release_type": "WRC",
+    "album_art": "/images/releases/explore-remixes-min.png",
+    "release_date": "2025-09-12T18:25:43.511Z",
+    "genre": "Electronica",
+    "release_bio": [
+      "\"EXPLORE (Remixes)\" by whythough?",
+      "The 117th release from WHY? Record Company (WRC) - WHY117",
+      "Original album Recorded, Produced, Mixed, and Mastered by whythough? (Ian Rios)",
+      "Original Vocals sung, recorded, and produced by Ian Rios",
+      "Featuring remixes by Eugene Umlor, Tilt Shift (Jeremy Wisbey), Ezra Parker, LoM (Eric Michelitsch), 222, dyl_pykl (Robert Dylan Smock), & DJ Yunomi (Jon Castro)",
+      "Featuring Vocals by June Isenhart on \"DUO (Eugene Umlor Remix)\"",
+      "Original ENDZ song also Produced by StratosFear (Reilly Cooper)",
+      "Artwork by Ian Rios",
+      "Photo by Olivia Rios"
+    ],
+    "primary_artist_ids": [
+      1
+    ],
+    "secondary_artist_ids": [
+      3
+    ],
+    "remix_artist_ids": [
+      1,
+      2,
+      6,
+      7,
+      10,
+      17,
+      26,
+      32,
+      50
+    ],
+    "links": {
+      "bc": "https://whyrecordcompany.bandcamp.com/album/explore-remixes",
+      "bp": "",
+      "sp": "",
+      "yt": "",
+      "ap": ""
+    }
+  },
+  {
     "name": "The Six Year Summer",
     "local_path": "the-six-year-summer",
     "id": 117,
@@ -59,7 +104,7 @@
     "secondary_artist_ids": [],
     "remix_artist_ids": [],
     "links": {
-      "bc": "",
+      "bc": "https://whyrecordcompany.bandcamp.com/album/let-me-out",
       "bp": "",
       "sp": "",
       "yt": "",
