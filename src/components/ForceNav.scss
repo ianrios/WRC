@@ -13,29 +13,13 @@
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   animation: bgBlurIn 1s cubic-bezier(0.4, 0, 0.2, 1) both;
 
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    mask-image: radial-gradient(ellipse at center, black 40%, transparent 100%);
-    -webkit-mask-image: radial-gradient(
-      ellipse at center,
-      black 40%,
-      transparent 100%
-    );
-    z-index: -1;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  // Remove default button styles
+  background: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 
-  // Hover effect - slight expand
-  &.blob-hovered::before {
-    background: rgba(0, 0, 0, 0.4);
-    transform: scale(1.05);
-  }
+  // No background blur anymore - cleaner look
 
   &.open {
     pointer-events: none;
@@ -81,18 +65,14 @@
     align-items: center;
     justify-content: center;
 
-    // TEMPORARY DEBUG BORDERS
-    // border: 1px solid red !important;
-    // background: rgba(255, 0, 0, 0.1) !important;
-
     svg,
     .nav-icon {
       width: 100% !important;
       height: 100% !important;
       fill: rgba(255, 255, 255, 0.6);
       display: block; // Remove inline spacing
-      // TEMPORARY DEBUG BORDERS FOR SVG
-      // border: 1px solid blue !important;
+      // Add subtle drop shadow to individual icons
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
       // Override any hover colors from chooseIcon
       &:hover {
         fill: rgba(255, 255, 255, 0.6) !important;
@@ -104,6 +84,8 @@
       svg,
       .nav-icon {
         fill: #68a7ff;
+        // Stronger glow for current page
+        filter: drop-shadow(0 2px 8px rgba(104, 167, 255, 0.5));
         &:hover {
           fill: #68a7ff !important;
         }

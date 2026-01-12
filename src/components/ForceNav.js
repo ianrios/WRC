@@ -3,60 +3,15 @@ import { useLocation, useHistory } from "react-router-dom";
 import * as d3 from "d3";
 import { chooseIcon } from "./Link";
 import { isAdminAuthenticated } from "../utils/featureFlags";
+import {
+  DISPLAY_NAMES,
+  SIZE_TIERS,
+  EXPANDED_POSITIONS_DESKTOP,
+  EXPANDED_POSITIONS_MOBILE,
+  BASE_LINKS,
+  ADMIN_LINKS,
+} from "../config/navLayout";
 import "./ForceNav.scss";
-
-// Display names (Information -> Info)
-const DISPLAY_NAMES = {
-  Information: "Info",
-};
-
-// Icon size tiers - Updated configuration
-const SIZE_TIERS = {
-  Artists: "large",
-  Releases: "large",
-  Home: "regular",
-  Products: "medium",
-  Merch: "medium",
-  Collections: "medium",
-  Contests: "medium",
-  Live: "regular",
-  Nexus: "regular",
-  Contact: "small",
-  Information: "small",
-  Admin: "small",
-};
-
-// Desktop positions - Custom layout optimized for visual balance
-const EXPANDED_POSITIONS_DESKTOP = [
-  { x: 41, y: 38 },   // Home - upper center-left
-  { x: 25, y: 29 },   // Artists (large) - upper left
-  { x: 73, y: 70 },   // Releases (large) - lower right
-  { x: 77, y: 39 },   // Collections - upper right
-  { x: 55, y: 52 },   // Contests - center
-  { x: 33, y: 58 },   // Merch - center-left
-  { x: 60, y: 29 },   // Products - upper center-right
-  { x: 44, y: 18 },   // Live - top center
-  { x: 16, y: 52 },   // Nexus - left center
-  { x: 50, y: 72 },   // Contact (small) - lower center
-  { x: 20, y: 69 },   // Information (small) - lower left
-  { x: 87, y: 59 },   // Admin (small) - right
-];
-
-// Mobile positions - Optimized for vertical orientation
-const EXPANDED_POSITIONS_MOBILE = [
-  { x: 44, y: 35 },   // Home
-  { x: 32, y: 20 },   // Artists (large)
-  { x: 58, y: 69 },   // Releases (large)
-  { x: 44, y: 49 },   // Collections
-  { x: 78, y: 55 },   // Contests
-  { x: 69, y: 40 },   // Merch
-  { x: 28, y: 63 },   // Products
-  { x: 24, y: 39 },   // Live
-  { x: 58, y: 24 },   // Nexus
-  { x: 81, y: 69 },   // Contact
-  { x: 35, y: 74 },   // Information
-  { x: 88, y: 93 },   // Admin
-];
 
 // Get current page's link key from pathname
 function getCurrentPageKey(pathname, linkKeys) {
@@ -79,23 +34,6 @@ function getCurrentPageKey(pathname, linkKeys) {
   return 'Home';
 }
 
-// Base navigation links (constant, outside component)
-const BASE_LINKS = {
-  Home: ["Home", true],
-  Artists: ["Fingerprint", true],
-  Releases: ["Dot", true],
-  Collections: ["Honeycomb", true],
-  Contests: ["Star", true],
-  Merch: ["Merch", true],
-  Products: ["Cube", true],
-  Live: ["Live", true],
-  Nexus: ["Blockchain", true],
-  Contact: ["AtSign", true],
-  Information: ["Question", true],
-};
-
-const ADMIN_LINKS = { ...BASE_LINKS, Admin: ["Gear", true] };
-
 function ForceNav() {
   const location = useLocation();
   const history = useHistory();
@@ -115,7 +53,6 @@ function ForceNav() {
   const [nodePositions, setNodePositions] = useState(
     linkKeys.map(() => ({ x: 50, y: 50 })) // Start all at center
   );
-  const [isAnimating, setIsAnimating] = useState(false);
 
   // Current page for collapsed blob display
   const currentPageKey = useMemo(
@@ -387,9 +324,6 @@ function ForceNav() {
       };
     });
 
-    setIsAnimating(true);
-    let jiggleStarted = false;
-
     // Start jiggle animation immediately - it will blend with simulation
     startJiggleAnimation();
 
@@ -400,20 +334,7 @@ function ForceNav() {
       .force("targetX", d3.forceX().x(d => d.targetX).strength(0.2)) // Stronger pull for faster settling
       .force("targetY", d3.forceY().y(d => d.targetY).strength(0.2))
       .alphaDecay(0.05) // Faster decay to settle quicker
-      .velocityDecay(0.5) // More damping for stability
-      .on("tick", () => {
-        // Simulation updates node.x and node.y
-        // Jiggle animation reads from node.x/node.y and adds small oscillations
-        // This creates seamless blending - no jump!
-
-        if (!jiggleStarted && simulation.alpha() < 0.3) {
-          jiggleStarted = true;
-          setIsAnimating(false);
-        }
-      })
-      .on("end", () => {
-        setIsAnimating(false);
-      });
+      .velocityDecay(0.5); // More damping for stability
 
     simulationRef.current = simulation;
 
@@ -466,12 +387,13 @@ function ForceNav() {
   return (
     <>
       {/* Collapsed trigger area */}
-      <div
+      <button
         className={`force-nav-trigger ${open ? "open" : ""} ${showPulse ? "pulse" : ""} ${blobHovered ? "blob-hovered" : ""}`}
         onClick={toggle}
         onMouseEnter={() => setBlobHovered(true)}
         onMouseLeave={() => setBlobHovered(false)}
         aria-label="Navigation Menu"
+        type="button"
       >
         {!open && (
           <div className="force-nav-collapsed">
@@ -510,7 +432,7 @@ function ForceNav() {
             })}
           </div>
         )}
-      </div>
+      </button>
 
       {/* Expanded overlay */}
       <nav

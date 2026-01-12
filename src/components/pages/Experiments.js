@@ -1,5 +1,11 @@
 import React, { useState } from "react";
 import "./Experiments.scss";
+import {
+  SIZE_TIERS,
+  BASE_SIZES,
+  getDesktopPositionsWithLabels,
+  getMobilePositionsWithLabels,
+} from "../../config/navLayout";
 
 // Import all icons for preview
 import Dot from "../icons/Dot";
@@ -15,30 +21,6 @@ import Merch from "../icons/Merch";
 import Gear from "../icons/Gear";
 import Home from "../icons/Home";
 
-// Size tiers matching ForceNav
-const SIZE_TIERS = {
-  Artists: "large",
-  Releases: "large",
-  Home: "regular",
-  Products: "medium",
-  Merch: "medium",
-  Collections: "medium",
-  Contests: "medium",
-  Live: "regular",
-  Nexus: "regular",
-  Contact: "small",
-  Info: "small",
-  Admin: "small",
-};
-
-// Base sizes for each tier (in px)
-const BASE_SIZES = {
-  large: 100,
-  medium: 56,
-  regular: 44,
-  small: 32,
-};
-
 export default function Experiments() {
   const [selectedAnimation, setSelectedAnimation] = useState("fadeInDown");
   const [iconSize, setIconSize] = useState(48);
@@ -51,36 +33,14 @@ export default function Experiments() {
   const [copySuccess, setCopySuccess] = useState(false);
 
   // Initialize custom positions from current ForceNav.js preset
-  // These match EXPANDED_POSITIONS_DESKTOP and EXPANDED_POSITIONS_MOBILE in ForceNav.js
-  const [customDesktopPositions, setCustomDesktopPositions] = useState([
-    { x: 30, y: 25, label: "Home" },
-    { x: 50, y: 35, label: "Artists" },
-    { x: 50, y: 55, label: "Releases" },
-    { x: 75, y: 25, label: "Collections" },
-    { x: 25, y: 45, label: "Contests" },
-    { x: 70, y: 45, label: "Merch" },
-    { x: 30, y: 65, label: "Products" },
-    { x: 15, y: 30, label: "Live" },
-    { x: 85, y: 55, label: "Nexus" },
-    { x: 70, y: 75, label: "Contact" },
-    { x: 15, y: 70, label: "Info" },
-    { x: 85, y: 35, label: "Admin" },
-  ]);
+  // These are loaded from the centralized config in navLayout.js
+  const [customDesktopPositions, setCustomDesktopPositions] = useState(
+    getDesktopPositionsWithLabels()
+  );
 
-  const [customMobilePositions, setCustomMobilePositions] = useState([
-    { x: 30, y: 15, label: "Home" },
-    { x: 50, y: 28, label: "Artists" },
-    { x: 50, y: 48, label: "Releases" },
-    { x: 70, y: 15, label: "Collections" },
-    { x: 25, y: 35, label: "Contests" },
-    { x: 75, y: 35, label: "Merch" },
-    { x: 25, y: 55, label: "Products" },
-    { x: 75, y: 55, label: "Live" },
-    { x: 50, y: 68, label: "Nexus" },
-    { x: 70, y: 78, label: "Contact" },
-    { x: 30, y: 78, label: "Info" },
-    { x: 50, y: 88, label: "Admin" },
-  ]);
+  const [customMobilePositions, setCustomMobilePositions] = useState(
+    getMobilePositionsWithLabels()
+  );
 
   // Get current positions based on editor mode
   const currentPositions = editorMode === "desktop" ? customDesktopPositions : customMobilePositions;
@@ -124,34 +84,8 @@ export default function Experiments() {
 
   // Reset to current ForceNav preset
   const resetToCurrentPreset = () => {
-    setCustomDesktopPositions([
-      { x: 30, y: 25, label: "Home" },
-      { x: 50, y: 35, label: "Artists" },
-      { x: 50, y: 55, label: "Releases" },
-      { x: 75, y: 25, label: "Collections" },
-      { x: 25, y: 45, label: "Contests" },
-      { x: 70, y: 45, label: "Merch" },
-      { x: 30, y: 65, label: "Products" },
-      { x: 15, y: 30, label: "Live" },
-      { x: 85, y: 55, label: "Nexus" },
-      { x: 70, y: 75, label: "Contact" },
-      { x: 15, y: 70, label: "Info" },
-      { x: 85, y: 35, label: "Admin" },
-    ]);
-    setCustomMobilePositions([
-      { x: 30, y: 15, label: "Home" },
-      { x: 50, y: 28, label: "Artists" },
-      { x: 50, y: 48, label: "Releases" },
-      { x: 70, y: 15, label: "Collections" },
-      { x: 25, y: 35, label: "Contests" },
-      { x: 75, y: 35, label: "Merch" },
-      { x: 25, y: 55, label: "Products" },
-      { x: 75, y: 55, label: "Live" },
-      { x: 50, y: 68, label: "Nexus" },
-      { x: 70, y: 78, label: "Contact" },
-      { x: 30, y: 78, label: "Info" },
-      { x: 50, y: 88, label: "Admin" },
-    ]);
+    setCustomDesktopPositions(getDesktopPositionsWithLabels());
+    setCustomMobilePositions(getMobilePositionsWithLabels());
     setCustomSizes({ ...BASE_SIZES });
   };
 
@@ -211,21 +145,8 @@ export default function Experiments() {
   const layoutPresets = {
     current: {
       name: "Current Layout",
-      description: "Large icons centered vertically, smaller icons at edges",
-      desktop: [
-        { x: 30, y: 25, label: "Home" },
-        { x: 50, y: 35, label: "Artists" },
-        { x: 50, y: 55, label: "Releases" },
-        { x: 75, y: 25, label: "Collections" },
-        { x: 25, y: 45, label: "Contests" },
-        { x: 70, y: 45, label: "Merch" },
-        { x: 30, y: 65, label: "Products" },
-        { x: 15, y: 30, label: "Live" },
-        { x: 85, y: 55, label: "Nexus" },
-        { x: 70, y: 75, label: "Contact" },
-        { x: 15, y: 70, label: "Info" },
-        { x: 85, y: 35, label: "Admin" },
-      ]
+      description: "Custom layout optimized for visual balance (Production)",
+      desktop: getDesktopPositionsWithLabels()
     },
     diagonal: {
       name: "Diagonal Split",

@@ -3,3 +3,4 @@
 - Release page overlay text not vertically centered
 - Images too large; no compression strategy
 - React Helmet always unfurls home metadata
+- Question mark icon should look more like times new roman

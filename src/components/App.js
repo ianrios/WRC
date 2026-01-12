@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter, useLocation } from "react-router-dom";
 import Q from "./Q";
 import Seo from "./Seo";
-import Sidebar from "./Sidebar";
 import ForceNav from "./ForceNav";
 import Routes from "./Routes";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
-import { getFeatureFlag } from "../utils/featureFlags";
 import "./App.scss";
 
 function Wrapper() {
@@ -15,15 +13,15 @@ function Wrapper() {
   const { pathname } = useLocation();
   const pathArr = pathname.split("/");
 
-  const bypassPaths = [
-    "live", "merch", "thanks", "artists", "products", "collections",
-    "contact", "contests", "releases", "errors", "hard-reload", "nexus",
-    "discord", "welcome", "experiments", "admin", "information",
-    "cookie-policy", "coming-soon", "services", "software"
-  ];
-  const nestedPaths = ["artist", "releases", "collection", "contest", "product", "release"];
-
   useEffect(() => {
+    const bypassPaths = [
+      "live", "merch", "thanks", "artists", "products", "collections",
+      "contact", "contests", "releases", "errors", "hard-reload", "nexus",
+      "discord", "welcome", "experiments", "admin", "information",
+      "cookie-policy", "coming-soon", "services", "software"
+    ];
+    const nestedPaths = ["artist", "releases", "collection", "contest", "product", "release"];
+
     const isNestedRoute = pathArr.length > 2 && nestedPaths.includes(pathArr[1]);
     if (bypassPaths.includes(pathArr[1]) || isNestedRoute) {
       setViewMain(false);
@@ -57,11 +55,6 @@ function Wrapper() {
       "why, record, company, music, edm, techno, idm, experimental, label",
   };
 
-  // const [sidebarOpen, setSidebarOpen] = useState(false)
-  // let sidebarStatus = sidebarOpen ? 'open' : 'closed';
-  // const toggleSidebar = () => {
-  // 	setSidebarOpen(prevSidebar => !prevSidebar)
-  // }
   return (
     <div className="App">
       <Seo data={headData} />
@@ -88,7 +81,7 @@ function Wrapper() {
         </div>
       ) : (
         <div className="body-main">
-          {getFeatureFlag('newNav') ? <ForceNav /> : <Sidebar />}
+          <ForceNav />
           <div className="container">
             <Routes />
             <Footer viewMain={viewMain} setViewMain={setViewMain} />
