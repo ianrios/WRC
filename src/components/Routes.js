@@ -25,6 +25,9 @@ import Landing from "./pages/Landing";
 import Products from "./pages/Products";
 import ProductPage from "./pages/ProductPage";
 import ReleaseGrid from "./pages/ReleaseGrid";
+import Information from "./pages/Information";
+import Experiments from "./pages/Experiments";
+import Admin from "./pages/Admin";
 
 export default function Routes() {
   return (
@@ -67,6 +70,9 @@ export default function Routes() {
         <ContestPage />
       </Route>
       {/* Resources */}
+      <Route path="/information">
+        <Information />
+      </Route>
       <Route path="/cookie-policy">
         <CookiePolicy />
       </Route>
@@ -107,6 +113,12 @@ export default function Routes() {
       </Route>
       <Route path="/thanks/2020">
         <ThankYou />
+      </Route>
+      <Route path="/experiments">
+        <Experiments />
+      </Route>
+      <Route path="/admin">
+        <Admin />
       </Route>
       <Route path="*">
         <Home />

@@ -2,45 +2,44 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, useLocation } from "react-router-dom";
 import Q from "./Q";
 import Seo from "./Seo";
-// import Navbar from './Navbar';
 import Sidebar from "./Sidebar";
+import ForceNav from "./ForceNav";
 import Routes from "./Routes";
-import TopLogo from "./TopLogo";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
+import { getFeatureFlag } from "../utils/featureFlags";
 import "./App.scss";
 
 function Wrapper() {
   const [viewMain, setViewMain] = useState(true);
   const { pathname } = useLocation();
   const pathArr = pathname.split("/");
+
+  const bypassPaths = [
+    "live", "merch", "thanks", "artists", "products", "collections",
+    "contact", "contests", "releases", "errors", "hard-reload", "nexus",
+    "discord", "welcome", "experiments", "admin", "information",
+    "cookie-policy", "coming-soon", "services", "software"
+  ];
+  const nestedPaths = ["artist", "releases", "collection", "contest", "product", "release"];
+
   useEffect(() => {
-    if (
-      pathArr[1] === "live" ||
-      pathArr[1] === "merch" ||
-      pathArr[1] === "thanks" ||
-      pathArr[1] === "artists" ||
-      pathArr[1] === "products" ||
-      pathArr[1] === "collections" ||
-      pathArr[1] === "contact" ||
-      pathArr[1] === "contests" ||
-      pathArr[1] === "releases" ||
-      pathArr[1] === "errors" ||
-      pathArr[1] === "hard-reload" ||
-      pathArr[1] === "nexus" ||
-      pathArr[1] === "discord" ||
-      pathArr[1] === "welcome" ||
-      (pathArr.length > 2 &&
-        (pathArr[1] === "artist" ||
-          pathArr[1] === "releases" ||
-          pathArr[1] === "collection" ||
-          pathArr[1] === "contest" ||
-          pathArr[1] === "product" ||
-          pathArr[1] === "release"))
-    ) {
+    const isNestedRoute = pathArr.length > 2 && nestedPaths.includes(pathArr[1]);
+    if (bypassPaths.includes(pathArr[1]) || isNestedRoute) {
       setViewMain(false);
     }
   }, [pathArr]);
+
+  useEffect(() => {
+    const handleEnter = (e) => {
+      if (e.key === "Enter" && viewMain) {
+        setViewMain(false);
+      }
+    };
+
+    document.addEventListener("keydown", handleEnter);
+    return () => document.removeEventListener("keydown", handleEnter);
+  }, [viewMain]);
   const siteTitle = "WHY? Record Company";
   const appTitle = siteTitle
     .split("")
@@ -89,10 +88,8 @@ function Wrapper() {
         </div>
       ) : (
         <div className="body-main">
-          {/* <Navbar /> */}
-          <Sidebar />
+          {getFeatureFlag('newNav') ? <ForceNav /> : <Sidebar />}
           <div className="container">
-            <TopLogo />
             <Routes />
             <Footer viewMain={viewMain} setViewMain={setViewMain} />
           </div>

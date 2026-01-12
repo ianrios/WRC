@@ -19,3 +19,11 @@
   padding-right: 0px !important;
   line-height: 0.5 !important;
 }
+
+.main-body {
+  padding-bottom: 100px;
+
+  @media only screen and (max-width: 768px) {
+    padding-bottom: 80px;
+  }
+}

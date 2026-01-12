@@ -13,6 +13,8 @@ import Multiply from "./icons/Multiply";
 import Hamburger from "./icons/Hamburger";
 import Play from "./icons/Play";
 import Merch from "./icons/Merch";
+import Gear from "./icons/Gear";
+import Home from "./icons/Home";
 
 export function titleCase(str) {
   return str
@@ -102,7 +104,7 @@ export function chooseIcon({
         );
       case "Home":
         return (
-          <Question
+          <Home
             className={className}
             height={"35px"}
             width={"35px"}
@@ -139,6 +141,25 @@ export function chooseIcon({
       case "Live":
         return (
           <Play
+            className={className}
+            height={"35px"}
+            width={"35px"}
+            fillColor={color}
+          />
+        );
+      case "Admin":
+        return (
+          <Gear
+            className={className}
+            height={"35px"}
+            width={"35px"}
+            fillColor={color}
+          />
+        );
+      case "Information":
+      case "Info":
+        return (
+          <Question
             className={className}
             height={"35px"}
             width={"35px"}

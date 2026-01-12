@@ -13,10 +13,12 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
+  max-height: calc(100vh - 150px);
 }
 .home-image {
-  height: 100vh;
+  height: auto;
   margin: auto;
-  min-height: 100vh;
-  width: auto;
+  max-height: calc(100vh - 150px);
+  width: 100%;
+  object-fit: cover;
 }

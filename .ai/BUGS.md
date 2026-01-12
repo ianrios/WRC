@@ -1,0 +1,5 @@
+- Info page links always blue instead of state-based colors
+- Artist photos inconsistent height on artists page
+- Release page overlay text not vertically centered
+- Images too large; no compression strategy
+- React Helmet always unfurls home metadata

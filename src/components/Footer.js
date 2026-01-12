@@ -1,144 +1,50 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
-import Question from "./icons/Question";
 
-export default function Footer(props) {
+export default function Footer() {
   return (
-    <footer className="container py-5" style={{ marginTop: "100vh" }}>
-      <CookieConsent>
-        This website uses cookies to enhance the user experience.{" "}
-        <span style={{ fontSize: "10px" }}>
-          If you would rather not give google analytics your data, visit us on
-          social media instead!
-        </span>
+    <footer>
+      <CookieConsent
+        style={{
+          background: "rgba(0, 0, 0, 0.85)",
+          backdropFilter: "blur(20px) saturate(180%)",
+          WebkitBackdropFilter: "blur(20px) saturate(180%)",
+          border: "1px solid rgba(255, 255, 255, 0.1)",
+          borderRadius: "12px",
+          margin: "20px auto",
+          padding: "20px 30px",
+          maxWidth: "600px",
+          width: "calc(100% - 40px)",
+          left: "50%",
+          right: "auto",
+          transform: "translateX(-50%)",
+          bottom: "20px",
+          top: "auto",
+          boxShadow: "0 8px 32px rgba(0, 0, 0, 0.4)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
+        }}
+        buttonStyle={{
+          background: "rgba(255, 255, 255, 0.1)",
+          border: "1px solid rgba(255, 255, 255, 0.2)",
+          borderRadius: "6px",
+          color: "white",
+          padding: "10px 24px",
+          fontSize: "14px",
+          fontWeight: "500",
+          cursor: "pointer",
+          transition: "all 0.3s ease",
+        }}
+        contentStyle={{
+          flex: "1",
+          margin: "0",
+          fontSize: "14px",
+          lineHeight: "1.6",
+        }}
+      >
+        This site uses cookies to enhance your experience.
       </CookieConsent>
-      <div className="row">
-        <div className="col-12 col-md">
-          <small className="d-block mb-3 text-muted">
-            <Question
-              className="mb-1"
-              height={"24px"}
-              width={"24px"}
-              fillColor={"white"}
-            />
-          </small>
-          <small className="d-block mb-3 text-muted">
-            © 2021 WHY? Record Company (WRC)
-          </small>
-        </div>
-        <div className="col-6 col-md">
-          <h5>Site Index</h5>
-          <ul className="list-unstyled text-small">
-            <li>
-              <Link className="text-muted" to="/home">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/artists">
-                Artists
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/releases">
-                Releases
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/collections">
-                Collections
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/contests">
-                Contests
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/products">
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/merch">
-                Merch
-              </Link>
-            </li>
-            {/* <li><Link className="text-muted" to="/coming-soon">Software</Link></li> */}
-          </ul>
-        </div>
-        <div className="col-6 col-md">
-          <h5>Resources</h5>
-          <ul className="list-unstyled text-small">
-            <li>
-              <a
-                className="text-muted"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://firebase.google.com/policies/analytics"
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a
-                className="text-muted"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://firebase.google.com/terms"
-              >
-                Terms of Use
-              </a>
-            </li>
-            <li>
-              <Link className="text-muted" to="/cookie-policy">
-                Cookie Policy
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/hard-reload">
-                Cache Clear
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/errors">
-                Errors
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="col-6 col-md">
-          <h5>About</h5>
-          <ul className="list-unstyled text-small">
-            <li>
-              <Link className="text-muted" to="/contact">
-                Contact
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/nexus">
-                Nexus
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted" to="/coming-soon">
-                Coming Soon
-              </Link>
-            </li>
-            {/* <li><Link className="text-muted" to="/coming-soon">Team</Link></li> */}
-            {/* <li><Link className="text-muted" to="/coming-soon">Services</Link></li> */}
-          </ul>
-        </div>
-        <div className="col-6 col-md">
-          <img
-            src="/whiteLogoSmall.png"
-            className="img-fluid"
-            alt="logo"
-            onClick={() => props.setViewMain(!props.viewMain)}
-          />
-        </div>
-      </div>
     </footer>
   );
 }

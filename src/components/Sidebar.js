@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation, useHistory } from "react-router-dom";
 import {
   chooseIcon,
   // titleCase
 } from "./Link";
+import { isAdminAuthenticated } from "../utils/featureFlags";
 import "./Link.scss";
 
 function Sidebar() {
   const location = useLocation();
   const history = useHistory();
 
-  const Links = {
+  const baseLinks = {
     Home: ["Question", true],
     Artists: ["Fingerprint", true],
     Releases: ["Dot", true],
@@ -21,19 +22,38 @@ function Sidebar() {
     Live: ["Live", true],
     Nexus: ["Blockchain", true],
     Contact: ["AtSign", true],
+    Information: ["Info", true],
   };
+
+  const Links = isAdminAuthenticated()
+    ? { ...baseLinks, Admin: ["Gear", true] }
+    : baseLinks;
   const linkKeys = Object.keys(Links);
 
   const [open, setOpen] = useState(false);
   const toggle = () => {
     setOpen(!open);
   };
+  const close = () => {
+    setOpen(false);
+  };
   const navigate = (to) => {
     if (location.pathname !== to) {
       history.push(to);
-      toggle();
+      close();
     }
   };
+
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === "Escape" && open) {
+        close();
+      }
+    };
+
+    document.addEventListener("keydown", handleEscape);
+    return () => document.removeEventListener("keydown", handleEscape);
+  }, [open]);
   const navItems = linkKeys.map((item, idx) => {
     const to = `/${item}`.toLowerCase();
     return (
@@ -41,22 +61,14 @@ function Sidebar() {
         key={idx}
         className={`
                 list-group-item
-                nav-link 
+                nav-link
                 white-text
-                text-left
-				${!Links[item][1] && "text-nav-icon"} 
+				${!Links[item][1] && "text-nav-icon"}
 				${location.pathname.toLowerCase() === to && "nav-link-active"}
                 `}
-        style={{ color: "white", opacity: 1, backgroundColor: "black" }}
         onClick={() => navigate(to)}
       >
-        <span
-          style={{
-            width: "150px",
-            paddingLeft: idx === 0 ? "10px" : "",
-            marginRight: idx !== 0 ? "10px" : "",
-          }}
-        >
+        <span className="nav-icon">
           {chooseIcon({
             iconHover: true,
             iconText: !Links[item][1] && Links[item][0],
@@ -65,43 +77,24 @@ function Sidebar() {
             pathname: location.pathname,
           })}
         </span>
-        <span
-          className={`questrial h3 ${location.pathname.toLowerCase() === `/${item}`.toLowerCase() &&
-            "nav-link-active"
-            }`}
-        >
+        <span className={`questrial h3`}>
           {item.toLowerCase()}
         </span>
       </li>
     );
   });
   return (
-    <ul
-      className="list-group fixed-top"
-      style={{
-        width: open ? "225px" : "70px",
-        height: open && "100vh",
-        backgroundColor: open && "black",
-      }}
-    >
-      <li
+    <>
+      <button
         onClick={toggle}
-        style={{
-          color: "white",
-          opacity: 1,
-          backgroundColor: "transparent",
-          border: "2px solid black",
-          borderRadius: "4px",
-          height: "60px",
-          width: "76px",
-          paddingTop: "8px",
-        }}
+        className="sidebar-hamburger"
+        aria-label={open ? "Close menu" : "Open menu"}
       >
         {open ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
+            width="32"
+            height="32"
             fill="currentColor"
             className="bi bi-x"
             viewBox="0 0 16 16"
@@ -111,8 +104,8 @@ function Sidebar() {
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
+            width="32"
+            height="32"
             fill="currentColor"
             className="bi bi-list"
             viewBox="0 0 16 16"
@@ -123,9 +116,18 @@ function Sidebar() {
             />
           </svg>
         )}
-      </li>
-      {open && navItems}
-    </ul>
+      </button>
+      <nav
+        className={`sidebar-overlay ${open ? "sidebar-overlay-open" : ""}`}
+        onClick={(e) => {
+          if (e.target === e.currentTarget) {
+            close();
+          }
+        }}
+      >
+        <ul className="sidebar-nav">{navItems}</ul>
+      </nav>
+    </>
   );
 }
 

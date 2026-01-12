@@ -1,0 +1,59 @@
+.information-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .container {
+    margin-top: 40px;
+  }
+
+  .info-section {
+    margin-bottom: 40px;
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      letter-spacing: 0.05em;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 12px;
+
+        a {
+          color: rgba(255, 255, 255, 0.7);
+          text-decoration: none;
+          transition: all 0.2s ease;
+          display: inline-block;
+          font-size: 1rem;
+
+          &:hover {
+            color: #de3c4b;
+            transform: translateX(4px);
+          }
+
+          &:active {
+            color: #ffbf00;
+          }
+        }
+
+        a.active,
+        a[aria-current="page"] {
+          color: #68a7ff;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding: 10px;
+
+    .info-section h3 {
+      font-size: 1.1rem;
+    }
+  }
+}

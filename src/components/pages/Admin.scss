@@ -1,0 +1,224 @@
+.admin-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  .admin-login {
+    text-align: center;
+    padding: 60px 20px;
+
+    h1 {
+      margin-bottom: 30px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .admin-input {
+      width: 100%;
+      padding: 12px 20px;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      color: white;
+      font-size: 1rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+
+      &:focus {
+        outline: none;
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      &::placeholder {
+        color: rgba(255, 255, 255, 0.4);
+      }
+    }
+
+    .admin-error {
+      color: #de3c4b;
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .admin-button {
+      width: 100%;
+      padding: 12px 20px;
+      background: rgba(104, 167, 255, 0.2);
+      backdrop-filter: blur(20px);
+      color: #68a7ff;
+      font-size: 1rem;
+      font-weight: 500;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba(104, 167, 255, 0.3);
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    h1 {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .admin-logout {
+      padding: 8px 16px;
+      background: rgba(222, 60, 75, 0.2);
+      backdrop-filter: blur(20px);
+      color: #de3c4b;
+      font-size: 0.9rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba(222, 60, 75, 0.3);
+      }
+    }
+  }
+
+  .admin-section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .admin-description {
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 25px;
+      font-size: 0.95rem;
+    }
+  }
+
+  .admin-flags {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .admin-flag-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.05);
+      }
+
+      .admin-flag-info {
+        flex: 1;
+
+        h3 {
+          margin: 0 0 5px 0;
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 1.1rem;
+        }
+
+        code {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 0.85rem;
+          background: rgba(255, 255, 255, 0.05);
+          padding: 2px 8px;
+          border-radius: 4px;
+        }
+      }
+
+      .admin-toggle {
+        position: relative;
+        width: 80px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 18px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &.active {
+          background: rgba(104, 167, 255, 0.3);
+
+          .toggle-slider {
+            transform: translateX(44px);
+            background: #68a7ff;
+          }
+
+          .toggle-label {
+            color: #68a7ff;
+          }
+        }
+
+        .toggle-slider {
+          position: absolute;
+          top: 4px;
+          left: 4px;
+          width: 28px;
+          height: 28px;
+          background: rgba(255, 255, 255, 0.5);
+          border-radius: 50%;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .toggle-label {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 0.7rem;
+          font-weight: 600;
+          color: rgba(255, 255, 255, 0.6);
+          letter-spacing: 0.05em;
+          transition: color 0.3s ease;
+        }
+      }
+    }
+  }
+
+  .admin-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .admin-link {
+      padding: 15px 20px;
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      display: block;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.06);
+        color: #68a7ff;
+        transform: translateX(5px);
+      }
+    }
+  }
+}

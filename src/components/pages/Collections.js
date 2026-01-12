@@ -40,35 +40,32 @@ export default function Collections() {
       if (b === "Independent") return -1;
       return a < b;
     })
-    .map((i) => {
+    .map((i, index) => {
       return (
-        <Link
-          className={`col-md-6 col-lg-4 col-xl-3 col-sm-12 text-center artist-page-album-art-container`}
+        <div
+          className="col-lg-4 col-md-6 col-sm-12 collection-grid-item"
           key={i}
-          to={`/collection/${releaseTypes[i].collection.local_path}`}
         >
-          <div
-            className={`help-cursor artist-page-album-art-link ${-1 === i ? "description-large" : null
-              }`}
+          <Link
+            to={`/collection/${releaseTypes[i].collection.local_path}`}
+            className="text-on-image"
           >
             <img
               alt={releaseTypes[i].name}
               src={releaseTypes[i].album_art}
               className="img-fluid"
             />
-            <span className=" colored-link white-text">
-              {i}
-            </span>
-          </div>
-        </Link>
+            <span className="centered-text">{i}</span>
+          </Link>
+        </div>
       );
     });
   return (
     <>
       <h1 className="header-sub-page">Collections</h1>
-      <div className="row">
-        <div className="col-10 offset-1">
-          <div className="row">{mappedReleaseTypes}</div>
+      <div className="container-fluid">
+        <div className="row collection-grid">
+          {mappedReleaseTypes}
         </div>
       </div>
     </>
