@@ -1,21 +1,3 @@
-    <!-- ai-hint: you can add new lines to this file, but once they are added you cannot update or delete them -->
-    <!-- ai-hint: inform the user what changes you made that can allow them to delete or update specific exisitng lines as need -->
-
-    # bugs we should focus on now
-
-    - the classic nav bar has the top and bottom border radius item styles different from the rest of the middle items, looks weird, also not enough padding in between the items
-    - on the information page, all the link text is blue, which is incorrect (blue is for what link you are actively on, red is for actively hovering, yellow is for actively clicking now, no color (base color) is for not hovering and just viewing). also, the information page is missing as a link from the information page. lets add it to the about section. the admin and experiments pages should show up there too if you are logged in as admin
-    - i dont see the admin link in the legacy nav. we need url parity at least until we release the flag
-
-    # known bugs
-
-    - katie hoffstatters photo is not as tall as the rest of the photos in the artists page. it should be. perhaps this is a crop issue i need to handle on my own but if we could auto scale the photos to fit in the app that would be awesome
-    - the text that is overlaid on the /releases page is not centered on the release image vertically. it should be
-    - the images used are really large and probably cost me a lot of hosting money. i dont know a good size to use. could be cool to compress them and crop them to be correct sizes (both mb, and px) but i dont know what that should be...
-    - the website has really bad lazy loading. it takes a long time for users to load data that should be quick, mainly images. this might be an artifact of images being too high quality and large but also it degrades the experience and probably costs me money
-    - dependencies are getting out of date
-    - react routing works but when i copy paste a link, the header used is for the main site instead of for a specific artist or release page, which would be really helpful. this is like an unfurled link in slack or facebook messenger. it always defaults to the home page. not sure if its something we can fix. we use react-helmet for this.
-
     # code quality / technical debt
 
     - unused imports: Footer.js imports Question component but no longer uses it
