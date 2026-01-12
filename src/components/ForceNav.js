@@ -277,16 +277,30 @@ function ForceNav() {
       const collapsedPos = getCollapsedPositions();
 
       // Update nodes with collapsed targets
-      // Close button is at 30px from top/left (20px on mobile)
-      // Map collapsed space to that same corner position
+      // Desktop: close button at 30px from top/left
+      // Mobile: close button at 20px from bottom/right
       nodesRef.current = linkKeys.map((key) => {
         const pos = collapsedPos[key];
         // Convert collapsed px coords to screen percentage
-        // Collapsed container is 56px, positioned at 30px from edge
-        const triggerLeft = isMobile ? 20 : 30;
-        const triggerTop = isMobile ? 20 : 30;
-        const xPercent = ((triggerLeft + pos.x) / window.innerWidth) * 100;
-        const yPercent = ((triggerTop + pos.y) / window.innerHeight) * 100;
+        // Collapsed container is 56px (usable space)
+        let xPercent, yPercent;
+
+        if (isMobile) {
+          // Mobile: bottom-right corner
+          // Trigger is 64px wide, at bottom: 20px, right: 20px with 8px padding
+          const triggerRight = 20;
+          const triggerBottom = 20;
+          const xPos = window.innerWidth - triggerRight - pos.x;
+          const yPos = window.innerHeight - triggerBottom - pos.y;
+          xPercent = (xPos / window.innerWidth) * 100;
+          yPercent = (yPos / window.innerHeight) * 100;
+        } else {
+          // Desktop: top-left corner
+          const triggerLeft = 30;
+          const triggerTop = 30;
+          xPercent = ((triggerLeft + pos.x) / window.innerWidth) * 100;
+          yPercent = ((triggerTop + pos.y) / window.innerHeight) * 100;
+        }
 
         const existingNode = nodesRef.current.find(n => n.id === key);
         return {
@@ -319,6 +333,7 @@ function ForceNav() {
 
       simulationRef.current = closingSimulation;
 
+      // Return cleanup for closed state
       return () => {
         if (simulationRef.current) {
           simulationRef.current.stop();
@@ -343,10 +358,23 @@ function ForceNav() {
 
       // Start position: from collapsed state position (same as close button)
       const pos = collapsedPos[key];
-      const triggerLeft = isMobile ? 20 : 30;
-      const triggerTop = isMobile ? 20 : 30;
-      const startX = ((triggerLeft + pos.x) / window.innerWidth) * 100;
-      const startY = ((triggerTop + pos.y) / window.innerHeight) * 100;
+      let startX, startY;
+
+      if (isMobile) {
+        // Mobile: bottom-right corner
+        const triggerRight = 20;
+        const triggerBottom = 20;
+        const xPos = window.innerWidth - triggerRight - pos.x;
+        const yPos = window.innerHeight - triggerBottom - pos.y;
+        startX = (xPos / window.innerWidth) * 100;
+        startY = (yPos / window.innerHeight) * 100;
+      } else {
+        // Desktop: top-left corner
+        const triggerLeft = 30;
+        const triggerTop = 30;
+        startX = ((triggerLeft + pos.x) / window.innerWidth) * 100;
+        startY = ((triggerTop + pos.y) / window.innerHeight) * 100;
+      }
 
       return {
         id: key,
@@ -389,6 +417,7 @@ function ForceNav() {
 
     simulationRef.current = simulation;
 
+    // Return cleanup for open state
     return () => {
       if (simulationRef.current) {
         simulationRef.current.stop();

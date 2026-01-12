@@ -40,6 +40,7 @@
   &.open {
     pointer-events: none;
     opacity: 0;
+    animation: none; // Stop animation when opening to prevent interference
   }
 
   &.pulse {
@@ -329,8 +330,8 @@
 // Close button - just X icon, no background
 .force-nav-close {
   position: fixed;
-  top: 30px;
-  left: 30px;
+  top: 40px;
+  left: 40px;
   z-index: 1001;
   display: flex;
   align-items: center;
@@ -340,7 +341,8 @@
   cursor: pointer;
   color: rgba(255, 255, 255, 0.7);
   padding: 8px;
-  transition: all 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease;
+  animation: bgBlurIn 1s cubic-bezier(0.4, 0, 0.2, 1) both;
 
   &:hover {
     color: #de3c4b;
