@@ -19,6 +19,15 @@
   outline: none;
   -webkit-tap-highlight-color: transparent;
 
+  // Remove focus outline on click
+  &:focus,
+  &:active,
+  &:focus-visible {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
   // No background blur anymore - cleaner look
 
   &.open {
@@ -27,9 +36,8 @@
     animation: none; // Stop animation when opening to prevent interference
   }
 
-  &.pulse {
-    animation: forcePulse 2s ease-in-out infinite;
-  }
+  // Pulse class removed - no longer needed
+  // Fade in animation is sufficient
 
   @media only screen and (max-width: 768px) {
     top: unset;
@@ -41,15 +49,7 @@
   }
 }
 
-@keyframes forcePulse {
-  0%,
-  100% {
-    box-shadow: 0 0 0 0 rgba(104, 167, 255, 0.4);
-  }
-  50% {
-    box-shadow: 0 0 0 12px rgba(104, 167, 255, 0);
-  }
-}
+// Pulse animation removed - fade in is sufficient
 
 .force-nav-collapsed {
   position: relative;
@@ -59,7 +59,9 @@
 
   .force-nav-icon {
     position: absolute;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                width 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none; // No hover effects on collapsed icons
     display: flex;
     align-items: center;
@@ -119,13 +121,19 @@
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    transition: backdrop-filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   &.force-nav-overlay-open {
     opacity: 1;
     pointer-events: all;
+
+    &::before {
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
   }
 }
 
