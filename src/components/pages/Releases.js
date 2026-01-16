@@ -3,11 +3,22 @@ import { Link } from "react-router-dom";
 import releaseData from "../../constants/releaseData.json";
 import setData from "../../constants/setData.json";
 import recData from "../../constants/recData.json";
+import Seo from "../Seo";
 import './Releases.scss';
 
 const sortedReleases = [...releaseData, ...setData, ...recData].sort((a, b) => (a.release_date > b.release_date) ? -1 : ((a.release_date < b.release_date) ? 1 : 0))
 
 export default function Releases() {
+	const headData = {
+		title: "Releases",
+		shortSiteTitle: "WRC",
+		siteTitle: "WHY? Record Company",
+		url: "/releases",
+		imgSrc: "/meta.jpg",
+		description: "Browse all releases on WHY? Record Company",
+		keywords: "why, record, company, music, releases, albums, edm, techno, idm, experimental",
+	};
+
 	const ReleasesGrid = sortedReleases.map((item, index) => {
 		const color = Math.floor(Math.random() * (Math.floor(12) - Math.ceil(1))) + Math.ceil(1);
 
@@ -26,6 +37,7 @@ export default function Releases() {
 
 	return (
 		<>
+			<Seo data={headData} />
 			<h1 className="header-sub-page">Releases</h1>
 			<div className="container-fluid">
 				<div className="row release-grid">

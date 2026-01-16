@@ -1,14 +1,15 @@
-import React from "react";
 import Helmet from "react-helmet";
 
-const Seo = props => {
-	const { data } = props;
-
+const Seo = ({ data }) => {
 	const postTitle = `${data.title}`;
 	const title = postTitle !== "" ? `${postTitle} - ${data.shortSiteTitle}` : data.siteTitle;
 	const description = `${data.description}`;
-	const image = data.imgSrc;
-	const url = data.url;
+	const imageUrl = data.imgSrc;
+	// Convert relative image paths to absolute URLs for social media
+	const image = imageUrl?.startsWith('http')
+		? imageUrl
+		: `${window.location.origin}${imageUrl?.startsWith('/') ? '' : '/'}${imageUrl}`;
+	const url = `${window.location.origin}${data.url?.startsWith('/') ? data.url : `/${data.url}`}`;
 	const keywords = data.keywords;
 
 	return (
@@ -22,7 +23,11 @@ const Seo = props => {
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
 			<meta property="og:image" content={image} />
+			<meta property="og:image:secure_url" content={image} />
+			<meta property="og:image:width" content="1200" />
+			<meta property="og:image:height" content="630" />
 			<meta property="og:type" content="website" />
+			<meta property="og:site_name" content={data.siteTitle} />
 			{/* Twitter Card tags */}
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />

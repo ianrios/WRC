@@ -7,12 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="theme-color" content="#000000" />
 	<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-	<meta property="og:title" content="WHY? Record Company">
-	<meta property="og:site_name" content="WHY? Record Company">
-	<meta property="og:image" content="/images/meta.jpg">
 	<meta name="author" content="WHY? Record Company" />
-	<meta name="keywords" content="why, record, company, music, edm, techno, idm, experimental, whythough" />
-	<meta name="description" content="WHY? Record Company (WRC) Offical Website" />
 	<!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -45,27 +40,31 @@
       To create a production bundle, use `npm run build` or `yarn build`.
 	-->
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
-	<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js" defer></script>
 
 	<!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-	<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js" defer></script>
 
-	<script>
+	<script defer>
 		// Your web app's Firebase configuration
-		var firebaseConfig = {
-			apiKey: "AIzaSyCFZEIwpnrFvWwHhagPR140u3mHHF19ZHU",
-			authDomain: "why-record-company.firebaseapp.com",
-			databaseURL: "https://why-record-company.firebaseio.com",
-			projectId: "why-record-company",
-			storageBucket: "why-record-company.appspot.com",
-			messagingSenderId: "632583449159",
-			appId: "1:632583449159:web:5e466b7059e46dd399df62",
-			measurementId: "G-PK352GLD38"
-		};
-		// Initialize Firebase
-		firebase.initializeApp(firebaseConfig);
-		firebase.analytics();
+		window.addEventListener('DOMContentLoaded', function() {
+			if (typeof firebase !== 'undefined') {
+				var firebaseConfig = {
+					apiKey: "AIzaSyCFZEIwpnrFvWwHhagPR140u3mHHF19ZHU",
+					authDomain: "why-record-company.firebaseapp.com",
+					databaseURL: "https://why-record-company.firebaseio.com",
+					projectId: "why-record-company",
+					storageBucket: "why-record-company.appspot.com",
+					messagingSenderId: "632583449159",
+					appId: "1:632583449159:web:5e466b7059e46dd399df62",
+					measurementId: "G-PK352GLD38"
+				};
+				// Initialize Firebase
+				firebase.initializeApp(firebaseConfig);
+				firebase.analytics();
+			}
+		});
 	</script>
 
 	<script>

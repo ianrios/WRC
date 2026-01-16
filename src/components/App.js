@@ -49,7 +49,7 @@ function Wrapper() {
     shortSiteTitle: "WRC",
     siteTitle,
     url: pathname,
-    imgSrc: "meta.jpg",
+    imgSrc: "/meta.jpg",
     description: "WHY? Record Company Homepage",
     keywords:
       "why, record, company, music, edm, techno, idm, experimental, label",

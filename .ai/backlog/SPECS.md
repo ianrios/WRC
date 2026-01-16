@@ -11,6 +11,8 @@ Design inspiration:
 
 Ideas to explore:
 
+- create team page
+- create services page
 - use small chunks of the nexus when on all artist and release pages. remove the nexus page entirely. reuse the nexus icon for the \_\_\_\_ page.
 - recreate the artists page to be a rolodex style vertical contact card list on mobile and horizontal contact card style on desktop
   - this means, when you scroll, you should be going from left to right in the stack instead of up and down on the page
