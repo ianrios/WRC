@@ -5,7 +5,7 @@
 }
 .centered-text {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -50,7 +50,9 @@
   }
 }
 .active-link,
-a {
+.sidebar a,
+.filtered-artists a,
+.filter-sidebar a {
   color: #68a7ff !important;
   text-decoration: none !important;
 }
@@ -61,12 +63,16 @@ a {
 }
 .filtered-artists:hover,
 .filter-sidebar:hover,
-a:hover {
+.sidebar a:hover,
+.filtered-artists a:hover,
+.filter-sidebar a:hover {
   color: #de3c4b !important;
 }
 .filtered-artists:active,
 .filter-sidebar:active,
-a:active {
+.sidebar a:active,
+.filtered-artists a:active,
+.filter-sidebar a:active {
   color: #ffbf00 !important;
 }
 .release-image-centered-hover-text {

@@ -57,7 +57,7 @@ function Wrapper() {
 
   return (
     <div className="App">
-      <Seo data={headData} />
+      {pathname === "/" && <Seo data={headData} />}
       {viewMain ? (
         <div className="body-grid">
           <div

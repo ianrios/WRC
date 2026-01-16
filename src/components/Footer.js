@@ -24,6 +24,7 @@ export default function Footer() {
           alignItems: "center",
           justifyContent: "center",
           textAlign: "center",
+          zIndex: "1002",
         }}
         buttonStyle={{
           background: "rgba(255, 255, 255, 0.1)",

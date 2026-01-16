@@ -221,4 +221,73 @@
       }
     }
   }
+
+  .admin-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+
+    .admin-button {
+      padding: 12px 20px;
+      background: rgba(104, 167, 255, 0.2);
+      backdrop-filter: blur(20px);
+      color: #68a7ff;
+      font-size: 0.95rem;
+      font-weight: 500;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: none;
+
+      &:hover {
+        background: rgba(104, 167, 255, 0.3);
+        transform: translateY(-2px);
+      }
+
+      &.admin-button-danger {
+        background: rgba(222, 60, 75, 0.2);
+        color: #de3c4b;
+
+        &:hover {
+          background: rgba(222, 60, 75, 0.3);
+        }
+      }
+    }
+  }
+
+  .admin-version-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .version-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      border-radius: 6px;
+
+      .version-label {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+
+      code {
+        color: #68a7ff;
+        font-size: 0.9rem;
+        background: rgba(104, 167, 255, 0.1);
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-family: 'Courier New', monospace;
+      }
+
+      span:not(.version-label) {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.9rem;
+      }
+    }
+  }
 }

@@ -18,11 +18,11 @@ const Seo = props => {
 			<meta name="description" content={description} />
 			<meta name="keywords" property="og:keywords" content={keywords} />
 			{/* OpenGraph tags */}
-			<meta name="og:url" content={url} />
-			<meta name="og:title" content={title} />
-			<meta name="og:description" content={description} />
-			<meta name="og:image" content={image} />
-			<meta name="og:type" content="website" />
+			<meta property="og:url" content={url} />
+			<meta property="og:title" content={title} />
+			<meta property="og:description" content={description} />
+			<meta property="og:image" content={image} />
+			<meta property="og:type" content="website" />
 			{/* Twitter Card tags */}
 			<meta name="twitter:title" content={title} />
 			<meta name="twitter:description" content={description} />
