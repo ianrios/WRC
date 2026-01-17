@@ -12,11 +12,19 @@ export default function ContestPage() {
     const currContest = contestData.find(i => i.local_path.toLowerCase() === name.toLowerCase());
     const foundContest = currContest === undefined ? false : true;
 
-    const headData = {
+    const headData = foundContest ? {
+        title: currContest.name + " - WRC",
+        shortSiteTitle: `${currContest.name} Competition Page - WRC`,
+        siteTitle: "WHY? Record Company",
+        url: `/contest/${name}`,
+        imgSrc: currContest.album_art,
+        description: currContest.description || "WHY? Record Company Contests",
+        keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, competition, " + currContest.name
+    } : {
         title: "Contests - WRC",
         shortSiteTitle: `Competition Page - WRC`,
         siteTitle: "WHY? Record Company",
-        url: name,
+        url: `/contest/${name}`,
         description: "WHY? Record Company Contests",
         keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, competition"
     }

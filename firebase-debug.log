@@ -1,0 +1,26 @@
+[debug] [2026-01-16T04:06:48.166Z] ----------------------------------------------------------------------
+[debug] [2026-01-16T04:06:48.168Z] Command:       /opt/homebrew/Cellar/node/23.7.0/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2026-01-16T04:06:48.169Z] CLI Version:   14.4.0
+[debug] [2026-01-16T04:06:48.169Z] Platform:      darwin
+[debug] [2026-01-16T04:06:48.169Z] Node Version:  v23.7.0
+[debug] [2026-01-16T04:06:48.169Z] Time:          Thu Jan 15 2026 23:06:48 GMT-0500 (Eastern Standard Time)
+[debug] [2026-01-16T04:06:48.169Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-01-16T04:06:48.258Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-16T04:06:48.259Z] > authorizing via signed-in user (ian.rios1a@gmail.com)
+[debug] [2026-01-16T04:06:48.259Z] [iam] checking project why-record-company for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-01-16T04:06:48.259Z] Checked if tokens are valid: false, expires at: 1768536510916
+[debug] [2026-01-16T04:06:48.259Z] Checked if tokens are valid: false, expires at: 1768536510916
+[debug] [2026-01-16T04:06:48.259Z] > refreshing access token with scopes: []
+[debug] [2026-01-16T04:06:48.260Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-01-16T04:06:48.260Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-16T04:06:48.457Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-01-16T04:06:48.457Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-01-16T04:06:48.471Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/why-record-company:testIamPermissions [none]
+[debug] [2026-01-16T04:06:48.471Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/why-record-company:testIamPermissions x-goog-quota-user=projects/why-record-company
+[debug] [2026-01-16T04:06:48.471Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/why-record-company:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-01-16T04:06:48.636Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/why-record-company:testIamPermissions 200
+[debug] [2026-01-16T04:06:48.636Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/why-record-company:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-01-16T04:06:48.637Z] Checked if tokens are valid: true, expires at: 1768540007458
+[debug] [2026-01-16T04:06:48.637Z] Checked if tokens are valid: true, expires at: 1768540007458
+[debug] [2026-01-16T04:06:48.637Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/why-record-company [none]

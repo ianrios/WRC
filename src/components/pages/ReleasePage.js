@@ -28,7 +28,7 @@ export default function ReleasePage() {
     title: currRelease.name + " - WRC",
     shortSiteTitle: `${currRelease.name} Release Page - WRC`,
     siteTitle: "WHY? Record Company",
-    url: name,
+    url: `/release/${name}`,
     imgSrc: currRelease.album_art,
     description: currRelease.release_bio.length > 0 ? currRelease.release_bio[0] : "",
     keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, " + currRelease.name
@@ -36,7 +36,7 @@ export default function ReleasePage() {
     title: "Error Page not found - WRC",
     shortSiteTitle: `Collection page not found - WRC`,
     siteTitle: "WHY? Record Company",
-    url: name,
+    url: `/release/${name}`,
     imgSrc: "error.jpg",
     description: "",
     keywords: "why, record, company, page not found"

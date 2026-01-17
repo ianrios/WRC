@@ -105,7 +105,7 @@ export default function ArtistProfile({ epk = false }) {
       title: currArtist.name + " - WRC",
       shortSiteTitle: `${currArtist.name} Artist Page - WRC`,
       siteTitle: "WHY? Record Company",
-      url: artist_name,
+      url: `/artist/${artist_name}`,
       imgSrc: currArtist.photos[0],
       description: currArtist.quote,
       keywords:
@@ -116,7 +116,7 @@ export default function ArtistProfile({ epk = false }) {
       title: "Error Page not found - WRC",
       shortSiteTitle: `Collection page not found - WRC`,
       siteTitle: "WHY? Record Company",
-      url: artist_name,
+      url: `/artist/${artist_name}`,
       imgSrc: "error.jpg",
       description: "",
       keywords: "why, record, company, page not found",

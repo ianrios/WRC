@@ -32,7 +32,7 @@ export default function CollectionPage() {
     title: currCollection.title + " - WRC",
     shortSiteTitle: `${currCollection.title} Release Page - WRC`,
     siteTitle: "WHY? Record Company",
-    url: name,
+    url: `/collection/${name}`,
     imgSrc: newestRelease.album_art,
     description: currCollection.paragraphs.length > 0 ? currCollection.paragraphs[0] : null,
     keywords: "why, record, company, music, edm, techno, idm, experimental, label, release, " + currCollection.title
@@ -40,7 +40,7 @@ export default function CollectionPage() {
     title: "Collection Page - WRC",
     shortSiteTitle: `Collection page not found - WRC`,
     siteTitle: "WHY? Record Company",
-    url: name,
+    url: `/collection/${name}`,
     imgSrc: "error.jpg",
     description: "",
     keywords: "why, record, company, page not found"

@@ -220,4 +220,9 @@ og:description
 
 similar issues are happening with almost every route
 
+I tried updating some of the seo code but im not sure how successful i was.
+
 3. Question: should we be running some kind of compression algorithm to make the images smaller for the meta tags? maybe even on build for the site itself to load the images faster? right now it takes a few seconds per image for the site to load, they look like they are loading in one line of pixels at a time
+
+
+I tried running a line of code `npx imagemin public/images/**/*.{jpg,png} --out-dir=public/images --plugin=mozjpeg --plugin=pngquant` but it seems to have duplicated the images..., i might need some help

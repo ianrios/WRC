@@ -21,7 +21,7 @@ export default function ProductPage() {
         title: currProduct.name + " - WRC",
         shortSiteTitle: `${currProduct.name} Product Page - WRC`,
         siteTitle: "WHY? Record Company",
-        url: name,
+        url: `/product/${name}`,
         imgSrc: currProduct.product_image,
         description:
           currProduct.product_bio.length > 0 ? currProduct.product_bio[0] : "",
@@ -33,7 +33,7 @@ export default function ProductPage() {
         title: "Error Page not found - WRC",
         shortSiteTitle: `Collection page not found - WRC`,
         siteTitle: "WHY? Record Company",
-        url: name,
+        url: `/product/${name}`,
         imgSrc: "error.jpg",
         description: "",
         keywords: "why, record, company, page not found",
