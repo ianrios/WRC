@@ -1,5 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import { Seo } from "../Seo";
+
 import releaseData from "../../constants/releaseData.json";
 import independentReleaseData from "../../constants/independentReleaseData.json";
 import recData from "../../constants/recData.json";
@@ -8,9 +9,10 @@ import playlistData from "../../constants/playlistData.json";
 // import futureReleases from "../../constants/futureReleases.json";
 import collectionData from "../../constants/collectionData.json";
 import contestData from "../../constants/contestData.json";
+
 import "./Collections.scss";
 
-export default function Collections() {
+export function Collections() {
   let allData = [
     ...releaseData,
     ...independentReleaseData,
@@ -29,9 +31,9 @@ export default function Collections() {
   );
   Object.keys(releaseTypes).map(
     (i) =>
-    (releaseTypes[i]["collection"] = collectionData.find(
-      (j) => j.short_title === i
-    ))
+      (releaseTypes[i]["collection"] = collectionData.find(
+        (j) => j.short_title === i
+      ))
   );
   const mappedReleaseTypes = Object.keys(releaseTypes)
     .sort((a, b) => {
@@ -60,13 +62,22 @@ export default function Collections() {
         </div>
       );
     });
+  const headData = {
+    title: "Collections - WRC",
+    siteTitle: "WHY? Record Company",
+    url: "/collections",
+    imgSrc: "/images/WRC.jpg",
+    description: "Browse release collections on WHY? Record Company",
+    keywords:
+      "why, record, company, music, collections, catalog, edm, techno, idm, experimental",
+  };
+
   return (
     <>
+      <Seo data={headData} />
       <h1 className="header-sub-page">Collections</h1>
       <div className="container-fluid">
-        <div className="row collection-grid">
-          {mappedReleaseTypes}
-        </div>
+        <div className="row collection-grid">{mappedReleaseTypes}</div>
       </div>
     </>
   );

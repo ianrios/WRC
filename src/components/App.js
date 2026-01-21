@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, useLocation } from "react-router-dom";
-import Q from "./Q";
-import Seo from "./Seo";
-import ForceNav from "./ForceNav";
-import Routes from "./Routes";
-import Footer from "./Footer";
-import ScrollToTop from "./ScrollToTop";
+import { Q } from "./Q";
+import { Seo } from "./Seo";
+import { ForceNav } from "./ForceNav";
+import { Routes } from "./Routes";
+import { Footer } from "./Footer";
+import { ScrollToTop } from "./ScrollToTop";
 import "./App.scss";
 
 function Wrapper() {
@@ -15,14 +15,39 @@ function Wrapper() {
 
   useEffect(() => {
     const bypassPaths = [
-      "live", "merch", "thanks", "artists", "products", "collections",
-      "contact", "contests", "releases", "errors", "hard-reload", "nexus",
-      "discord", "welcome", "experiments", "admin", "information",
-      "cookie-policy", "coming-soon", "services", "software"
+      "live",
+      "merch",
+      "thanks",
+      "artists",
+      "products",
+      "collections",
+      "contact",
+      "contests",
+      "releases",
+      "errors",
+      "hard-reload",
+      "nexus",
+      "discord",
+      "welcome",
+      "experiments",
+      "admin",
+      "information",
+      "cookie-policy",
+      "coming-soon",
+      "services",
+      "software",
     ];
-    const nestedPaths = ["artist", "releases", "collection", "contest", "product", "release"];
+    const nestedPaths = [
+      "artist",
+      "releases",
+      "collection",
+      "contest",
+      "product",
+      "release",
+    ];
 
-    const isNestedRoute = pathArr.length > 2 && nestedPaths.includes(pathArr[1]);
+    const isNestedRoute =
+      pathArr.length > 2 && nestedPaths.includes(pathArr[1]);
     if (bypassPaths.includes(pathArr[1]) || isNestedRoute) {
       setViewMain(false);
     }
@@ -63,8 +88,9 @@ function Wrapper() {
           <div
             className="main-image"
             style={{
-              backgroundImage: `url("/images/textures/${Math.floor(Math.random() * 7) + 1
-                }.jpg")`,
+              backgroundImage: `url("/images/textures/${
+                Math.floor(Math.random() * 7) + 1
+              }.jpg")`,
             }}
             onClick={() => setViewMain(!viewMain)}
           >

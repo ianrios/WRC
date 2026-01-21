@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Merch({ height, width, fillColor }) {
+export function Merch({ height, width, fillColor }) {
   return (
     <svg
       height={height}

@@ -1,13 +1,24 @@
-import React, { useState } from 'react'
+import { useState } from "react";
 import { Graph } from "react-d3-graph";
-import _ from 'lodash'
-import d3data from "../../constants/d3.js"
-import { mappedD3ArtistTags as ALink } from '../../utilities/maps'
-import "./Nexus.scss"
+import _ from "lodash";
+import { Seo } from "../Seo";
+import { data } from "../../constants/d3.js";
+import { mappedD3ArtistTags as ALink } from "../../utilities/maps";
+import "./Nexus.scss";
 
-export default function Nexus() {
+export function Nexus() {
+  const headData = {
+    title: "Nexus - WRC",
+    siteTitle: "WHY? Record Company",
+    url: "/nexus",
+    imgSrc: "/images/WRC.jpg",
+    description:
+      "Interactive visualization of artist collaborations on WHY? Record Company",
+    keywords:
+      "why, record, company, nexus, artists, collaborations, network, graph",
+  };
 
-  const [name, setName] = useState('');
+  const [name, setName] = useState("");
   const [clickLock, setClickLock] = useState(false);
 
   const myConfig = {
@@ -23,40 +34,38 @@ export default function Nexus() {
       highlightColor: "lightblue",
     },
     d3: {
-      "gravity": -200
+      gravity: -200,
     },
-    automaticRearrangeAfterDropNode: true
-
+    automaticRearrangeAfterDropNode: true,
   };
   const onMouseOverNode = function (nodeId) {
     console.log(`Mouse over node ${nodeId}`);
     if (!clickLock) {
-      setName(nodeId)
+      setName(nodeId);
     }
   };
 
   const onMouseOutNode = function (nodeId) {
     console.log(`Mouse out node ${nodeId}`);
     if (!clickLock) {
-      setName('')
+      setName("");
     }
   };
 
   const onDoubleClickNode = function (nodeId) {
     console.log(`Double clicked node ${nodeId}`);
-    setClickLock(!clickLock)
-    setName(nodeId)
+    setClickLock(!clickLock);
+    setName(nodeId);
   };
 
   const onClickNode = function (nodeId) {
     console.log(`Clicked node ${nodeId}`);
-    setName(nodeId)
+    setName(nodeId);
   };
 
   const onClickGraph = function () {
     console.log(`Clicked the graph background`);
   };
-
 
   const onRightClickNode = function (event, nodeId) {
     console.log(`Right clicked node ${nodeId}`);
@@ -79,65 +88,67 @@ export default function Nexus() {
   };
 
   const onNodePositionChange = function (nodeId, x, y) {
-    console.log(`Node ${nodeId} is moved to new position. New position is x= ${x} y= ${y}`);
+    console.log(
+      `Node ${nodeId} is moved to new position. New position is x= ${x} y= ${y}`
+    );
   };
 
-  const color = clickLock ? 'red' : 'blue';
+  const color = clickLock ? "red" : "blue";
   let collabsWith = {};
   let hasFeaturesBy = {};
   let isFeaturedBy = {};
   let remixed = {};
   let remixedBy = {};
   if (name) {
-    _.map(d3data.linkObj, (value, key) => {
+    _.map(data.linkObj, (value, key) => {
       const keyData = JSON.parse(key);
       if (keyData.source === name) {
-        if ('sourceCollabedWith' in value) {
+        if ("sourceCollabedWith" in value) {
           if (keyData.target in collabsWith) {
-            collabsWith[keyData.target]++
+            collabsWith[keyData.target]++;
           } else {
-            collabsWith[keyData.target] = 1
+            collabsWith[keyData.target] = 1;
           }
         }
-        if ('sourceRemixed' in value) {
+        if ("sourceRemixed" in value) {
           if (keyData.target in remixed) {
-            remixed[keyData.target]++
+            remixed[keyData.target]++;
           } else {
-            remixed[keyData.target] = 1
+            remixed[keyData.target] = 1;
           }
         }
-        if ('sourceFeaturedOn' in value) {
+        if ("sourceFeaturedOn" in value) {
           if (keyData.target in isFeaturedBy) {
-            isFeaturedBy[keyData.target]++
+            isFeaturedBy[keyData.target]++;
           } else {
-            isFeaturedBy[keyData.target] = 1
+            isFeaturedBy[keyData.target] = 1;
           }
         }
       }
       if (keyData.target === name) {
-        if ('sourceCollabedWith' in value) {
+        if ("sourceCollabedWith" in value) {
           if (keyData.source in collabsWith) {
-            collabsWith[keyData.source]++
+            collabsWith[keyData.source]++;
           } else {
-            collabsWith[keyData.source] = 1
+            collabsWith[keyData.source] = 1;
           }
         }
-        if ('sourceRemixed' in value) {
+        if ("sourceRemixed" in value) {
           if (keyData.source in remixedBy) {
-            remixedBy[keyData.source]++
+            remixedBy[keyData.source]++;
           } else {
-            remixedBy[keyData.source] = 1
+            remixedBy[keyData.source] = 1;
           }
         }
-        if ('sourceFeaturedOn' in value) {
+        if ("sourceFeaturedOn" in value) {
           if (keyData.source in hasFeaturesBy) {
-            hasFeaturesBy[keyData.source]++
+            hasFeaturesBy[keyData.source]++;
           } else {
-            hasFeaturesBy[keyData.source] = 1
+            hasFeaturesBy[keyData.source] = 1;
           }
         }
       }
-    })
+    });
   }
 
   // const mappedCW = ALink(collabsWith)
@@ -155,53 +166,89 @@ export default function Nexus() {
   // })
 
   return (
-
-    <div className="row main-header nexus-page">
-      <div className="col nivo-wrapper">
-        <h1 className="header-sub-page">Nexus of Artists</h1>
-        <h5>All artists whose paths have crossed either via collaborations, remixes, or compilations</h5>
-        <h5>Hover over or click a node to see brief info, or double click to <span className={color}>{clickLock ? 'unlock' : 'lock'}</span> the node</h5>
-        <div className="row">
-          <div className="col-md-9 col-sm-12">
-            <Graph
-              id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
-              data={d3data}
-              config={myConfig}
-              onClickNode={onClickNode}
-              onDoubleClickNode={onDoubleClickNode}
-              onRightClickNode={onRightClickNode}
-              onClickGraph={onClickGraph}
-              onClickLink={onClickLink}
-              onRightClickLink={onRightClickLink}
-              onMouseOverNode={onMouseOverNode}
-              onMouseOutNode={onMouseOutNode}
-              onMouseOverLink={onMouseOverLink}
-              onMouseOutLink={onMouseOutLink}
-              onNodePositionChange={onNodePositionChange}
-            />
-          </div>
-          <div className="col-md-3 col-sm-12 text-border node-info">
-            node info
-						{name ?
-              <>
-                <div className="row">
-                  <div className="col questrial">
-                    {name}
+    <>
+      <Seo data={headData} />
+      <div className="row main-header nexus-page">
+        <div className="col">
+          <h1 className="header-sub-page">Nexus of Artists</h1>
+          <h5>
+            All artists whose paths have crossed either via collaborations,
+            remixes, or compilations
+          </h5>
+          <h5>
+            Hover over or click a node to see brief info, or double click to{" "}
+            <span className={color}>{clickLock ? "unlock" : "lock"}</span> the
+            node
+          </h5>
+          <div className="row">
+            <div className="col-md-9 col-sm-12">
+              <Graph
+                id="graph-id" // id is mandatory, if no id is defined rd3g will throw an error
+                data={data}
+                config={myConfig}
+                onClickNode={onClickNode}
+                onDoubleClickNode={onDoubleClickNode}
+                onRightClickNode={onRightClickNode}
+                onClickGraph={onClickGraph}
+                onClickLink={onClickLink}
+                onRightClickLink={onRightClickLink}
+                onMouseOverNode={onMouseOverNode}
+                onMouseOutNode={onMouseOutNode}
+                onMouseOverLink={onMouseOverLink}
+                onMouseOutLink={onMouseOutLink}
+                onNodePositionChange={onNodePositionChange}
+              />
+            </div>
+            <div className="col-md-3 col-sm-12 text-border node-info">
+              node info
+              {name ? (
+                <>
+                  <div className="row">
+                    <div className="col questrial">{name}</div>
                   </div>
+                  <hr style={{ borderColor: "white" }} />
+                  <div className="row questrial email-link">
+                    {_.size(collabsWith) > 0 && (
+                      <div className="col-12">
+                        has collaborations with {ALink(collabsWith)}
+                        <hr />
+                      </div>
+                    )}
+                    {_.size(hasFeaturesBy) > 0 && (
+                      <div className="col-12">
+                        has features by {ALink(hasFeaturesBy)}
+                        <hr />
+                      </div>
+                    )}
+                    {_.size(isFeaturedBy) > 0 && (
+                      <div className="col-12">
+                        is featured by {ALink(isFeaturedBy)}
+                        <hr />
+                      </div>
+                    )}
+                    {_.size(remixed) > 0 && (
+                      <div className="col-12">
+                        remixed {ALink(remixed)}
+                        <hr />
+                      </div>
+                    )}
+                    {_.size(remixedBy) > 0 && (
+                      <div className="col-12">
+                        is remixed by {ALink(remixedBy)}
+                        <hr />
+                      </div>
+                    )}
+                  </div>
+                </>
+              ) : (
+                <div className="questrial">
+                  Hover or click on a node to learn more
                 </div>
-                <hr style={{ borderColor: 'white' }} />
-                <div className="row questrial email-link">
-                  {_.size(collabsWith) > 0 && <div className="col-12">has collaborations with {ALink(collabsWith)}<hr /></div>}
-                  {_.size(hasFeaturesBy) > 0 && <div className="col-12">has features by {ALink(hasFeaturesBy)}<hr /></div>}
-                  {_.size(isFeaturedBy) > 0 && <div className="col-12">is featured by {ALink(isFeaturedBy)}<hr /></div>}
-                  {_.size(remixed) > 0 && <div className="col-12">remixed {ALink(remixed)}<hr /></div>}
-                  {_.size(remixedBy) > 0 && <div className="col-12">is remixed by {ALink(remixedBy)}<hr /></div>}
-                </div>
-              </>
-              : <div className="questrial">Hover or click on a node to learn more</div>}
+              )}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  )
+    </>
+  );
 }

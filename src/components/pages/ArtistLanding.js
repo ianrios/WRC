@@ -1,10 +1,9 @@
-import React from "react";
 import { Link, useParams } from "react-router-dom";
-import Seo from "../Seo";
+import { Seo } from "../Seo";
 
 import artistData from "../../constants/artistData.json";
 
-export default function ArtistLanding() {
+export function ArtistLanding() {
   const { artist_name } = useParams();
 
   const currArtist = artistData.find(

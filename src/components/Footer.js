@@ -1,6 +1,6 @@
 import CookieConsent from "react-cookie-consent";
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer>
       <CookieConsent

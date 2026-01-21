@@ -1,20 +1,20 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import artistData from "../../constants/artistData.json";
-import Seo from "../Seo";
+import { Seo } from "../Seo";
 import "./Artists.scss";
 
 const filteredData = artistData.filter((item) => item.show_on_artist_page);
 
-export default function Artists() {
+export function Artists() {
   const headData = {
-    title: "Artists",
+    title: "Artists - WRC",
     shortSiteTitle: "WRC",
     siteTitle: "WHY? Record Company",
     url: "/artists",
     imgSrc: "/meta.jpg",
     description: "Browse all artists on WHY? Record Company",
-    keywords: "why, record, company, music, artists, edm, techno, idm, experimental",
+    keywords:
+      "why, record, company, music, artists, edm, techno, idm, experimental",
   };
 
   const ArtistsGrid = filteredData.map((item, index) => {
@@ -33,9 +33,7 @@ export default function Artists() {
       <Seo data={headData} />
       <h1 className="header-sub-page">Artists</h1>
       <div className="container-fluid">
-        <div className="row artist-grid">
-          {ArtistsGrid}
-        </div>
+        <div className="row artist-grid">{ArtistsGrid}</div>
       </div>
     </>
   );

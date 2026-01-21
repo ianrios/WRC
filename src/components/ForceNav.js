@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useLocation, useHistory } from "react-router-dom";
 import * as d3 from "d3";
 import { chooseIcon } from "./Link";
@@ -25,16 +25,16 @@ function getCurrentPageKey(pathname, linkKeys) {
   }
 
   // Check for nested routes (e.g., /artist/name -> Artists)
-  if (path.startsWith('/artist')) return 'Artists';
-  if (path.startsWith('/release')) return 'Releases';
-  if (path.startsWith('/collection')) return 'Collections';
-  if (path.startsWith('/contest')) return 'Contests';
-  if (path.startsWith('/product')) return 'Products';
+  if (path.startsWith("/artist")) return "Artists";
+  if (path.startsWith("/release")) return "Releases";
+  if (path.startsWith("/collection")) return "Collections";
+  if (path.startsWith("/contest")) return "Contests";
+  if (path.startsWith("/product")) return "Products";
 
-  return 'Home';
+  return "Home";
 }
 
-function ForceNav() {
+export function ForceNav() {
   const location = useLocation();
   const history = useHistory();
   const animationRef = useRef(null);
@@ -97,7 +97,9 @@ function ForceNav() {
       let radius = 6; // Half of 12px
 
       if (!isCurrent) {
-        const seedValue = key.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+        const seedValue = key
+          .split("")
+          .reduce((acc, char) => acc + char.charCodeAt(0), 0);
         const shouldBeSmaller = seedValue % 2 === 0; // 50% will be smaller
 
         if (shouldBeSmaller) {
@@ -131,16 +133,25 @@ function ForceNav() {
 
     // Run force simulation synchronously to get final positions
     // Goal: Pack icons tightly around the center like magnets
-    const simulation = d3.forceSimulation(nodes)
-      .force("collide", d3.forceCollide()
-        .radius(d => d.radius + 0.5) // Minimal spacing - almost touching
-        .strength(1)
-        .iterations(10)) // Many collision iterations for tight packing
+    const simulation = d3
+      .forceSimulation(nodes)
+      .force(
+        "collide",
+        d3
+          .forceCollide()
+          .radius((d) => d.radius + 0.5) // Minimal spacing - almost touching
+          .strength(1)
+          .iterations(10)
+      ) // Many collision iterations for tight packing
       .force("x", d3.forceX(centerX).strength(0.5)) // Moderate pull to center
       .force("y", d3.forceY(centerY).strength(0.5))
-      .force("charge", d3.forceManyBody()
-        .strength(-15) // Moderate repulsion to prevent overlap
-        .distanceMax(25)) // Repel when nearby
+      .force(
+        "charge",
+        d3
+          .forceManyBody()
+          .strength(-15) // Moderate repulsion to prevent overlap
+          .distanceMax(25)
+      ) // Repel when nearby
       .alphaMin(0.001) // Standard settling threshold
       .velocityDecay(0.6) // Good friction for stable settling
       .stop();
@@ -152,7 +163,7 @@ function ForceNav() {
 
     // Convert to positions object
     const positions = {};
-    nodes.forEach(node => {
+    nodes.forEach((node) => {
       positions[node.id] = {
         x: node.x,
         y: node.y,
@@ -175,7 +186,7 @@ function ForceNav() {
       jiggleTimeRef.current += 0.015; // Slow jiggle
       const time = jiggleTimeRef.current;
 
-      setNodePositions(prevPositions => {
+      setNodePositions((prevPositions) => {
         return prevPositions.map((pos, idx) => {
           const node = nodesRef.current[idx];
           if (!node) return pos;
@@ -239,7 +250,7 @@ function ForceNav() {
           yPercent = ((triggerTop + pos.y) / window.innerHeight) * 100;
         }
 
-        const existingNode = nodesRef.current.find(n => n.id === key);
+        const existingNode = nodesRef.current.find((n) => n.id === key);
         return {
           id: key,
           x: existingNode?.x || xPercent,
@@ -252,16 +263,31 @@ function ForceNav() {
       });
 
       // Create closing animation
-      const closingSimulation = d3.forceSimulation(nodesRef.current)
-        .force("targetX", d3.forceX().x(d => d.targetX).strength(0.2))
-        .force("targetY", d3.forceY().y(d => d.targetY).strength(0.2))
+      const closingSimulation = d3
+        .forceSimulation(nodesRef.current)
+        .force(
+          "targetX",
+          d3
+            .forceX()
+            .x((d) => d.targetX)
+            .strength(0.2)
+        )
+        .force(
+          "targetY",
+          d3
+            .forceY()
+            .y((d) => d.targetY)
+            .strength(0.2)
+        )
         .alphaDecay(0.05) // Faster convergence for closing
         .velocityDecay(0.5)
         .on("tick", () => {
-          setNodePositions(nodesRef.current.map(node => ({
-            x: node.x,
-            y: node.y,
-          })));
+          setNodePositions(
+            nodesRef.current.map((node) => ({
+              x: node.x,
+              y: node.y,
+            }))
+          );
         })
         .on("end", () => {
           // Cleanup after closing animation
@@ -280,7 +306,9 @@ function ForceNav() {
     }
 
     // Get target positions based on device
-    const positions = isMobile ? EXPANDED_POSITIONS_MOBILE : EXPANDED_POSITIONS_DESKTOP;
+    const positions = isMobile
+      ? EXPANDED_POSITIONS_MOBILE
+      : EXPANDED_POSITIONS_DESKTOP;
 
     // Get collapsed positions for starting point
     const collapsedPos = getCollapsedPositions();
@@ -328,11 +356,24 @@ function ForceNav() {
     startJiggleAnimation();
 
     // Create force simulation with gentler forces
-    const simulation = d3.forceSimulation(nodesRef.current)
+    const simulation = d3
+      .forceSimulation(nodesRef.current)
       .force("charge", d3.forceManyBody().strength(3).distanceMax(15)) // Very gentle repulsion, limited range
       .force("collide", d3.forceCollide().radius(4).strength(0.5)) // Soft collision
-      .force("targetX", d3.forceX().x(d => d.targetX).strength(0.2)) // Stronger pull for faster settling
-      .force("targetY", d3.forceY().y(d => d.targetY).strength(0.2))
+      .force(
+        "targetX",
+        d3
+          .forceX()
+          .x((d) => d.targetX)
+          .strength(0.2)
+      ) // Stronger pull for faster settling
+      .force(
+        "targetY",
+        d3
+          .forceY()
+          .y((d) => d.targetY)
+          .strength(0.2)
+      )
       .alphaDecay(0.05) // Faster decay to settle quicker
       .velocityDecay(0.5); // More damping for stability
 
@@ -358,12 +399,15 @@ function ForceNav() {
     setOpen(false);
   }, []);
 
-  const navigate = useCallback((to) => {
-    if (location.pathname !== to) {
-      history.push(to);
-      close();
-    }
-  }, [location.pathname, history, close]);
+  const navigate = useCallback(
+    (to) => {
+      if (location.pathname !== to) {
+        history.push(to);
+        close();
+      }
+    },
+    [location.pathname, history, close]
+  );
 
   useEffect(() => {
     const handleEscape = (e) => {
@@ -398,7 +442,12 @@ function ForceNav() {
         {!open && (
           <div className="force-nav-collapsed">
             {linkKeys.map((item) => {
-              const pos = collapsedPositions[item] || { x: 0, y: 0, isCurrent: false, iconSize: 12 };
+              const pos = collapsedPositions[item] || {
+                x: 0,
+                y: 0,
+                isCurrent: false,
+                iconSize: 12,
+              };
               const hoverOffset = blobHovered ? (pos.isCurrent ? 0 : 2) : 0;
               const centerX = 28;
               const centerY = 28;
@@ -406,8 +455,18 @@ function ForceNav() {
               // Position icons centered on their coordinates (not top-left)
               const offsetX = pos.x - pos.iconSize / 2;
               const offsetY = pos.y - pos.iconSize / 2;
-              const hoverAdjustX = blobHovered && !pos.isCurrent ? (pos.x < centerX ? -hoverOffset : hoverOffset) : 0;
-              const hoverAdjustY = blobHovered && !pos.isCurrent ? (pos.y < centerY ? -hoverOffset : hoverOffset) : 0;
+              const hoverAdjustX =
+                blobHovered && !pos.isCurrent
+                  ? pos.x < centerX
+                    ? -hoverOffset
+                    : hoverOffset
+                  : 0;
+              const hoverAdjustY =
+                blobHovered && !pos.isCurrent
+                  ? pos.y < centerY
+                    ? -hoverOffset
+                    : hoverOffset
+                  : 0;
 
               return (
                 <div
@@ -419,7 +478,7 @@ function ForceNav() {
                     height: `${pos.iconSize}px`,
                   }}
                 >
-                  <div style={{ width: '100%', height: '100%' }}>
+                  <div style={{ width: "100%", height: "100%" }}>
                     {chooseIcon({
                       iconHover: true,
                       icon: item,
@@ -447,8 +506,9 @@ function ForceNav() {
           {linkKeys.map((item, idx) => {
             const pos = getExpandedPosition(idx);
             const to = `/${item}`.toLowerCase();
-            const isActive = location.pathname.toLowerCase() === to ||
-              (item === currentPageKey && location.pathname !== '/');
+            const isActive =
+              location.pathname.toLowerCase() === to ||
+              (item === currentPageKey && location.pathname !== "/");
             const isHovered = hoveredIcon === item;
             const sizeTier = getSizeTier(item);
 
@@ -488,7 +548,16 @@ function ForceNav() {
           onClick={close}
           aria-label="Close navigation"
         >
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
             <line x1="18" y1="6" x2="6" y2="18"></line>
             <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
@@ -497,5 +566,3 @@ function ForceNav() {
     </>
   );
 }
-
-export default ForceNav;

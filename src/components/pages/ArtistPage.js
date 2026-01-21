@@ -1,14 +1,10 @@
-import React from "react";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
-import ArtistProfile from "./ArtistProfile";
-import ArtistLanding from "./ArtistLanding";
+import { ArtistProfile } from "./ArtistProfile";
+import { ArtistLanding } from "./ArtistLanding";
 import "./ArtistPage.scss";
 
-export default function ArtistPage() {
-  let {
-    path,
-    // url
-  } = useRouteMatch();
+export function ArtistPage() {
+  let { path } = useRouteMatch();
 
   return (
     <>

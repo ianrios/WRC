@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Experiments.scss";
 import {
   SIZE_TIERS,
@@ -8,20 +8,20 @@ import {
 } from "../../config/navLayout";
 
 // Import all icons for preview
-import Dot from "../icons/Dot";
-import Cube from "../icons/Cube";
-import AtSign from "../icons/AtSign";
-import Question from "../icons/Question";
-import Star from "../icons/Star";
-import Honeycomb from "../icons/Honeycomb";
-import Blockchain from "../icons/Blockchain";
-import Fingerprint from "../icons/Fingerprint";
-import Play from "../icons/Play";
-import Merch from "../icons/Merch";
-import Gear from "../icons/Gear";
-import Home from "../icons/Home";
+import { Dot } from "../icons/Dot";
+import { Cube } from "../icons/Cube";
+import { AtSign } from "../icons/AtSign";
+import { Question } from "../icons/Question";
+import { Star } from "../icons/Star";
+import { Honeycomb } from "../icons/Honeycomb";
+import { Blockchain } from "../icons/Blockchain";
+import { Fingerprint } from "../icons/Fingerprint";
+import { Play } from "../icons/Play";
+import { Merch } from "../icons/Merch";
+import { Gear } from "../icons/Gear";
+import { Home } from "../icons/Home";
 
-export default function Experiments() {
+export function Experiments() {
   const [selectedAnimation, setSelectedAnimation] = useState("fadeInDown");
   const [iconSize, setIconSize] = useState(48);
   const [selectedLayout, setSelectedLayout] = useState("current");
@@ -43,21 +43,22 @@ export default function Experiments() {
   );
 
   // Get current positions based on editor mode
-  const currentPositions = editorMode === "desktop" ? customDesktopPositions : customMobilePositions;
+  const currentPositions =
+    editorMode === "desktop" ? customDesktopPositions : customMobilePositions;
 
   // Update position for selected icon - use direct setState to avoid stale closure
   const updateIconPosition = (axis, event) => {
     const numValue = Number(event.target.value);
 
     if (editorMode === "desktop") {
-      setCustomDesktopPositions(prev =>
-        prev.map(pos =>
+      setCustomDesktopPositions((prev) =>
+        prev.map((pos) =>
           pos.label === selectedIcon ? { ...pos, [axis]: numValue } : pos
         )
       );
     } else {
-      setCustomMobilePositions(prev =>
-        prev.map(pos =>
+      setCustomMobilePositions((prev) =>
+        prev.map((pos) =>
           pos.label === selectedIcon ? { ...pos, [axis]: numValue } : pos
         )
       );
@@ -68,7 +69,11 @@ export default function Experiments() {
   const generateExportJSON = () => {
     return {
       sizes: customSizes,
-      desktop: customDesktopPositions.map(({ label, x, y }) => ({ x, y, label })),
+      desktop: customDesktopPositions.map(({ label, x, y }) => ({
+        x,
+        y,
+        label,
+      })),
       mobile: customMobilePositions.map(({ label, x, y }) => ({ x, y, label })),
     };
   };
@@ -91,8 +96,18 @@ export default function Experiments() {
 
   // Icon list for dropdown
   const iconList = [
-    "Home", "Artists", "Releases", "Collections", "Contests",
-    "Merch", "Products", "Live", "Nexus", "Contact", "Info", "Admin"
+    "Home",
+    "Artists",
+    "Releases",
+    "Collections",
+    "Contests",
+    "Merch",
+    "Products",
+    "Live",
+    "Nexus",
+    "Contact",
+    "Info",
+    "Admin",
   ];
 
   // Map page names to icon components
@@ -146,11 +161,12 @@ export default function Experiments() {
     current: {
       name: "Current Layout",
       description: "Custom layout optimized for visual balance (Production)",
-      desktop: getDesktopPositionsWithLabels()
+      desktop: getDesktopPositionsWithLabels(),
     },
     diagonal: {
       name: "Diagonal Split",
-      description: "Artists top-left, Releases bottom-right with icons flowing between",
+      description:
+        "Artists top-left, Releases bottom-right with icons flowing between",
       desktop: [
         { x: 50, y: 18, label: "Home" },
         { x: 28, y: 32, label: "Artists" },
@@ -164,11 +180,12 @@ export default function Experiments() {
         { x: 50, y: 82, label: "Contact" },
         { x: 18, y: 25, label: "Info" },
         { x: 82, y: 25, label: "Admin" },
-      ]
+      ],
     },
     wings: {
       name: "Wings",
-      description: "Artists and Releases as focal points on opposite sides, like wings spreading",
+      description:
+        "Artists and Releases as focal points on opposite sides, like wings spreading",
       desktop: [
         { x: 50, y: 22, label: "Home" },
         { x: 25, y: 42, label: "Artists" },
@@ -182,11 +199,12 @@ export default function Experiments() {
         { x: 50, y: 75, label: "Contact" },
         { x: 35, y: 78, label: "Info" },
         { x: 65, y: 78, label: "Admin" },
-      ]
+      ],
     },
     scattered: {
       name: "Scattered Galaxy",
-      description: "Deliberately asymmetric, organic feel with no clear pattern",
+      description:
+        "Deliberately asymmetric, organic feel with no clear pattern",
       desktop: [
         { x: 62, y: 18, label: "Home" },
         { x: 22, y: 38, label: "Artists" },
@@ -200,11 +218,12 @@ export default function Experiments() {
         { x: 28, y: 22, label: "Contact" },
         { x: 65, y: 78, label: "Info" },
         { x: 42, y: 48, label: "Admin" },
-      ]
+      ],
     },
     diamond: {
       name: "Diamond",
-      description: "Home at top, Artists and Releases on sides, forming a diamond shape",
+      description:
+        "Home at top, Artists and Releases on sides, forming a diamond shape",
       desktop: [
         { x: 50, y: 15, label: "Home" },
         { x: 25, y: 40, label: "Artists" },
@@ -218,11 +237,12 @@ export default function Experiments() {
         { x: 75, y: 75, label: "Contact" },
         { x: 50, y: 82, label: "Info" },
         { x: 50, y: 32, label: "Admin" },
-      ]
+      ],
     },
     spiral: {
       name: "Spiral Out",
-      description: "Icons spiral outward from center, Artists inner, Releases outer",
+      description:
+        "Icons spiral outward from center, Artists inner, Releases outer",
       desktop: [
         { x: 50, y: 45, label: "Home" },
         { x: 42, y: 35, label: "Artists" },
@@ -236,11 +256,12 @@ export default function Experiments() {
         { x: 62, y: 72, label: "Contact" },
         { x: 38, y: 75, label: "Info" },
         { x: 82, y: 28, label: "Admin" },
-      ]
+      ],
     },
     columns: {
       name: "Three Columns",
-      description: "Artists left column, Releases right column, utilities in center",
+      description:
+        "Artists left column, Releases right column, utilities in center",
       desktop: [
         { x: 50, y: 20, label: "Home" },
         { x: 22, y: 35, label: "Artists" },
@@ -254,7 +275,7 @@ export default function Experiments() {
         { x: 50, y: 80, label: "Contact" },
         { x: 35, y: 50, label: "Info" },
         { x: 65, y: 50, label: "Admin" },
-      ]
+      ],
     },
   };
 
@@ -268,8 +289,9 @@ export default function Experiments() {
           {animations.map((anim) => (
             <button
               key={anim.id}
-              className={`anim-button ${selectedAnimation === anim.id ? "active" : ""
-                }`}
+              className={`anim-button ${
+                selectedAnimation === anim.id ? "active" : ""
+              }`}
               onClick={() => setSelectedAnimation(anim.id)}
             >
               {anim.name}
@@ -300,8 +322,8 @@ export default function Experiments() {
             <div>
               <h4>Current Animation</h4>
               <p>
-                Simple drop-down with fade. Clean and straightforward, but
-                lacks visual interest.
+                Simple drop-down with fade. Clean and straightforward, but lacks
+                visual interest.
               </p>
               <p>
                 <strong>Performance:</strong> Excellent
@@ -374,9 +396,7 @@ export default function Experiments() {
       <div className="experiments-notes">
         <h3>Notes:</h3>
         <ul>
-          <li>
-            Click the buttons above to see each animation style in action
-          </li>
+          <li>Click the buttons above to see each animation style in action</li>
           <li>Each animation automatically replays when you switch</li>
           <li>
             Consider performance on mobile devices when choosing complex
@@ -392,7 +412,8 @@ export default function Experiments() {
       <div className="experiments-forcenav-layouts">
         <h2>ForceNav Layout Presets</h2>
         <p className="layout-preview-desc">
-          Browse preset layouts to use as a starting point, then customize in the editor below.
+          Browse preset layouts to use as a starting point, then customize in
+          the editor below.
         </p>
 
         <div className="layout-buttons">
@@ -403,7 +424,9 @@ export default function Experiments() {
               onClick={() => {
                 setSelectedLayout(key);
                 // Load preset into editor
-                setCustomDesktopPositions(preset.desktop.map(p => ({ ...p })));
+                setCustomDesktopPositions(
+                  preset.desktop.map((p) => ({ ...p }))
+                );
               }}
             >
               {preset.name}
@@ -453,8 +476,8 @@ export default function Experiments() {
       <div className="experiments-layout-editor">
         <h2>Layout Editor</h2>
         <p className="editor-desc">
-          Fine-tune icon positions and sizes. Changes are reflected in real-time.
-          Copy the JSON when you're done to use in ForceNav.js.
+          Fine-tune icon positions and sizes. Changes are reflected in
+          real-time. Copy the JSON when you're done to use in ForceNav.js.
         </p>
 
         {/* Desktop / Mobile Toggle */}
@@ -471,10 +494,7 @@ export default function Experiments() {
           >
             Mobile
           </button>
-          <button
-            className="reset-btn"
-            onClick={resetToCurrentPreset}
-          >
+          <button className="reset-btn" onClick={resetToCurrentPreset}>
             Reset to Current
           </button>
         </div>
@@ -490,7 +510,7 @@ export default function Experiments() {
                 onChange={(e) => setSelectedIcon(e.target.value)}
                 className="icon-selector"
               >
-                {iconList.map(icon => (
+                {iconList.map((icon) => (
                   <option key={icon} value={icon}>
                     {icon} ({SIZE_TIERS[icon]})
                   </option>
@@ -503,22 +523,38 @@ export default function Experiments() {
               <h4>Position: {selectedIcon}</h4>
               <div className="position-controls">
                 <div className="slider-row">
-                  <label>X: {currentPositions.find(p => p.label === selectedIcon)?.x || 50}%</label>
+                  <label>
+                    X:{" "}
+                    {currentPositions.find((p) => p.label === selectedIcon)
+                      ?.x || 50}
+                    %
+                  </label>
                   <input
                     type="range"
                     min="5"
                     max="95"
-                    value={currentPositions.find(p => p.label === selectedIcon)?.x || 50}
+                    value={
+                      currentPositions.find((p) => p.label === selectedIcon)
+                        ?.x || 50
+                    }
                     onChange={(e) => updateIconPosition("x", e)}
                   />
                 </div>
                 <div className="slider-row">
-                  <label>Y: {currentPositions.find(p => p.label === selectedIcon)?.y || 50}%</label>
+                  <label>
+                    Y:{" "}
+                    {currentPositions.find((p) => p.label === selectedIcon)
+                      ?.y || 50}
+                    %
+                  </label>
                   <input
                     type="range"
                     min="5"
                     max="95"
-                    value={currentPositions.find(p => p.label === selectedIcon)?.y || 50}
+                    value={
+                      currentPositions.find((p) => p.label === selectedIcon)
+                        ?.y || 50
+                    }
                     onChange={(e) => updateIconPosition("y", e)}
                   />
                 </div>
@@ -538,7 +574,7 @@ export default function Experiments() {
                     value={customSizes.large}
                     onChange={(e) => {
                       const val = Number(e.target.value);
-                      setCustomSizes(prev => ({ ...prev, large: val }));
+                      setCustomSizes((prev) => ({ ...prev, large: val }));
                     }}
                   />
                 </div>
@@ -551,7 +587,7 @@ export default function Experiments() {
                     value={customSizes.medium}
                     onChange={(e) => {
                       const val = Number(e.target.value);
-                      setCustomSizes(prev => ({ ...prev, medium: val }));
+                      setCustomSizes((prev) => ({ ...prev, medium: val }));
                     }}
                   />
                 </div>
@@ -564,7 +600,7 @@ export default function Experiments() {
                     value={customSizes.regular}
                     onChange={(e) => {
                       const val = Number(e.target.value);
-                      setCustomSizes(prev => ({ ...prev, regular: val }));
+                      setCustomSizes((prev) => ({ ...prev, regular: val }));
                     }}
                   />
                 </div>
@@ -577,7 +613,7 @@ export default function Experiments() {
                     value={customSizes.small}
                     onChange={(e) => {
                       const val = Number(e.target.value);
-                      setCustomSizes(prev => ({ ...prev, small: val }));
+                      setCustomSizes((prev) => ({ ...prev, small: val }));
                     }}
                   />
                 </div>
@@ -588,8 +624,10 @@ export default function Experiments() {
             <div className="control-section">
               <h4>All Icons Quick Edit</h4>
               <div className="quick-edit-grid">
-                {iconList.map(icon => {
-                  const pos = currentPositions.find(p => p.label === icon) || { x: 50, y: 50 };
+                {iconList.map((icon) => {
+                  const pos = currentPositions.find(
+                    (p) => p.label === icon
+                  ) || { x: 50, y: 50 };
                   const isSelected = selectedIcon === icon;
                   return (
                     <button
@@ -608,9 +646,16 @@ export default function Experiments() {
 
           {/* Preview Panel */}
           <div className={`editor-preview ${editorMode}`}>
-            <div className="preview-label">{editorMode === "desktop" ? "Desktop Preview" : "Mobile Preview (375x667)"}</div>
+            <div className="preview-label">
+              {editorMode === "desktop"
+                ? "Desktop Preview"
+                : "Mobile Preview (375x667)"}
+            </div>
             <div className="layout-visualization">
-              {(editorMode === "desktop" ? customDesktopPositions : customMobilePositions).map((pos) => {
+              {(editorMode === "desktop"
+                ? customDesktopPositions
+                : customMobilePositions
+              ).map((pos) => {
                 const IconComponent = iconComponents[pos.label];
                 const size = getIconSize(pos.label);
                 const tier = SIZE_TIERS[pos.label] || "regular";
@@ -621,10 +666,10 @@ export default function Experiments() {
                     key={`editor-${editorMode}-${pos.label}`}
                     className={`layout-node tier-${tier} ${isSelected ? "editing" : ""}`}
                     style={{
-                      position: 'absolute',
+                      position: "absolute",
                       left: `${pos.x}%`,
                       top: `${pos.y}%`,
-                      transform: 'translate(-50%, -50%)',
+                      transform: "translate(-50%, -50%)",
                     }}
                     onClick={() => setSelectedIcon(pos.label)}
                   >
@@ -666,27 +711,57 @@ export default function Experiments() {
         <div className="editor-docs">
           <h4>How to Use This Editor</h4>
           <ol>
-            <li><strong>Choose a preset</strong> above as your starting point, or start fresh</li>
-            <li><strong>Switch between Desktop/Mobile</strong> tabs to configure each layout</li>
-            <li><strong>Select an icon</strong> from the dropdown or click it in the preview</li>
-            <li><strong>Adjust X/Y sliders</strong> to position the selected icon (5-95%)</li>
-            <li><strong>Adjust size sliders</strong> to change icon sizes for each tier</li>
-            <li><strong>Copy the JSON</strong> when finished</li>
-            <li><strong>Share with Claude</strong> with the prompt: "Update ForceNav.js with this layout configuration: [paste JSON]"</li>
+            <li>
+              <strong>Choose a preset</strong> above as your starting point, or
+              start fresh
+            </li>
+            <li>
+              <strong>Switch between Desktop/Mobile</strong> tabs to configure
+              each layout
+            </li>
+            <li>
+              <strong>Select an icon</strong> from the dropdown or click it in
+              the preview
+            </li>
+            <li>
+              <strong>Adjust X/Y sliders</strong> to position the selected icon
+              (5-95%)
+            </li>
+            <li>
+              <strong>Adjust size sliders</strong> to change icon sizes for each
+              tier
+            </li>
+            <li>
+              <strong>Copy the JSON</strong> when finished
+            </li>
+            <li>
+              <strong>Share with Claude</strong> with the prompt: "Update
+              ForceNav.js with this layout configuration: [paste JSON]"
+            </li>
           </ol>
 
           <h4>Size Tiers</h4>
           <ul>
-            <li><strong>Large:</strong> Artists, Releases (primary navigation)</li>
-            <li><strong>Medium:</strong>Collections, Contests, Products, Merch</li>
-            <li><strong>Regular:</strong>Home, Live, Nexus</li>
-            <li><strong>Small:</strong> Contact, Info, Admin</li>
+            <li>
+              <strong>Large:</strong> Artists, Releases (primary navigation)
+            </li>
+            <li>
+              <strong>Medium:</strong>Collections, Contests, Products, Merch
+            </li>
+            <li>
+              <strong>Regular:</strong>Home, Live, Nexus
+            </li>
+            <li>
+              <strong>Small:</strong> Contact, Info, Admin
+            </li>
           </ul>
 
           <h4>Tips</h4>
           <ul>
             <li>Keep important icons (Artists, Releases) well separated</li>
-            <li>Leave ~10% margin from edges for the force simulation variance</li>
+            <li>
+              Leave ~10% margin from edges for the force simulation variance
+            </li>
             <li>Mobile layout should be more vertically oriented</li>
             <li>Test at different screen sizes after applying changes</li>
           </ul>
@@ -695,7 +770,9 @@ export default function Experiments() {
 
       <div className="experiments-icons">
         <h2>Icon Preview</h2>
-        <p className="icon-preview-desc">All navigation icons used in ForceNav</p>
+        <p className="icon-preview-desc">
+          All navigation icons used in ForceNav
+        </p>
 
         <div className="icon-size-control">
           <label>Icon Size: {iconSize}px</label>

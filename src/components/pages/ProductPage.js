@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import Seo from "../Seo";
+import { Seo } from "../Seo";
 
 import productData from "../../constants/productData.json";
 import artistData from "../../constants/artistData.json";
@@ -8,7 +8,7 @@ import artistData from "../../constants/artistData.json";
 import "./ProductPage.scss";
 import { mappedPTag, mappedLinks } from "../../utilities/maps";
 
-export default function ProductPage() {
+export function ProductPage() {
   const { name } = useParams();
 
   const currProduct = productData.find(

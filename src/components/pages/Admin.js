@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import {
   getAllFeatureFlags,
@@ -10,7 +10,7 @@ import "./Admin.scss";
 // TODO: actually use a hashed string here so that i dont commit the password to the repo
 const ADMIN_PASSWORD_HASH = "wrc2026admin";
 
-export default function Admin() {
+export function Admin() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -62,7 +62,11 @@ export default function Admin() {
   };
 
   const handleHardReload = () => {
-    if (window.confirm("This will clear all local storage and reload the page. Continue?")) {
+    if (
+      window.confirm(
+        "This will clear all local storage and reload the page. Continue?"
+      )
+    ) {
       localStorage.clear();
       sessionStorage.clear();
       window.location.reload(true);
@@ -72,12 +76,12 @@ export default function Admin() {
   const formatDate = (dateString) => {
     if (!dateString) return "Unknown";
     const date = new Date(dateString);
-    return date.toLocaleString('en-US', {
-      year: 'numeric',
-      month: 'short',
-      day: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit'
+    return date.toLocaleString("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
     });
   };
 
@@ -148,7 +152,10 @@ export default function Admin() {
           </Link>
         </div>
         <div className="admin-actions">
-          <button onClick={handleHardReload} className="admin-button admin-button-danger">
+          <button
+            onClick={handleHardReload}
+            className="admin-button admin-button-danger"
+          >
             Hard Reload (Clear Storage)
           </button>
         </div>

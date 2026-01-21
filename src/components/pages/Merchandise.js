@@ -1,6 +1,16 @@
-import React from "react";
+import { Seo } from "../Seo";
 
-export default function Merchandise() {
+export function Merchandise() {
+  const headData = {
+    title: "Merchandise - WRC",
+    siteTitle: "WHY? Record Company",
+    url: "/merch",
+    imgSrc: "/images/WRC.jpg",
+    description: "Official WHY? Record Company merchandise and apparel",
+    keywords:
+      "why, record, company, merch, merchandise, apparel, clothing, shirts",
+  };
+
   var js = document.createElement("script");
   js.type = "text/javascript";
   js.src =
@@ -8,6 +18,7 @@ export default function Merchandise() {
   document.body.appendChild(js);
   return (
     <>
+      <Seo data={headData} />
       <h1 className="header-sub-page">Merchandise</h1>
       <div className="shopBody">
         <div id="myShop">

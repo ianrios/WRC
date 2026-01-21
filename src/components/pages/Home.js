@@ -1,8 +1,8 @@
-import React from "react";
 import "./Home.scss";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import releaseData from "../../constants/releaseData.json";
+import { Seo } from "../Seo";
 
 const BgStyledDiv = styled.div`
   @media only screen and (max-width: 991px) {
@@ -15,14 +15,27 @@ const BgStyledDiv = styled.div`
   }
 `;
 
-export default function Home() {
+export function Home() {
   // TODO: put current count of songs
   // TODO: put current length of time
 
   const ran = Math.floor(Math.random() * 20) + 1;
   const source = "/images/landscapes/" + ran + ".jpg";
+
+  const headData = {
+    title: "WHY? Record Company",
+    siteTitle: "WHY? Record Company",
+    url: "/",
+    imgSrc: "/images/WRC.jpg",
+    description:
+      "WHY? Record Company (WRC) is a home for audio, visual, and technological creatives. Housing over 300 songs and releases that transcend genres.",
+    keywords:
+      "why, record, company, music, label, edm, techno, idm, experimental, independent",
+  };
+
   return (
     <>
+      <Seo data={headData} />
       <div className="row main-header">
         <div className="col">
           <h1 className="header-sub-page">WHY? Record Company</h1>

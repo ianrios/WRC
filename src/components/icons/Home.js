@@ -1,7 +1,5 @@
-import React from 'react';
-
 // Creative home icon - abstract compass/star representing "starting point"
-export default function Home({ height, width, fillColor, className }) {
+export function Home({ height, width, fillColor, className }) {
   return (
     <svg
       height={height}

@@ -1,11 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 import releaseData from "../../constants/releaseData.json";
 import recData from "../../constants/recData.json";
 import setData from "../../constants/setData.json";
 
-export default function ThankYou() {
+export function ThankYou() {
   let startDate = new Date("2020-01-01");
   let endDate = new Date("2020-12-31");
 
@@ -21,14 +20,8 @@ export default function ThankYou() {
           to={`/release/${r.local_path}`}
           className="artist-page-album-art-link"
         >
-          <img
-            alt={r.name}
-            src={r.album_art}
-            className="img-fluid"
-          />
-          <span className="colored-link white-text">
-            {r.label_number}
-          </span>
+          <img alt={r.name} src={r.album_art} className="img-fluid" />
+          <span className="colored-link white-text">{r.label_number}</span>
         </Link>
       </div>
     ));

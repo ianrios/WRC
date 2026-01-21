@@ -1,30 +1,18 @@
-import React from "react";
 import "./Link.scss";
-import { Link, useLocation } from "react-router-dom";
-import Dot from "./icons/Dot";
-import Cube from "./icons/Cube";
-import AtSign from "./icons/AtSign";
-import Question from "./icons/Question";
-import Star from "./icons/Star";
-import Honeycomb from "./icons/Honeycomb";
-import Blockchain from "./icons/Blockchain";
-import Fingerprint from "./icons/Fingerprint";
-import Multiply from "./icons/Multiply";
-import Hamburger from "./icons/Hamburger";
-import Play from "./icons/Play";
-import Merch from "./icons/Merch";
-import Gear from "./icons/Gear";
-import Home from "./icons/Home";
-
-export function titleCase(str) {
-  return str
-    .toLowerCase()
-    .split(" ")
-    .map(function (word) {
-      return word.charAt(0).toUpperCase() + word.slice(1);
-    })
-    .join(" ");
-}
+import { Dot } from "./icons/Dot";
+import { Cube } from "./icons/Cube";
+import { AtSign } from "./icons/AtSign";
+import { Question } from "./icons/Question";
+import { Star } from "./icons/Star";
+import { Honeycomb } from "./icons/Honeycomb";
+import { Blockchain } from "./icons/Blockchain";
+import { Fingerprint } from "./icons/Fingerprint";
+import { Multiply } from "./icons/Multiply";
+import { Hamburger } from "./icons/Hamburger";
+import { Play } from "./icons/Play";
+import { Merch } from "./icons/Merch";
+import { Gear } from "./icons/Gear";
+import { Home } from "./icons/Home";
 
 export function chooseIcon({
   iconHover,
@@ -174,31 +162,4 @@ export function chooseIcon({
   } else {
     return iconText;
   }
-}
-
-export default function LinkWrapper(props) {
-  const text = titleCase(props.text);
-  const { pathname } = useLocation();
-  const lowTo = props.to.toLowerCase();
-  return (
-    <Link
-      className="link-icon-navbar"
-      id={props.id}
-      style={{
-        paddingTop: "20px",
-        textDecoration: "none",
-        fontSize: props.size,
-      }}
-      to={lowTo}
-    >
-      <span
-        className={`nav-link 
-				${props.isText && "text-nav-icon"} 
-				${pathname === lowTo && "nav-link-active"}
-				${props.qMark && "em2"}`}
-      >
-        {props.iconHover ? chooseIcon({ ...props, pathname }) : text}
-      </span>
-    </Link>
-  );
 }

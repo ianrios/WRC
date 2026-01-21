@@ -2,6 +2,12 @@ const { run } = require("react-snap");
 const fs = require('fs');
 const path = require('path');
 
+// Check if we should skip react-snap
+if (process.env.SKIP_SNAP === '1') {
+  console.log('⏭️  Skipping react-snap (SKIP_SNAP=1)');
+  process.exit(0);
+}
+
 // Read the generated routes
 const routesPath = path.join(__dirname, '..', 'routes.json');
 const routes = JSON.parse(fs.readFileSync(routesPath, 'utf8'));
@@ -81,8 +87,25 @@ run(options)
     process.exit(0);
   })
   .catch((error) => {
-    console.error('❌ react-snap failed:', error);
+    console.error('❌ react-snap failed:', error?.message || error);
+    if (error?.stack) {
+      console.error('Stack trace:', error.stack);
+    }
     // Restore original package.json even on error
     fs.writeFileSync(packageJsonPath, originalPackageJson);
+
+    // Check if pages were actually rendered despite the error
+    const buildPath = path.join(__dirname, '..', 'build');
+    const artistDir = path.join(buildPath, 'artist');
+    if (fs.existsSync(artistDir)) {
+      const renderedPages = fs.readdirSync(artistDir).length;
+      console.log(`\n⚠️  Despite the error, ${renderedPages} artist pages were rendered.`);
+      console.log('   The build may still be usable. Continuing with localhost URL replacement...\n');
+
+      const replacedCount = replaceLocalhostUrls(buildPath);
+      console.log(`🔄 Replaced localhost URLs in ${replacedCount} HTML files`);
+      process.exit(0); // Exit successfully if pages were rendered
+    }
+
     process.exit(1);
   });

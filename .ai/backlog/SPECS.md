@@ -11,6 +11,8 @@ Design inspiration:
 
 Ideas to explore:
 
+- clean up repo and remove any unused code
+- use scroll to top component
 - create team page
 - create services page
 - use small chunks of the nexus when on all artist and release pages. remove the nexus page entirely. reuse the nexus icon for the \_\_\_\_ page.

@@ -34,10 +34,10 @@ export const mappedPTag = (arr, className) => {
   return arr.map((item, idx) => {
     let use = item.search("__BREAK__")
       ? item.split("__BREAK__").map((i, j) => (
-        <React.Fragment key={j}>
-          {i} <br />
-        </React.Fragment>
-      ))
+          <React.Fragment key={j}>
+            {i} <br />
+          </React.Fragment>
+        ))
       : item;
     if (item.search("__b__") !== -1) {
       let arr = item.split("__b__");
@@ -101,21 +101,6 @@ export const mappedObjArr = (arr, className) => (
   </dl>
 );
 
-export const mappedATag = (props) => {
-  const keys = Object.keys(props);
-  return keys.map(
-    (item, idx) =>
-      props[item].length > 0 && (
-        <React.Fragment key={idx}>
-          <a target="_blank" rel="noopener noreferrer" href={props[item]}>
-            {item}
-          </a>
-          {idx < keys.length - 1 && " - "}
-        </React.Fragment>
-      )
-  );
-};
-
 export const mappedD3ArtistTags = (props) => {
   const keys = Object.keys(props);
   const mappedData = keys.map((item, idx) => (
@@ -127,7 +112,7 @@ export const mappedD3ArtistTags = (props) => {
   return mappedData;
 };
 
-export const mappedIcon = (iconShorthand) => {
+const mappedIcon = (iconShorthand) => {
   // https://react-icons.github.io/react-icons
   switch (iconShorthand) {
     case "fb":
@@ -201,7 +186,7 @@ export const mappedIcon = (iconShorthand) => {
   }
 };
 
-export const styledIconLink = (link, icon) => {
+const styledIconLink = (link, icon) => {
   return (
     <a
       href={link}

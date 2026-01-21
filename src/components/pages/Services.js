@@ -1,9 +1,20 @@
-import React from 'react'
+import { Seo } from "../Seo";
 
-export default function Services() {
-	return (
-		<>
-			<h1 className="header-sub-page">Services</h1>
-		</>
-	)
+export function Services() {
+  const headData = {
+    title: "Services - WRC",
+    siteTitle: "WHY? Record Company",
+    url: "/services",
+    imgSrc: "/images/WRC.jpg",
+    description: "Services offered by WHY? Record Company",
+    keywords:
+      "why, record, company, services, music production, mixing, mastering",
+  };
+
+  return (
+    <>
+      <Seo data={headData} />
+      <h1 className="header-sub-page">Services</h1>
+    </>
+  );
 }
