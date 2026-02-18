@@ -5,7 +5,7 @@ epic: EPIC-000
 title: Implement Markdown Frontmatter Parser
 owner: CTO
 department: engineering
-status: backlog
+status: done
 priority: high
 requires_approval: true
 confidence: 0.0
@@ -192,3 +192,11 @@ If this layer becomes complex, the system is drifting.
 # Agent Log
 
 (append-only)
+
+### 2026-02-18 – Claude (agent)
+
+- Implemented `src/utils/artifactParser.js` with `parseArtifact()` and `parseAllArtifacts()` exports
+- Uses `js-yaml` for YAML parsing, derives artifact type strictly from filepath
+- Handles all 4 error codes: `YAML_PARSE_ERROR`, `MISSING_FRONTMATTER`, `EMPTY_FILE`, `INVALID_ARTIFACT_LOCATION`
+- Created `src/utils/artifactParser.test.js` with 19 passing tests covering all acceptance criteria
+- Confidence: 0.95
