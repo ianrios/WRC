@@ -38,6 +38,10 @@ Ideas to explore:
 - Eugene's synth VST on products page
 - Team and services pages
 - Store page (if backend becomes viable)
+- social media management integration
+- email integration to send and receive batch emails across many accounts
+- substack integration to schedule substacks
+
 
 Libraries to consider:
 
@@ -57,3 +61,35 @@ wrc media player
 
 wrc experiments
 - allow click and drag for nav positions
+
+Long Term:
+- extract shared component patterns and build atomic design library to reuse across app
+- convert repo to typescript
+
+# WRC-os
+
+- In the future, you might want a canceled status instead of using archived for abandoned work.
+- Later, during implementation, we may split: Ownership model, Permission model, & Transition enforcement defined in .ai/ops/AUTHORITY_MODEL.md
+- agent access to ticket system (can directly modify code) vs user access to ticket system (needs ui) - do we need a database with an api that allow both to interact? set true rules for ticket status, deletion, etc.?
+- agent managed integrations to update our system when externally depended on systems change (instagram features, hootsuite api, etc.)
+- agent managed agents to determine what model to use for what task (needs to have access to internet for external live updating news and information/ docs) - hr director
+- investigate what postiz is
+- agent can spawn subagent out
+
+
+## ideas
+- create "human" / "people" page that links people to everything they worked on (composer, remixer, visual artist, mixer, etc)
+- create "missing data" page that you can go to per artist, release, collection, and per "person" to see what is missing
+- create "playlists"? on wrc website?
+- update website to have soundcloud exclusives
+
+# merch
+- shaka wear
+- carhartt
+- work polo
+- office attire
+- utility clothing (belt, shoehorn, etc)
+- home goods (candle, dish towel, etc)
+
+# art templater
+- once i have an art template (blue label, normal with logo in corner, etc), simply upload photo and generate all assets including social media assets

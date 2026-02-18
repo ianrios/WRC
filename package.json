@@ -7,10 +7,10 @@
     "d3": "5.16.0",
     "lodash": "^4.17.20",
     "prop-types": "^15.8.1",
-    "react": "^16.13.1",
+    "react": "^18.3.1",
     "react-cookie-consent": "^6.1.0",
     "react-d3-graph": "2.4.1",
-    "react-dom": "16.13.1",
+    "react-dom": "^18.3.1",
     "react-helmet": "6.1.0",
     "react-icons": "^4.3.1",
     "react-router-dom": "5.2.0",
@@ -30,7 +30,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "npm run build && npm run firebase",
-    "firebase": "firebase deploy"
+    "firebase": "firebase deploy",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/ --ext .ts,.tsx,.js,.jsx"
   },
   "reactSnap": {
     "inlineCss": true,
@@ -226,9 +228,6 @@
       "/contest/WHYCOMP001"
     ]
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -243,11 +242,20 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/d3": "^7.4.3",
+    "@types/lodash": "^4.17.23",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.36",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
     "imagemin-cli": "^8.0.0",
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-pngquant": "^10.0.0",
     "react-snap": "^1.23.0",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "typescript": "^5.9.3"
   }
 }

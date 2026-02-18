@@ -14,6 +14,7 @@ Technical debt:
 - No code splitting (could use React.lazy for routes)
 - No 404 page
 - Random color generation in Releases.js happens on every render (should memoize)
+- deploy script takes very long (re indexes pages and images that did not change since last deploy - should be able to determine true changes using some sort of versioning or string / date compare in order to speed this up)
 
 Accessibility:
 

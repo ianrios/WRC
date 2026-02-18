@@ -3,6 +3,8 @@ import releaseData from "../../constants/releaseData.json";
 import setData from "../../constants/setData.json";
 import recData from "../../constants/recData.json";
 import { Seo } from "../Seo";
+import { getFeatureFlag } from "../../utils/featureFlags";
+import { CrateView } from "./CrateView";
 import "./Releases.scss";
 
 const sortedReleases = [...releaseData, ...setData, ...recData].sort((a, b) =>
@@ -10,6 +12,8 @@ const sortedReleases = [...releaseData, ...setData, ...recData].sort((a, b) =>
 );
 
 export function Releases() {
+  const crateViewEnabled = getFeatureFlag("crateView");
+
   const headData = {
     title: "Releases - WRC",
     shortSiteTitle: "WRC",
@@ -20,6 +24,15 @@ export function Releases() {
     keywords:
       "why, record, company, music, releases, albums, edm, techno, idm, experimental",
   };
+
+  if (crateViewEnabled) {
+    return (
+      <>
+        <Seo data={headData} />
+        <CrateView releases={sortedReleases} />
+      </>
+    );
+  }
 
   const ReleasesGrid = sortedReleases.map((item, index) => {
     const color =

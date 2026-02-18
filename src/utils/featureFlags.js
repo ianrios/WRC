@@ -3,6 +3,7 @@ const FEATURE_FLAGS = {
   embeddedAudio: 'feature_embedded_audio',
   epkLinktree: 'feature_epk_linktree',
   apiHostedData: 'feature_api_hosted_data',
+  crateView: 'feature_crate_view',
 };
 
 export const getFeatureFlag = (flagName) => {
@@ -35,6 +36,7 @@ export const FEATURE_FLAG_DESCRIPTIONS = {
   embeddedAudio: 'Embedded audio player on pages',
   epkLinktree: 'EPK/Linktree functionality',
   apiHostedData: 'API-hosted data (vs local JSON)',
+  crateView: 'Crate view for releases (scroll-driven depth)',
 };
 
 export const isAdminAuthenticated = () => {

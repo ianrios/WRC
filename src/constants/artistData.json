@@ -10,7 +10,7 @@
       "/images/artists/whythough_looking.JPG",
       "/images/artists/whythough_sitting.jpg"
     ],
-    "email": "whythough000@gmail.com",
+    "email": "whythough@whyrecord.com",
     "location": {
       "city": "Lexington",
       "country": "USA"
@@ -61,7 +61,7 @@
       "/images/artists/dyl_bathroom.jpg",
       "/images/artists/dyl_asdf.jpg"
     ],
-    "email": "dylpyklmusic@gmail.com",
+    "email": "dyl_pykl@whyrecord.com",
     "location": {
       "city": "Phoenix",
       "country": "USA"
@@ -100,9 +100,7 @@
     "name": "StratosFear",
     "local_path": "StratosFear",
     "show_on_artist_page": true,
-    "photos": [
-      "/images/artists/profiles/stratosfear_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/stratosfear_4x6.jpg"],
     "email": "stratosfear007@gmail.com",
     "location": {
       "city": "Lincoln",
@@ -136,9 +134,7 @@
     "name": "Fohrenbach",
     "local_path": "Fohrenbach",
     "show_on_artist_page": true,
-    "photos": [
-      "/images/artists/profiles/fohrenbach_4x6.png"
-    ],
+    "photos": ["/images/artists/profiles/fohrenbach_4x6.png"],
     "email": "robertfohrenbach@gmail.com",
     "location": {
       "city": "Miami",
@@ -195,11 +191,7 @@
       "After returning recently from a jaunt around various countries outside of the US, Katie's career as an artist has become much more exploratory. Her small town life was turned upside-down and this shows itself in her new music.",
       "Katie feels best in intimate venues where she can truly share the emotion of her songs with her fans. But she is also a big festival performer and has performed in such venues as the famous Bearsville Theater in Woodstock, NY."
     ],
-    "roles": [
-      "Songwriter",
-      "Singer",
-      "Live Musician"
-    ],
+    "roles": ["Songwriter", "Singer", "Live Musician"],
     "social_platforms": {
       "ig": "https://www.instagram.com/khsongwriter/",
       "fb": "https://www.facebook.com/katiehoffstattermusic/",
@@ -216,21 +208,15 @@
     "name": "Benjamin Lange",
     "local_path": "Benjamin-Lange",
     "show_on_artist_page": true,
-    "photos": [
-      "/images/artists/profiles/matyb_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/matyb_4x6.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {
       "tw": "",
       "ig": "",
@@ -253,7 +239,7 @@
       "/images/artists/svnteen_in_staircase.jpg",
       "/images/artists/svnteen_into_sunset.jpg"
     ],
-    "email": " svnteenmusic@gmail.com",
+    "email": "svnteen@whyrecord.com",
     "location": {
       "city": "Seattle",
       "country": "USA"
@@ -298,7 +284,7 @@
       "/images/artists/ezra_parker_room.jpg",
       "/images/artists/ezra_parker_show.jpg"
     ],
-    "email": "ezraparkermusic@gmail.com",
+    "email": "ezraparker@whyrecord.com",
     "location": {
       "city": "Ibiza",
       "country": "Spain"
@@ -307,10 +293,7 @@
     "body_paragraphs": [
       "Ezra Parker is a trust fund baby from Bosnia and Herzegovina who spends most of his time producing from his island villa in Ibiza."
     ],
-    "roles": [
-      "DJ",
-      "Producer"
-    ],
+    "roles": ["DJ", "Producer"],
     "social_platforms": {
       "tw": "https://twitter.com/ezraparkermusic",
       "fb": "https://www.facebook.com/ezraparkermusic",
@@ -327,9 +310,7 @@
     "name": "LoM",
     "local_path": "LoM",
     "show_on_artist_page": true,
-    "photos": [
-      "/images/artists/profiles/lom_4x6.png"
-    ],
+    "photos": ["/images/artists/profiles/lom_4x6.png"],
     "email": "",
     "location": {
       "city": "Oneonta",
@@ -339,11 +320,7 @@
     "body_paragraphs": [
       "LoM is a electronic music mashup artist who also dabbles in production.  He is most known for his Megamix series of mixtapes blending pop, rap, rock, edm and more into seamless albums.  He runs his twitch channel where he hosts artist interviews, WRC release parties, tutorials and more."
     ],
-    "roles": [
-      "Producer",
-      "DJ",
-      "Live Musician"
-    ],
+    "roles": ["Producer", "DJ", "Live Musician"],
     "social_platforms": {
       "tw": "https://twitter.com/thisislom",
       "fb": "https://www.facebook.com/LoM.Music",
@@ -375,10 +352,7 @@
       "So by some fluke of wondering how dubstep works, I found myself making VST plugins. I very much enjoy generative music and making devices that make music like custom MIDI controllers, DIY synths, and pushing the available gear that I have to the limit.",
       "I also don't take myself too seriously and went to school for engineering, so expect more utilitarian assets from me rather than releases of phat beats."
     ],
-    "roles": [
-      "Producer",
-      "Live Musician"
-    ],
+    "roles": ["Producer", "Live Musician"],
     "social_platforms": {},
     "music_platforms": {
       "sc": "",
@@ -393,9 +367,7 @@
     "name": "robbiegay",
     "local_path": "robbiegay",
     "show_on_artist_page": true,
-    "photos": [
-      "/images/artists/robbiegay_lights.jpg"
-    ],
+    "photos": ["/images/artists/robbiegay_lights.jpg"],
     "email": "robbiegaymedia@gmail.com",
     "location": {
       "city": "KY",
@@ -413,10 +385,7 @@
       "- A Year With Swollen Appendices (Brian Eno)",
       "- Tonal Harmony (Stefan Kostka)"
     ],
-    "roles": [
-      "Producer",
-      "Artist"
-    ],
+    "roles": ["Producer", "Artist"],
     "social_platforms": {
       "ra": "https://www.robbiegay.art/music",
       "ig": "https://www.instagram.com/robbiegay/"
@@ -433,24 +402,15 @@
     "name": "Weeping Sun",
     "local_path": "Weeping-Sun",
     "show_on_artist_page": true,
-    "photos": [
-      "/images/artists/profiles/weeping-sun.png"
-    ],
+    "photos": ["/images/artists/profiles/weeping-sun.png"],
     "email": "tearsoftheweepingsun@gmail.com",
     "location": {
       "city": "New Haven",
       "country": "USA"
     },
     "quote": "\"Sadness is beautiful\"",
-    "body_paragraphs": [
-      "I make music sometimes"
-    ],
-    "roles": [
-      "Producer",
-      "Rapper",
-      "Sound Designer",
-      "DJ"
-    ],
+    "body_paragraphs": ["I make music sometimes"],
+    "roles": ["Producer", "Rapper", "Sound Designer", "DJ"],
     "social_platforms": {
       "tw": "https://twitter.com/TheWeepingSun",
       "ig": "https://www.instagram.com/theweepingsun/",
@@ -468,9 +428,7 @@
     "name": "DJ Yunomi",
     "local_path": "DJ-Yunomi",
     "show_on_artist_page": true,
-    "photos": [
-      "/images/artists/profiles/dj_yunomi.jpg"
-    ],
+    "photos": ["/images/artists/profiles/dj_yunomi.jpg"],
     "email": "castrj25@gmail.com",
     "location": {
       "city": "Troy",
@@ -480,12 +438,7 @@
     "body_paragraphs": [
       "DJ Yunomi is a hardcore dance artist and DJ from the NYC area. He specializes in the combination of Psycore and Japanese Hardcore music with influences from hardstyle, techno, and trance."
     ],
-    "roles": [
-      "Producer",
-      "Songwriter",
-      "Sound Designer",
-      "DJ"
-    ],
+    "roles": ["Producer", "Songwriter", "Sound Designer", "DJ"],
     "social_platforms": {
       "tw": "",
       "ig": "",
@@ -503,21 +456,15 @@
     "name": "KILL 9",
     "local_path": "KILL-9",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/profile_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/profile_4x6.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": "Canada"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {
       "tw": "",
       "ig": "",
@@ -535,9 +482,7 @@
     "name": "RetiredOrphan",
     "local_path": "RetiredOrphan",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/RetiredOrphan.jpg"
-    ],
+    "photos": ["/images/artists/RetiredOrphan.jpg"],
     "email": "",
     "location": {
       "city": "Simi Valley",
@@ -547,9 +492,7 @@
     "body_paragraphs": [
       "Based in Simi Valley, California, RetiredOrphan is an electronic music project centered around heavy bass music genres like midtempo. The music producer continues to create the dark music he thrives for and presenting a new take on aggressive music."
     ],
-    "roles": [
-      "Producer"
-    ],
+    "roles": ["Producer"],
     "social_platforms": {
       "tw": "https://twitter.com/RetiredOrphan",
       "ig": "https://www.instagram.com/retiredorphan/"
@@ -566,21 +509,15 @@
     "name": "Mova",
     "local_path": "Mova",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/profile_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/profile_4x6.jpg"],
     "email": "",
     "location": {
       "city": "Tbilisi",
       "country": "Georgia"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {
       "ig": "https://www.instagram.com/movasctr/",
       "fb": "https://www.facebook.com/Mova97/",
@@ -598,21 +535,15 @@
     "name": "eraserMice",
     "local_path": "eraserMice",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/profile_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/profile_4x6.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": ""
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {}
   },
@@ -621,21 +552,15 @@
     "name": "Eugene Umlor",
     "local_path": "Eugene-Umlor",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/profile_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/profile_4x6.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": ""
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {}
   },
@@ -644,9 +569,7 @@
     "name": "Quantopix",
     "local_path": "Quantopix",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/qtemplogo.png"
-    ],
+    "photos": ["/images/artists/qtemplogo.png"],
     "email": "quantop.x@gmail.com",
     "location": {
       "city": "Chicago",
@@ -658,12 +581,7 @@
       "Hailing from Chicago, J has been making electronic music since soon after xe discovered the genre in highschool.",
       "Since then, xe has been incorporating elements from different sources to create music that xe likes to listen to."
     ],
-    "roles": [
-      "Producer",
-      "Sound Designer",
-      "DJ",
-      "Live Musician"
-    ],
+    "roles": ["Producer", "Sound Designer", "DJ", "Live Musician"],
     "social_platforms": {
       "ig": "https://www.instagram.com/quantopix.music",
       "tw": "https://twitter.com/Quantopix_music",
@@ -682,21 +600,15 @@
     "name": "tofukkers",
     "local_path": "tofukkers",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/profile_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/profile_4x6.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": ""
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {
       "fb": "https://www.facebook.com/tofukkers",
       "ig": "https://www.instagram.com/tofuckers/",
@@ -711,21 +623,15 @@
     "name": "Area Control",
     "local_path": "Area-Control",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/profile_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/profile_4x6.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": ""
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sc": "https://soundcloud.com/areacontrol"
@@ -736,21 +642,15 @@
     "name": "stft",
     "local_path": "stft",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/profile_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/profile_4x6.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": ""
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sc": "https://soundcloud.com/stft-productions"
@@ -761,21 +661,15 @@
     "name": "WHY? Record Company",
     "local_path": "wrc",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": ""
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sc": "https://soundcloud.com/why-record-company"
@@ -786,21 +680,15 @@
     "name": "produceronline",
     "local_path": "produceronline",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
-    "email": "produceronline@gmail.com || produceronline@whyrecord.com",
+    "photos": ["/images/releases/WRC.jpg"],
+    "email": "produceronline@whyrecord.com",
     "location": {
       "city": "producer",
       "country": "online"
     },
     "quote": "\"online now\"",
-    "body_paragraphs": [
-      "producer, online"
-    ],
-    "roles": [
-      "Producer"
-    ],
+    "body_paragraphs": ["producer, online"],
+    "roles": ["Producer"],
     "social_platforms": {},
     "music_platforms": {
       "sc": "https://soundcloud.com/produceronline"
@@ -811,9 +699,7 @@
     "name": "shell artist",
     "local_path": "shell-artist",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "shellartist@whyrecord.com",
     "location": {
       "city": "Lexington",
@@ -826,10 +712,7 @@
       "Even though each shell is miniscule, and when looking at a beach, they blend into their environment, when you pick one up and examine it carefully, each is unique and has a beauty of its own.",
       "an ian rios project"
     ],
-    "roles": [
-      "Producer",
-      "Artist"
-    ],
+    "roles": ["Producer", "Artist"],
     "social_platforms": {
       "ig": "https://www.instagram.com/shell-person"
     },
@@ -869,10 +752,7 @@
       "In addition to his music production skills, Ian also picked up some graphic design skills to help out the other artists releasing music on the label. He is passionate about creating a complete experience for his listeners, not just in terms of sound but also in visual aesthetics.",
       "Ian Rios realized the importance of mastering his own tracks and perfecting his mixing skills to achieve the sound he was striving for. He devoted himself to learning everything he could about the technical aspects of music production, taking courses and attending workshops to refine his craft. By combining his technical expertise with his creative talents, he coined \"Wash And Fold Laundry Service\" as a new persona that allows him to express his true self while producing music he is proud of."
     ],
-    "roles": [
-      "Producer",
-      "DJ"
-    ],
+    "roles": ["Producer", "DJ"],
     "social_platforms": {
       "ig": "https://www.instagram.com/washandfoldlaundryservice"
     },
@@ -886,21 +766,15 @@
     "name": "Sub Pump",
     "local_path": "subpump",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "subpump@whyrecord.com",
     "location": {
       "city": "Lexington",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Producer"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Producer"],
     "social_platforms": {},
     "music_platforms": {
       "sc": "https://soundcloud.com/subpump"
@@ -911,21 +785,15 @@
     "name": "new1",
     "local_path": "new1",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "Lexington",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Producer"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Producer"],
     "social_platforms": {},
     "music_platforms": {
       "sc": ""
@@ -936,21 +804,15 @@
     "name": "new2",
     "local_path": "new2",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "Lexington",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Producer"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Producer"],
     "social_platforms": {},
     "music_platforms": {
       "sc": ""
@@ -961,21 +823,15 @@
     "name": "No",
     "local_path": "No",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "Phoenix",
       "country": "USA"
     },
     "quote": "\"No\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Producer"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Producer"],
     "social_platforms": {},
     "music_platforms": {
       "sc": ""
@@ -986,21 +842,15 @@
     "name": "The Sharks",
     "local_path": "the-sharks",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/thesharks.png"
-    ],
+    "photos": ["/images/artists/thesharks.png"],
     "email": "",
     "location": {
       "city": "Albany",
       "country": "USA"
     },
     "quote": "\"The Sharks\"",
-    "body_paragraphs": [
-      "The Sharks!"
-    ],
-    "roles": [
-      "Band"
-    ],
+    "body_paragraphs": ["The Sharks!"],
+    "roles": ["Band"],
     "social_platforms": {},
     "music_platforms": {
       "spotify": "https://open.spotify.com/artist/3ZQZlZ5ZhQZxhsm6mh1Goq?si=3ZNPF12JTyuJX2xQotOweQ",
@@ -1014,9 +864,7 @@
     "name": "Tilt Shift",
     "local_path": "tilt-shift",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/tilt_shift_4x6.jpg"
-    ],
+    "photos": ["/images/artists/profiles/tilt_shift_4x6.jpg"],
     "email": "tiltshiftbooking@gmail.com",
     "location": {
       "city": "Madison",
@@ -1053,9 +901,7 @@
     "name": "Gintas K",
     "local_path": "gintask",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/profiles/gintask.png"
-    ],
+    "photos": ["/images/artists/profiles/gintask.png"],
     "email": "",
     "location": {
       "city": "",
@@ -1068,12 +914,7 @@
       "In 1999 Gintas turned his scenery name into Gintas K and started exploring experimental, electroacoustic, electronic, computer music, granular synthesis, live electronic music aesthetics. Since 2011 member of Lithuanian Composers Union. He has released over 30 albums, took part in various international festivals, conferences, and symposiums.",
       "Sourced from Wikipedia"
     ],
-    "roles": [
-      "Producer",
-      "Songwriter",
-      "Sound Designer",
-      "Software Developer"
-    ],
+    "roles": ["Producer", "Songwriter", "Sound Designer", "Software Developer"],
     "social_platforms": {
       "ig": "https://www.instagram.com/gintask",
       "tw": "",
@@ -1092,9 +933,7 @@
     "name": "sweet hunna",
     "local_path": "sweet-hunna",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/sweet-hunna.png"
-    ],
+    "photos": ["/images/artists/sweet-hunna.png"],
     "email": "sweethunna@whyrecord.com",
     "location": {
       "city": "Chicago",
@@ -1104,10 +943,7 @@
     "body_paragraphs": [
       "sweet hunna is a producer who makes music on Earth and someday hopes to make music elsewhere"
     ],
-    "roles": [
-      "Producer",
-      "Sound Designer"
-    ],
+    "roles": ["Producer", "Sound Designer"],
     "social_platforms": {
       "ig": "https://www.instagram.com/sweet.hunna/",
       "tw": "https://twitter.com/sweet_hunna",
@@ -1125,9 +961,7 @@
     "name": "SUPREME",
     "local_path": "SUPREME",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/SUPREME.jpeg"
-    ],
+    "photos": ["/images/artists/SUPREME.jpeg"],
     "email": "makedujo@gmail.com",
     "location": {
       "city": "San Francisco",
@@ -1139,10 +973,7 @@
       "Catch them outside with them sick trippy energies of nihilism and nonchalance.",
       "@Suprem.us on IG"
     ],
-    "roles": [
-      "Producer",
-      "Graphic Designer"
-    ],
+    "roles": ["Producer", "Graphic Designer"],
     "social_platforms": {
       "ig": "https://instagram.com/suprem.us",
       "tw": "https://twitter.com/supremehint",
@@ -1160,18 +991,14 @@
     "name": "Rafael Khan",
     "local_path": "rafael-khan",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/RAF.jpg"
-    ],
+    "photos": ["/images/artists/RAF.jpg"],
     "email": "rafael@rafkhan.me",
     "location": {
       "city": "Toronto",
       "country": "Canada"
     },
     "quote": "\"WILL DO LATER\"",
-    "body_paragraphs": [
-      "WILL DO LATER"
-    ],
+    "body_paragraphs": ["WILL DO LATER"],
     "roles": [
       "Producer",
       "Mix Engineer",
@@ -1198,21 +1025,15 @@
     "name": "Ares Silver",
     "local_path": "ares-silver",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Producer"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Producer"],
     "social_platforms": {},
     "music_platforms": {}
   },
@@ -1221,21 +1042,15 @@
     "name": "Nateral Legend",
     "local_path": "nateral-legend",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Rapper"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Rapper"],
     "social_platforms": {},
     "music_platforms": {}
   },
@@ -1244,21 +1059,15 @@
     "name": "Young Dee",
     "local_path": "young-dee",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Rapper"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Rapper"],
     "social_platforms": {},
     "music_platforms": {}
   },
@@ -1267,9 +1076,7 @@
     "name": "AllanPower!!!",
     "local_path": "AllanPower",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/allanpower_ginpic.jpg"
-    ],
+    "photos": ["/images/artists/allanpower_ginpic.jpg"],
     "email": "allanpower242@gmail.com",
     "location": {
       "city": "Freeport",
@@ -1279,11 +1086,7 @@
     "body_paragraphs": [
       "I'm a producer from The Bahamas. I usually make avant garde, hip-hop, and Caribbean music."
     ],
-    "roles": [
-      "Producer",
-      "Mix Engineer",
-      "Mastering Engineer"
-    ],
+    "roles": ["Producer", "Mix Engineer", "Mastering Engineer"],
     "social_platforms": {
       "tw": "https://twitter.com/AllanPower242",
       "fb": "https://www.facebook.com/AllanPower242",
@@ -1302,21 +1105,15 @@
     "name": "HmGreen",
     "local_path": "HmGreen",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/releases/WRC.jpg"
-    ],
+    "photos": ["/images/releases/WRC.jpg"],
     "email": "",
     "location": {
       "city": "Lexington",
       "country": "USA"
     },
     "quote": "\"\"",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      "Producer"
-    ],
+    "body_paragraphs": [""],
+    "roles": ["Producer"],
     "social_platforms": {
       "ig": ""
     },
@@ -1345,12 +1142,7 @@
       "Mitch Rocket is a singer-songwriter and multi-instrumentalist from San Francisco, CA. Drawing from a background in jazz saxophone and a deep appreciation for the broad canon of rock music 1960s-present, his songs run the gamut from folk-rock to electronic jazz fusion. In addition to his solo career, he has contributed to groups like Unscrewable Pooch, Cotton Rocket, Roxy Rawson and the Rounded Sound, d.mith, and Via Villa.",
       "His debut LP Petting Zoo is slated for release in August 2021."
     ],
-    "roles": [
-      "Producer",
-      "Songwriter",
-      "Singer",
-      "Live Musician"
-    ],
+    "roles": ["Producer", "Songwriter", "Singer", "Live Musician"],
     "social_platforms": {
       "tw": "https://twitter.com/MitchRocketSF",
       "fb": "https://www.facebook.com/mitchrocketsf/",
@@ -1371,9 +1163,7 @@
     "name": "Myers Mountain",
     "local_path": "myers-mountain",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/Ian_Warner.jpg"
-    ],
+    "photos": ["/images/artists/Ian_Warner.jpg"],
     "email": "",
     "location": {
       "city": "Hughesville",
@@ -1416,9 +1206,7 @@
     "name": "bkpk_rvr",
     "local_path": "bkpk_rvr",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/bkpk_rvr.png"
-    ],
+    "photos": ["/images/artists/bkpk_rvr.png"],
     "email": "bkpkrvr.contact@gmail.com",
     "location": {
       "city": "Rochester",
@@ -1432,9 +1220,7 @@
       "//end bio",
       "bkpkrvr.contact@gmail.com"
     ],
-    "roles": [
-      "Engineer"
-    ],
+    "roles": ["Engineer"],
     "social_platforms": {},
     "music_platforms": {
       "td": "https://www.tindie.com/stores/bkpk_rvr",
@@ -1446,21 +1232,15 @@
     "name": "Ian Rios",
     "local_path": "ian-rios",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/ianrios.png"
-    ],
-    "email": "ian.rios1a@gmail.com",
+    "photos": ["/images/artists/ianrios.png"],
+    "email": "ian@whyrecord.com",
     "location": {
       "city": "Lexington",
       "country": "United States"
     },
     "quote": "",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sp": ""
@@ -1471,21 +1251,15 @@
     "name": "teamwrc",
     "local_path": "teamwrc",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/teamwrc.png"
-    ],
-    "email": "whyrecordcompany@gmail.com",
+    "photos": ["/images/artists/teamwrc.png"],
+    "email": "info@whyrecord.com",
     "location": {
       "city": "everywhere",
       "country": "United States"
     },
     "quote": "",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sp": ""
@@ -1496,21 +1270,15 @@
     "name": "Skrrt Reynolds",
     "local_path": "skrrt-reynolds",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/skrrt_reynolds.png"
-    ],
-    "email": "whyrecordcompany@gmail.com",
+    "photos": ["/images/artists/skrrt_reynolds.png"],
+    "email": "info@whyrecord.com",
     "location": {
       "city": "everywhere",
       "country": "United States"
     },
     "quote": "",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sp": ""
@@ -1521,21 +1289,15 @@
     "name": "Lo Mayne",
     "local_path": "lo-mayne",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/lo_mayne.png"
-    ],
-    "email": "whyrecordcompany@gmail.com",
+    "photos": ["/images/artists/lo_mayne.png"],
+    "email": "info@whyrecord.com",
     "location": {
       "city": "everywhere",
       "country": "United States"
     },
     "quote": "",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sp": ""
@@ -1546,21 +1308,15 @@
     "name": "Lil Prawn",
     "local_path": "lil-prawn",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/lil_prawn.png"
-    ],
-    "email": "whyrecordcompany@gmail.com",
+    "photos": ["/images/artists/lil_prawn.png"],
+    "email": "info@whyrecord.com",
     "location": {
       "city": "everywhere",
       "country": "United States"
     },
     "quote": "",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sp": ""
@@ -1571,21 +1327,15 @@
     "name": "KNG",
     "local_path": "KNG",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/kng.png"
-    ],
-    "email": "whyrecordcompany@gmail.com",
+    "photos": ["/images/artists/kng.png"],
+    "email": "info@whyrecord.com",
     "location": {
       "city": "everywhere",
       "country": "United States"
     },
     "quote": "",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sp": ""
@@ -1596,21 +1346,15 @@
     "name": "222",
     "local_path": "222",
     "show_on_artist_page": false,
-    "photos": [
-      "/images/artists/222.png"
-    ],
-    "email": "whyrecordcompany@gmail.com",
+    "photos": ["/images/artists/222.png"],
+    "email": "info@whyrecord.com",
     "location": {
       "city": "everywhere",
       "country": "United States"
     },
     "quote": "",
-    "body_paragraphs": [
-      ""
-    ],
-    "roles": [
-      ""
-    ],
+    "body_paragraphs": [""],
+    "roles": [""],
     "social_platforms": {},
     "music_platforms": {
       "sp": ""
